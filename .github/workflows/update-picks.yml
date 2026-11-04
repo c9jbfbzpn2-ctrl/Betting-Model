@@ -25,5 +25,5 @@ jobs:
         run: |
           git config user.name "picks-bot"
           git config user.email "picks-bot@users.noreply.github.com"
-          git add picks.json history.json
+          git add picks.json history.json model_state.json
           git diff --staged --quiet || (git commit -m "Update picks" && git push)
