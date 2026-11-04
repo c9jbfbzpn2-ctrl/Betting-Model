@@ -56,17 +56,20 @@ SHARP_WEIGHT = {"pinnacle": 3.0}
 MIN_BOOKS = 4          # moneyline: books needed
 MIN_BOOKS_LINE = 3     # spreads/totals: books posting that exact line
 MIN_PROB = 0.35        # a bet must have at least a 35% fair chance of hitting
-MIN_EDGE = 0.02        # 2 points after estimated fees
-MAX_EDGE = 0.20        # bigger gaps are almost always a data mismatch, so skip them
+MIN_EDGE = 0.02        # 2 points after estimated fees = a real pick (1 to 5 stars)
+WATCH_EDGE = 0.005     # 0.5 to 2 points = "Watch": priced about fairly, not a recommended bet
+MAX_EDGE = 0.10        # a 10+ point gap on a liquid market is almost always a data error, not free money
 MIN_PRICE = 0.15
 MAX_PRICE = 0.95
 MAX_GAP = 0.10         # skip contracts whose bid/ask are more than 10 cents apart
+MAX_STALE = 0.15       # skip when the ask is this far from the last traded price (stale or odd data)
+SKIPPED = {"inconsistent": 0, "stale": 0}
 FEE_RATE = 0.07        # estimated Kalshi taker fee: 7% * price * (1 - price)
 PER_GAME = 2           # keep at most this many picks per game (they are correlated)
 STOP = {"fc", "afc", "cf", "ac", "the", "of", "university"}
 MONTHS = {m: i + 1 for i, m in enumerate(
     ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"])}
-UNITS = {1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 3.0}
+UNITS = {0: 0.0, 1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 3.0}
 
 
 # ---------- math ----------
@@ -121,7 +124,7 @@ def stars(s, e):
 
 
 def label(st):
-    return "High" if st >= 4 else "Medium" if st == 3 else "Low"
+    return "High" if st >= 4 else "Medium" if st == 3 else "Low" if st >= 1 else "Watch"
 
 
 # ---------- sportsbook consensus ----------
@@ -291,6 +294,7 @@ def evaluate(base, m, series, p_yes, bet_yes, bet_no, kind, books, spread, allow
              market_yes=None, model_yes=None):
     """Return picks for buying YES and (optionally) NO on one Kalshi market."""
     ya, yb, na, nb = quotes(m)
+    last = kprice(m, "last_price")
     out = []
     sides = [("YES", p_yes, ya, yb, bet_yes)]
     if allow_no:
@@ -300,14 +304,17 @@ def evaluate(base, m, series, p_yes, bet_yes, bet_no, kind, books, spread, allow
             continue
         if p < MIN_PROB or ask < MIN_PRICE or ask > MAX_PRICE or (ask - bid) > MAX_GAP:
             continue
+        if last is not None and abs(ask - (1 - last if action == "NO" else last)) > MAX_STALE:
+            SKIPPED["stale"] += 1
+            continue
         e = edge(p, ask)
-        if e < MIN_EDGE or e > MAX_EDGE:
+        if e < WATCH_EDGE or e > MAX_EDGE:
             continue
         flip = action == "NO"
         mk = None if market_yes is None else (1 - market_yes if flip else market_yes)
         md = None if model_yes is None else (1 - model_yes if flip else model_yes)
         sc = score(e, books, spread, bid, ask, m.get("volume"), p)
-        st = stars(sc, e)
+        st = stars(sc, e) if e >= MIN_EDGE else 0
         out.append({
             **base,
             "type": kind,
@@ -331,6 +338,7 @@ def evaluate(base, m, series, p_yes, bet_yes, bet_no, kind, books, spread, allow
             "books_used": books,
             "book_spread": round(spread, 4),
             "bid_cents": round(bid * 100),
+            "last_cents": None if last is None else round(last * 100),
             "volume": m.get("volume"),
             "reason": (
                 f"{books} sportsbooks put the true chance of this near {p:.0%}. "
@@ -359,6 +367,12 @@ def find_picks(label_, word, odds_list, kal):
                     continue
                 matched = match_moneyline(home, away, kev.get("markets", []))
                 if not matched:
+                    continue
+                asks = [quotes(x)[0] for x in matched.values()]
+                if any(a is None for a in asks) or not (0.97 <= sum(asks) <= 1.25):
+                    SKIPPED["inconsistent"] += 1
+                    print(f"  skipped {away} at {home}: Kalshi asks {[round(a, 2) if a else a for a in asks]} "
+                          f"do not add up to about 100%")
                     continue
                 for name, m in matched.items():
                     if name not in probs:
@@ -447,6 +461,8 @@ def track(history, picks):
     now = datetime.now(timezone.utc).isoformat()
     added = 0
     for p in picks:
+        if p["stars"] < 1:                   # watchlist items are not recommended bets
+            continue
         pid = f'{p["kalshi_ticker"]}:{p["action"]}'
         if pid in seen:
             continue
@@ -671,6 +687,7 @@ def main():
     if MODEL and MODEL.unmatched:
         print("Team names the ratings could not match (model skipped for these): "
               + "; ".join(sorted(MODEL.unmatched)[:20]))
+    print(f"Skipped for data checks: {SKIPPED}")
     print(f"Wrote {len(all_picks)} picks.")
 
 
