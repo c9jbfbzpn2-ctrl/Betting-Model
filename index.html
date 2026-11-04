@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kalshi Value Board</title>
+<title>Kalshi Board</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 <style>
@@ -70,6 +70,9 @@ details p{margin:6px 0 0}
 a{color:inherit}
 :root{--loss:#b3382c}
 @media (prefers-color-scheme:dark){:root{--loss:#ff8f80}}
+.vd{display:inline-block;font-weight:700;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;padding:1px 8px;border-radius:999px;border:1px solid var(--line);margin-top:6px}
+.vd.Take{background:var(--s4);color:var(--paper);border-color:var(--s4)}.vd.Lean{color:var(--s3);border-color:var(--s3)}.vd.Pass,.vd.Unrated{color:var(--muted)}.vd.Check{color:var(--loss);border-color:var(--loss)}
+.more{display:block;margin:16px auto;font:inherit;padding:8px 22px;border:1px solid var(--ink);background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer}
 .views{display:flex;gap:6px;margin:14px 0 0}
 .views button{font:inherit;padding:8px 18px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer}
 .views button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
@@ -98,7 +101,7 @@ code{font-size:.85em;word-break:break-all}
 <body>
 <div class="wrap">
   <header>
-    <h1>Kalshi Value Board</h1>
+    <h1>Kalshi Board</h1>
     <p class="sub" id="updated">Loading…</p>
   </header>
   <nav class="views" aria-label="Pages"><button type="button" id="vPicks" aria-pressed="true">Picks</button><button type="button" id="vBets" aria-pressed="false">My bets <span id="betCount"></span></button></nav>
@@ -107,19 +110,21 @@ code{font-size:.85em;word-break:break-all}
   <div class="bar">
     <div class="tabs" id="tabs" role="group" aria-label="Filter by sport"></div>
     <div class="tools">
-      <label>Show <select id="min"><option value="0">Everything, with watchlist</option><option value="1">Bets only (1+ stars)</option><option value="3">3 stars and up</option><option value="4">4 stars and up</option></select></label>
+      <label>Verdict <select id="vf"><option value="all">Everything</option><option value="bet">Take and Lean</option><option value="take">Take only</option></select></label>
+      <label>Confidence <select id="min"><option value="0">Any (very low to very high)</option><option value="2">Low and up</option><option value="3">Medium and up</option><option value="4">High and up</option></select></label>
       <label>Bet type <select id="type"><option value="All">All types</option><option>Moneyline</option><option>Spread</option><option>Total</option></select></label>
-      <label>Sort <select id="sort"><option value="conf">Most confident</option><option value="edge">Biggest edge</option><option value="time">Start time</option></select></label>
+      <label>Sort <select id="sort"><option value="value">Best value</option><option value="conf">Most confident</option><option value="time">Start time</option></select></label>
       <label>Unit size $ <input id="unit" type="number" min="1" step="1" value="5" inputmode="decimal"></label>
     </div>
   </div>
   <div class="summary" id="summary" aria-live="polite"></div>
   <main id="out"></main>
   <div class="how">
-    <p><b>Watchlist.</b> Contracts that look about fairly priced, with a gap under 2 points. They have no stars, no units, and are not counted in your record. They are here so the board is not empty on quiet days, not as recommendations.</p>
-    <p><b>Stars (1 to 5)</b> show how solid the price gap looks: how big it is, how many sportsbooks agree, and how easy the contract is to buy at that price. Five stars is not a lock. It means the numbers line up best.</p>
-    <p><b>Units</b> scale with stars: 1 star is half a unit, 2 stars one unit, 3 stars a unit and a half, 4 stars two units, 5 stars three units. The dollar amount uses your unit size above. Taking every pick on a busy day can add up, so the summary shows your total.</p>
-    <p><b>Reading a card.</b> The bold line is the bet. “Buy YES” or “Buy NO” tells you which side of the Kalshi contract to purchase; either one pays $1 if the bet wins. Every pick has at least a 35% fair chance of hitting. The dark bar is the win chance the sportsbooks agree on once their margin is removed. The light bar is Kalshi’s price. “Worth up to” is the highest price that still leaves a small edge after estimated fees.</p>
+    <p><b>Where the numbers come from.</b> Every line and price is Kalshi's own. No sportsbook odds are used. The chance of each bet winning comes from team ratings built from past game results (updated every few hours). The page compares that chance to Kalshi's price after estimated fees.</p>
+    <p><b>Confidence (1 to 5 stars)</b> is how likely the bet is to win according to the team data: very low is under 30%, low 30 to 45%, medium 45 to 60%, high 60 to 75%, very high 75% and up. A very high bet at 90 cents can still be a bad price, which is what the verdict is for.</p>
+    <p><b>Verdict.</b> <b>Take</b>: the team data says the chance is at least 5 points better than Kalshi's price. <b>Lean</b>: 2 to 5 points better. <b>Pass</b>: the price is fair or worse. <b>Check</b>: the gap is over 15 points, which usually means the ratings are missing something like an injury, so look before betting. <b>Unrated</b>: no team data for these teams, so only Kalshi's price is shown.</p>
+    <p><b>Units</b> scale with confidence for Take bets (half a unit at 1 star up to 3 units at 5 stars); Lean bets get half of that, with a half-unit minimum. Pass, Check and Unrated get none. The dollar amount uses your unit size.</p>
+    <p><b>Be careful.</b> The ratings have not been shown to beat Kalshi's prices. Kalshi's market already knows about injuries, weather and news that the ratings do not. Use small stakes until the track record above has plenty of graded bets, and treat a lot of Take bets on one slate as a sign to be skeptical, not excited.</p>
   </div>
   </div>
   <div id="betsView" hidden>
@@ -131,11 +136,14 @@ code{font-size:.85em;word-break:break-all}
     </div>
     <p class="foot" style="margin-top:0">Profit is estimated from the amount you spent and the price you paid, with Kalshi's fee estimated. Your Kalshi account is the source of truth. Bets are graded automatically only when the pick was one of the recommended ones and Kalshi has posted the final result. Otherwise mark them yourself.</p>
   </div>
-  <p class="foot">This compares prices. It does not know who will win, and any contract can lose its whole price. Fees are estimates, so check the real cost on Kalshi before you buy. Sports contracts may not be available in every state. Only risk what you can afford to lose. If gambling stops being fun, call 1-800-GAMBLER.</p>
+  <p class="foot">These are model estimates from past results. They do not know who will win, and any contract can lose its whole price. Fees are estimates, so check the real cost on Kalshi before you buy. Sports contracts may not be available in every state. Only risk what you can afford to lose. If gambling stops being fun, call 1-800-GAMBLER.</p>
 </div>
 <script>
 const SPORTS=["All","NFL","College Football","College Basketball","NBA","Premier League"];
-const st={sport:"All",min:0,sort:"conf",unit:5,type:"All"};
+const st={sport:"All",min:0,sort:"value",unit:5,type:"All",vf:"all",shown:40};
+const VO={Take:0,Lean:1,Pass:2,Check:3,Unrated:4};
+const CONF=["Unrated","Very low","Low","Medium","High","Very high"];
+const VTXT={Take:"Take",Lean:"Lean",Pass:"Pass",Check:"Check data",Unrated:"Unrated"};
 let data={picks:[]};
 try{const u=parseFloat(localStorage.getItem("unit"));if(u>0)st.unit=u}catch(e){}
 document.getElementById("unit").value=st.unit;
@@ -149,7 +157,7 @@ function renderRecord(r){
   if(!r){el.style.display="none";return}
   const o=r.overall||{n:0};
   if(!o.n){
-    el.innerHTML=`<div class="rec-big">Track record</div><p class="rec-note">Starts once tracked picks finish playing. ${r.pending||0} pick${r.pending===1?" is":"s are"} being tracked now. Each pick is logged once, the first time it appears, and graded against Kalshi's final result.</p>`;
+    el.innerHTML=`<div class="rec-big">Track record</div><p class="rec-note">Starts once tracked bets finish playing. ${r.pending||0} bet${r.pending===1?" is":"s are"} being tracked now. Take and Lean bets are logged once, the first time it appears, and graded against Kalshi's final result.</p>`;
     return;
   }
   const hc=r.high_confidence||{n:0};
@@ -161,7 +169,7 @@ function renderRecord(r){
     ${hc.n?`<div class="rec-item">4 and 5 stars <b>${hc.wins} of ${hc.n}</b></div>`:""}
     <div class="rec-item">${r.pending||0} still pending</div></div>
     ${rows?`<table class="rec-tbl"><thead><tr><th>Stars</th><th>Hit</th><th>Hit rate</th><th>Expected</th></tr></thead><tbody>${rows}</tbody></table>`:""}
-    <p class="rec-note">${o.n<30?"Small sample: with fewer than about 30 graded picks, luck swings these numbers a lot, so they say little about the model yet. ":""}Expected is the average chance the sportsbooks implied. If hit rate stays well below expected, the edge isn't real. Return assumes buying one contract at the shown price plus estimated fees${r.tracking_since?", tracked since "+new Date(r.tracking_since).toLocaleDateString():""}.</p>`;
+    <p class="rec-note">${o.n<30?"Small sample: with fewer than about 30 graded picks, luck swings these numbers a lot, so they say little about the model yet. ":""}Expected is the average chance our team ratings gave. If hit rate stays well below expected, the edge isn't real. Return assumes buying one contract at the shown price plus estimated fees${r.tracking_since?", tracked since "+new Date(r.tracking_since).toLocaleDateString():""}.</p>`;
 }
 /* ---------- my bets ---------- */
 let bets=[],hist={},memOnly=false;
@@ -270,74 +278,81 @@ function dayLabel(iso){
   return d.toLocaleDateString([], {weekday:"long",month:"short",day:"numeric"});
 }
 function card(p){
-  const when=new Date(p.start).toLocaleString([], {weekday:"short",hour:"numeric",minute:"2-digit"});
-  const fair=Math.round(p.fair_prob*100),price=p.price_cents;
+  const when=new Date(p.start).toLocaleString([], {weekday:"short",hour:"numeric",minute:"2-digit"})+(p.start_exact===false?" (approx.)":"");
+  const price=p.price_cents,rated=p.fair_prob!=null,fair=rated?Math.round(p.fair_prob*100):null;
   const dollars=p.units*st.unit,contracts=Math.floor(dollars*100/price);
   const note=p.ai_note||p.reason;
+  const bet=p.units>0;
   return `<article class="pick s${p.stars}">
-    <div class="rate" aria-label="${p.stars===0?"Watchlist, not a recommended bet":"Confidence "+p.stars+" out of 5"}">
-      ${p.stars===0?`<div class="units">Watch</div><div class="of">No bet</div>`:`<div class="stars" aria-hidden="true">${stars(p.stars)}</div>
-      <div class="of">${p.stars} of 5</div>
-      <div class="units">${fmtUnits(p.units)}</div>
-      <div class="dollars">${money(dollars)}</div>`}
+    <div class="rate" aria-label="${rated?"Confidence "+p.stars+" out of 5, "+CONF[p.stars]:"Unrated"}">
+      ${rated?`<div class="stars" aria-hidden="true">${stars(p.stars)}</div><div class="of">${CONF[p.stars]}</div>`:`<div class="of">No team data</div>`}
+      <div><span class="vd ${p.verdict}">${VTXT[p.verdict]}</span></div>
+      ${bet?`<div class="units">${fmtUnits(p.units)}</div><div class="dollars">${money(dollars)}</div>`:""}
     </div>
     <div class="body">
       <div class="buy">${esc(p.bet||p.side)}</div>
       <div class="game"><span class="type">${esc(p.type)}</span> · ${esc(p.sport)}: ${esc(p.game)} · ${esc(when)}</div>
       <div class="how-to">On Kalshi: buy <b>${esc(p.action)}</b> at <b>${price}¢</b></div>
-      <div class="row"><span>Fair chance</span><div class="track"><div class="fill fair" style="width:${fair}%"></div></div><b>${fair}%</b></div>
+      ${rated?`<div class="row"><span>Win chance</span><div class="track"><div class="fill fair" style="width:${fair}%"></div></div><b>${fair}%</b></div>`:""}
       <div class="row"><span>Kalshi price</span><div class="track"><div class="fill price" style="width:${price}%"></div></div><b>${price}¢</b></div>
       <div class="facts">
-        <span class="edge">+${(p.edge*100).toFixed(1)} pts edge</span>
-        ${p.stars===0?"":`<span>About ${contracts} contracts</span>`}
-        <span>Worth up to ${p.max_price_cents}¢</span>
+        ${rated?`<span class="edge">${p.edge>=0?"+":""}${(p.edge*100).toFixed(1)} pts vs price</span>`:""}
+        ${bet?`<span>About ${contracts} contracts</span>`:""}
+        ${rated&&p.max_price_cents?`<span>Worth up to ${p.max_price_cents}¢</span>`:""}
       </div>
       <div class="mybet" data-id="${esc(pid(p))}">${betBox(p)}</div>
-      <details><summary>Why this pick</summary>
+      <details><summary>Why this rating</summary>
         <p>${esc(note)}</p>
-        ${p.model_prob!=null&&p.market_prob!=null?`<p>Sportsbooks put this near ${pct(p.market_prob)}. Our team ratings put it near ${pct(p.model_prob)}${(data.model&&data.model.weight>0)?" (blended in at "+Math.round(data.model.weight*100)+"%)":" (shown for information only, not used in the pick)"}.</p>`:""}
-        <p>Kalshi at the last update: ask ${p.price_cents}¢, bid ${p.bid_cents==null?"?":p.bid_cents+"¢"}, last trade ${p.last_cents==null?"?":p.last_cents+"¢"}. Contract <code>${esc(p.kalshi_ticker)}</code>. Prices move, so check the live price first.</p>
-        <p>${p.books_used} sportsbooks used. Book disagreement ${(p.book_spread*100).toFixed(1)} pts. <a href="https://kalshi.com/markets/${esc(String(p.series).toLowerCase())}" target="_blank" rel="noopener">Find it on Kalshi</a></p>
+        ${p.verdict==="Check"?"<p>The ratings and Kalshi disagree by more than 15 points. That is more often missing information (injuries, rest, weather, a rating that has not caught up) than a real bargain.</p>":""}
+        <p>Kalshi at the last update: ask ${p.price_cents}¢, bid ${p.bid_cents==null?"?":p.bid_cents+"¢"}, last trade ${p.last_cents==null?"?":p.last_cents+"¢"}. Contract <code>${esc(p.kalshi_ticker)}</code>. Prices move, so check the live price first. <a href="https://kalshi.com/markets/${esc(String(p.series).toLowerCase())}" target="_blank" rel="noopener">Find it on Kalshi</a></p>
       </details>
     </div>
   </article>`;
 }
+const keep=p=>(st.sport==="All"||p.sport===st.sport)&&p.stars>=st.min&&(st.type==="All"||p.type===st.type)&&(st.vf==="all"||(st.vf==="bet"&&(p.verdict==="Take"||p.verdict==="Lean"))||(st.vf==="take"&&p.verdict==="Take"));
 function tabs(){
-  const base=data.picks.filter(p=>p.stars>=st.min&&(st.type==="All"||p.type===st.type));
+  const sp=st.sport;st.sport="All";
+  const base=data.picks.filter(keep);st.sport=sp;
   const el=document.getElementById("tabs");
   el.innerHTML=SPORTS.map(s=>{
     const n=s==="All"?base.length:base.filter(p=>p.sport===s).length;
     return `<button type="button" aria-pressed="${s===st.sport}" data-s="${s}">${s}<span class="n">${n}</span></button>`}).join("");
-  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{st.sport=b.dataset.s;render()});
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{st.sport=b.dataset.s;st.shown=40;render()});
 }
 function render(){
   tabs();
-  let rows=data.picks.filter(p=>(st.sport==="All"||p.sport===st.sport)&&p.stars>=st.min&&(st.type==="All"||p.type===st.type));
-  const by={conf:(a,b)=>b.stars-a.stars||b.score-a.score,edge:(a,b)=>b.edge-a.edge,time:(a,b)=>new Date(a.start)-new Date(b.start)};
+  const rows=data.picks.filter(keep);
+  const ed=p=>p.edge==null?-9:p.edge;
+  const by={value:(a,b)=>VO[a.verdict]-VO[b.verdict]||ed(b)-ed(a),conf:(a,b)=>b.stars-a.stars||ed(b)-ed(a),time:(a,b)=>new Date(a.start)-new Date(b.start)};
   rows.sort(by[st.sort]);
   const out=document.getElementById("out"),sum=document.getElementById("summary");
   if(!rows.length){
     sum.textContent="";
-    out.innerHTML='<p class="empty">No contracts match this view right now. That is normal: most Kalshi prices are fair, so the board is often short. Try All ratings or another sport, or check back after the next update.</p>';
+    out.innerHTML='<p class="empty">No bets match this view. Try Everything under Verdict and Any under Confidence, or another sport. If the whole board is empty, Kalshi may have no open games right now, or the update has not run yet.</p>';
     return;
   }
-  const bets=rows.filter(p=>p.stars>=1),watch=rows.filter(p=>p.stars===0);
-  const units=bets.reduce((a,p)=>a+p.units,0);
-  sum.innerHTML=`<b>${bets.length}</b> pick${bets.length===1?"":"s"} in this view${watch.length?`, plus <b>${watch.length}</b> on the watchlist`:""}. Taking all of them is <b>${units%1?units.toFixed(1):units} units (${money(units*st.unit)})</b>.`+(units>10?" That is a lot for one day, so consider only the top few.":"");
+  const take=rows.filter(p=>p.verdict==="Take").length,lean=rows.filter(p=>p.verdict==="Lean").length;
+  const units=rows.reduce((a,p)=>a+p.units,0);
+  sum.innerHTML=`<b>${rows.length}</b> bet${rows.length===1?"":"s"} in this view: <b>${take}</b> Take, <b>${lean}</b> Lean.`+(units?` Taking every Take and Lean is <b>${units%1?units.toFixed(1):units} units (${money(units*st.unit)})</b>.`:"")+(units>10?" That is a lot, so consider only the top few.":"");
+  const shown=rows.slice(0,st.shown);
+  let html;
   if(st.sort==="time"){
-    let last="",html="";
-    rows.forEach(p=>{const d=dayLabel(p.start);if(d!==last){html+=(last?"</div>":"")+`<h2 class="day">${esc(d)}</h2><div class="list">`;last=d}html+=card(p)});
-    out.innerHTML=html+"</div>";
-  }else out.innerHTML=(bets.length?'<div class="list">'+bets.map(card).join("")+"</div>":'<p class="empty">No recommended bets in this view right now.</p>')
-    +(watch.length?'<h2 class="watchhead">Watchlist</h2><p class="watchsub">These prices look about fair. The gap to the sportsbooks is smaller than the error in my fee estimate, so treat them as things to keep an eye on, not bets.</p><div class="list">'+watch.map(card).join("")+"</div>":"");
+    let last="";html="";
+    shown.forEach(p=>{const d=dayLabel(p.start);if(d!==last){html+=(last?"</div>":"")+`<h2 class="day">${esc(d)}</h2><div class="list">`;last=d}html+=card(p)});
+    html+="</div>";
+  }else html='<div class="list">'+shown.map(card).join("")+"</div>";
+  if(rows.length>shown.length)html+=`<button type="button" class="more" id="more">Show more (${rows.length-shown.length} left)</button>`;
+  out.innerHTML=html;
+  const m=document.getElementById("more");if(m)m.onclick=()=>{st.shown+=40;render()};
 }
-document.getElementById("type").onchange=e=>{st.type=e.target.value;render()};
-document.getElementById("min").onchange=e=>{st.min=+e.target.value;render()};
-document.getElementById("sort").onchange=e=>{st.sort=e.target.value;render()};
+document.getElementById("type").onchange=e=>{st.type=e.target.value;st.shown=40;render()};
+document.getElementById("vf").onchange=e=>{st.vf=e.target.value;st.shown=40;render()};
+document.getElementById("min").onchange=e=>{st.min=+e.target.value;st.shown=40;render()};
+document.getElementById("sort").onchange=e=>{st.sort=e.target.value;st.shown=40;render()};
 document.getElementById("unit").oninput=e=>{const v=parseFloat(e.target.value);if(v>0){st.unit=v;try{localStorage.setItem("unit",v)}catch(x){}render()}};
 fetch("history.json?"+Date.now()).then(r=>r.ok?r.json():[]).then(h=>{(h||[]).forEach(x=>{if(x.result==="won"||x.result==="lost"||x.result==="void")hist[x.id]=x.result});renderBets();render()}).catch(()=>{});
 fetch("picks.json?"+Date.now()).then(r=>r.json()).then(d=>{
-  data=d;data.picks=(d.picks||[]).map(p=>Object.assign({stars:3,units:1.5,type:"Moneyline",action:"YES"},p));
+  data=d;data.picks=(d.picks||[]).map(p=>Object.assign({stars:0,units:0,verdict:"Unrated",type:"Moneyline",action:"YES"},p));
   document.getElementById("updated").textContent=d.updated?"Last updated "+new Date(d.updated).toLocaleString():"No data yet. Run the Update picks workflow.";
   renderRecord(d.record);render();renderBets();
 }).catch(()=>{document.getElementById("updated").textContent="Could not load picks.json."});
