@@ -27,6 +27,18 @@ from datetime import datetime, timezone
 
 import requests
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    import model as M
+except Exception as e:                     # the picks must still work without the ratings
+    M = None
+    print(f"Ratings model unavailable ({e})")
+
+MODEL = None                                # set in main()
+# 0 = ratings are shown for information only. The NFL backtest found no benefit from blending,
+# so raise this only after the live track record supports it.
+MODEL_WEIGHT = float(os.environ.get("MODEL_WEIGHT", "0"))
+
 KALSHI = "https://api.elections.kalshi.com/trade-api/v2"
 ODDS = "https://api.the-odds-api.com/v4/sports/{}/odds/"
 REGIONS = os.environ.get("ODDS_REGIONS", "us")   # each region costs credits; "us,eu" adds Pinnacle
@@ -88,6 +100,12 @@ def score(edge_pts, books, spread, bid, ask, volume, prob):
     s += min((volume or 0) / 5000, 1) * 10
     s += min(max((prob - MIN_PROB) / 0.40, 0), 1) * 15
     return round(s)
+
+
+def blend(p_mkt, p_mod, sport):
+    if p_mod is None or MODEL is None or MODEL_WEIGHT <= 0 or not MODEL.enabled(sport):
+        return p_mkt
+    return (1 - MODEL_WEIGHT) * p_mkt + MODEL_WEIGHT * p_mod
 
 
 def stars(s, e):
@@ -269,7 +287,8 @@ def num(x):
 
 
 # ---------- building picks ----------
-def evaluate(base, m, series, p_yes, bet_yes, bet_no, kind, books, spread, allow_no):
+def evaluate(base, m, series, p_yes, bet_yes, bet_no, kind, books, spread, allow_no,
+             market_yes=None, model_yes=None):
     """Return picks for buying YES and (optionally) NO on one Kalshi market."""
     ya, yb, na, nb = quotes(m)
     out = []
@@ -284,6 +303,9 @@ def evaluate(base, m, series, p_yes, bet_yes, bet_no, kind, books, spread, allow
         e = edge(p, ask)
         if e < MIN_EDGE or e > MAX_EDGE:
             continue
+        flip = action == "NO"
+        mk = None if market_yes is None else (1 - market_yes if flip else market_yes)
+        md = None if model_yes is None else (1 - model_yes if flip else model_yes)
         sc = score(e, books, spread, bid, ask, m.get("volume"), p)
         st = stars(sc, e)
         out.append({
@@ -297,6 +319,8 @@ def evaluate(base, m, series, p_yes, bet_yes, bet_no, kind, books, spread, allow
             "series": series,
             "price_cents": round(ask * 100),
             "fair_prob": round(p, 4),
+            "market_prob": None if mk is None else round(mk, 4),
+            "model_prob": None if md is None else round(md, 4),
             "edge": round(e, 4),
             "fee_est": round(fee(ask), 4),
             "max_price_cents": round((max_price(p) or ask) * 100),
@@ -328,6 +352,7 @@ def find_picks(label_, word, odds_list, kal):
         # moneyline
         probs, nbooks, spreads = consensus_h2h(ev)
         series, events = kal.get("ML", ("", []))
+        pred = MODEL.predict(label_, home, away) if MODEL else None
         if nbooks >= MIN_BOOKS:
             for kev in events:
                 if not date_ok(kev, start):
@@ -339,8 +364,12 @@ def find_picks(label_, word, odds_list, kal):
                     if name not in probs:
                         continue
                     bet = "Draw" if name == "Draw" else f"{name} to win"
-                    game_picks += evaluate(base, m, series, probs[name], bet, bet,
-                                           "Moneyline", nbooks, spreads.get(name, 0.1), False)
+                    pm = None
+                    if pred:
+                        pm = pred["p_draw"] if name == "Draw" else pred["p_home"] if name == home else pred["p_away"]
+                    game_picks += evaluate(base, m, series, blend(probs[name], pm, label_), bet, bet,
+                                           "Moneyline", nbooks, spreads.get(name, 0.1), False,
+                                           probs[name], pm)
                 break
 
         # spreads
@@ -364,11 +393,15 @@ def find_picks(label_, word, odds_list, kal):
                 if key not in lines:
                     continue
                 p_cover, nb, sp = lines[key]
-                p_yes = p_cover if is_home else 1 - p_cover
+                pm_cover = M.p_home_covers(pred, -key) if (pred and M) else None
+                p_cov = blend(p_cover, pm_cover, label_)
+                p_yes = p_cov if is_home else 1 - p_cov
+                mk_yes = p_cover if is_home else 1 - p_cover
+                pm_yes = None if pm_cover is None else (pm_cover if is_home else 1 - pm_cover)
                 name, opp = (home, away) if is_home else (away, home)
                 game_picks += evaluate(base, m, series, p_yes,
                                        f"{name} -{num(n)}", f"{opp} +{num(n)}",
-                                       "Spread", nb, sp, True)
+                                       "Spread", nb, sp, True, mk_yes, pm_yes)
 
         # totals
         series, events = kal.get("TOTAL", ("", []))
@@ -421,9 +454,9 @@ def track(history, picks):
         added += 1
         history.append({
             "id": pid, "first_seen": now, "result": None,
-            **{k: p[k] for k in ("sport", "type", "bet", "action", "game", "start",
-                                 "price_cents", "fair_prob", "fee_est", "stars",
-                                 "kalshi_ticker", "event_ticker")},
+            **{k: p.get(k) for k in ("sport", "type", "bet", "action", "game", "start",
+                                     "price_cents", "fair_prob", "market_prob", "model_prob",
+                                     "fee_est", "stars", "kalshi_ticker", "event_ticker")},
         })
     print(f"Tracking {added} new picks ({len(history)} total in history).")
     return history
@@ -577,6 +610,20 @@ def main():
     odds_key = os.environ.get("ODDS_API_KEY")
     if not odds_key:
         sys.exit("Missing ODDS_API_KEY environment variable.")
+    global MODEL
+    model_status = {}
+    if M is not None and os.environ.get("SKIP_MODEL") != "1":
+        try:
+            print("Updating team ratings")
+            state = M.update(M.load_state())
+            M.save_state(state)
+            MODEL = M.Model(state)
+            model_status = MODEL.status
+            for k, v in model_status.items():
+                print(f"  {k}: checked {v['games_checked']} games, gain vs naive {v['gain_vs_baseline']:.1%}, "
+                      f"{'usable' if v['enabled'] else 'not yet usable'}")
+        except Exception as e:
+            print(f"Ratings update failed ({e}); continuing without it")
     all_picks = []
     for sport_key, (label_, s_ml, s_sp, s_tot, word) in SPORTS.items():
         print(label_)
@@ -618,8 +665,12 @@ def main():
             "updated": datetime.now(timezone.utc).isoformat(),
             "method": "Sportsbook consensus vs Kalshi price, after estimated fees; 35% minimum chance",
             "record": record(history),
+            "model": {"weight": MODEL_WEIGHT, "sports": model_status},
             "picks": all_picks,
         }, f, indent=2)
+    if MODEL and MODEL.unmatched:
+        print("Team names the ratings could not match (model skipped for these): "
+              + "; ".join(sorted(MODEL.unmatched)[:20]))
     print(f"Wrote {len(all_picks)} picks.")
 
 
