@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Value Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#eef0ec;--ink:#17212b;--muted:#5d6b78;--line:#cfd5d0;--card:#fbfcfa;--strong:#1f7a4d;--mod:#b8860b;--lean:#5d6b78}
+@media (prefers-color-scheme:dark){:root{--paper:#12181e;--ink:#e8ece9;--muted:#93a0ab;--line:#2a343d;--card:#18212a;--strong:#4cc38a;--mod:#e0b04a;--lean:#93a0ab}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Sans 3",system-ui,sans-serif;line-height:1.5}
+.wrap{max-width:880px;margin:0 auto;padding:32px 16px 64px}
+h1{font-family:"Barlow Condensed",sans-serif;font-size:3rem;margin:0;letter-spacing:.01em}
+.sub{color:var(--muted);margin:4px 0 20px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.tabs button{font:inherit;padding:6px 14px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer}
+.tabs button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.tabs button:focus-visible{outline:3px solid var(--mod);outline-offset:2px}
+.pick{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--lean);padding:14px 16px;margin-bottom:12px;border-radius:4px}
+.pick.Strong{border-left-color:var(--strong)}.pick.Moderate{border-left-color:var(--mod)}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
+.name{font-family:"Barlow Condensed",sans-serif;font-size:1.7rem;font-weight:700}
+.odds{font-family:"Barlow Condensed",sans-serif;font-size:1.5rem;font-weight:600}
+.meta{color:var(--muted);font-size:.9rem}
+.stats{display:flex;gap:20px;flex-wrap:wrap;margin:8px 0;font-size:.95rem}
+.stats b{font-weight:600}
+.tier{font-weight:600}.Strong .tier{color:var(--strong)}.Moderate .tier{color:var(--mod)}
+.reason{margin:6px 0 0}
+.empty{color:var(--muted);padding:24px 0}
+.foot{margin-top:32px;color:var(--muted);font-size:.85rem;max-width:62ch}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Value Board</h1>
+  <p class="sub" id="updated">Loading…</p>
+  <div class="tabs" id="tabs" role="group" aria-label="Filter by sport"></div>
+  <div id="list"></div>
+  <p class="foot">Picks compare the consensus win probability across sportsbooks with the best price available. They show where a price looks high relative to the market, not who will win. Every bet can lose. Only bet where it is legal and only what you can afford to lose. If gambling stops being fun, call 1-800-GAMBLER.</p>
+</div>
+<script>
+const SPORTS=["All","NFL","College Football","College Basketball","NBA","Premier League"];
+let data={picks:[]},current="All";
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+function render(){
+  const list=document.getElementById("list");
+  const rows=data.picks.filter(p=>current==="All"||p.sport===current);
+  if(!rows.length){list.innerHTML='<p class="empty">No picks clear the value threshold for this selection right now. Check back after the next update.</p>';return}
+  list.innerHTML=rows.map(p=>{
+    const t=new Date(p.start).toLocaleString([], {weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+    return `<article class="pick ${esc(p.tier)}">
+      <div class="top"><span class="name">${esc(p.pick)}</span><span class="odds">${esc(p.best_odds_american)} at ${esc(p.best_book)}</span></div>
+      <div class="meta">${esc(p.sport)}: ${esc(p.game)}, ${esc(t)}</div>
+      <div class="stats"><span class="tier">${esc(p.tier)}</span><span>Win chance <b>${(p.win_prob*100).toFixed(1)}%</b></span><span>Expected value <b>+${(p.ev*100).toFixed(1)}%</b></span><span>${p.books_used} books</span></div>
+      <p class="reason">${esc(p.reason)}</p></article>`}).join("");
+}
+function tabs(){
+  const el=document.getElementById("tabs");
+  el.innerHTML=SPORTS.map(s=>`<button type="button" aria-pressed="${s===current}" data-s="${s}">${s}</button>`).join("");
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{current=b.dataset.s;tabs();render()});
+}
+fetch("picks.json?"+Date.now()).then(r=>r.json()).then(d=>{
+  data=d;
+  document.getElementById("updated").textContent=d.updated?"Last updated "+new Date(d.updated).toLocaleString():"No data yet. Run the Update picks workflow.";
+  tabs();render();
+}).catch(()=>{document.getElementById("updated").textContent="Could not load picks.json."});
+</script>
+</body>
+</html>
