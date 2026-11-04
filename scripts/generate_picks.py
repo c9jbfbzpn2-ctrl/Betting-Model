@@ -156,12 +156,24 @@ def score(edge_pts, books, spread, bid, ask, volume):
     return round(s)
 
 
-def level(s, e):
+UNITS = {1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 3.0}   # suggested units per star rating
+
+
+def stars(s, e):
+    """1-5 rating from the confidence score and the edge (both must qualify)."""
+    if s >= 80 and e >= 0.06:
+        return 5
     if s >= 70 and e >= 0.04:
-        return "High"
-    if s >= 50 and e >= 0.03:
-        return "Medium"
-    return "Low"
+        return 4
+    if s >= 60 and e >= 0.03:
+        return 3
+    if s >= 50 and e >= 0.025:
+        return 2
+    return 1
+
+
+def label(st):
+    return "High" if st >= 4 else "Medium" if st == 3 else "Low"
 
 
 # ---------- data pulls ----------
@@ -214,7 +226,7 @@ def find_picks(sport_label, series, odds_list, kalshi_list):
                 if e < MIN_EDGE:
                     continue
                 sc = score(e, nbooks, spreads.get(name, 0.1), bid, ask, m.get("volume"))
-                lv = level(sc, e)
+                st = stars(sc, e)
                 picks.append({
                     "sport": sport_label,
                     "game": f"{away} at {home}",
@@ -227,7 +239,9 @@ def find_picks(sport_label, series, odds_list, kalshi_list):
                     "edge": round(e, 4),
                     "fee_est": round(fee(ask), 4),
                     "max_price_cents": round((max_price(p) or ask) * 100),
-                    "confidence": lv,
+                    "stars": st,
+                    "units": UNITS[st],
+                    "confidence": label(st),
                     "score": sc,
                     "books_used": nbooks,
                     "book_spread": round(spreads.get(name, 0), 4),
@@ -307,7 +321,7 @@ def main():
         print(f"  picks: {len(found)}")
         all_picks += found
 
-    all_picks.sort(key=lambda p: (p["confidence"] != "High", p["confidence"] != "Medium", -p["score"]))
+    all_picks.sort(key=lambda p: (-p["stars"], -p["score"]))
     add_ai_notes(all_picks)
     with open("picks.json", "w") as f:
         json.dump({
