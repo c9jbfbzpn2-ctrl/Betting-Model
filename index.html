@@ -3,69 +3,104 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Value Board</title>
+<title>Kalshi Value Board</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
 <style>
-:root{--paper:#eef0ec;--ink:#17212b;--muted:#5d6b78;--line:#cfd5d0;--card:#fbfcfa;--strong:#1f7a4d;--mod:#b8860b;--lean:#5d6b78}
-@media (prefers-color-scheme:dark){:root{--paper:#12181e;--ink:#e8ece9;--muted:#93a0ab;--line:#2a343d;--card:#18212a;--strong:#4cc38a;--mod:#e0b04a;--lean:#93a0ab}}
+:root{--paper:#eef0ec;--ink:#17212b;--muted:#5d6b78;--line:#cfd5d0;--card:#fbfcfa;--high:#1f7a4d;--med:#a87400;--low:#5d6b78;--fair:#17212b;--price:#9aa7a0}
+@media (prefers-color-scheme:dark){:root{--paper:#12181e;--ink:#e8ece9;--muted:#93a0ab;--line:#2a343d;--card:#18212a;--high:#4cc38a;--med:#e0b04a;--low:#93a0ab;--fair:#e8ece9;--price:#4b5963}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Sans 3",system-ui,sans-serif;line-height:1.5}
-.wrap{max-width:880px;margin:0 auto;padding:32px 16px 64px}
-h1{font-family:"Barlow Condensed",sans-serif;font-size:3rem;margin:0;letter-spacing:.01em}
-.sub{color:var(--muted);margin:4px 0 20px}
-.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
-.tabs button{font:inherit;padding:6px 14px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer}
-.tabs button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.tabs button:focus-visible{outline:3px solid var(--mod);outline-offset:2px}
-.pick{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--lean);padding:14px 16px;margin-bottom:12px;border-radius:4px}
-.pick.Strong{border-left-color:var(--strong)}.pick.Moderate{border-left-color:var(--mod)}
-.top{display:flex;justify-content:space-between;gap:12px;align-items:baseline;flex-wrap:wrap}
-.name{font-family:"Barlow Condensed",sans-serif;font-size:1.7rem;font-weight:700}
-.odds{font-family:"Barlow Condensed",sans-serif;font-size:1.5rem;font-weight:600}
-.meta{color:var(--muted);font-size:.9rem}
-.stats{display:flex;gap:20px;flex-wrap:wrap;margin:8px 0;font-size:.95rem}
-.stats b{font-weight:600}
-.tier{font-weight:600}.Strong .tier{color:var(--strong)}.Moderate .tier{color:var(--mod)}
-.reason{margin:6px 0 0}
-.empty{color:var(--muted);padding:24px 0}
-.foot{margin-top:32px;color:var(--muted);font-size:.85rem;max-width:62ch}
+.wrap{max-width:920px;margin:0 auto;padding:32px 16px 64px}
+h1{font-family:"Barlow Condensed",sans-serif;font-size:3rem;margin:0}
+h2{font-family:"Barlow Condensed",sans-serif;font-size:1.6rem;margin:28px 0 10px}
+.sub{color:var(--muted);margin:4px 0 18px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.controls button,.controls select{font:inherit;padding:6px 14px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer}
+.controls button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.controls :focus-visible{outline:3px solid var(--med);outline-offset:2px}
+.grid{display:grid;gap:12px}
+.top3{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--low);border-radius:4px;padding:14px 16px}
+.card.High{border-left-color:var(--high)}.card.Medium{border-left-color:var(--med)}
+.buy{font-family:"Barlow Condensed",sans-serif;font-size:1.8rem;font-weight:700;line-height:1.1}
+.buy small{font-size:1.1rem;font-weight:600;color:var(--muted)}
+.game{color:var(--muted);font-size:.92rem;margin:2px 0 10px}
+.bars{margin:8px 0}
+.row{display:grid;grid-template-columns:96px 1fr 44px;gap:8px;align-items:center;font-size:.9rem;margin:3px 0}
+.track{height:12px;background:var(--line);border-radius:6px;overflow:hidden}
+.fill{height:100%}
+.fill.fair{background:var(--fair)}.fill.price{background:var(--price)}
+.facts{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:8px;font-size:.92rem}
+.badge{font-weight:600}.High .badge{color:var(--high)}.Medium .badge{color:var(--med)}
+.edge{font-family:"Barlow Condensed",sans-serif;font-size:1.3rem;font-weight:700}
+.note{margin:8px 0 0;font-size:.95rem}
+.empty{color:var(--muted);padding:20px 0;max-width:60ch}
+.how{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:12px 16px;margin-top:28px;font-size:.92rem;color:var(--muted)}
+.foot{margin-top:20px;color:var(--muted);font-size:.85rem;max-width:64ch}
+a{color:inherit}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Value Board</h1>
+  <h1>Kalshi Value Board</h1>
   <p class="sub" id="updated">Loading…</p>
-  <div class="tabs" id="tabs" role="group" aria-label="Filter by sport"></div>
-  <div id="list"></div>
-  <p class="foot">Picks compare the consensus win probability across sportsbooks with the best price available. They show where a price looks high relative to the market, not who will win. Every bet can lose. Only bet where it is legal and only what you can afford to lose. If gambling stops being fun, call 1-800-GAMBLER.</p>
+  <div class="controls" id="sports" role="group" aria-label="Filter by sport"></div>
+  <div class="controls">
+    <label for="conf">Confidence</label>
+    <select id="conf"><option value="all">All</option><option value="High">High only</option><option value="HM">High and Medium</option></select>
+  </div>
+  <div id="top"></div>
+  <div id="rest"></div>
+  <div class="how"><b>How to read a card.</b> “Buy YES” means buying the contract that pays $1 if that team wins. The dark bar is the win chance the sportsbooks agree on after removing their margin. The light bar is what Kalshi charges. When the dark bar is longer, Kalshi is cheap. “Worth up to” is the highest price that still leaves a small edge after estimated fees.</div>
+  <p class="foot">This compares prices. It does not know who will win, and every contract can lose its full price. Fees shown are estimates, so check the real cost on Kalshi before you buy. Sports contracts may not be available in every state. Only risk what you can afford to lose. If gambling stops being fun, call 1-800-GAMBLER.</p>
 </div>
 <script>
 const SPORTS=["All","NFL","College Football","College Basketball","NBA","Premier League"];
-let data={picks:[]},current="All";
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let data={picks:[]},sport="All";
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 
+function card(p){
+  const t=new Date(p.start).toLocaleString([], {weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
+  const fair=(p.fair_prob*100).toFixed(0), price=p.price_cents;
+  const profit=100-price;
+  const note=p.ai_note||p.reason;
+  return `<article class="card ${esc(p.confidence)}">
+    <div class="buy">Buy YES on ${esc(p.side)} <small>at ${price}¢</small></div>
+    <div class="game">${esc(p.sport)}: ${esc(p.game)}, ${esc(t)}</div>
+    <div class="bars">
+      <div class="row"><span>Fair chance</span><div class="track"><div class="fill fair" style="width:${fair}%"></div></div><b>${fair}%</b></div>
+      <div class="row"><span>Kalshi price</span><div class="track"><div class="fill price" style="width:${price}%"></div></div><b>${price}¢</b></div>
+    </div>
+    <div class="facts">
+      <span class="edge">+${(p.edge*100).toFixed(1)} pts edge</span>
+      <span class="badge">${esc(p.confidence)} confidence</span>
+      <span>Worth up to ${p.max_price_cents}¢</span>
+      <span>Wins pay +${profit}¢ per contract</span>
+      <span>${p.books_used} sportsbooks</span>
+    </div>
+    <p class="note">${esc(note)}</p>
+    <a href="https://kalshi.com/markets/${esc(String(p.series).toLowerCase())}" rel="noopener" target="_blank">Find it on Kalshi</a>
+  </article>`;
+}
 function render(){
-  const list=document.getElementById("list");
-  const rows=data.picks.filter(p=>current==="All"||p.sport===current);
-  if(!rows.length){list.innerHTML='<p class="empty">No picks clear the value threshold for this selection right now. Check back after the next update.</p>';return}
-  list.innerHTML=rows.map(p=>{
-    const t=new Date(p.start).toLocaleString([], {weekday:"short",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});
-    return `<article class="pick ${esc(p.tier)}">
-      <div class="top"><span class="name">${esc(p.pick)}</span><span class="odds">${esc(p.best_odds_american)} at ${esc(p.best_book)}</span></div>
-      <div class="meta">${esc(p.sport)}: ${esc(p.game)}, ${esc(t)}</div>
-      <div class="stats"><span class="tier">${esc(p.tier)}</span><span>Win chance <b>${(p.win_prob*100).toFixed(1)}%</b></span><span>Expected value <b>+${(p.ev*100).toFixed(1)}%</b></span><span>${p.books_used} books</span></div>
-      <p class="reason">${esc(p.reason)}</p></article>`}).join("");
+  const cf=document.getElementById("conf").value;
+  let rows=data.picks.filter(p=>(sport==="All"||p.sport===sport)&&(cf==="all"||(cf==="High"&&p.confidence==="High")||(cf==="HM"&&p.confidence!=="Low")));
+  const top=document.getElementById("top"),rest=document.getElementById("rest");
+  if(!rows.length){top.innerHTML='<p class="empty">No contracts clear the edge threshold for this selection right now. That is common: most prices are fair. Check back after the next update.</p>';rest.innerHTML="";return}
+  top.innerHTML='<h2>Best right now</h2><div class="grid top3">'+rows.slice(0,3).map(card).join("")+'</div>';
+  rest.innerHTML=rows.length>3?'<h2>More picks</h2><div class="grid">'+rows.slice(3).map(card).join("")+'</div>':"";
 }
-function tabs(){
-  const el=document.getElementById("tabs");
-  el.innerHTML=SPORTS.map(s=>`<button type="button" aria-pressed="${s===current}" data-s="${s}">${s}</button>`).join("");
-  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{current=b.dataset.s;tabs();render()});
+function chips(){
+  const el=document.getElementById("sports");
+  el.innerHTML=SPORTS.map(s=>`<button type="button" aria-pressed="${s===sport}" data-s="${s}">${s}</button>`).join("");
+  el.querySelectorAll("button").forEach(b=>b.onclick=()=>{sport=b.dataset.s;chips();render()});
 }
+document.getElementById("conf").onchange=render;
 fetch("picks.json?"+Date.now()).then(r=>r.json()).then(d=>{
   data=d;
   document.getElementById("updated").textContent=d.updated?"Last updated "+new Date(d.updated).toLocaleString():"No data yet. Run the Update picks workflow.";
-  tabs();render();
+  chips();render();
 }).catch(()=>{document.getElementById("updated").textContent="Could not load picks.json."});
 </script>
 </body>
