@@ -1,0 +1,900 @@
+{
+ "updated": "2026-11-04T22:20:25.012855+00:00",
+ "kalshi": {
+  "KXNFLGAME": {
+   "open_events": 29,
+   "sample": {
+    "event_ticker": "KXNFLGAME-26NOV05JACBAL",
+    "title": "Jacksonville vs Baltimore",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNFLGAME-26NOV05JACBAL-BAL",
+      "yes_sub_title": "Baltimore",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.1800",
+      "yes_ask_dollars": "0.1900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.1900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLGAME-26NOV05JACBAL-JAC",
+      "yes_sub_title": "Jacksonville",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.8200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.8200",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNFLSPREAD": {
+   "open_events": 15,
+   "sample": {
+    "event_ticker": "KXNFLSPREAD-26NOV05JACBAL",
+    "title": "Jacksonville vs Baltimore: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNFLSPREAD-26NOV05JACBAL-BAL21",
+      "yes_sub_title": "Baltimore wins by over 20.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLSPREAD-26NOV05JACBAL-BAL18",
+      "yes_sub_title": "Baltimore wins by over 17.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLSPREAD-26NOV05JACBAL-BAL17",
+      "yes_sub_title": "Baltimore wins by over 16.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0200",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNFLTOTAL": {
+   "open_events": 15,
+   "sample": {
+    "event_ticker": "KXNFLTOTAL-26NOV05JACBAL",
+    "title": "Jacksonville vs Baltimore: Total Points",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNFLTOTAL-26NOV05JACBAL-28",
+      "yes_sub_title": "Over 27.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8600",
+      "yes_ask_dollars": "0.8700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.8700",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLTOTAL-26NOV05JACBAL-31",
+      "yes_sub_title": "Over 30.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.8000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.7900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLTOTAL-26NOV05JACBAL-34",
+      "yes_sub_title": "Over 33.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7100",
+      "yes_ask_dollars": "0.7200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.7200",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAFGAME": {
+   "open_events": 256,
+   "sample": {
+    "event_ticker": "KXNCAAFGAME-26NOV03BALLMASS",
+    "title": "Ball St. vs UMass",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAFGAME-26NOV03BALLMASS-MASS",
+      "yes_sub_title": "UMass",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.5600",
+      "yes_ask_dollars": "0.5700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.5700",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFGAME-26NOV03BALLMASS-BALL",
+      "yes_sub_title": "Ball St.",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.4400",
+      "yes_ask_dollars": "0.4500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.4500",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAFSPREAD": {
+   "open_events": 86,
+   "sample": {
+    "event_ticker": "KXNCAAFSPREAD-26NOV04BALLMASS",
+    "title": "Ball St. vs UMass: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV04BALLMASS-MASS21",
+      "yes_sub_title": "UMass wins by over 20.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0900",
+      "yes_ask_dollars": "0.1000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.1000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV04BALLMASS-MASS18",
+      "yes_sub_title": "UMass wins by over 17.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.1300",
+      "yes_ask_dollars": "0.1400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV04BALLMASS-MASS17",
+      "yes_sub_title": "UMass wins by over 16.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.1500",
+      "yes_ask_dollars": "0.1600",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.1600",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAFTOTAL": {
+   "open_events": 86,
+   "sample": {
+    "event_ticker": "KXNCAAFTOTAL-26NOV04BALLMASS",
+    "title": "Ball St. vs UMass: Total Points",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAFTOTAL-26NOV04BALLMASS-29",
+      "yes_sub_title": "Over 28.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFTOTAL-26NOV04BALLMASS-32",
+      "yes_sub_title": "Over 31.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.8800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.8700",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFTOTAL-26NOV04BALLMASS-35",
+      "yes_sub_title": "Over 34.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8200",
+      "yes_ask_dollars": "0.8400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.8300",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAMBGAME": {
+   "open_events": 178,
+   "sample": {
+    "event_ticker": "KXNCAAMBGAME-26NOV04FDUBUT",
+    "title": "FDU vs Butler",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAMBGAME-26NOV04FDUBUT-BUT",
+      "yes_sub_title": "Butler",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBGAME-26NOV04FDUBUT-FDU",
+      "yes_sub_title": "FDU",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0300",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAMBSPREAD": {
+   "open_events": 10,
+   "sample": {
+    "event_ticker": "KXNCAAMBSPREAD-26NOV04FDUBUT",
+    "title": "FDU vs Butler: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAMBSPREAD-26NOV04FDUBUT-BUT50",
+      "yes_sub_title": "Butler wins by over 49.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.1400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBSPREAD-26NOV04FDUBUT-BUT48",
+      "yes_sub_title": "Butler wins by over 47.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.1400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBSPREAD-26NOV04FDUBUT-BUT47",
+      "yes_sub_title": "Butler wins by over 46.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.1400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAMBTOTAL": {
+   "open_events": 10,
+   "sample": {
+    "event_ticker": "KXNCAAMBTOTAL-26NOV04FDUBUT",
+    "title": "FDU vs Butler: Point Total",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV04FDUBUT-130",
+      "yes_sub_title": "Over 129.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.9900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV04FDUBUT-135",
+      "yes_sub_title": "Over 134.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7800",
+      "yes_ask_dollars": "0.9300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9200",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV04FDUBUT-139",
+      "yes_sub_title": "Over 138.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7300",
+      "yes_ask_dollars": "0.9300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNBAGAME": {
+   "open_events": 33,
+   "sample": {
+    "event_ticker": "KXNBAGAME-26NOV04ATLWAS",
+    "title": "Atlanta vs Washington",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNBAGAME-26NOV04ATLWAS-ATL",
+      "yes_sub_title": "Atlanta",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.5800",
+      "yes_ask_dollars": "0.5900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.5900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBAGAME-26NOV04ATLWAS-WAS",
+      "yes_sub_title": "Washington",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.4100",
+      "yes_ask_dollars": "0.4200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.4200",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNBASPREAD": {
+   "open_events": 14,
+   "sample": {
+    "event_ticker": "KXNBASPREAD-26NOV04ATLWAS",
+    "title": "Atlanta vs Washington: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNBASPREAD-26NOV04ATLWAS-WAS27",
+      "yes_sub_title": "Washington wins by over 26.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBASPREAD-26NOV04ATLWAS-WAS25",
+      "yes_sub_title": "Washington wins by over 24.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBASPREAD-26NOV04ATLWAS-WAS23",
+      "yes_sub_title": "Washington wins by over 22.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNBATOTAL": {
+   "open_events": 14,
+   "sample": {
+    "event_ticker": "KXNBATOTAL-26NOV04ATLWAS",
+    "title": "Atlanta vs Washington: Total Points",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNBATOTAL-26NOV04ATLWAS-207",
+      "yes_sub_title": "Over 206.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBATOTAL-26NOV04ATLWAS-209",
+      "yes_sub_title": "Over 208.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9000",
+      "yes_ask_dollars": "0.9200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.8900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBATOTAL-26NOV04ATLWAS-211",
+      "yes_sub_title": "Over 210.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.8800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9000",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXEPLGAME": {
+   "open_events": 10,
+   "sample": {
+    "event_ticker": "KXEPLGAME-26NOV06EVECOV",
+    "title": "Everton vs Coventry",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXEPLGAME-26NOV06EVECOV-EVE",
+      "yes_sub_title": "Everton",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.5600",
+      "yes_ask_dollars": "0.5700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.5700",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLGAME-26NOV06EVECOV-COV",
+      "yes_sub_title": "Coventry",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.1900",
+      "yes_ask_dollars": "0.2000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.2000",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLGAME-26NOV06EVECOV-TIE",
+      "yes_sub_title": "Tie",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.2300",
+      "yes_ask_dollars": "0.2500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.2400",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXEPLSPREAD": {
+   "open_events": 10,
+   "sample": {
+    "event_ticker": "KXEPLSPREAD-26NOV06EVECOV",
+    "title": "Everton vs Coventry: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXEPLSPREAD-26NOV06EVECOV-EVE3",
+      "yes_sub_title": "Everton wins by more than 2.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.1400",
+      "yes_ask_dollars": "0.1600",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.1400",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLSPREAD-26NOV06EVECOV-EVE2",
+      "yes_sub_title": "Everton wins by more than 1.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.3200",
+      "yes_ask_dollars": "0.3300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.3200",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLSPREAD-26NOV06EVECOV-COV2",
+      "yes_sub_title": "Coventry wins by more than 1.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0800",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXEPLTOTAL": {
+   "open_events": 10,
+   "sample": {
+    "event_ticker": "KXEPLTOTAL-26NOV06EVECOV",
+    "title": "Everton vs Coventry: Total Goals",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXEPLTOTAL-26NOV06EVECOV-1",
+      "yes_sub_title": "Over 0.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLTOTAL-26NOV06EVECOV-2",
+      "yes_sub_title": "Over 1.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7800",
+      "yes_ask_dollars": "0.8000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLTOTAL-26NOV06EVECOV-3",
+      "yes_sub_title": "Over 2.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.5500",
+      "yes_ask_dollars": "0.5700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.5600",
+      "volume": null
+     }
+    ]
+   }
+  }
+ },
+ "espn_errors": [
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+   "params": {
+    "dates": "20250831-20250906",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+   "params": {
+    "dates": "20250831-20250906",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+   "params": {
+    "dates": "20250831-20250906",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
+   "params": {
+    "groups": "80",
+    "dates": "20250831-20250906",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
+   "params": {
+    "groups": "80",
+    "dates": "20250831-20250906",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
+   "params": {
+    "groups": "80",
+    "dates": "20250831-20250906",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+   "params": {
+    "dates": "20250831-20250903",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+   "params": {
+    "dates": "20250831-20250903",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard",
+   "params": {
+    "dates": "20250831-20250903",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard",
+   "params": {
+    "groups": "50",
+    "dates": "20250930-20251002",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard",
+   "params": {
+    "groups": "50",
+    "dates": "20250930-20251002",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard",
+   "params": {
+    "groups": "50",
+    "dates": "20250930-20251002",
+    "limit": "1000"
+   },
+   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  }
+ ],
+ "skipped": {
+  "games_no_teams": 0,
+  "stale_or_wide": 1525,
+  "started": 3
+ },
+ "unmatched_teams": [
+  "College Basketball: Abilene Christian",
+  "College Basketball: Air Force",
+  "College Basketball: Alabama",
+  "College Basketball: Alcorn St.",
+  "College Basketball: American",
+  "College Basketball: Arizona",
+  "College Basketball: Arizona St.",
+  "College Basketball: Arkansas",
+  "College Basketball: Arkansas St.",
+  "College Basketball: Arkansas-Pine Bluff",
+  "College Basketball: Auburn",
+  "College Basketball: Austin Peay",
+  "College Basketball: BYU",
+  "College Basketball: Ball St.",
+  "College Basketball: Baylor",
+  "College Basketball: Bellarmine",
+  "College Basketball: Bethune-Cookman",
+  "College Basketball: Binghamton",
+  "College Basketball: Boise St.",
+  "College Basketball: Boston College",
+  "College Basketball: Boston University",
+  "College Basketball: Bradley",
+  "College Basketball: Brown",
+  "College Basketball: Bryant",
+  "College Basketball: Bucknell",
+  "College Basketball: Buffalo",
+  "College Basketball: Butler",
+  "College Basketball: Cal Poly",
+  "College Basketball: Cal State Fullerton",
+  "College Basketball: Cal State Northridge",
+  "College Basketball: California",
+  "College Basketball: California Baptist",
+  "College Basketball: Campbell",
+  "College Basketball: Canisius",
+  "College Basketball: Central Arkansas",
+  "College Basketball: Central Connecticut St.",
+  "College Basketball: Charlotte",
+  "College Basketball: Chattanooga",
+  "College Basketball: Chicago St.",
+  "College Basketball: Cincinnati",
+  "College Basketball: Clemson",
+  "College Basketball: Coastal Carolina",
+  "College Basketball: Colgate",
+  "College Basketball: Colorado",
+  "College Basketball: Colorado St.",
+  "College Basketball: Coppin St.",
+  "College Basketball: Cornell",
+  "College Basketball: Creighton",
+  "College Basketball: Dartmouth",
+  "College Basketball: Davidson",
+  "College Basketball: Dayton",
+  "College Basketball: DePaul",
+  "College Basketball: Delaware",
+  "College Basketball: Delaware St.",
+  "College Basketball: Denver",
+  "College Basketball: Detroit Mercy",
+  "College Basketball: Drake",
+  "College Basketball: Drexel",
+  "College Basketball: Duke",
+  "College Basketball: East Carolina"
+ ]
+}
