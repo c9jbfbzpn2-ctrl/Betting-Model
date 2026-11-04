@@ -158,6 +158,7 @@ function card(p){
       </div>
       <details><summary>Why this pick</summary>
         <p>${esc(note)}</p>
+        ${p.model_prob!=null&&p.market_prob!=null?`<p>Sportsbooks put this near ${pct(p.market_prob)}. Our team ratings put it near ${pct(p.model_prob)}${(data.model&&data.model.weight>0)?" (blended in at "+Math.round(data.model.weight*100)+"%)":" (shown for information only, not used in the pick)"}.</p>`:""}
         <p>${p.books_used} sportsbooks used. Book disagreement ${(p.book_spread*100).toFixed(1)} pts. <a href="https://kalshi.com/markets/${esc(String(p.series).toLowerCase())}" target="_blank" rel="noopener">Find it on Kalshi</a></p>
       </details>
     </div>
