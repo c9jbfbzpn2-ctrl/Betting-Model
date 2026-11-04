@@ -45,6 +45,9 @@ h1{font-family:"Barlow Condensed",sans-serif;font-size:3rem;margin:0;line-height
 .of{font-size:.78rem;color:var(--muted)}
 .units{font-family:"Barlow Condensed",sans-serif;font-size:1.9rem;font-weight:700;line-height:1.1;margin-top:6px}
 .dollars{font-weight:600}
+.s0 .stars,.s0 .units{color:var(--muted)}
+.watchhead{font-family:"Barlow Condensed",sans-serif;font-size:1.5rem;margin:26px 0 2px}
+.watchsub{color:var(--muted);font-size:.92rem;margin:0 0 10px;max-width:62ch}
 .s5 .stars,.s5 .units{color:var(--s5)}.s4 .stars,.s4 .units{color:var(--s4)}.s3 .stars,.s3 .units{color:var(--s3)}.s2 .stars,.s1 .stars,.s2 .units,.s1 .units{color:var(--s2)}
 .body{padding:14px 16px}
 .buy{font-family:"Barlow Condensed",sans-serif;font-size:1.7rem;font-weight:700;line-height:1.1}
@@ -65,6 +68,7 @@ details p{margin:6px 0 0}
 .how p{margin:0 0 6px}
 .foot{margin-top:18px;color:var(--muted);font-size:.85rem;max-width:64ch}
 a{color:inherit}
+code{font-size:.85em;word-break:break-all}
 @media (max-width:520px){.pick{grid-template-columns:84px 1fr}.buy{font-size:1.45rem}h1{font-size:2.4rem}}
 </style>
 </head>
@@ -78,7 +82,7 @@ a{color:inherit}
   <div class="bar">
     <div class="tabs" id="tabs" role="group" aria-label="Filter by sport"></div>
     <div class="tools">
-      <label>Show <select id="min"><option value="1">All ratings</option><option value="3">3 stars and up</option><option value="4">4 stars and up</option></select></label>
+      <label>Show <select id="min"><option value="0">Everything, with watchlist</option><option value="1">Bets only (1+ stars)</option><option value="3">3 stars and up</option><option value="4">4 stars and up</option></select></label>
       <label>Bet type <select id="type"><option value="All">All types</option><option>Moneyline</option><option>Spread</option><option>Total</option></select></label>
       <label>Sort <select id="sort"><option value="conf">Most confident</option><option value="edge">Biggest edge</option><option value="time">Start time</option></select></label>
       <label>Unit size $ <input id="unit" type="number" min="1" step="1" value="5" inputmode="decimal"></label>
@@ -87,6 +91,7 @@ a{color:inherit}
   <div class="summary" id="summary" aria-live="polite"></div>
   <main id="out"></main>
   <div class="how">
+    <p><b>Watchlist.</b> Contracts that look about fairly priced, with a gap under 2 points. They have no stars, no units, and are not counted in your record. They are here so the board is not empty on quiet days, not as recommendations.</p>
     <p><b>Stars (1 to 5)</b> show how solid the price gap looks: how big it is, how many sportsbooks agree, and how easy the contract is to buy at that price. Five stars is not a lock. It means the numbers line up best.</p>
     <p><b>Units</b> scale with stars: 1 star is half a unit, 2 stars one unit, 3 stars a unit and a half, 4 stars two units, 5 stars three units. The dollar amount uses your unit size above. Taking every pick on a busy day can add up, so the summary shows your total.</p>
     <p><b>Reading a card.</b> The bold line is the bet. “Buy YES” or “Buy NO” tells you which side of the Kalshi contract to purchase; either one pays $1 if the bet wins. Every pick has at least a 35% fair chance of hitting. The dark bar is the win chance the sportsbooks agree on once their margin is removed. The light bar is Kalshi’s price. “Worth up to” is the highest price that still leaves a small edge after estimated fees.</p>
@@ -95,7 +100,7 @@ a{color:inherit}
 </div>
 <script>
 const SPORTS=["All","NFL","College Football","College Basketball","NBA","Premier League"];
-const st={sport:"All",min:1,sort:"conf",unit:5,type:"All"};
+const st={sport:"All",min:0,sort:"conf",unit:5,type:"All"};
 let data={picks:[]};
 try{const u=parseFloat(localStorage.getItem("unit"));if(u>0)st.unit=u}catch(e){}
 document.getElementById("unit").value=st.unit;
@@ -139,11 +144,11 @@ function card(p){
   const dollars=p.units*st.unit,contracts=Math.floor(dollars*100/price);
   const note=p.ai_note||p.reason;
   return `<article class="pick s${p.stars}">
-    <div class="rate" aria-label="Confidence ${p.stars} out of 5">
-      <div class="stars" aria-hidden="true">${stars(p.stars)}</div>
+    <div class="rate" aria-label="${p.stars===0?"Watchlist, not a recommended bet":"Confidence "+p.stars+" out of 5"}">
+      ${p.stars===0?`<div class="units">Watch</div><div class="of">No bet</div>`:`<div class="stars" aria-hidden="true">${stars(p.stars)}</div>
       <div class="of">${p.stars} of 5</div>
       <div class="units">${fmtUnits(p.units)}</div>
-      <div class="dollars">${money(dollars)}</div>
+      <div class="dollars">${money(dollars)}</div>`}
     </div>
     <div class="body">
       <div class="buy">${esc(p.bet||p.side)}</div>
@@ -153,12 +158,13 @@ function card(p){
       <div class="row"><span>Kalshi price</span><div class="track"><div class="fill price" style="width:${price}%"></div></div><b>${price}¢</b></div>
       <div class="facts">
         <span class="edge">+${(p.edge*100).toFixed(1)} pts edge</span>
-        <span>About ${contracts} contracts</span>
+        ${p.stars===0?"":`<span>About ${contracts} contracts</span>`}
         <span>Worth up to ${p.max_price_cents}¢</span>
       </div>
       <details><summary>Why this pick</summary>
         <p>${esc(note)}</p>
         ${p.model_prob!=null&&p.market_prob!=null?`<p>Sportsbooks put this near ${pct(p.market_prob)}. Our team ratings put it near ${pct(p.model_prob)}${(data.model&&data.model.weight>0)?" (blended in at "+Math.round(data.model.weight*100)+"%)":" (shown for information only, not used in the pick)"}.</p>`:""}
+        <p>Kalshi at the last update: ask ${p.price_cents}¢, bid ${p.bid_cents==null?"?":p.bid_cents+"¢"}, last trade ${p.last_cents==null?"?":p.last_cents+"¢"}. Contract <code>${esc(p.kalshi_ticker)}</code>. Prices move, so check the live price first.</p>
         <p>${p.books_used} sportsbooks used. Book disagreement ${(p.book_spread*100).toFixed(1)} pts. <a href="https://kalshi.com/markets/${esc(String(p.series).toLowerCase())}" target="_blank" rel="noopener">Find it on Kalshi</a></p>
       </details>
     </div>
@@ -183,13 +189,15 @@ function render(){
     out.innerHTML='<p class="empty">No contracts match this view right now. That is normal: most Kalshi prices are fair, so the board is often short. Try All ratings or another sport, or check back after the next update.</p>';
     return;
   }
-  const units=rows.reduce((a,p)=>a+p.units,0);
-  sum.innerHTML=`<b>${rows.length}</b> pick${rows.length===1?"":"s"} in this view. Taking all of them is <b>${units%1?units.toFixed(1):units} units (${money(units*st.unit)})</b>.`+(units>10?" That is a lot for one day, so consider only the top few.":"");
+  const bets=rows.filter(p=>p.stars>=1),watch=rows.filter(p=>p.stars===0);
+  const units=bets.reduce((a,p)=>a+p.units,0);
+  sum.innerHTML=`<b>${bets.length}</b> pick${bets.length===1?"":"s"} in this view${watch.length?`, plus <b>${watch.length}</b> on the watchlist`:""}. Taking all of them is <b>${units%1?units.toFixed(1):units} units (${money(units*st.unit)})</b>.`+(units>10?" That is a lot for one day, so consider only the top few.":"");
   if(st.sort==="time"){
     let last="",html="";
     rows.forEach(p=>{const d=dayLabel(p.start);if(d!==last){html+=(last?"</div>":"")+`<h2 class="day">${esc(d)}</h2><div class="list">`;last=d}html+=card(p)});
     out.innerHTML=html+"</div>";
-  }else out.innerHTML='<div class="list">'+rows.map(card).join("")+"</div>";
+  }else out.innerHTML=(bets.length?'<div class="list">'+bets.map(card).join("")+"</div>":'<p class="empty">No recommended bets in this view right now.</p>')
+    +(watch.length?'<h2 class="watchhead">Watchlist</h2><p class="watchsub">These prices look about fair. The gap to the sportsbooks is smaller than the error in my fee estimate, so treat them as things to keep an eye on, not bets.</p><div class="list">'+watch.map(card).join("")+"</div>":"");
 }
 document.getElementById("type").onchange=e=>{st.type=e.target.value;render()};
 document.getElementById("min").onchange=e=>{st.min=+e.target.value;render()};
