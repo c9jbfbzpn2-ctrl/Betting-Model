@@ -1,1 +1,96 @@
-{"updated": null, "picks": [], "note": "Run the Update picks workflow to fill this in."}
+{
+  "updated": "2026-11-04T20:29:40.478844+00:00",
+  "method": "Market consensus vs best available price (moneyline)",
+  "picks": [
+    {
+      "sport": "College Football",
+      "game": "James Madison Dukes at Southern Mississippi Golden Eagles",
+      "start": "2026-11-06T01:00:00Z",
+      "pick": "Southern Mississippi Golden Eagles",
+      "best_book": "BetRivers",
+      "best_odds_decimal": 6.75,
+      "best_odds_american": "+575",
+      "win_prob": 0.1657,
+      "ev": 0.1186,
+      "books_used": 9,
+      "book_disagreement": 0.0328,
+      "tier": "Strong",
+      "reason": "9 books put the true win chance near 17%. BetRivers pays +575, which implies 15%."
+    },
+    {
+      "sport": "NFL",
+      "game": "New York Jets at Kansas City Chiefs",
+      "start": "2026-11-08T18:00:00Z",
+      "pick": "New York Jets",
+      "best_book": "FanDuel",
+      "best_odds_decimal": 5.6,
+      "best_odds_american": "+460",
+      "win_prob": 0.1941,
+      "ev": 0.0871,
+      "books_used": 9,
+      "book_disagreement": 0.0398,
+      "tier": "Strong",
+      "reason": "9 books put the true win chance near 19%. FanDuel pays +460, which implies 18%."
+    },
+    {
+      "sport": "College Football",
+      "game": "Liberty Flames at New Mexico State Aggies",
+      "start": "2026-11-08T01:00:00Z",
+      "pick": "New Mexico State Aggies",
+      "best_book": "FanDuel",
+      "best_odds_decimal": 7.6,
+      "best_odds_american": "+660",
+      "win_prob": 0.1388,
+      "ev": 0.055,
+      "books_used": 9,
+      "book_disagreement": 0.0194,
+      "tier": "Strong",
+      "reason": "9 books put the true win chance near 14%. FanDuel pays +660, which implies 13%."
+    },
+    {
+      "sport": "College Football",
+      "game": "Michigan State Spartans at Michigan Wolverines",
+      "start": "2026-11-08T00:30:00Z",
+      "pick": "Michigan State Spartans",
+      "best_book": "BetRivers",
+      "best_odds_decimal": 5.75,
+      "best_odds_american": "+475",
+      "win_prob": 0.1803,
+      "ev": 0.0367,
+      "books_used": 9,
+      "book_disagreement": 0.0237,
+      "tier": "Moderate",
+      "reason": "9 books put the true win chance near 18%. BetRivers pays +475, which implies 17%."
+    },
+    {
+      "sport": "NBA",
+      "game": "Los Angeles Lakers at Sacramento Kings",
+      "start": "2026-11-05T03:10:00Z",
+      "pick": "Sacramento Kings",
+      "best_book": "BetRivers",
+      "best_odds_decimal": 5.8,
+      "best_odds_american": "+480",
+      "win_prob": 0.1764,
+      "ev": 0.0229,
+      "books_used": 9,
+      "book_disagreement": 0.0254,
+      "tier": "Lean",
+      "reason": "9 books put the true win chance near 18%. BetRivers pays +480, which implies 17%."
+    },
+    {
+      "sport": "NFL",
+      "game": "Detroit Lions at Miami Dolphins",
+      "start": "2026-11-08T18:00:00Z",
+      "pick": "Miami Dolphins",
+      "best_book": "FanDuel",
+      "best_odds_decimal": 3.9,
+      "best_odds_american": "+290",
+      "win_prob": 0.2621,
+      "ev": 0.0221,
+      "books_used": 9,
+      "book_disagreement": 0.0239,
+      "tier": "Lean",
+      "reason": "9 books put the true win chance near 26%. FanDuel pays +290, which implies 26%."
+    }
+  ]
+}
