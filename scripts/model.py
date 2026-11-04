@@ -29,17 +29,17 @@ MEAN = 1500.0
 
 CFG = {
     "NFL": dict(path="football/nfl", kind="margin", k=20, hfa=48, a0=2.0, b0=1 / 25,
-                sigma0=13.5, chunk=7, lookback=430, new=1500, min_games=3, params={}),
+                sigma0=13.5, chunk=7, lookback=430, new=1500, min_games=3, params={}, alpha=0.15, tsig0=10.5),
     "College Football": dict(path="football/college-football", kind="margin", k=25, hfa=55,
                              a0=2.5, b0=1 / 22, sigma0=16.0, chunk=7, lookback=430,
-                             new=1400, min_games=3, params={"groups": 80}),
+                             new=1400, min_games=3, params={"groups": 80}, alpha=0.15, tsig0=14.0),
     "NBA": dict(path="basketball/nba", kind="margin", k=20, hfa=85, a0=2.6, b0=1 / 28,
-                sigma0=12.0, chunk=4, lookback=430, new=1500, min_games=5, params={}),
+                sigma0=12.0, chunk=4, lookback=430, new=1500, min_games=5, params={}, alpha=0.08, tsig0=17.5),
     "College Basketball": dict(path="basketball/mens-college-basketball", kind="margin", k=30,
                                hfa=70, a0=3.2, b0=1 / 24, sigma0=11.0, chunk=3, lookback=400,
-                               new=1400, min_games=5, params={"groups": 50}),
+                               new=1400, min_games=5, params={"groups": 50}, alpha=0.10, tsig0=12.5),
     "Premier League": dict(path="soccer/eng.1", kind="soccer", k=22, hfa=65, chunk=7,
-                           lookback=430, new=1500, min_games=5, params={}),
+                           lookback=430, new=1500, min_games=5, params={}, alpha=0.10),
 }
 SOCCER_SCALE = 220.0     # rating points per unit of the ordered-logit score
 SOCCER_DRAW = 0.56       # draw band width
@@ -67,6 +67,8 @@ def clamp(p, lo=0.02, hi=0.98):
 # ---------- state ----------
 def new_sport():
     return {"ratings": {}, "games": {}, "last_date": None, "prev_date": None, "recent": {},
+            "meta": {}, "off": {}, "def": {}, "lg": {"s": 0.0, "n": 0},
+            "tcal": {"n": 0, "se": 0.0, "se2": 0.0},
             "calib": {"n": 0, "sx": 0.0, "sy": 0.0, "sxx": 0.0, "sxy": 0.0, "syy": 0.0},
             "val": {"n": 0, "ll_model": 0.0, "ll_base": 0.0, "hw": 0, "dr": 0, "aw": 0}}
 
@@ -80,6 +82,8 @@ def load_state(path=None):
     s.setdefault("sports", {})
     for name in CFG:
         s["sports"].setdefault(name, new_sport())
+        for k, v in new_sport().items():           # states saved by older versions
+            s["sports"][name].setdefault(k, v)
     return s
 
 
@@ -87,6 +91,8 @@ def save_state(state, path=None):
     out = json.loads(json.dumps(state))
     for st in out["sports"].values():
         st["ratings"] = {k: round(v, 1) for k, v in st["ratings"].items()}
+        st["off"] = {k: round(v, 2) for k, v in st.get("off", {}).items()}
+        st["def"] = {k: round(v, 2) for k, v in st.get("def", {}).items()}
     out["saved"] = datetime.now(timezone.utc).isoformat()
     with open(path or STATE_FILE, "w") as f:
         json.dump(out, f, separators=(",", ":"))
@@ -120,6 +126,56 @@ def predict_raw(st, cfg, home, away, neutral=False):
     mu = (0 if neutral else a) + b * (rh - ra)
     ph = phi(mu / sigma)
     return {"p_home": ph, "p_away": 1 - ph, "p_draw": 0.0, "mu": mu, "sigma": sigma}
+
+
+def total_pred(st, cfg, home, away, raw=False):
+    """Expected total points (or goals) from each team's recent scoring and conceding."""
+    lg = st["lg"]
+    if lg["n"] < 40:
+        return None
+    lgm = lg["s"] / lg["n"]
+    oh, dh = st["off"].get(home, lgm), st["def"].get(home, lgm)
+    oa, da = st["off"].get(away, lgm), st["def"].get(away, lgm)
+    eh, ea = oh + da - lgm, oa + dh - lgm
+    if cfg["kind"] == "soccer":
+        return {"lam_h": max(0.2, eh + 0.15), "lam_a": max(0.2, ea - 0.15)}
+    c = st["tcal"]
+    mean, sigma = eh + ea, cfg["tsig0"]
+    if c["n"] >= 100 and not raw:
+        bias = c["se"] / c["n"]
+        var = c["se2"] / c["n"] - bias * bias
+        if 3 < math.sqrt(max(var, 0)) < 40:
+            mean, sigma = mean + bias, math.sqrt(var)
+    return {"mean": mean, "sigma": sigma}
+
+
+def poisson_pmf(lam, kmax=16):
+    out, p = [], math.exp(-lam)
+    for k in range(kmax + 1):
+        out.append(p)
+        p *= lam / (k + 1)
+    return out
+
+
+def p_total_over(tp, line):
+    if tp is None:
+        return None
+    if "lam_h" in tp:
+        pm = poisson_pmf(tp["lam_h"] + tp["lam_a"], 20)
+        return max(0.0, 1 - sum(pm[: int(math.floor(line)) + 1]))
+    return 1 - phi((line - tp["mean"]) / tp["sigma"])
+
+
+def p_soccer_margin_over(tp, threshold, side):
+    """Chance `side` ("home"/"away") wins by more than `threshold` goals."""
+    ph, pa = poisson_pmf(tp["lam_h"]), poisson_pmf(tp["lam_a"])
+    tot = 0.0
+    for h, x in enumerate(ph):
+        for a, y in enumerate(pa):
+            m = (h - a) if side == "home" else (a - h)
+            if m > threshold:
+                tot += x * y
+    return tot
 
 
 def p_home_covers(pred, threshold):
@@ -193,32 +249,66 @@ def process(st, cfg, g):
         mult = math.log(abs(margin) + 1) * 2.2 / (wdiff * 0.001 + 2.2) if margin != 0 else 1.0
         delta = cfg["k"] * mult * (res - exp_h)
 
+    # scoring model (used for totals)
+    tp = total_pred(st, cfg, home, away, raw=True) if ready else None      # raw: calibrate against the uncorrected estimate
+    if tp is not None and "mean" in tp:
+        err = (hs + as_) - tp["mean"]
+        c = st["tcal"]
+        c["n"] += 1
+        c["se"] += err
+        c["se2"] += err * err
+    lg = st["lg"]
+    lgm = lg["s"] / lg["n"] if lg["n"] else (hs + as_) / 2
+    al = cfg["alpha"]
+    for team, pf, pa_ in ((home, hs, as_), (away, as_, hs)):
+        o, d = st["off"].get(team, lgm), st["def"].get(team, lgm)
+        st["off"][team] = o + al * (pf - o)
+        st["def"][team] = d + al * (pa_ - d)
+    lg["s"] += hs + as_
+    lg["n"] += 2
+
     st["ratings"][home] = rh + delta
     st["ratings"][away] = ra - delta
+    if g.get("hmeta"):
+        st["meta"][home] = g["hmeta"]
+        st["meta"][away] = g["ameta"]
     st["games"][home] = st["games"].get(home, 0) + 1
     st["games"][away] = st["games"].get(away, 0) + 1
     return pred if ready else None
 
 
 # ---------- ESPN fetching ----------
+ERRORS = []     # recent fetch problems, saved to debug.json so they can be read later
+
+
 def get_json(url, params, tries=3):
     for i in range(tries):
         try:
             r = requests.get(url, params=params, timeout=30, headers={"User-Agent": "picks-model/1.0"})
             if r.status_code == 200:
                 return r.json()
-        except (requests.RequestException, ValueError):
-            pass
+            note = f"HTTP {r.status_code}: {r.text[:120]!r}"
+        except (requests.RequestException, ValueError) as e:
+            note = f"{type(e).__name__}: {str(e)[:120]}"
+        if len(ERRORS) < 12:
+            ERRORS.append({"url": url, "params": {k: str(v) for k, v in params.items()}, "error": note})
         time.sleep(1.5 * (i + 1))
     return None
+
+
+def _completed(ev, comp):
+    for node in (ev.get("status"), comp.get("status")):
+        t = (node or {}).get("type") or {}
+        if t.get("completed") is True or t.get("state") == "post" or "FINAL" in str(t.get("name", "")).upper():
+            return True
+    return False
 
 
 def parse_events(j):
     out = []
     for ev in j.get("events", []):
         comp = (ev.get("competitions") or [{}])[0]
-        status = (comp.get("status") or ev.get("status") or {}).get("type") or {}
-        if not status.get("completed"):
+        if not _completed(ev, comp):
             continue
         if ((ev.get("season") or {}).get("type")) == 1:          # preseason
             continue
@@ -229,9 +319,15 @@ def parse_events(j):
             continue
         try:
             hs, as_ = float(h["score"]), float(a["score"])
+            ht, at = h["team"], a["team"]
+
+            def meta(t):
+                return {"loc": t.get("location"), "name": t.get("name"), "abbr": t.get("abbreviation"),
+                        "short": t.get("shortDisplayName")}
             out.append({"id": str(ev["id"]), "date": str(ev["date"])[:10],
-                        "home": h["team"]["displayName"], "away": a["team"]["displayName"],
-                        "hs": hs, "as": as_, "neutral": bool(comp.get("neutralSite"))})
+                        "home": ht["displayName"], "away": at["displayName"],
+                        "hs": hs, "as": as_, "neutral": bool(comp.get("neutralSite")),
+                        "hmeta": meta(ht), "ameta": meta(at)})
         except (KeyError, TypeError, ValueError):
             continue
     return out
@@ -290,52 +386,71 @@ def status(state):
 
 
 def norm(s):
-    s = s.lower().replace("&", " and ").replace("'", "").replace(".", "")
+    s = (s or "").lower().replace("&", " and ").replace("'", "").replace(".", "")
     s = re.sub(r"[^a-z0-9 ]+", " ", s)
-    return [t for t in s.split() if t not in ("fc", "afc", "the", "of", "university")]
+    return " ".join(t for t in s.split() if t not in ("fc", "afc", "the", "of", "university"))
+
+
+POOL_KINDS = ("NFL", "NBA", "Premier League")      # leagues where a nickname alone is unambiguous
 
 
 class Model:
     def __init__(self, state):
         self.state = state
         self.status = status(state)
-        self._idx = {}
+        self._keys = {}
+        self._cache = {}
         self.unmatched = set()
 
     def enabled(self, sport):
         return self.status.get(sport, {}).get("enabled", False)
 
-    def _find(self, sport, name):
-        key = (sport, name)
-        if key in self._idx:
-            return self._idx[key]
-        teams = list(self.state["sports"][sport]["ratings"])
-        want = norm(name)
-        found = None
-        exact = [t for t in teams if norm(t) == want]
-        if len(exact) == 1:
-            found = exact[0]
-        else:
-            sub = [t for t in teams if want and norm(t) and
-                   (set(want) <= set(norm(t)) or set(norm(t)) <= set(want))]
-            if len(sub) == 1:
-                found = sub[0]
-            elif sport in ("NFL", "NBA", "Premier League"):
-                nick = [t for t in teams if norm(t)[-1:] == want[-1:] and want]
-                if len(nick) == 1:
-                    found = nick[0]
+    def _build(self, sport):
+        st = self.state["sports"][sport]
+        owners = {}
+        for team in st["ratings"]:
+            m = st["meta"].get(team, {})
+            keys = {norm(team), norm(m.get("short")), norm(m.get("abbr")), norm(m.get("loc"))}
+            nick = norm(m.get("name"))
+            if m.get("abbr") and nick:
+                keys.add(norm(m["abbr"]) + " " + nick)
+            if sport in POOL_KINDS:
+                if nick:
+                    keys.add(nick)
+                if m.get("loc") and nick:
+                    keys.add(norm(m["loc"]) + " " + nick[0])         # "Los Angeles C"
+            for k in keys:
+                if k:
+                    owners.setdefault(k, set()).add(team)
+        # a key shared by two teams is ambiguous, so it is never used
+        self._keys[sport] = {k: next(iter(v)) for k, v in owners.items() if len(v) == 1}
+
+    def team(self, sport, name, abbr=None):
+        """Exact matches only. 'Kentucky' never matches 'Western Kentucky'."""
+        key = (sport, name, abbr)
+        if key in self._cache:
+            return self._cache[key]
+        if sport not in self._keys:
+            self._build(sport)
+        keys = self._keys[sport]
+        found = keys.get(norm(name)) or (keys.get(norm(abbr)) if abbr else None)
         if not found:
             self.unmatched.add(f"{sport}: {name}")
-        self._idx[key] = found
+        self._cache[key] = found
         return found
 
+    def ready(self, sport, home, away):
+        st, cfg = self.state["sports"][sport], CFG[sport]
+        return (home in st["ratings"] and away in st["ratings"] and home != away
+                and st["games"].get(home, 0) >= cfg["min_games"] and st["games"].get(away, 0) >= cfg["min_games"])
+
     def predict(self, sport, home, away, neutral=False):
-        if sport not in CFG:
-            return None
-        h, a = self._find(sport, home), self._find(sport, away)
-        if not h or not a or h == a:
+        """home/away are rating keys from team()."""
+        if sport not in CFG or not self.ready(sport, home, away):
             return None
         st, cfg = self.state["sports"][sport], CFG[sport]
-        if st["games"].get(h, 0) < cfg["min_games"] or st["games"].get(a, 0) < cfg["min_games"]:
-            return None
-        return predict_raw(st, cfg, h, a, neutral)
+        pred = predict_raw(st, cfg, home, away, neutral)
+        pred["total"] = total_pred(st, cfg, home, away)
+        pred["rating_home"] = round(st["ratings"][home])
+        pred["rating_away"] = round(st["ratings"][away])
+        return pred
