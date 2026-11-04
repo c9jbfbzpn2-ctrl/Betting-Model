@@ -28,6 +28,15 @@ h1{font-family:"Barlow Condensed",sans-serif;font-size:3rem;margin:0;line-height
 :focus-visible{outline:3px solid var(--s3);outline-offset:2px}
 .summary{margin:14px 0;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:6px;font-size:.95rem}
 .summary b{font-weight:600}
+.record{margin:14px 0 0;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:6px}
+.rec-top{display:flex;flex-wrap:wrap;gap:6px 28px;align-items:baseline}
+.rec-big{font-family:"Barlow Condensed",sans-serif;font-size:2.6rem;font-weight:700;line-height:1}
+.rec-big small{font-size:1.2rem;font-weight:600;color:var(--muted)}
+.rec-item{font-size:.95rem;color:var(--muted)}.rec-item b{color:var(--ink);font-weight:600}
+.rec-tbl{width:100%;border-collapse:collapse;margin-top:10px;font-size:.92rem}
+.rec-tbl th,.rec-tbl td{text-align:left;padding:4px 8px 4px 0;border-top:1px solid var(--line)}
+.rec-tbl th{font-weight:600;color:var(--muted)}
+.rec-note{margin:8px 0 0;font-size:.85rem;color:var(--muted)}
 .day{font-family:"Barlow Condensed",sans-serif;font-size:1.5rem;margin:24px 0 8px}
 .list{display:grid;gap:12px}
 .pick{display:grid;grid-template-columns:104px 1fr;background:var(--card);border:1px solid var(--line);border-radius:6px;overflow:hidden}
@@ -40,7 +49,9 @@ h1{font-family:"Barlow Condensed",sans-serif;font-size:3rem;margin:0;line-height
 .body{padding:14px 16px}
 .buy{font-family:"Barlow Condensed",sans-serif;font-size:1.7rem;font-weight:700;line-height:1.1}
 .buy small{font-size:1.05rem;font-weight:600;color:var(--muted)}
-.game{color:var(--muted);font-size:.92rem;margin:2px 0 8px}
+.game{color:var(--muted);font-size:.92rem;margin:2px 0 4px}
+.type{font-weight:600;color:var(--ink)}
+.how-to{font-size:.95rem;margin:0 0 8px}
 .row{display:grid;grid-template-columns:88px 1fr 40px;gap:8px;align-items:center;font-size:.9rem;margin:3px 0}
 .track{height:10px;background:var(--line);border-radius:5px;overflow:hidden}
 .fill{height:100%}.fill.fair{background:var(--fair)}.fill.price{background:var(--price)}
@@ -63,10 +74,12 @@ a{color:inherit}
     <h1>Kalshi Value Board</h1>
     <p class="sub" id="updated">Loading…</p>
   </header>
+  <section class="record" id="record" aria-label="Track record"></section>
   <div class="bar">
     <div class="tabs" id="tabs" role="group" aria-label="Filter by sport"></div>
     <div class="tools">
       <label>Show <select id="min"><option value="1">All ratings</option><option value="3">3 stars and up</option><option value="4">4 stars and up</option></select></label>
+      <label>Bet type <select id="type"><option value="All">All types</option><option>Moneyline</option><option>Spread</option><option>Total</option></select></label>
       <label>Sort <select id="sort"><option value="conf">Most confident</option><option value="edge">Biggest edge</option><option value="time">Start time</option></select></label>
       <label>Unit size $ <input id="unit" type="number" min="1" step="1" value="5" inputmode="decimal"></label>
     </div>
@@ -76,19 +89,40 @@ a{color:inherit}
   <div class="how">
     <p><b>Stars (1 to 5)</b> show how solid the price gap looks: how big it is, how many sportsbooks agree, and how easy the contract is to buy at that price. Five stars is not a lock. It means the numbers line up best.</p>
     <p><b>Units</b> scale with stars: 1 star is half a unit, 2 stars one unit, 3 stars a unit and a half, 4 stars two units, 5 stars three units. The dollar amount uses your unit size above. Taking every pick on a busy day can add up, so the summary shows your total.</p>
-    <p><b>Reading a card.</b> “Buy YES” means buying the contract that pays $1 if that side wins. The dark bar is the win chance the sportsbooks agree on once their margin is removed. The light bar is Kalshi’s price. “Worth up to” is the highest price that still leaves a small edge after estimated fees.</p>
+    <p><b>Reading a card.</b> The bold line is the bet. “Buy YES” or “Buy NO” tells you which side of the Kalshi contract to purchase; either one pays $1 if the bet wins. Every pick has at least a 35% fair chance of hitting. The dark bar is the win chance the sportsbooks agree on once their margin is removed. The light bar is Kalshi’s price. “Worth up to” is the highest price that still leaves a small edge after estimated fees.</p>
   </div>
   <p class="foot">This compares prices. It does not know who will win, and any contract can lose its whole price. Fees are estimates, so check the real cost on Kalshi before you buy. Sports contracts may not be available in every state. Only risk what you can afford to lose. If gambling stops being fun, call 1-800-GAMBLER.</p>
 </div>
 <script>
 const SPORTS=["All","NFL","College Football","College Basketball","NBA","Premier League"];
-const st={sport:"All",min:1,sort:"conf",unit:5};
+const st={sport:"All",min:1,sort:"conf",unit:5,type:"All"};
 let data={picks:[]};
 try{const u=parseFloat(localStorage.getItem("unit"));if(u>0)st.unit=u}catch(e){}
 document.getElementById("unit").value=st.unit;
 
 const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const money=n=>"$"+(Number.isInteger(n)?n:n.toFixed(2));
+const pct=x=>Math.round(x*100)+"%";
+const roiTxt=x=>(x>=0?"+":"")+(x*100).toFixed(1)+"%";
+function renderRecord(r){
+  const el=document.getElementById("record");
+  if(!r){el.style.display="none";return}
+  const o=r.overall||{n:0};
+  if(!o.n){
+    el.innerHTML=`<div class="rec-big">Track record</div><p class="rec-note">Starts once tracked picks finish playing. ${r.pending||0} pick${r.pending===1?" is":"s are"} being tracked now. Each pick is logged once, the first time it appears, and graded against Kalshi's final result.</p>`;
+    return;
+  }
+  const hc=r.high_confidence||{n:0};
+  const rows=[5,4,3,2,1].map(i=>{const b=(r.by_stars||{})[i];return b&&b.n?`<tr><td>${stars(i)} ${i}</td><td>${b.wins} of ${b.n}</td><td>${pct(b.hit_rate)}</td><td>${pct(b.expected_rate)}</td></tr>`:""}).join("");
+  el.innerHTML=`<div class="rec-top">
+    <div class="rec-big">${o.wins} of ${o.n} <small>picks hit (${pct(o.hit_rate)})</small></div>
+    <div class="rec-item">Model expected <b>${pct(o.expected_rate)}</b></div>
+    <div class="rec-item">Return per dollar staked <b>${roiTxt(o.roi)}</b></div>
+    ${hc.n?`<div class="rec-item">4 and 5 stars <b>${hc.wins} of ${hc.n}</b></div>`:""}
+    <div class="rec-item">${r.pending||0} still pending</div></div>
+    ${rows?`<table class="rec-tbl"><thead><tr><th>Stars</th><th>Hit</th><th>Hit rate</th><th>Expected</th></tr></thead><tbody>${rows}</tbody></table>`:""}
+    <p class="rec-note">${o.n<30?"Small sample: with fewer than about 30 graded picks, luck swings these numbers a lot, so they say little about the model yet. ":""}Expected is the average chance the sportsbooks implied. If hit rate stays well below expected, the edge isn't real. Return assumes buying one contract at the shown price plus estimated fees${r.tracking_since?", tracked since "+new Date(r.tracking_since).toLocaleDateString():""}.</p>`;
+}
 const stars=n=>"★".repeat(n)+"☆".repeat(5-n);
 const fmtUnits=u=>(Number.isInteger(u)?u:u.toFixed(1))+(u===1?" unit":" units");
 
@@ -112,8 +146,9 @@ function card(p){
       <div class="dollars">${money(dollars)}</div>
     </div>
     <div class="body">
-      <div class="buy">Buy YES on ${esc(p.side)} <small>at ${price}¢</small></div>
-      <div class="game">${esc(p.sport)}: ${esc(p.game)} · ${esc(when)}</div>
+      <div class="buy">${esc(p.bet||p.side)}</div>
+      <div class="game"><span class="type">${esc(p.type)}</span> · ${esc(p.sport)}: ${esc(p.game)} · ${esc(when)}</div>
+      <div class="how-to">On Kalshi: buy <b>${esc(p.action)}</b> at <b>${price}¢</b></div>
       <div class="row"><span>Fair chance</span><div class="track"><div class="fill fair" style="width:${fair}%"></div></div><b>${fair}%</b></div>
       <div class="row"><span>Kalshi price</span><div class="track"><div class="fill price" style="width:${price}%"></div></div><b>${price}¢</b></div>
       <div class="facts">
@@ -129,7 +164,7 @@ function card(p){
   </article>`;
 }
 function tabs(){
-  const base=data.picks.filter(p=>p.stars>=st.min);
+  const base=data.picks.filter(p=>p.stars>=st.min&&(st.type==="All"||p.type===st.type));
   const el=document.getElementById("tabs");
   el.innerHTML=SPORTS.map(s=>{
     const n=s==="All"?base.length:base.filter(p=>p.sport===s).length;
@@ -138,7 +173,7 @@ function tabs(){
 }
 function render(){
   tabs();
-  let rows=data.picks.filter(p=>(st.sport==="All"||p.sport===st.sport)&&p.stars>=st.min);
+  let rows=data.picks.filter(p=>(st.sport==="All"||p.sport===st.sport)&&p.stars>=st.min&&(st.type==="All"||p.type===st.type));
   const by={conf:(a,b)=>b.stars-a.stars||b.score-a.score,edge:(a,b)=>b.edge-a.edge,time:(a,b)=>new Date(a.start)-new Date(b.start)};
   rows.sort(by[st.sort]);
   const out=document.getElementById("out"),sum=document.getElementById("summary");
@@ -155,13 +190,14 @@ function render(){
     out.innerHTML=html+"</div>";
   }else out.innerHTML='<div class="list">'+rows.map(card).join("")+"</div>";
 }
+document.getElementById("type").onchange=e=>{st.type=e.target.value;render()};
 document.getElementById("min").onchange=e=>{st.min=+e.target.value;render()};
 document.getElementById("sort").onchange=e=>{st.sort=e.target.value;render()};
 document.getElementById("unit").oninput=e=>{const v=parseFloat(e.target.value);if(v>0){st.unit=v;try{localStorage.setItem("unit",v)}catch(x){}render()}};
 fetch("picks.json?"+Date.now()).then(r=>r.json()).then(d=>{
-  data=d;data.picks=(d.picks||[]).map(p=>Object.assign({stars:3,units:1.5},p));
+  data=d;data.picks=(d.picks||[]).map(p=>Object.assign({stars:3,units:1.5,type:"Moneyline",action:"YES"},p));
   document.getElementById("updated").textContent=d.updated?"Last updated "+new Date(d.updated).toLocaleString():"No data yet. Run the Update picks workflow.";
-  render();
+  renderRecord(d.record);render();
 }).catch(()=>{document.getElementById("updated").textContent="Could not load picks.json."});
 </script>
 </body>
