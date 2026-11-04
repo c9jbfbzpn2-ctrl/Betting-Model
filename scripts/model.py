@@ -281,18 +281,22 @@ def process(st, cfg, g):
 ERRORS = []     # recent fetch problems, saved to debug.json so they can be read later
 
 
+UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+
+
 def get_json(url, params, tries=3):
     for i in range(tries):
         try:
-            r = requests.get(url, params=params, timeout=30, headers={"User-Agent": "picks-model/1.0"})
+            r = requests.get(url, params=params, timeout=30, headers={"User-Agent": UA, "Accept": "application/json"})
             if r.status_code == 200:
                 return r.json()
             note = f"HTTP {r.status_code}: {r.text[:120]!r}"
         except (requests.RequestException, ValueError) as e:
             note = f"{type(e).__name__}: {str(e)[:120]}"
-        if len(ERRORS) < 12:
+        if len(ERRORS) < 25:
             ERRORS.append({"url": url, "params": {k: str(v) for k, v in params.items()}, "error": note})
-        time.sleep(1.5 * (i + 1))
+        if i < tries - 1:
+            time.sleep(1.5 * (i + 1))
     return None
 
 
@@ -333,17 +337,54 @@ def parse_events(j):
     return out
 
 
+# ESPN has answered some date styles with HTTP 400, so several request styles are tried
+# and the first one that works is remembered for the rest of the run.
+VARIANTS = ["range+limit", "range", "day"]
+MODE = {"name": None}
+
+
+def _chunk(cfg, d, e, variant, tries):
+    if variant == "day":
+        spans = [(d + timedelta(days=i),) * 2 for i in range((e - d).days + 1)]
+    else:
+        spans = [(d, e)]
+    games = []
+    for a, b in spans:
+        dates = f"{a:%Y%m%d}" if a == b else f"{a:%Y%m%d}-{b:%Y%m%d}"
+        params = dict(cfg["params"], dates=dates)
+        if variant == "range+limit":
+            params["limit"] = 1000
+        j = get_json(ESPN.format(cfg["path"]), params, tries=tries)
+        if j is None:
+            return None
+        games += parse_events(j)
+        if variant == "day":
+            time.sleep(0.1)
+    return games
+
+
+def fetch_chunk(cfg, d, e):
+    if MODE["name"]:
+        return _chunk(cfg, d, e, MODE["name"], 3)
+    for v in VARIANTS:
+        g = _chunk(cfg, d, e, v, 1)
+        if g is not None:
+            MODE["name"] = v
+            print(f"  ESPN request style that works: {v}")
+            return g
+    return None
+
+
 def fetch_games(cfg, start, end):
     games, d = [], start
     while d <= end:
         e = min(d + timedelta(days=cfg["chunk"] - 1), end)
-        dates = f"{d:%Y%m%d}" if d == e else f"{d:%Y%m%d}-{e:%Y%m%d}"
-        j = get_json(ESPN.format(cfg["path"]), dict(cfg["params"], dates=dates, limit=1000))
-        if j is None:
+        g = fetch_chunk(cfg, d, e)
+        if g is None:
             return None
-        games += parse_events(j)
+        games += g
         d = e + timedelta(days=1)
-        time.sleep(0.25)
+        time.sleep(0.2)
     return games
 
 
