@@ -68,6 +68,29 @@ details p{margin:6px 0 0}
 .how p{margin:0 0 6px}
 .foot{margin-top:18px;color:var(--muted);font-size:.85rem;max-width:64ch}
 a{color:inherit}
+:root{--loss:#b3382c}
+@media (prefers-color-scheme:dark){:root{--loss:#ff8f80}}
+.views{display:flex;gap:6px;margin:14px 0 0}
+.views button{font:inherit;padding:8px 18px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer}
+.views button[aria-pressed=true]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.mybet{margin-top:10px;font-size:.93rem}
+.mybet button,.betrow button,.tools2 button,.tools2 label.file{font:inherit;font-size:.88rem;padding:4px 12px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;cursor:pointer}
+.mybet .takebtn{font-weight:600;border-color:var(--ink)}
+.mybet form{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:end}
+.mybet label{display:flex;flex-direction:column;font-size:.8rem;color:var(--muted)}
+.mybet input{font:inherit;width:96px;padding:4px 8px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:10px 14px}
+.tile .v{font-family:"Barlow Condensed",sans-serif;font-size:2rem;font-weight:700;line-height:1.1}
+.tile .l{font-size:.85rem;color:var(--muted)}
+.pos{color:var(--s4)}.neg{color:var(--loss)}
+.betrow{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:10px 14px;margin-bottom:8px}
+.betrow .t{font-family:"Barlow Condensed",sans-serif;font-size:1.35rem;font-weight:700;line-height:1.15}
+.betrow .m{color:var(--muted);font-size:.9rem}
+.betrow .acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;align-items:center}
+.badge2{font-weight:600}.badge2.won{color:var(--s4)}.badge2.lost{color:var(--loss)}
+.tools2{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:16px 0}
+.tools2 input[type=file]{display:none}
 code{font-size:.85em;word-break:break-all}
 @media (max-width:520px){.pick{grid-template-columns:84px 1fr}.buy{font-size:1.45rem}h1{font-size:2.4rem}}
 </style>
@@ -78,6 +101,8 @@ code{font-size:.85em;word-break:break-all}
     <h1>Kalshi Value Board</h1>
     <p class="sub" id="updated">Loading…</p>
   </header>
+  <nav class="views" aria-label="Pages"><button type="button" id="vPicks" aria-pressed="true">Picks</button><button type="button" id="vBets" aria-pressed="false">My bets <span id="betCount"></span></button></nav>
+  <div id="picksView">
   <section class="record" id="record" aria-label="Track record"></section>
   <div class="bar">
     <div class="tabs" id="tabs" role="group" aria-label="Filter by sport"></div>
@@ -95,6 +120,16 @@ code{font-size:.85em;word-break:break-all}
     <p><b>Stars (1 to 5)</b> show how solid the price gap looks: how big it is, how many sportsbooks agree, and how easy the contract is to buy at that price. Five stars is not a lock. It means the numbers line up best.</p>
     <p><b>Units</b> scale with stars: 1 star is half a unit, 2 stars one unit, 3 stars a unit and a half, 4 stars two units, 5 stars three units. The dollar amount uses your unit size above. Taking every pick on a busy day can add up, so the summary shows your total.</p>
     <p><b>Reading a card.</b> The bold line is the bet. “Buy YES” or “Buy NO” tells you which side of the Kalshi contract to purchase; either one pays $1 if the bet wins. Every pick has at least a 35% fair chance of hitting. The dark bar is the win chance the sportsbooks agree on once their margin is removed. The light bar is Kalshi’s price. “Worth up to” is the highest price that still leaves a small edge after estimated fees.</p>
+  </div>
+  </div>
+  <div id="betsView" hidden>
+    <div id="betsOut"></div>
+    <div class="tools2">
+      <button type="button" id="exportBets">Download backup</button>
+      <label class="file">Restore backup<input type="file" id="importBets" accept="application/json"></label>
+      <span class="m" style="color:var(--muted);font-size:.85rem">Bets are saved in this browser on this device only. Download a backup before clearing browser data or switching devices.</span>
+    </div>
+    <p class="foot" style="margin-top:0">Profit is estimated from the amount you spent and the price you paid, with Kalshi's fee estimated. Your Kalshi account is the source of truth. Bets are graded automatically only when the pick was one of the recommended ones and Kalshi has posted the final result. Otherwise mark them yourself.</p>
   </div>
   <p class="foot">This compares prices. It does not know who will win, and any contract can lose its whole price. Fees are estimates, so check the real cost on Kalshi before you buy. Sports contracts may not be available in every state. Only risk what you can afford to lose. If gambling stops being fun, call 1-800-GAMBLER.</p>
 </div>
@@ -128,6 +163,102 @@ function renderRecord(r){
     ${rows?`<table class="rec-tbl"><thead><tr><th>Stars</th><th>Hit</th><th>Hit rate</th><th>Expected</th></tr></thead><tbody>${rows}</tbody></table>`:""}
     <p class="rec-note">${o.n<30?"Small sample: with fewer than about 30 graded picks, luck swings these numbers a lot, so they say little about the model yet. ":""}Expected is the average chance the sportsbooks implied. If hit rate stays well below expected, the edge isn't real. Return assumes buying one contract at the shown price plus estimated fees${r.tracking_since?", tracked since "+new Date(r.tracking_since).toLocaleDateString():""}.</p>`;
 }
+/* ---------- my bets ---------- */
+let bets=[],hist={},memOnly=false;
+try{const b=JSON.parse(localStorage.getItem("bets_v1")||"[]");if(Array.isArray(b))bets=b}catch(e){}
+function saveBets(){try{localStorage.setItem("bets_v1",JSON.stringify(bets));memOnly=false}catch(e){memOnly=true}}
+const pid=p=>p.kalshi_ticker+":"+p.action;
+const sgn=n=>(n>=0?"+":"-")+"$"+Math.abs(n).toFixed(2);
+const betStatus=b=>b.result||hist[b.id]||null;
+function betProfit(b){
+  const r=betStatus(b);if(!r)return null;
+  if(r==="void")return 0;
+  if(r==="lost")return -b.stake;
+  const c=b.price/100,fee=0.07*c*(1-c),n=b.stake/(c+fee);
+  return n-b.stake;
+}
+function betBox(p){
+  const id=pid(p),b=bets.find(x=>x.id===id);
+  if(!b)return `<button type="button" class="takebtn" data-act="take">I took this</button>`;
+  const r=betStatus(b),pr=betProfit(b);
+  return `You bet <b>$${(+b.stake).toFixed(2)}</b> at ${b.price}¢ · ${r?`<span class="badge2 ${r}">${r==="won"?"Won "+sgn(pr):r==="lost"?"Lost "+sgn(pr):"Voided"}</span>`:"Open"} <button type="button" data-act="remove">Remove</button>`;
+}
+function betsSummary(list){
+  const done=list.filter(b=>["won","lost"].includes(betStatus(b)));
+  const w=done.filter(b=>betStatus(b)==="won").length;
+  const net=list.reduce((a,b)=>a+(betProfit(b)||0),0);
+  const staked=done.reduce((a,b)=>a+(+b.stake),0);
+  const open=list.filter(b=>!betStatus(b));
+  return {n:list.length,done:done.length,wins:w,losses:done.length-w,rate:done.length?w/done.length:null,net,roi:staked?net/staked:null,open:open.length,atRisk:open.reduce((a,b)=>a+(+b.stake),0)};
+}
+function renderBets(){
+  document.getElementById("betCount").textContent=bets.length?"("+bets.length+")":"";
+  const el=document.getElementById("betsOut");
+  if(!bets.length){el.innerHTML='<p class="empty">No bets yet. On the Picks page, tap “I took this” under a pick, enter what you spent, and it will show up here with your record and profit.</p>';return}
+  const s=betsSummary(bets);
+  const cls=n=>n>0?"pos":n<0?"neg":"";
+  let html=`<div class="tiles">
+    <div class="tile"><div class="v">${s.done?`${s.wins}-${s.losses}`:"–"}</div><div class="l">Record${s.rate!=null?" ("+Math.round(s.rate*100)+"% won)":""}</div></div>
+    <div class="tile"><div class="v ${cls(s.net)}">${sgn(s.net)}</div><div class="l">${s.net>=0?"Up":"Down"} overall</div></div>
+    <div class="tile"><div class="v ${s.roi==null?"":cls(s.roi)}">${s.roi==null?"–":(s.roi>=0?"+":"")+(s.roi*100).toFixed(1)+"%"}</div><div class="l">Return on money staked</div></div>
+    <div class="tile"><div class="v">${s.open}</div><div class="l">Open${s.open?" ($"+s.atRisk.toFixed(2)+" at risk)":""}</div></div></div>`;
+  const rows=[5,4,3,2,1,0].map(i=>{const l=bets.filter(b=>(+b.stars||0)===i);const q=betsSummary(l);return q.done?`<tr><td>${i===0?"Watch":stars(i)+" "+i}</td><td>${q.wins}-${q.losses}</td><td>${Math.round(q.rate*100)}%</td><td class="${cls(q.net)}">${sgn(q.net)}</td></tr>`:""}).join("");
+  if(rows)html+=`<table class="rec-tbl"><thead><tr><th>Confidence</th><th>Record</th><th>Won</th><th>Net</th></tr></thead><tbody>${rows}</tbody></table>`;
+  html+='<h2 class="day">Your bets</h2>'+bets.slice().sort((a,b)=>b.placed.localeCompare(a.placed)).map(b=>{
+    const r=betStatus(b),pr=betProfit(b),auto=!b.result&&hist[b.id];
+    return `<div class="betrow" data-bid="${esc(b.placed)}">
+      <div class="t">${esc(b.bet)}</div>
+      <div class="m">${esc(b.sport)}: ${esc(b.game)} · $${(+b.stake).toFixed(2)} at ${b.price}¢ ${b.action?"("+esc(b.action)+")":""}</div>
+      <div class="acts">${r?`<span class="badge2 ${r}">${r==="won"?"Won "+sgn(pr):r==="lost"?"Lost "+sgn(pr):"Voided"}</span>`:'<span class="m">Open</span>'}
+        ${auto?'<span class="m">graded from Kalshi</span>':`<button type="button" data-bact="won">Won</button><button type="button" data-bact="lost">Lost</button><button type="button" data-bact="void">Void</button>${b.result?'<button type="button" data-bact="open">Reopen</button>':""}`}
+        <button type="button" data-bact="remove">Remove</button></div></div>`}).join("");
+  el.innerHTML=html;
+}
+function showView(v){
+  document.getElementById("picksView").hidden=v!=="picks";
+  document.getElementById("betsView").hidden=v!=="bets";
+  document.getElementById("vPicks").setAttribute("aria-pressed",v==="picks");
+  document.getElementById("vBets").setAttribute("aria-pressed",v==="bets");
+  if(v==="bets")renderBets();
+}
+document.getElementById("vPicks").onclick=()=>showView("picks");
+document.getElementById("vBets").onclick=()=>showView("bets");
+document.getElementById("out").addEventListener("click",e=>{
+  const btn=e.target.closest("[data-act]");if(!btn)return;
+  const box=btn.closest(".mybet"),id=box.dataset.id,p=data.picks.find(x=>pid(x)===id);if(!p)return;
+  if(btn.dataset.act==="take"){
+    const def=Math.max(p.units*st.unit,1);
+    box.innerHTML=`<form data-form><label>Amount spent ($)<input name="stake" type="number" min="0.01" step="0.01" value="${(+def).toFixed(2)}" required></label><label>Price paid (¢)<input name="price" type="number" min="1" max="99" step="1" value="${p.price_cents}" required></label><button type="submit" class="takebtn">Save bet</button><button type="button" data-act="cancel">Cancel</button></form>`;
+  }else if(btn.dataset.act==="cancel"){box.innerHTML=betBox(p)}
+  else if(btn.dataset.act==="remove"){bets=bets.filter(x=>x.id!==id);saveBets();box.innerHTML=betBox(p);renderBets()}
+});
+document.getElementById("out").addEventListener("submit",e=>{
+  e.preventDefault();
+  const f=e.target,box=f.closest(".mybet"),id=box.dataset.id,p=data.picks.find(x=>pid(x)===id);if(!p)return;
+  const stake=parseFloat(f.stake.value),price=parseInt(f.price.value,10);
+  if(!(stake>0)||!(price>=1&&price<=99))return;
+  bets=bets.filter(x=>x.id!==id);
+  bets.push({id,placed:new Date().toISOString(),bet:p.bet||p.side,sport:p.sport,game:p.game,action:p.action,start:p.start,stars:p.stars,stake,price,result:null});
+  saveBets();box.innerHTML=betBox(p)+(memOnly?" (not saved: this browser blocks storage)":"");renderBets();
+});
+document.getElementById("betsOut").addEventListener("click",e=>{
+  const btn=e.target.closest("[data-bact]");if(!btn)return;
+  const key=btn.closest(".betrow").dataset.bid,i=bets.findIndex(b=>b.placed===key);if(i<0)return;
+  const a=btn.dataset.bact;
+  if(a==="remove")bets.splice(i,1);else bets[i].result=a==="open"?null:a;
+  saveBets();renderBets();render();
+});
+document.getElementById("exportBets").onclick=()=>{
+  const blob=new Blob([JSON.stringify(bets,null,1)],{type:"application/json"});
+  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="my-bets.json";a.click();
+};
+document.getElementById("importBets").onchange=e=>{
+  const f=e.target.files[0];if(!f)return;
+  f.text().then(x=>{const arr=JSON.parse(x);if(!Array.isArray(arr))return;
+    const have=new Set(bets.map(b=>b.placed));
+    arr.filter(b=>b&&b.placed&&b.id&&b.stake>0&&b.price>=1&&b.price<=99&&!have.has(b.placed)).forEach(b=>bets.push(b));
+    saveBets();renderBets();render()}).catch(()=>{});
+};
 const stars=n=>"★".repeat(n)+"☆".repeat(5-n);
 const fmtUnits=u=>(Number.isInteger(u)?u:u.toFixed(1))+(u===1?" unit":" units");
 
@@ -161,6 +292,7 @@ function card(p){
         ${p.stars===0?"":`<span>About ${contracts} contracts</span>`}
         <span>Worth up to ${p.max_price_cents}¢</span>
       </div>
+      <div class="mybet" data-id="${esc(pid(p))}">${betBox(p)}</div>
       <details><summary>Why this pick</summary>
         <p>${esc(note)}</p>
         ${p.model_prob!=null&&p.market_prob!=null?`<p>Sportsbooks put this near ${pct(p.market_prob)}. Our team ratings put it near ${pct(p.model_prob)}${(data.model&&data.model.weight>0)?" (blended in at "+Math.round(data.model.weight*100)+"%)":" (shown for information only, not used in the pick)"}.</p>`:""}
@@ -203,10 +335,11 @@ document.getElementById("type").onchange=e=>{st.type=e.target.value;render()};
 document.getElementById("min").onchange=e=>{st.min=+e.target.value;render()};
 document.getElementById("sort").onchange=e=>{st.sort=e.target.value;render()};
 document.getElementById("unit").oninput=e=>{const v=parseFloat(e.target.value);if(v>0){st.unit=v;try{localStorage.setItem("unit",v)}catch(x){}render()}};
+fetch("history.json?"+Date.now()).then(r=>r.ok?r.json():[]).then(h=>{(h||[]).forEach(x=>{if(x.result==="won"||x.result==="lost"||x.result==="void")hist[x.id]=x.result});renderBets();render()}).catch(()=>{});
 fetch("picks.json?"+Date.now()).then(r=>r.json()).then(d=>{
   data=d;data.picks=(d.picks||[]).map(p=>Object.assign({stars:3,units:1.5,type:"Moneyline",action:"YES"},p));
   document.getElementById("updated").textContent=d.updated?"Last updated "+new Date(d.updated).toLocaleString():"No data yet. Run the Update picks workflow.";
-  renderRecord(d.record);render();
+  renderRecord(d.record);render();renderBets();
 }).catch(()=>{document.getElementById("updated").textContent="Could not load picks.json."});
 </script>
 </body>
