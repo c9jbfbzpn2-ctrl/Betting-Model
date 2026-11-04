@@ -1,89 +1,175 @@
 {
-  "updated": "2026-11-04T21:14:08.960220+00:00",
-  "method": "Sportsbook consensus vs Kalshi YES ask, after estimated fees",
+  "updated": "2026-11-04T21:50:53.646322+00:00",
+  "method": "Sportsbook consensus vs Kalshi price, after estimated fees; 35% minimum chance",
+  "record": {
+    "overall": {
+      "n": 0,
+      "wins": 0
+    },
+    "high_confidence": {
+      "n": 0,
+      "wins": 0
+    },
+    "by_stars": {
+      "1": {
+        "n": 0,
+        "wins": 0
+      },
+      "2": {
+        "n": 0,
+        "wins": 0
+      },
+      "3": {
+        "n": 0,
+        "wins": 0
+      },
+      "4": {
+        "n": 0,
+        "wins": 0
+      },
+      "5": {
+        "n": 0,
+        "wins": 0
+      }
+    },
+    "by_type": {
+      "Moneyline": {
+        "n": 0,
+        "wins": 0
+      },
+      "Spread": {
+        "n": 0,
+        "wins": 0
+      },
+      "Total": {
+        "n": 0,
+        "wins": 0
+      }
+    },
+    "pending": 3,
+    "tracking_since": "2026-11-04T21:50:53.645945+00:00"
+  },
+  "model": {
+    "weight": 0.0,
+    "sports": {
+      "NFL": {
+        "games_checked": 0,
+        "gain_vs_baseline": 0.0,
+        "enabled": false,
+        "teams": 0
+      },
+      "College Football": {
+        "games_checked": 0,
+        "gain_vs_baseline": 0.0,
+        "enabled": false,
+        "teams": 0
+      },
+      "NBA": {
+        "games_checked": 0,
+        "gain_vs_baseline": 0.0,
+        "enabled": false,
+        "teams": 0
+      },
+      "College Basketball": {
+        "games_checked": 0,
+        "gain_vs_baseline": 0.0,
+        "enabled": false,
+        "teams": 0
+      },
+      "Premier League": {
+        "games_checked": 0,
+        "gain_vs_baseline": 0.0,
+        "enabled": false,
+        "teams": 0
+      }
+    }
+  },
   "picks": [
     {
       "sport": "College Football",
       "game": "Western Kentucky Hilltoppers at Middle Tennessee Blue Raiders",
       "start": "2026-11-07T20:30:00Z",
-      "side": "Western Kentucky Hilltoppers",
+      "type": "Moneyline",
+      "bet": "Western Kentucky Hilltoppers to win",
+      "side": "Western Kentucky Hilltoppers to win",
+      "action": "YES",
       "kalshi_ticker": "KXNCAAFGAME-26NOV07UKTENN-UK",
+      "event_ticker": "KXNCAAFGAME-26NOV07UKTENN",
       "series": "KXNCAAFGAME",
       "price_cents": 34,
-      "fair_prob": 0.5092,
-      "edge": 0.1535,
+      "fair_prob": 0.5068,
+      "market_prob": 0.5068,
+      "model_prob": null,
+      "edge": 0.1511,
       "fee_est": 0.0157,
       "max_price_cents": 47,
+      "stars": 4,
+      "units": 2.0,
       "confidence": "High",
-      "score": 83,
-      "books_used": 15,
-      "book_spread": 0.0204,
+      "score": 73,
+      "books_used": 6,
+      "book_spread": 0.0157,
       "bid_cents": 33,
       "volume": null,
-      "reason": "15 sportsbooks put Western Kentucky Hilltoppers's true win chance near 51%. Kalshi sells YES at 34 cents, which implies 34%.",
+      "reason": "6 sportsbooks put the true chance of this near 51%. Kalshi charges 34 cents for YES, which implies 34%.",
       "ai_note": null
     },
     {
-      "sport": "College Basketball",
-      "game": "Buffalo Bulls at Pittsburgh Panthers",
-      "start": "2026-11-06T00:00:00Z",
-      "side": "Buffalo Bulls",
-      "kalshi_ticker": "KXNCAAMBGAME-26NOV05BUFFPITT-BUFF",
-      "series": "KXNCAAMBGAME",
-      "price_cents": 5,
-      "fair_prob": 0.0816,
-      "edge": 0.0283,
-      "fee_est": 0.0033,
-      "max_price_cents": 6,
-      "confidence": "Low",
-      "score": 53,
-      "books_used": 6,
-      "book_spread": 0.0198,
-      "bid_cents": 4,
+      "sport": "NBA",
+      "game": "Atlanta Hawks at Washington Wizards",
+      "start": "2026-11-05T00:10:00Z",
+      "type": "Moneyline",
+      "bet": "Washington Wizards to win",
+      "side": "Washington Wizards to win",
+      "action": "YES",
+      "kalshi_ticker": "KXNBAGAME-26NOV06WASATL-WAS",
+      "event_ticker": "KXNBAGAME-26NOV06WASATL",
+      "series": "KXNBAGAME",
+      "price_cents": 33,
+      "fair_prob": 0.4237,
+      "market_prob": 0.4237,
+      "model_prob": null,
+      "edge": 0.0782,
+      "fee_est": 0.0155,
+      "max_price_cents": 39,
+      "stars": 3,
+      "units": 1.5,
+      "confidence": "Medium",
+      "score": 69,
+      "books_used": 9,
+      "book_spread": 0.0266,
+      "bid_cents": 31,
       "volume": null,
-      "reason": "6 sportsbooks put Buffalo Bulls's true win chance near 8%. Kalshi sells YES at 5 cents, which implies 5%.",
+      "reason": "9 sportsbooks put the true chance of this near 42%. Kalshi charges 33 cents for YES, which implies 33%.",
       "ai_note": null
     },
     {
-      "sport": "College Basketball",
-      "game": "Georgia St Panthers at Charlotte 49ers",
-      "start": "2026-11-06T00:00:00Z",
-      "side": "Georgia St Panthers",
-      "kalshi_ticker": "KXNCAAMBGAME-26NOV05GASTCHAR-GAST",
-      "series": "KXNCAAMBGAME",
-      "price_cents": 12,
-      "fair_prob": 0.1521,
-      "edge": 0.0247,
-      "fee_est": 0.0074,
-      "max_price_cents": 12,
-      "confidence": "Low",
-      "score": 51,
-      "books_used": 6,
-      "book_spread": 0.0186,
-      "bid_cents": 11,
-      "volume": null,
-      "reason": "6 sportsbooks put Georgia St Panthers's true win chance near 15%. Kalshi sells YES at 12 cents, which implies 12%.",
-      "ai_note": null
-    },
-    {
-      "sport": "College Basketball",
-      "game": "Wake Forest Demon Deacons at Vanderbilt Commodores",
-      "start": "2026-11-05T23:00:00Z",
-      "side": "Wake Forest Demon Deacons",
-      "kalshi_ticker": "KXNCAAMBGAME-26NOV05WAKEVAN-WAKE",
-      "series": "KXNCAAMBGAME",
-      "price_cents": 8,
-      "fair_prob": 0.127,
-      "edge": 0.0418,
-      "fee_est": 0.0052,
-      "max_price_cents": 10,
-      "confidence": "Low",
-      "score": 45,
+      "sport": "College Football",
+      "game": "Western Kentucky Hilltoppers at Middle Tennessee Blue Raiders",
+      "start": "2026-11-07T20:30:00Z",
+      "type": "Total",
+      "bet": "Over 53.5 total points",
+      "side": "Over 53.5 total points",
+      "action": "YES",
+      "kalshi_ticker": "KXNCAAFTOTAL-26NOV07UKTENN-54",
+      "event_ticker": "KXNCAAFTOTAL-26NOV07UKTENN",
+      "series": "KXNCAAFTOTAL",
+      "price_cents": 42,
+      "fair_prob": 0.4974,
+      "market_prob": null,
+      "model_prob": null,
+      "edge": 0.0603,
+      "fee_est": 0.0171,
+      "max_price_cents": 46,
+      "stars": 3,
+      "units": 1.5,
+      "confidence": "Medium",
+      "score": 66,
       "books_used": 7,
-      "book_spread": 0.2533,
-      "bid_cents": 6,
+      "book_spread": 0.0105,
+      "bid_cents": 41,
       "volume": null,
-      "reason": "7 sportsbooks put Wake Forest Demon Deacons's true win chance near 13%. Kalshi sells YES at 8 cents, which implies 8%.",
+      "reason": "7 sportsbooks put the true chance of this near 50%. Kalshi charges 42 cents for YES, which implies 42%.",
       "ai_note": null
     }
   ]
