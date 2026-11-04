@@ -141,6 +141,7 @@ code{font-size:.85em;word-break:break-all}
 <script>
 const SPORTS=["All","NFL","College Football","College Basketball","NBA","Premier League"];
 const st={sport:"All",min:0,sort:"value",unit:5,type:"All",vf:"all",shown:40};
+const TZ="America/New_York";
 const VO={Take:0,Lean:1,Pass:2,Check:3,Unrated:4};
 const CONF=["Unrated","Very low","Low","Medium","High","Very high"];
 const VTXT={Take:"Take",Lean:"Lean",Pass:"Pass",Check:"Check data",Unrated:"Unrated"};
@@ -271,14 +272,14 @@ const stars=n=>"★".repeat(n)+"☆".repeat(5-n);
 const fmtUnits=u=>(Number.isInteger(u)?u:u.toFixed(1))+(u===1?" unit":" units");
 
 function dayLabel(iso){
-  const d=new Date(iso),t=new Date(),k=x=>x.toDateString();
-  const tm=new Date(t);tm.setDate(t.getDate()+1);
+  const d=new Date(iso),t=new Date(),k=x=>x.toLocaleDateString("en-US",{timeZone:TZ});
+  const tm=new Date(t.getTime()+864e5);
   if(k(d)===k(t))return "Today";
   if(k(d)===k(tm))return "Tomorrow";
-  return d.toLocaleDateString([], {weekday:"long",month:"short",day:"numeric"});
+  return d.toLocaleDateString("en-US",{timeZone:TZ,weekday:"long",month:"short",day:"numeric"});
 }
 function card(p){
-  const when=new Date(p.start).toLocaleString([], {weekday:"short",hour:"numeric",minute:"2-digit"})+(p.start_exact===false?" (approx.)":"");
+  const when=new Date(p.start).toLocaleString("en-US",{timeZone:TZ,weekday:"short",hour:"numeric",minute:"2-digit"})+" ET"+(p.start_exact===false?" (approx.)":"");
   const price=p.price_cents,rated=p.fair_prob!=null,fair=rated?Math.round(p.fair_prob*100):null;
   const dollars=p.units*st.unit,contracts=Math.floor(dollars*100/price);
   const note=p.ai_note||p.reason;
@@ -353,7 +354,7 @@ document.getElementById("unit").oninput=e=>{const v=parseFloat(e.target.value);i
 fetch("history.json?"+Date.now()).then(r=>r.ok?r.json():[]).then(h=>{(h||[]).forEach(x=>{if(x.result==="won"||x.result==="lost"||x.result==="void")hist[x.id]=x.result});renderBets();render()}).catch(()=>{});
 fetch("picks.json?"+Date.now()).then(r=>r.json()).then(d=>{
   data=d;data.picks=(d.picks||[]).map(p=>Object.assign({stars:0,units:0,verdict:"Unrated",type:"Moneyline",action:"YES"},p));
-  document.getElementById("updated").textContent=d.updated?"Last updated "+new Date(d.updated).toLocaleString():"No data yet. Run the Update picks workflow.";
+  document.getElementById("updated").textContent=d.updated?"Last updated "+new Date(d.updated).toLocaleString("en-US",{timeZone:TZ,dateStyle:"medium",timeStyle:"short"})+" ET":"No data yet. Run the Update picks workflow.";
   renderRecord(d.record);render();renderBets();
 }).catch(()=>{document.getElementById("updated").textContent="Could not load picks.json."});
 </script>
