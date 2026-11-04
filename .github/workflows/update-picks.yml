@@ -3,7 +3,8 @@ name: Update picks
 on:
   schedule:
     - cron: "0 13 * * *"   # daily, 13:00 UTC
-  workflow_dispatch:         # lets you run it by hand
+    - cron: "0 22 * * *"   # and again in the evening
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -20,6 +21,7 @@ jobs:
       - run: python scripts/generate_picks.py
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Commit picks.json
         run: |
           git config user.name "picks-bot"
