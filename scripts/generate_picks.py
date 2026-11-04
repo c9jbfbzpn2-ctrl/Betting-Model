@@ -51,7 +51,7 @@ MAX_STALE = 0.20           # skip when the ask is far from the last traded price
 TAKE_EDGE, LEAN_EDGE, CHECK_EDGE = 0.05, 0.02, 0.15
 UNITS = {1: 0.5, 2: 1.0, 3: 1.5, 4: 2.0, 5: 3.0}
 PER_TYPE = 2               # spreads/totals: keep the best this many per game
-MAX_PICKS = 700
+MAX_PICKS = 1500
 SKIPPED = {"games_no_teams": 0, "stale_or_wide": 0, "started": 0}
 
 
@@ -532,7 +532,8 @@ def main():
         except Exception as e:
             print(f"Ratings update failed ({e}); continuing without it")
             debug["ratings_error"] = str(e)
-        debug["espn_errors"] = M.ERRORS[:12]
+        debug["espn_errors"] = M.ERRORS[:25]
+        debug["espn_style"] = M.MODE["name"]
 
     all_bets = []
     counts = {}
