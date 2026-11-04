@@ -2,7 +2,7 @@ name: Update picks
 
 on:
   schedule:
-    - cron: "0 15 * * *"   # once a day, 15:00 UTC (keeps you inside the free odds credits)
+    - cron: "17 */3 * * *"   # every 3 hours; Kalshi and ESPN are free, so no credits are used
   workflow_dispatch:
 
 permissions:
@@ -19,11 +19,10 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python scripts/generate_picks.py
         env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Commit picks and history
         run: |
           git config user.name "picks-bot"
           git config user.email "picks-bot@users.noreply.github.com"
-          git add picks.json history.json model_state.json
-          git diff --staged --quiet || (git commit -m "Update picks" && git push)
+          git add picks.json history.json model_state.json debug.json
+          git diff --staged --quiet || (git commit -m "Update picks" && git pull --rebase -q && git push)
