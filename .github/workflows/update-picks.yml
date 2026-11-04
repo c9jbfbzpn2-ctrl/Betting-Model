@@ -2,8 +2,7 @@ name: Update picks
 
 on:
   schedule:
-    - cron: "0 13 * * *"   # daily, 13:00 UTC
-    - cron: "0 22 * * *"   # and again in the evening
+    - cron: "0 15 * * *"   # once a day, 15:00 UTC (keeps you inside the free odds credits)
   workflow_dispatch:
 
 permissions:
@@ -22,9 +21,9 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      - name: Commit picks.json
+      - name: Commit picks and history
         run: |
           git config user.name "picks-bot"
           git config user.email "picks-bot@users.noreply.github.com"
-          git add picks.json
+          git add picks.json history.json
           git diff --staged --quiet || (git commit -m "Update picks" && git push)
