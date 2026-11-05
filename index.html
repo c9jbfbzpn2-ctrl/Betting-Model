@@ -25,6 +25,7 @@ h1{font-family:"Barlow Condensed",sans-serif;font-size:3rem;margin:0;line-height
 .tools label{display:flex;align-items:center;gap:6px}
 .tools select,.tools input{font:inherit;padding:4px 8px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:6px}
 .tools input{width:64px}
+.tools input[type=search]{width:170px}
 :focus-visible{outline:3px solid var(--s3);outline-offset:2px}
 .summary{margin:14px 0;padding:10px 14px;background:var(--card);border:1px solid var(--line);border-radius:6px;font-size:.95rem}
 .summary b{font-weight:600}
@@ -110,6 +111,8 @@ code{font-size:.85em;word-break:break-all}
   <div class="bar">
     <div class="tabs" id="tabs" role="group" aria-label="Filter by sport"></div>
     <div class="tools">
+      <label>Search <input id="q" type="search" placeholder="team, sport, bet…" autocomplete="off" style="width:170px"></label>
+      <label>Day <select id="day"><option value="all">Any day</option></select></label>
       <label>Verdict <select id="vf"><option value="all">Everything</option><option value="bet">Take and Lean</option><option value="take">Take only</option></select></label>
       <label>Confidence <select id="min"><option value="0">Any (very low to very high)</option><option value="2">Low and up</option><option value="3">Medium and up</option><option value="4">High and up</option></select></label>
       <label>Bet type <select id="type"><option value="All">All types</option><option>Moneyline</option><option>Spread</option><option>Total</option></select></label>
@@ -140,7 +143,7 @@ code{font-size:.85em;word-break:break-all}
 </div>
 <script>
 const SPORTS=["All","NFL","College Football","College Basketball","NBA","Premier League"];
-const st={sport:"All",min:0,sort:"value",unit:5,type:"All",vf:"all",shown:40};
+const st={sport:"All",min:0,sort:"value",unit:5,type:"All",vf:"all",shown:40,q:"",day:"all"};
 const TZ="America/New_York";
 const VO={Take:0,Lean:1,Pass:2,Check:3,Unrated:4};
 const CONF=["Unrated","Very low","Low","Medium","High","Very high"];
@@ -271,15 +274,22 @@ document.getElementById("importBets").onchange=e=>{
 const stars=n=>"★".repeat(n)+"☆".repeat(5-n);
 const fmtUnits=u=>(Number.isInteger(u)?u:u.toFixed(1))+(u===1?" unit":" units");
 
-function dayLabel(iso){
-  const d=new Date(iso),t=new Date(),k=x=>x.toLocaleDateString("en-US",{timeZone:TZ});
-  const tm=new Date(t.getTime()+864e5);
-  if(k(d)===k(t))return "Today";
-  if(k(d)===k(tm))return "Tomorrow";
-  return d.toLocaleDateString("en-US",{timeZone:TZ,weekday:"long",month:"short",day:"numeric"});
+const etDay=d=>d.toLocaleDateString("en-CA",{timeZone:TZ});
+function dayLabel(day){
+  if(!day)return "Date unknown";
+  const t=new Date();
+  if(day===etDay(t))return "Today";
+  if(day===etDay(new Date(t.getTime()+864e5)))return "Tomorrow";
+  return new Date(day+"T12:00:00Z").toLocaleDateString("en-US",{timeZone:"UTC",weekday:"long",month:"short",day:"numeric"});
+}
+function fillDays(){
+  const days=[...new Set(data.picks.map(p=>p.day).filter(Boolean))].sort();
+  const el=document.getElementById("day");
+  el.innerHTML='<option value="all">Any day</option>'+days.map(d=>`<option value="${d}">${esc(dayLabel(d))} (${d.slice(5)})</option>`).join("");
+  el.value=days.includes(st.day)?st.day:"all";
 }
 function card(p){
-  const when=new Date(p.start).toLocaleString("en-US",{timeZone:TZ,weekday:"short",hour:"numeric",minute:"2-digit"})+" ET"+(p.start_exact===false?" (approx.)":"");
+  const when=p.start_exact===false?dayLabel(p.day)+" (time not listed)":new Date(p.start).toLocaleString("en-US",{timeZone:TZ,weekday:"short",hour:"numeric",minute:"2-digit"})+" ET";
   const price=p.price_cents,rated=p.fair_prob!=null,fair=rated?Math.round(p.fair_prob*100):null;
   const dollars=p.units*st.unit,contracts=Math.floor(dollars*100/price);
   const note=p.ai_note||p.reason;
@@ -310,7 +320,9 @@ function card(p){
     </div>
   </article>`;
 }
-const keep=p=>(st.sport==="All"||p.sport===st.sport)&&p.stars>=st.min&&(st.type==="All"||p.type===st.type)&&(st.vf==="all"||(st.vf==="bet"&&(p.verdict==="Take"||p.verdict==="Lean"))||(st.vf==="take"&&p.verdict==="Take"));
+const hay=p=>(p._h||(p._h=[p.game,p.bet,p.sport,p.type,p.action,p.verdict,p.kalshi_ticker].join(" ").toLowerCase()));
+const qOk=p=>{const w=st.q.toLowerCase().split(/\s+/).filter(Boolean);return w.every(x=>hay(p).includes(x))};
+const keep=p=>qOk(p)&&(st.day==="all"||p.day===st.day)&&(st.sport==="All"||p.sport===st.sport)&&p.stars>=st.min&&(st.type==="All"||p.type===st.type)&&(st.vf==="all"||(st.vf==="bet"&&(p.verdict==="Take"||p.verdict==="Lean"))||(st.vf==="take"&&p.verdict==="Take"));
 function tabs(){
   const sp=st.sport;st.sport="All";
   const base=data.picks.filter(keep);st.sport=sp;
@@ -324,7 +336,7 @@ function render(){
   tabs();
   const rows=data.picks.filter(keep);
   const ed=p=>p.edge==null?-9:p.edge;
-  const by={value:(a,b)=>VO[a.verdict]-VO[b.verdict]||ed(b)-ed(a),conf:(a,b)=>b.stars-a.stars||ed(b)-ed(a),time:(a,b)=>new Date(a.start)-new Date(b.start)};
+  const by={value:(a,b)=>VO[a.verdict]-VO[b.verdict]||ed(b)-ed(a),conf:(a,b)=>b.stars-a.stars||ed(b)-ed(a),time:(a,b)=>(a.day||"").localeCompare(b.day||"")||new Date(a.start)-new Date(b.start)};
   rows.sort(by[st.sort]);
   const out=document.getElementById("out"),sum=document.getElementById("summary");
   if(!rows.length){
@@ -339,13 +351,15 @@ function render(){
   let html;
   if(st.sort==="time"){
     let last="";html="";
-    shown.forEach(p=>{const d=dayLabel(p.start);if(d!==last){html+=(last?"</div>":"")+`<h2 class="day">${esc(d)}</h2><div class="list">`;last=d}html+=card(p)});
+    shown.forEach(p=>{const d=dayLabel(p.day);if(d!==last){html+=(last?"</div>":"")+`<h2 class="day">${esc(d)}</h2><div class="list">`;last=d}html+=card(p)});
     html+="</div>";
   }else html='<div class="list">'+shown.map(card).join("")+"</div>";
   if(rows.length>shown.length)html+=`<button type="button" class="more" id="more">Show more (${rows.length-shown.length} left)</button>`;
   out.innerHTML=html;
   const m=document.getElementById("more");if(m)m.onclick=()=>{st.shown+=40;render()};
 }
+document.getElementById("q").oninput=e=>{st.q=e.target.value.trim();st.shown=40;render()};
+document.getElementById("day").onchange=e=>{st.day=e.target.value;st.shown=40;render()};
 document.getElementById("type").onchange=e=>{st.type=e.target.value;st.shown=40;render()};
 document.getElementById("vf").onchange=e=>{st.vf=e.target.value;st.shown=40;render()};
 document.getElementById("min").onchange=e=>{st.min=+e.target.value;st.shown=40;render()};
@@ -355,7 +369,7 @@ fetch("history.json?"+Date.now()).then(r=>r.ok?r.json():[]).then(h=>{(h||[]).for
 fetch("picks.json?"+Date.now()).then(r=>r.json()).then(d=>{
   data=d;data.picks=(d.picks||[]).map(p=>Object.assign({stars:0,units:0,verdict:"Unrated",type:"Moneyline",action:"YES"},p));
   document.getElementById("updated").textContent=d.updated?"Last updated "+new Date(d.updated).toLocaleString("en-US",{timeZone:TZ,dateStyle:"medium",timeStyle:"short"})+" ET":"No data yet. Run the Update picks workflow.";
-  renderRecord(d.record);render();renderBets();
+  renderRecord(d.record);fillDays();render();renderBets();
 }).catch(()=>{document.getElementById("updated").textContent="Could not load picks.json."});
 </script>
 </body>
