@@ -388,6 +388,27 @@ def fetch_games(cfg, start, end):
     return games
 
 
+def schedule(sport, today=None, days=8):
+    """Upcoming kickoff times from ESPN: {(home displayName, away displayName): ISO time}."""
+    cfg = CFG[sport]
+    today = today or datetime.now(timezone.utc).date()
+    out = {}
+    for i in range(days):
+        d = today + timedelta(days=i)
+        j = get_json(ESPN.format(cfg["path"]), dict(cfg["params"], dates=f"{d:%Y%m%d}"), tries=2)
+        for ev in (j or {}).get("events", []):
+            try:
+                comp = (ev.get("competitions") or [{}])[0]
+                cs = comp.get("competitors") or []
+                h = next(c for c in cs if c.get("homeAway") == "home")
+                a = next(c for c in cs if c.get("homeAway") == "away")
+                out[(h["team"]["displayName"], a["team"]["displayName"])] = str(ev["date"])
+            except (StopIteration, KeyError, TypeError):
+                continue
+        time.sleep(0.15)
+    return out
+
+
 def update(state, today=None, fetch=fetch_games):
     today = today or datetime.now(timezone.utc).date()
     for name, cfg in CFG.items():
