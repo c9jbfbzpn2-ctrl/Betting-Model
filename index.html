@@ -105,7 +105,7 @@ code{font-size:.85em;word-break:break-all}
     <h1>Kalshi Board</h1>
     <p class="sub" id="updated">Loading…</p>
   </header>
-  <nav class="views" aria-label="Pages"><button type="button" id="vPicks" aria-pressed="true">Picks</button><button type="button" id="vBets" aria-pressed="false">My bets <span id="betCount"></span></button></nav>
+  <nav class="views" aria-label="Pages"><button type="button" id="vPicks" aria-pressed="true">Picks</button><button type="button" id="vLive" aria-pressed="false">Live <span id="liveCount"></span></button><button type="button" id="vBets" aria-pressed="false">My bets <span id="betCount"></span></button></nav>
   <div id="picksView">
   <section class="record" id="record" aria-label="Track record"></section>
   <div class="bar">
@@ -130,6 +130,7 @@ code{font-size:.85em;word-break:break-all}
     <p><b>Be careful.</b> The ratings have not been shown to beat Kalshi's prices. Kalshi's market already knows about injuries, weather and news that the ratings do not. Use small stakes until the track record above has plenty of graded bets, and treat a lot of Take bets on one slate as a sign to be skeptical, not excited.</p>
   </div>
   </div>
+  <div id="liveView" hidden><div id="liveOut"></div></div>
   <div id="betsView" hidden>
     <div id="betsOut"></div>
     <div class="tools2">
@@ -189,6 +190,79 @@ function betProfit(b){
   const c=b.price/100,fee=0.07*c*(1-c),n=b.stake/(c+fee);
   return n-b.stake;
 }
+const SPORT_PATH={"NFL":["football/nfl",""],"College Football":["football/college-football","&groups=80&limit=300"],"College Basketball":["basketball/mens-college-basketball","&groups=50&limit=300"],"NBA":["basketball/nba",""],"Premier League":["soccer/eng.1",""]};
+const GAME_HRS={"NFL":4,"College Football":4.3,"College Basketball":2.8,"NBA":3.1,"Premier League":3.3};
+let liveScore={},histAll=[];
+const recs=()=>histAll.filter(h=>h.verdict==="Take"||h.verdict==="Lean");
+function liveRecs(){
+  const now=Date.now();
+  return recs().map(h=>{
+    const ph=phase(h,true);
+    const done=h.result==="won"||h.result==="lost";
+    const recent=now-new Date(h.start).getTime()<30*36e5&&now>new Date(h.start).getTime();
+    if(done&&recent)return [h,{k:"done",text:h.result==="won"?"Won":"Lost"}];
+    if(done||h.result==="void")return null;
+    return ph&&["live","today","await"].includes(ph.k)?[h,ph]:null;
+  }).filter(Boolean);
+}
+function renderLive(){
+  const rows=liveRecs(),el=document.getElementById("liveOut");
+  const order={live:0,today:1,await:2,done:3};
+  rows.sort((x,y)=>order[x[1].k]-order[y[1].k]||new Date(x[0].start)-new Date(y[0].start));
+  const n=rows.filter(x=>x[1].k==="live").length;
+  document.getElementById("liveCount").textContent=n?"("+n+")":"";
+  if(!rows.length){el.innerHTML='<p class="empty">None of the recommended (Take or Lean) bets are playing right now. Games show up here once they start, with the score, and show Won or Lost after Kalshi posts the result. Recommended bets are logged when the site updates, every few hours.</p>';return}
+  el.innerHTML='<p class="m" style="color:var(--muted);font-size:.9rem;margin:14px 0 8px">Take and Lean bets the site recommended, for games that are live, finishing or just done. Scores load from ESPN every minute and may not appear for every game. Won and Lost come from Kalshi and can lag by a few hours.</p>'+rows.map(([h,ph])=>{
+    const sc=liveScore[h.id],mine=bets.some(b=>b.id===h.id);
+    return `<div class="betrow"><div class="t">${ph.k==="live"?'<span class="badge2 won">● LIVE</span> ':ph.k==="done"?`<span class="badge2 ${h.result}">${ph.text.toUpperCase()}</span> `:""}${esc(h.bet)} <span class="vd ${h.verdict}">${h.verdict}</span></div>
+      <div class="m">${esc(h.sport)}: ${esc(h.game)} · ${stars(h.stars||0)} · buy ${esc(h.action)} at ${h.price_cents}¢${mine?" · <b>you took this</b>":""}</div>
+      <div class="m"><b>${esc(sc||(ph.k==="done"?"Final":ph.text))}</b>${sc&&ph.k!=="live"&&ph.k!=="done"?" · "+esc(ph.text):""}</div></div>`}).join("");
+}
+function phase(b,any){
+  if(!any&&betStatus(b))return null;
+  const now=Date.now(),t=new Date(b.start).getTime(),exact=b.start_exact===true&&!isNaN(t),today=etDay(new Date());
+  if(exact){
+    const end=t+(GAME_HRS[b.sport]||3.5)*36e5;
+    if(now<t){const m=Math.round((t-now)/6e4);return {k:"soon",text:m<90?"Starts in "+m+" min":"Starts "+new Date(b.start).toLocaleString("en-US",{timeZone:TZ,weekday:"short",hour:"numeric",minute:"2-digit"})+" ET"}}
+    if(now<end)return {k:"live",text:"Live now"};
+    return {k:"await",text:"Game should be over. Waiting for Kalshi to post the result."};
+  }
+  const day=b.day||etDay(new Date(b.start));
+  if(day===today)return {k:"today",text:"Plays today (start time not listed)"};
+  if(day<today)return {k:"await",text:"Game day has passed. Waiting for Kalshi to post the result."};
+  return {k:"soon",text:"Plays "+dayLabel(day)};
+}
+function liveCard(b){
+  const ph=phase(b),sc=liveScore[b.id];
+  return `<div class="betrow"><div class="t">${ph.k==="live"?'<span class="badge2 won">● LIVE</span> ':""}${esc(b.bet)}</div>
+    <div class="m">${esc(b.sport)}: ${esc(b.game)} · $${(+b.stake).toFixed(2)} at ${b.price}¢ (${esc(b.action||"")})</div>
+    <div class="m"><b>${esc(sc||ph.text)}</b>${sc&&ph.k!=="live"?" · "+esc(ph.text):""}</div></div>`;
+}
+async function pollLive(){
+  const open=[...bets.filter(b=>{const p=phase(b);return p&&(p.k==="live"||p.k==="today")&&SPORT_PATH[b.sport]}),...liveRecs().filter(x=>x[1].k==="live"||x[1].k==="today"||x[1].k==="done").map(x=>x[0]).filter(h=>SPORT_PATH[h.sport])];
+  const cache={};
+  for(const b of open){
+    const [path,extra]=SPORT_PATH[b.sport];
+    const d=(b.day||etDay(new Date(b.start))).replace(/-/g,"");
+    const url=`https://site.api.espn.com/apis/site/v2/sports/${path}/scoreboard?dates=${d}${extra}`;
+    try{
+      cache[url]=cache[url]||await fetch(url).then(r=>r.ok?r.json():null);
+      const j=cache[url];if(!j)continue;
+      const [away,home]=b.game.split(" at ").map(x=>(x||"").toLowerCase());
+      const names=t=>[t.location,t.shortDisplayName,t.displayName,t.name].filter(Boolean).map(x=>x.toLowerCase());
+      for(const ev of j.events||[]){
+        const cs=(ev.competitions||[{}])[0].competitors||[];
+        const h=cs.find(c=>c.homeAway==="home"),a=cs.find(c=>c.homeAway==="away");
+        if(!h||!a||!names(h.team).includes(home)||!names(a.team).includes(away))continue;
+        const ty=(ev.status||{}).type||{};
+        liveScore[b.id]=`${a.team.abbreviation||a.team.displayName} ${a.score} - ${h.team.abbreviation||h.team.displayName} ${h.score} · ${ty.shortDetail||ty.description||""}`;
+      }
+    }catch(e){}
+  }
+  if(!document.getElementById("betsView").hidden)renderBets();
+  if(!document.getElementById("liveView").hidden)renderLive();
+}
+setInterval(()=>{if(!document.getElementById("betsView").hidden||!document.getElementById("liveView").hidden)pollLive()},60000);
 function betBox(p){
   const id=pid(p),b=bets.find(x=>x.id===id);
   if(!b)return `<button type="button" class="takebtn" data-act="take">I took this</button>`;
@@ -216,6 +290,10 @@ function renderBets(){
     <div class="tile"><div class="v">${s.open}</div><div class="l">Open${s.open?" ($"+s.atRisk.toFixed(2)+" at risk)":""}</div></div></div>`;
   const rows=[5,4,3,2,1,0].map(i=>{const l=bets.filter(b=>(+b.stars||0)===i);const q=betsSummary(l);return q.done?`<tr><td>${i===0?"Watch":stars(i)+" "+i}</td><td>${q.wins}-${q.losses}</td><td>${Math.round(q.rate*100)}%</td><td class="${cls(q.net)}">${sgn(q.net)}</td></tr>`:""}).join("");
   if(rows)html+=`<table class="rec-tbl"><thead><tr><th>Confidence</th><th>Record</th><th>Won</th><th>Net</th></tr></thead><tbody>${rows}</tbody></table>`;
+  const act=bets.map(b=>[b,phase(b)]).filter(x=>x[1]&&["live","today","soon","await"].includes(x[1].k));
+  const order={live:0,today:1,await:2,soon:3};
+  act.sort((x,y)=>order[x[1].k]-order[y[1].k]||new Date(x[0].start)-new Date(y[0].start));
+  if(act.length)html+='<h2 class="day">Live and upcoming</h2><p class="m" style="color:var(--muted);font-size:.85rem;margin:0 0 8px">Live scores load from ESPN every minute while this page is open. They are a convenience and may not appear for every game.</p>'+act.map(x=>liveCard(x[0])).join("");
   html+='<h2 class="day">Your bets</h2>'+bets.slice().sort((a,b)=>b.placed.localeCompare(a.placed)).map(b=>{
     const r=betStatus(b),pr=betProfit(b),auto=!b.result&&hist[b.id];
     return `<div class="betrow" data-bid="${esc(b.placed)}">
@@ -227,12 +305,17 @@ function renderBets(){
   el.innerHTML=html;
 }
 function showView(v){
+  if((v==="bets"&&bets.length)||v==="live")pollLive();
   document.getElementById("picksView").hidden=v!=="picks";
   document.getElementById("betsView").hidden=v!=="bets";
+  document.getElementById("liveView").hidden=v!=="live";
   document.getElementById("vPicks").setAttribute("aria-pressed",v==="picks");
   document.getElementById("vBets").setAttribute("aria-pressed",v==="bets");
+  document.getElementById("vLive").setAttribute("aria-pressed",v==="live");
   if(v==="bets")renderBets();
+  if(v==="live")renderLive();
 }
+document.getElementById("vLive").onclick=()=>showView("live");
 document.getElementById("vPicks").onclick=()=>showView("picks");
 document.getElementById("vBets").onclick=()=>showView("bets");
 document.getElementById("out").addEventListener("click",e=>{
@@ -250,7 +333,7 @@ document.getElementById("out").addEventListener("submit",e=>{
   const stake=parseFloat(f.stake.value),price=parseInt(f.price.value,10);
   if(!(stake>0)||!(price>=1&&price<=99))return;
   bets=bets.filter(x=>x.id!==id);
-  bets.push({id,placed:new Date().toISOString(),bet:p.bet||p.side,sport:p.sport,game:p.game,action:p.action,start:p.start,stars:p.stars,stake,price,result:null});
+  bets.push({id,placed:new Date().toISOString(),bet:p.bet||p.side,sport:p.sport,game:p.game,action:p.action,start:p.start,stars:p.stars,stake,price,result:null,start_exact:p.start_exact!==false,day:p.day});
   saveBets();box.innerHTML=betBox(p)+(memOnly?" (not saved: this browser blocks storage)":"");renderBets();
 });
 document.getElementById("betsOut").addEventListener("click",e=>{
@@ -304,6 +387,7 @@ function card(p){
       <div class="buy">${esc(p.bet||p.side)}</div>
       <div class="game"><span class="type">${esc(p.type)}</span> · ${esc(p.sport)}: ${esc(p.game)} · ${esc(when)}</div>
       <div class="how-to">On Kalshi: buy <b>${esc(p.action)}</b> at <b>${price}¢</b></div>
+      ${p.market?`<div class="how-to" style="color:var(--muted)">Kalshi lists this as “${esc(p.market)}”. ${p.action==="NO"?"Buying <b>NO</b> means you win if that does <b>not</b> happen, which is the same as":"Buying <b>YES</b> means"}: ${esc(p.bet)}.</div>`:""}
       ${rated?`<div class="row"><span>Win chance</span><div class="track"><div class="fill fair" style="width:${fair}%"></div></div><b>${fair}%</b></div>`:""}
       <div class="row"><span>Kalshi price</span><div class="track"><div class="fill price" style="width:${price}%"></div></div><b>${price}¢</b></div>
       <div class="facts">
@@ -365,7 +449,7 @@ document.getElementById("vf").onchange=e=>{st.vf=e.target.value;st.shown=40;rend
 document.getElementById("min").onchange=e=>{st.min=+e.target.value;st.shown=40;render()};
 document.getElementById("sort").onchange=e=>{st.sort=e.target.value;st.shown=40;render()};
 document.getElementById("unit").oninput=e=>{const v=parseFloat(e.target.value);if(v>0){st.unit=v;try{localStorage.setItem("unit",v)}catch(x){}render()}};
-fetch("history.json?"+Date.now()).then(r=>r.ok?r.json():[]).then(h=>{(h||[]).forEach(x=>{if(x.result==="won"||x.result==="lost"||x.result==="void")hist[x.id]=x.result});renderBets();render()}).catch(()=>{});
+fetch("history.json?"+Date.now()).then(r=>r.ok?r.json():[]).then(h=>{histAll=Array.isArray(h)?h:[];renderLive();(h||[]).forEach(x=>{if(x.result==="won"||x.result==="lost"||x.result==="void")hist[x.id]=x.result});renderBets();render()}).catch(()=>{});
 fetch("picks.json?"+Date.now()).then(r=>r.json()).then(d=>{
   data=d;data.picks=(d.picks||[]).map(p=>Object.assign({stars:0,units:0,verdict:"Unrated",type:"Moneyline",action:"YES"},p));
   document.getElementById("updated").textContent=d.updated?"Last updated "+new Date(d.updated).toLocaleString("en-US",{timeZone:TZ,dateStyle:"medium",timeStyle:"short"})+" ET":"No data yet. Run the Update picks workflow.";
