@@ -9338,5 +9338,25 @@
   "verdict": "Lean",
   "kalshi_ticker": "KXNCAAMBGAME-26NOV05BINGSPC-SPC",
   "event_ticker": "KXNCAAMBGAME-26NOV05BINGSPC"
+ },
+ {
+  "id": "KXNCAAFSPREAD-26NOV07ARKAUB-ARK10:YES",
+  "first_seen": "2026-11-05T01:37:13.426435+00:00",
+  "result": null,
+  "schema": 3,
+  "sport": "College Football",
+  "type": "Spread",
+  "bet": "Arkansas -9.5",
+  "action": "YES",
+  "game": "Arkansas at Auburn",
+  "start": "2026-11-07T17:45:00+00:00",
+  "price_cents": 7,
+  "fair_prob": 0.1305,
+  "market_prob": 0.055,
+  "fee_est": 0.0046,
+  "stars": 1,
+  "verdict": "Take",
+  "kalshi_ticker": "KXNCAAFSPREAD-26NOV07ARKAUB-ARK10",
+  "event_ticker": "KXNCAAFSPREAD-26NOV07ARKAUB"
  }
 ]
