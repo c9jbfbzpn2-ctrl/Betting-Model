@@ -24,6 +24,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 
 import requests
+from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 try:
@@ -33,6 +34,8 @@ except Exception as e:                       # the board must still work without
     print(f"Ratings model unavailable ({e})")
 
 MODEL = None
+SCHED = {}                 # sport -> {(home, away): kickoff ISO time} from ESPN
+ET = ZoneInfo("America/New_York")
 KALSHI = "https://api.elections.kalshi.com/trade-api/v2"
 
 # label: (moneyline series, spread series, total series, scoring word)
@@ -152,7 +155,7 @@ def parse_code(code):
 
 def game_start(ev, markets, day):
     for src in [ev] + markets:
-        for k in ("strike_date", "occurrence_datetime", "expected_expiration_time"):
+        for k in ("strike_date", "occurrence_datetime"):
             v = src.get(k)
             if v:
                 try:
@@ -278,12 +281,24 @@ def build_game(sport, series, word, ml_ev, sp_ev, tot_ev):
     hk = MODEL.team(sport, home["name"], home["abbr"]) if MODEL else None
     ak = MODEL.team(sport, away["name"], away["abbr"]) if MODEL else None
     pred = MODEL.predict(sport, hk, ak) if (MODEL and hk and ak) else None
+    ko = SCHED.get(sport, {}).get((hk, ak)) or SCHED.get(sport, {}).get((ak, hk))
+    if ko:
+        try:
+            start = datetime.fromisoformat(ko.replace("Z", "+00:00")).astimezone(timezone.utc)
+            exact = True
+            if start < now:
+                SKIPPED["started"] += 1
+                return []
+        except ValueError:
+            pass
     note = (f"Ratings: {home['name']} {pred['rating_home']}, {away['name']} {pred['rating_away']} (an average team is about 1500)."
             if pred else "")
     if pred and not certain:
         note += " Home and away were inferred from Kalshi's listing."
     base = {"sport": sport, "game": f"{away['name']} at {home['name']}", "start": start.isoformat(),
-            "start_exact": exact, "rated": bool(pred)}
+            "start_exact": exact,
+            "day": (start.astimezone(ET).date().isoformat() if exact else (day.date().isoformat() if day else start.astimezone(ET).date().isoformat())),
+            "rated": bool(pred)}
     tp = pred["total"] if pred else None
     out = []
 
@@ -549,6 +564,13 @@ def main():
             data[kind] = {code_of(e): e for e in evs}
             debug["kalshi"][series] = {"open_events": len(evs), "sample": slim(evs[0]) if evs else None}
             print(f"  {series}: {len(evs)} open events")
+        if MODEL:
+            try:
+                SCHED[sport] = M.schedule(sport)
+                print(f"  kickoff times found: {len(SCHED[sport])}")
+            except Exception as e:
+                print(f"  kickoff times unavailable ({e})")
+        debug.setdefault("kickoff_times", {})[sport] = len(SCHED.get(sport, {}))
         found = []
         for code, ml_ev in data["ml"].items():
             found += build_game(sport, (s_ml, s_sp, s_tot), word, ml_ev, data["sp"].get(code), data["tot"].get(code))
