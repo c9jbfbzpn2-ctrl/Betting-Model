@@ -246,6 +246,7 @@ def make_bet(base, m, series, kind, side, note):
     return {
         **base, "type": kind, "bet": text, "side": text, "action": action,
         "kalshi_ticker": m.get("ticker"),
+        "market": m.get("yes_sub_title"),
         "event_ticker": m.get("event_ticker") or str(m.get("ticker", "")).rsplit("-", 1)[0],
         "series": series,
         "price_cents": round(ask * 100), "bid_cents": round(bid * 100),
@@ -422,7 +423,7 @@ def track(history, picks):
         history.append({"id": pid, "first_seen": now, "result": None, "schema": SCHEMA,
                         **{k: p.get(k) for k in ("sport", "type", "bet", "action", "game", "start", "price_cents",
                                                  "fair_prob", "market_prob", "fee_est", "stars", "verdict",
-                                                 "kalshi_ticker", "event_ticker")}})
+                                                 "kalshi_ticker", "event_ticker", "start_exact", "day", "market")}})
     print(f"Tracking {added} new recommended bets ({len(history)} total in history).")
     return history
 
