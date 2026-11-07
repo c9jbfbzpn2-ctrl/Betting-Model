@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T01:23:19.297822+00:00",
+ "updated": "2026-11-07T04:08:45.807641+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 28,
@@ -57,7 +57,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0800",
+      "last_price_dollars": "0.0900",
       "volume": null
      },
      {
@@ -144,85 +144,33 @@
    }
   },
   "KXNCAAFGAME": {
-   "open_events": 254,
+   "open_events": 257,
    "sample": {
-    "event_ticker": "KXNCAAFGAME-26NOV06VTSMU",
-    "title": "Virginia Tech vs SMU",
+    "event_ticker": "KXNCAAFGAME-26NOV06NEBILL",
+    "title": "Nebraska vs Illinois",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFGAME-26NOV06VTSMU-SMU",
-      "yes_sub_title": "SMU",
+      "ticker": "KXNCAAFGAME-26NOV06NEBILL-ILL",
+      "yes_sub_title": "Illinois",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7800",
-      "yes_ask_dollars": "0.7900",
+      "yes_bid_dollars": "0.8800",
+      "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7900",
+      "last_price_dollars": "0.8800",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFGAME-26NOV06VTSMU-VT",
-      "yes_sub_title": "Virginia Tech",
+      "ticker": "KXNCAAFGAME-26NOV06NEBILL-NEB",
+      "yes_sub_title": "Nebraska",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2100",
-      "yes_ask_dollars": "0.2200",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.2200",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNCAAFSPREAD": {
-   "open_events": 121,
-   "sample": {
-    "event_ticker": "KXNCAAFSPREAD-26NOV06VTSMU",
-    "title": "Virginia Tech vs SMU: Spread",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV06VTSMU-SMU28",
-      "yes_sub_title": "SMU wins by over 27.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0600",
-      "yes_ask_dollars": "0.0700",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0700",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV06VTSMU-SMU25",
-      "yes_sub_title": "SMU wins by over 24.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.1000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.1500",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV06VTSMU-SMU24",
-      "yes_sub_title": "SMU wins by over 23.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.1000",
+      "yes_bid_dollars": "0.1100",
       "yes_ask_dollars": "0.1200",
       "no_bid": null,
       "no_ask": null,
@@ -233,16 +181,68 @@
     ]
    }
   },
-  "KXNCAAFTOTAL": {
-   "open_events": 121,
+  "KXNCAAFSPREAD": {
+   "open_events": 119,
    "sample": {
-    "event_ticker": "KXNCAAFTOTAL-26NOV06VTSMU",
-    "title": "Virginia Tech vs SMU: Total Points",
+    "event_ticker": "KXNCAAFSPREAD-26NOV06NEBILL",
+    "title": "Nebraska vs Illinois: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFTOTAL-26NOV06VTSMU-38",
-      "yes_sub_title": "Over 37.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV06NEBILL-ILL21",
+      "yes_sub_title": "Illinois wins by over 20.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0400",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV06NEBILL-ILL18",
+      "yes_sub_title": "Illinois wins by over 17.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0700",
+      "yes_ask_dollars": "0.0900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.1100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV06NEBILL-ILL15",
+      "yes_sub_title": "Illinois wins by over 14.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0900",
+      "yes_ask_dollars": "0.1000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0900",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAFTOTAL": {
+   "open_events": 119,
+   "sample": {
+    "event_ticker": "KXNCAAFTOTAL-26NOV06NEBILL",
+    "title": "Nebraska vs Illinois: Total Points",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAFTOTAL-26NOV06NEBILL-26",
+      "yes_sub_title": "Over 25.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -255,8 +255,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAFTOTAL-26NOV06VTSMU-41",
-      "yes_sub_title": "Over 40.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV06NEBILL-29",
+      "yes_sub_title": "Over 28.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -269,13 +269,13 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAFTOTAL-26NOV06VTSMU-44",
-      "yes_sub_title": "Over 43.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV06NEBILL-32",
+      "yes_sub_title": "Over 31.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -286,157 +286,105 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 166,
+   "open_events": 175,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV06SCSTSCUS",
-    "title": "South Carolina St. vs USC Upstate",
+    "event_ticker": "KXNCAAMBGAME-26NOV06SIUUMKC",
+    "title": "Southern Illinois vs Kansas City",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV06SCSTSCUS-SCUS",
-      "yes_sub_title": "USC Upstate",
+      "ticker": "KXNCAAMBGAME-26NOV06SIUUMKC-UMKC",
+      "yes_sub_title": "Kansas City",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3000",
-      "yes_ask_dollars": "0.3100",
+      "yes_bid_dollars": "0.9500",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3000",
+      "last_price_dollars": "0.9600",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV06SCSTSCUS-SCST",
-      "yes_sub_title": "South Carolina St.",
+      "ticker": "KXNCAAMBGAME-26NOV06SIUUMKC-SIU",
+      "yes_sub_title": "Southern Illinois",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6900",
-      "yes_ask_dollars": "0.7000",
+      "yes_bid_dollars": "0.0400",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7000",
+      "last_price_dollars": "0.0500",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 77,
+   "open_events": 51,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV06SCSTSCUS",
-    "title": "South Carolina St. vs USC Upstate: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV06SIUUMKC",
+    "title": "Southern Illinois vs Kansas City: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV06SCSTSCUS-SCUS33",
-      "yes_sub_title": "USC Upstate wins by over 32.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV06SIUUMKC-UMKC24",
+      "yes_sub_title": "Kansas City wins by over 23.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV06SCSTSCUS-SCUS28",
-      "yes_sub_title": "USC Upstate wins by over 27.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV06SIUUMKC-UMKC21",
+      "yes_sub_title": "Kansas City wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.2000",
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.1100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV06SCSTSCUS-SCUS23",
-      "yes_sub_title": "USC Upstate wins by over 22.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV06SIUUMKC-UMKC18",
+      "yes_sub_title": "Kansas City wins by over 17.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0800",
+      "yes_bid_dollars": "0.1000",
+      "yes_ask_dollars": "0.1200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0500",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 86,
+   "open_events": 58,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV06SCSTSCUS",
-    "title": "South Carolina St. vs USC Upstate: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV06SIUUMKC",
+    "title": "Southern Illinois vs Kansas City: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV06SCSTSCUS-128",
-      "yes_sub_title": "Over 127.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.7800",
-      "yes_ask_dollars": "0.9900",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9800",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV06SCSTSCUS-129",
-      "yes_sub_title": "Over 128.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.7500",
-      "yes_ask_dollars": "0.9500",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.8900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV06SCSTSCUS-134",
-      "yes_sub_title": "Over 133.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.7100",
-      "yes_ask_dollars": "0.9500",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9200",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNBAGAME": {
-   "open_events": 39,
-   "sample": {
-    "event_ticker": "KXNBAGAME-26NOV06BOSCHA",
-    "title": "Boston vs Charlotte",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNBAGAME-26NOV06BOSCHA-BOS",
-      "yes_sub_title": "Boston",
+      "ticker": "KXNCAAMBTOTAL-26NOV06SIUUMKC-123",
+      "yes_sub_title": "Over 122.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -449,32 +397,84 @@
       "volume": null
      },
      {
-      "ticker": "KXNBAGAME-26NOV06BOSCHA-CHA",
-      "yes_sub_title": "Charlotte",
+      "ticker": "KXNCAAMBTOTAL-26NOV06SIUUMKC-125",
+      "yes_sub_title": "Over 124.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV06SIUUMKC-130",
+      "yes_sub_title": "Over 129.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNBAGAME": {
+   "open_events": 33,
+   "sample": {
+    "event_ticker": "KXNBAGAME-26NOV06PORLAL",
+    "title": "Portland vs Los Angeles L",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNBAGAME-26NOV06PORLAL-POR",
+      "yes_sub_title": "Portland",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.6700",
+      "yes_ask_dollars": "0.6800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.6800",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBAGAME-26NOV06PORLAL-LAL",
+      "yes_sub_title": "Los Angeles L",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.3200",
+      "yes_ask_dollars": "0.3300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.3200",
       "volume": null
      }
     ]
    }
   },
   "KXNBASPREAD": {
-   "open_events": 11,
+   "open_events": 9,
    "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV06BOSCHA",
-    "title": "Boston vs Charlotte: Spread",
+    "event_ticker": "KXNBASPREAD-26NOV06PORLAL",
+    "title": "Portland vs Los Angeles L: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBASPREAD-26NOV06BOSCHA-CHA18",
-      "yes_sub_title": "Charlotte wins by over 17.5 points",
+      "ticker": "KXNBASPREAD-26NOV06PORLAL-LAL29",
+      "yes_sub_title": "Los Angeles L wins by over 28.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -483,12 +483,12 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV06BOSCHA-CHA16",
-      "yes_sub_title": "Charlotte wins by over 15.5 points",
+      "ticker": "KXNBASPREAD-26NOV06PORLAL-LAL27",
+      "yes_sub_title": "Los Angeles L wins by over 26.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -497,12 +497,12 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0300",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV06BOSCHA-CHA14",
-      "yes_sub_title": "Charlotte wins by over 13.5 points",
+      "ticker": "KXNBASPREAD-26NOV06PORLAL-LAL25",
+      "yes_sub_title": "Los Angeles L wins by over 24.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -518,52 +518,52 @@
    }
   },
   "KXNBATOTAL": {
-   "open_events": 10,
+   "open_events": 9,
    "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV06BOSCHA",
-    "title": "Boston vs Charlotte: Total Points",
+    "event_ticker": "KXNBATOTAL-26NOV06PORLAL",
+    "title": "Portland vs Los Angeles L: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV06BOSCHA-183",
-      "yes_sub_title": "Over 182.5 points",
+      "ticker": "KXNBATOTAL-26NOV06PORLAL-206",
+      "yes_sub_title": "Over 205.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV06BOSCHA-185",
-      "yes_sub_title": "Over 184.5 points",
+      "ticker": "KXNBATOTAL-26NOV06PORLAL-208",
+      "yes_sub_title": "Over 207.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9000",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV06BOSCHA-187",
-      "yes_sub_title": "Over 186.5 points",
+      "ticker": "KXNBATOTAL-26NOV06PORLAL-210",
+      "yes_sub_title": "Over 209.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.8600",
+      "yes_ask_dollars": "0.8700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.8600",
       "volume": null
      }
     ]
@@ -691,7 +691,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
@@ -700,7 +700,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7300",
+      "yes_bid_dollars": "0.7400",
       "yes_ask_dollars": "0.7500",
       "no_bid": null,
       "no_ask": null,
@@ -719,7 +719,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4800",
+      "last_price_dollars": "0.4900",
       "volume": null
      }
     ]
@@ -752,11 +752,12 @@
   "Premier League": 9
  },
  "skipped": {
-  "games_no_teams": 0,
-  "stale_or_wide": 4072,
-  "started": 68
+  "games_no_teams": 1,
+  "stale_or_wide": 4798,
+  "started": 14
  },
  "unmatched_teams": [
+  "College Basketball: NC St.",
   "College Basketball: USC Upstate",
   "College Basketball: University at Albany",
   "College Football: Alabama A&M",
