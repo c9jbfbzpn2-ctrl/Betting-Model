@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T13:13:10.884395+00:00",
+ "updated": "2026-11-07T15:54:01.648030+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 28,
@@ -81,7 +81,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1400",
+      "yes_ask_dollars": "0.1500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -132,7 +132,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
+      "yes_bid_dollars": "0.9100",
       "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
@@ -194,8 +194,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.1000",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -208,8 +208,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.0700",
+      "yes_ask_dollars": "0.2100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -222,8 +222,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.2000",
+      "yes_bid_dollars": "0.1200",
+      "yes_ask_dollars": "0.2900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -246,7 +246,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8800",
+      "yes_bid_dollars": "0.7900",
       "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
@@ -260,8 +260,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8200",
-      "yes_ask_dollars": "0.8800",
+      "yes_bid_dollars": "0.7700",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -274,8 +274,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6900",
-      "yes_ask_dollars": "0.8300",
+      "yes_bid_dollars": "0.6700",
+      "yes_ask_dollars": "0.8600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -331,8 +331,8 @@
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV07MORELOU-LOU60",
-      "yes_sub_title": "Louisville wins by over 59.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV07MORELOU-LOU61",
+      "yes_sub_title": "Louisville wins by over 60.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -345,12 +345,12 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV07MORELOU-LOU59",
-      "yes_sub_title": "Louisville wins by over 58.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV07MORELOU-LOU60",
+      "yes_sub_title": "Louisville wins by over 59.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
+      "yes_bid_dollars": "0.0300",
       "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
@@ -359,8 +359,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV07MORELOU-LOU58",
-      "yes_sub_title": "Louisville wins by over 57.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV07MORELOU-LOU59",
+      "yes_sub_title": "Louisville wins by over 58.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -389,7 +389,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9700",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -421,7 +421,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.8600",
       "volume": null
      }
     ]
@@ -530,6 +530,20 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9600",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9600",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBATOTAL-26NOV07DENIND-203",
+      "yes_sub_title": "Over 202.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
       "yes_bid_dollars": "0.9300",
       "yes_ask_dollars": "0.9500",
       "no_bid": null,
@@ -539,26 +553,12 @@
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV07DENIND-203",
-      "yes_sub_title": "Over 202.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9400",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9200",
-      "volume": null
-     },
-     {
       "ticker": "KXNBATOTAL-26NOV07DENIND-205",
       "yes_sub_title": "Over 204.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
+      "yes_bid_dollars": "0.9100",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
@@ -570,15 +570,147 @@
    }
   },
   "KXEPLGAME": {
-   "open_events": 16,
+   "open_events": 15,
    "sample": {
-    "event_ticker": "KXEPLGAME-26NOV07LEETOT",
-    "title": "Leeds United vs Tottenham",
+    "event_ticker": "KXEPLGAME-26NOV07ARSHUL",
+    "title": "Arsenal vs Hull City",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLGAME-26NOV07LEETOT-LEE",
-      "yes_sub_title": "Leeds United",
+      "ticker": "KXEPLGAME-26NOV07ARSHUL-ARS",
+      "yes_sub_title": "Arsenal",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7300",
+      "yes_ask_dollars": "0.7400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.7400",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLGAME-26NOV07ARSHUL-HUL",
+      "yes_sub_title": "Hull City",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0500",
+      "yes_ask_dollars": "0.0600",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0600",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLGAME-26NOV07ARSHUL-TIE",
+      "yes_sub_title": "Tie",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.2000",
+      "yes_ask_dollars": "0.2100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.2000",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXEPLSPREAD": {
+   "open_events": 8,
+   "sample": {
+    "event_ticker": "KXEPLSPREAD-26NOV07ARSHUL",
+    "title": "Arsenal vs Hull City: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXEPLSPREAD-26NOV07ARSHUL-ARS4",
+      "yes_sub_title": "Arsenal wins by more than 3.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0600",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLSPREAD-26NOV07ARSHUL-ARS3",
+      "yes_sub_title": "Arsenal wins by more than 2.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.1700",
+      "yes_ask_dollars": "0.1800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.1700",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLSPREAD-26NOV07ARSHUL-ARS2",
+      "yes_sub_title": "Arsenal wins by more than 1.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.4100",
+      "yes_ask_dollars": "0.4200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.4200",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXEPLTOTAL": {
+   "open_events": 8,
+   "sample": {
+    "event_ticker": "KXEPLTOTAL-26NOV07ARSHUL",
+    "title": "Arsenal vs Hull City: Total Goals",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXEPLTOTAL-26NOV07ARSHUL-1",
+      "yes_sub_title": "Over 0.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8600",
+      "yes_ask_dollars": "0.8700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.8700",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLTOTAL-26NOV07ARSHUL-2",
+      "yes_sub_title": "Over 1.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.5700",
+      "yes_ask_dollars": "0.5800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.5800",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLTOTAL-26NOV07ARSHUL-3",
+      "yes_sub_title": "Over 2.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -588,138 +720,6 @@
       "no_ask": null,
       "last_price": null,
       "last_price_dollars": "0.3000",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLGAME-26NOV07LEETOT-TOT",
-      "yes_sub_title": "Tottenham",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.3500",
-      "yes_ask_dollars": "0.3600",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.3600",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLGAME-26NOV07LEETOT-TIE",
-      "yes_sub_title": "Tie",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.3400",
-      "yes_ask_dollars": "0.3500",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.3500",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXEPLSPREAD": {
-   "open_events": 9,
-   "sample": {
-    "event_ticker": "KXEPLSPREAD-26NOV07LEETOT",
-    "title": "Leeds United vs Tottenham: Spread",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXEPLSPREAD-26NOV07LEETOT-LEE3",
-      "yes_sub_title": "Leeds United wins by more than 2.5 goals",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0300",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0300",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLSPREAD-26NOV07LEETOT-LEE2",
-      "yes_sub_title": "Leeds United wins by more than 1.5 goals",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
-      "yes_ask_dollars": "0.1000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0900",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLSPREAD-26NOV07LEETOT-TOT2",
-      "yes_sub_title": "Tottenham wins by more than 1.5 goals",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.1200",
-      "yes_ask_dollars": "0.1300",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.1300",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXEPLTOTAL": {
-   "open_events": 9,
-   "sample": {
-    "event_ticker": "KXEPLTOTAL-26NOV07LEETOT",
-    "title": "Leeds United vs Tottenham: Total Goals",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXEPLTOTAL-26NOV07LEETOT-1",
-      "yes_sub_title": "Over 0.5 goals scored",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.8100",
-      "yes_ask_dollars": "0.8200",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.8100",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLTOTAL-26NOV07LEETOT-2",
-      "yes_sub_title": "Over 1.5 goals scored",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.4900",
-      "yes_ask_dollars": "0.5000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.4900",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLTOTAL-26NOV07LEETOT-3",
-      "yes_sub_title": "Over 2.5 goals scored",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.2300",
-      "yes_ask_dollars": "0.2400",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.2400",
       "volume": null
      }
     ]
@@ -753,8 +753,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 2232,
-  "started": 1
+  "stale_or_wide": 2349,
+  "started": 2
  },
  "unmatched_teams": [
   "College Basketball: NC St.",
