@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T21:53:00.275476+00:00",
+ "updated": "2026-11-08T01:27:54.789449+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 28,
@@ -19,7 +19,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3900",
+      "last_price_dollars": "0.3800",
       "volume": null
      },
      {
@@ -81,7 +81,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1400",
+      "yes_ask_dollars": "0.1500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -144,105 +144,105 @@
    }
   },
   "KXNCAAFGAME": {
-   "open_events": 302,
+   "open_events": 272,
    "sample": {
-    "event_ticker": "KXNCAAFGAME-26NOV07LINWWEBB",
-    "title": "Lindenwood vs Gardner-Webb",
+    "event_ticker": "KXNCAAFGAME-26NOV07COLOASU",
+    "title": "Colorado vs Arizona St.",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFGAME-26NOV07LINWWEBB-WEBB",
-      "yes_sub_title": "Gardner-Webb",
+      "ticker": "KXNCAAFGAME-26NOV07COLOASU-ASU",
+      "yes_sub_title": "Arizona St.",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.8200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.8200",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFGAME-26NOV07LINWWEBB-LINW",
-      "yes_sub_title": "Lindenwood",
+      "ticker": "KXNCAAFGAME-26NOV07COLOASU-COLO",
+      "yes_sub_title": "Colorado",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.1800",
+      "yes_ask_dollars": "0.1900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.1900",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 74,
+   "open_events": 30,
    "sample": {
-    "event_ticker": "KXNCAAFSPREAD-26NOV07LINWWEBB",
-    "title": "Lindenwood vs Gardner-Webb: Spread",
+    "event_ticker": "KXNCAAFSPREAD-26NOV07BSUCSU",
+    "title": "Boise St. vs Colorado St.: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFSPREAD-26NOV07LINWWEBB-WEBB31",
-      "yes_sub_title": "Gardner-Webb wins by over 30.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV07BSUCSU-BSU39",
+      "yes_sub_title": "Boise St. wins by over 38.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0700",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.1000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFSPREAD-26NOV07LINWWEBB-WEBB27",
-      "yes_sub_title": "Gardner-Webb wins by over 26.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV07BSUCSU-BSU36",
+      "yes_sub_title": "Boise St. wins by over 35.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.1200",
+      "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.1800",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFSPREAD-26NOV07LINWWEBB-WEBB23",
-      "yes_sub_title": "Gardner-Webb wins by over 22.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV07BSUCSU-BSU34",
+      "yes_sub_title": "Boise St. wins by over 33.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.1400",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.1700",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 74,
+   "open_events": 30,
    "sample": {
-    "event_ticker": "KXNCAAFTOTAL-26NOV07LINWWEBB",
-    "title": "Lindenwood vs Gardner-Webb: Total Points",
+    "event_ticker": "KXNCAAFTOTAL-26NOV07BSUCSU",
+    "title": "Boise St. vs Colorado St.: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFTOTAL-26NOV07LINWWEBB-25",
-      "yes_sub_title": "Over 24.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV07BSUCSU-49",
+      "yes_sub_title": "Over 48.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -255,8 +255,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAFTOTAL-26NOV07LINWWEBB-29",
-      "yes_sub_title": "Over 28.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV07BSUCSU-52",
+      "yes_sub_title": "Over 51.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -269,8 +269,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAFTOTAL-26NOV07LINWWEBB-33",
-      "yes_sub_title": "Over 32.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV07BSUCSU-55",
+      "yes_sub_title": "Over 54.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -286,58 +286,58 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 165,
+   "open_events": 147,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV07LBSUMTST",
-    "title": "Long Beach St. vs Montana St.",
+    "event_ticker": "KXNCAAMBGAME-26NOV07MORGNIAG",
+    "title": "Morgan St. vs Niagara",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV07LBSUMTST-MTST",
-      "yes_sub_title": "Montana St.",
+      "ticker": "KXNCAAMBGAME-26NOV07MORGNIAG-NIAG",
+      "yes_sub_title": "Niagara",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.2900",
+      "yes_ask_dollars": "0.3100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.3300",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV07LBSUMTST-LBSU",
-      "yes_sub_title": "Long Beach St.",
+      "ticker": "KXNCAAMBGAME-26NOV07MORGNIAG-MORG",
+      "yes_sub_title": "Morgan St.",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0200",
+      "yes_bid_dollars": "0.7000",
+      "yes_ask_dollars": "0.7300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.7400",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 46,
+   "open_events": 35,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV07LBSUMTST",
-    "title": "Long Beach St. vs Montana St.: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV07MORGNIAG",
+    "title": "Morgan St. vs Niagara: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV07LBSUMTST-MTST33",
-      "yes_sub_title": "Montana St. wins by over 32.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV07MORGNIAG-NIAG26",
+      "yes_sub_title": "Niagara wins by over 25.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -345,13 +345,13 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV07LBSUMTST-MTST28",
-      "yes_sub_title": "Montana St. wins by over 27.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV07MORGNIAG-NIAG21",
+      "yes_sub_title": "Niagara wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.1000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -359,218 +359,218 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV07LBSUMTST-MTST23",
-      "yes_sub_title": "Montana St. wins by over 22.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV07MORGNIAG-NIAG16",
+      "yes_sub_title": "Niagara wins by over 15.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.1400",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 58,
+   "open_events": 46,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV07LBSUMTST",
-    "title": "Long Beach St. vs Montana St.: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV07MORGNIAG",
+    "title": "Morgan St. vs Niagara: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV07LBSUMTST-125",
-      "yes_sub_title": "Over 124.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV07MORGNIAG-128",
+      "yes_sub_title": "Over 127.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.8300",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV07LBSUMTST-126",
-      "yes_sub_title": "Over 125.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV07MORGNIAG-129",
+      "yes_sub_title": "Over 128.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV07LBSUMTST-127",
-      "yes_sub_title": "Over 126.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV07MORGNIAG-134",
+      "yes_sub_title": "Over 133.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNBAGAME": {
-   "open_events": 31,
-   "sample": {
-    "event_ticker": "KXNBAGAME-26NOV07DENIND",
-    "title": "Denver vs Indiana",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNBAGAME-26NOV07DENIND-DEN",
-      "yes_sub_title": "Denver",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.7200",
-      "yes_ask_dollars": "0.7300",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.7300",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBAGAME-26NOV07DENIND-IND",
-      "yes_sub_title": "Indiana",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.2600",
-      "yes_ask_dollars": "0.2700",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.2600",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNBASPREAD": {
-   "open_events": 9,
-   "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV07DENIND",
-    "title": "Denver vs Indiana: Spread",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNBASPREAD-26NOV07DENIND-IND22",
-      "yes_sub_title": "Indiana wins by over 21.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0400",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0400",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBASPREAD-26NOV07DENIND-IND20",
-      "yes_sub_title": "Indiana wins by over 19.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0300",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0400",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBASPREAD-26NOV07DENIND-IND18",
-      "yes_sub_title": "Indiana wins by over 17.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0400",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0400",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNBATOTAL": {
-   "open_events": 9,
-   "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV07DENIND",
-    "title": "Denver vs Indiana: Total Points",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNBATOTAL-26NOV07DENIND-201",
-      "yes_sub_title": "Over 200.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9600",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9600",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBATOTAL-26NOV07DENIND-203",
-      "yes_sub_title": "Over 202.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
+      "yes_bid_dollars": "0.5800",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
       "last_price_dollars": "0.9400",
       "volume": null
-     },
+     }
+    ]
+   }
+  },
+  "KXNBAGAME": {
+   "open_events": 38,
+   "sample": {
+    "event_ticker": "KXNBAGAME-26NOV07BKNATL",
+    "title": "Brooklyn vs Atlanta",
+    "strike_date": null,
+    "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV07DENIND-205",
-      "yes_sub_title": "Over 204.5 points",
+      "ticker": "KXNBAGAME-26NOV07BKNATL-BKN",
+      "yes_sub_title": "Brooklyn",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.4600",
+      "yes_ask_dollars": "0.4700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.4700",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBAGAME-26NOV07BKNATL-ATL",
+      "yes_sub_title": "Atlanta",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.5300",
+      "yes_ask_dollars": "0.5400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.5300",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNBASPREAD": {
+   "open_events": 12,
+   "sample": {
+    "event_ticker": "KXNBASPREAD-26NOV07BKNATL",
+    "title": "Brooklyn vs Atlanta: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNBASPREAD-26NOV07BKNATL-ATL33",
+      "yes_sub_title": "Atlanta wins by over 32.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBASPREAD-26NOV07BKNATL-ATL31",
+      "yes_sub_title": "Atlanta wins by over 30.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0200",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBASPREAD-26NOV07BKNATL-ATL29",
+      "yes_sub_title": "Atlanta wins by over 28.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNBATOTAL": {
+   "open_events": 12,
+   "sample": {
+    "event_ticker": "KXNBATOTAL-26NOV07BKNATL",
+    "title": "Brooklyn vs Atlanta: Total Points",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNBATOTAL-26NOV07BKNATL-196",
+      "yes_sub_title": "Over 195.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBATOTAL-26NOV07BKNATL-198",
+      "yes_sub_title": "Over 197.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBATOTAL-26NOV07BKNATL-200",
+      "yes_sub_title": "Over 199.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
    }
   },
   "KXEPLGAME": {
-   "open_events": 12,
+   "open_events": 14,
    "sample": {
     "event_ticker": "KXEPLGAME-26NOV08BRIBRE",
     "title": "Brighton vs Brentford",
@@ -587,7 +587,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5200",
+      "last_price_dollars": "0.5100",
       "volume": null
      },
      {
@@ -615,7 +615,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2500",
+      "last_price_dollars": "0.2400",
       "volume": null
      }
     ]
@@ -635,7 +635,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1500",
+      "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -691,7 +691,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9600",
       "volume": null
      },
      {
@@ -730,7 +730,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261103-20261107",
+    "dates": "20261103-20261108",
     "limit": "1000"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
@@ -738,23 +738,23 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261103-20261107"
+    "dates": "20261103-20261108"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
   }
  ],
  "espn_style": "day",
  "kickoff_times": {
-  "NFL": 15,
-  "College Football": 118,
-  "College Basketball": 445,
-  "NBA": 55,
-  "Premier League": 9
+  "NFL": 27,
+  "College Football": 67,
+  "College Basketball": 427,
+  "NBA": 57,
+  "Premier League": 5
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 2711,
-  "started": 31
+  "stale_or_wide": 2415,
+  "started": 47
  },
  "unmatched_teams": [
   "College Basketball: NC St.",
