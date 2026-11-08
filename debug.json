@@ -1,39 +1,39 @@
 {
- "updated": "2026-11-08T15:53:57.730002+00:00",
+ "updated": "2026-11-08T19:03:52.238971+00:00",
  "kalshi": {
   "KXNFLGAME": {
-   "open_events": 28,
+   "open_events": 27,
    "sample": {
-    "event_ticker": "KXNFLGAME-26NOV08CINATL",
-    "title": "Cincinnati vs Atlanta",
+    "event_ticker": "KXNFLGAME-26NOV08CLENO",
+    "title": "Cleveland vs New Orleans",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLGAME-26NOV08CINATL-ATL",
-      "yes_sub_title": "Atlanta",
+      "ticker": "KXNFLGAME-26NOV08CLENO-NO",
+      "yes_sub_title": "New Orleans",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.1100",
+      "yes_bid_dollars": "0.5500",
+      "yes_ask_dollars": "0.5600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1100",
+      "last_price_dollars": "0.5600",
       "volume": null
      },
      {
-      "ticker": "KXNFLGAME-26NOV08CINATL-CIN",
-      "yes_sub_title": "Cincinnati",
+      "ticker": "KXNFLGAME-26NOV08CLENO-CLE",
+      "yes_sub_title": "Cleveland",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9000",
+      "yes_bid_dollars": "0.4200",
+      "yes_ask_dollars": "0.4300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.4300",
       "volume": null
      }
     ]
@@ -42,50 +42,50 @@
   "KXNFLSPREAD": {
    "open_events": 15,
    "sample": {
-    "event_ticker": "KXNFLSPREAD-26NOV08CINATL",
-    "title": "Cincinnati vs Atlanta: Spread",
+    "event_ticker": "KXNFLSPREAD-26NOV08CLENO",
+    "title": "Cleveland vs New Orleans: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLSPREAD-26NOV08CINATL-CIN21",
-      "yes_sub_title": "Cincinnati wins by over 20.5 points",
+      "ticker": "KXNFLSPREAD-26NOV08CLENO-NO21",
+      "yes_sub_title": "New Orleans wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2400",
-      "yes_ask_dollars": "0.2500",
+      "yes_bid_dollars": "0.0400",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2500",
+      "last_price_dollars": "0.0700",
       "volume": null
      },
      {
-      "ticker": "KXNFLSPREAD-26NOV08CINATL-CIN18",
-      "yes_sub_title": "Cincinnati wins by over 17.5 points",
+      "ticker": "KXNFLSPREAD-26NOV08CLENO-NO18",
+      "yes_sub_title": "New Orleans wins by over 17.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3300",
-      "yes_ask_dollars": "0.3400",
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3400",
+      "last_price_dollars": "0.0700",
       "volume": null
      },
      {
-      "ticker": "KXNFLSPREAD-26NOV08CINATL-CIN17",
-      "yes_sub_title": "Cincinnati wins by over 16.5 points",
+      "ticker": "KXNFLSPREAD-26NOV08CLENO-NO17",
+      "yes_sub_title": "New Orleans wins by over 16.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3800",
-      "yes_ask_dollars": "0.3900",
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3900",
+      "last_price_dollars": "0.0700",
       "volume": null
      }
     ]
@@ -94,50 +94,50 @@
   "KXNFLTOTAL": {
    "open_events": 15,
    "sample": {
-    "event_ticker": "KXNFLTOTAL-26NOV08CINATL",
-    "title": "Cincinnati vs Atlanta: Total Points",
+    "event_ticker": "KXNFLTOTAL-26NOV08CLENO",
+    "title": "Cleveland vs New Orleans: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLTOTAL-26NOV08CINATL-29",
+      "ticker": "KXNFLTOTAL-26NOV08CLENO-23",
+      "yes_sub_title": "Over 22.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLTOTAL-26NOV08CLENO-26",
+      "yes_sub_title": "Over 25.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8200",
+      "yes_ask_dollars": "0.8300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.7800",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLTOTAL-26NOV08CLENO-29",
       "yes_sub_title": "Over 28.5 points",
-      "status": "finalized",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNFLTOTAL-26NOV08CINATL-32",
-      "yes_sub_title": "Over 31.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.7600",
+      "yes_ask_dollars": "0.7700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
-      "volume": null
-     },
-     {
-      "ticker": "KXNFLTOTAL-26NOV08CINATL-35",
-      "yes_sub_title": "Over 34.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.7800",
       "volume": null
      }
     ]
@@ -157,11 +157,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.6300",
-      "yes_ask_dollars": "0.6400",
+      "yes_ask_dollars": "0.6500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6400",
+      "last_price_dollars": "0.6500",
       "volume": null
      },
      {
@@ -182,7 +182,7 @@
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 32,
+   "open_events": 56,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV10KENTBGSU",
     "title": "Kent St. vs Bowling Green: Spread",
@@ -194,8 +194,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.2200",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.2500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -208,8 +208,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0600",
-      "yes_ask_dollars": "0.2600",
+      "yes_bid_dollars": "0.1000",
+      "yes_ask_dollars": "0.2700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -222,7 +222,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1900",
+      "yes_bid_dollars": "0.1800",
       "yes_ask_dollars": "0.2200",
       "no_bid": null,
       "no_ask": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 32,
+   "open_events": 55,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV10KENTBGSU",
     "title": "Kent St. vs Bowling Green: Total Points",
@@ -246,7 +246,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6700",
+      "yes_bid_dollars": "0.6600",
       "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
@@ -260,7 +260,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6800",
+      "yes_bid_dollars": "0.6000",
       "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
@@ -274,8 +274,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6100",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.6900",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -286,20 +286,20 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 167,
+   "open_events": 166,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV08IONASJU",
-    "title": "Iona vs St. John's",
+    "event_ticker": "KXNCAAMBGAME-26NOV08ARKUVA",
+    "title": "Arkansas vs Virginia",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV08IONASJU-SJU",
-      "yes_sub_title": "St. John's",
+      "ticker": "KXNCAAMBGAME-26NOV08ARKUVA-UVA",
+      "yes_sub_title": "Virginia",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -307,13 +307,13 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV08IONASJU-IONA",
-      "yes_sub_title": "Iona",
+      "ticker": "KXNCAAMBGAME-26NOV08ARKUVA-ARK",
+      "yes_sub_title": "Arkansas",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0200",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -324,104 +324,104 @@
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 29,
+   "open_events": 28,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV08IONASJU",
-    "title": "Iona vs St. John's: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV08ARKUVA",
+    "title": "Arkansas vs Virginia: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV08IONASJU-SJU52",
-      "yes_sub_title": "St. John's wins by over 51.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV08ARKUVA-UVA29",
+      "yes_sub_title": "Virginia wins by over 28.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0400",
-      "yes_ask_dollars": "0.1300",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.1000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.1500",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV08IONASJU-SJU51",
-      "yes_sub_title": "St. John's wins by over 50.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV08ARKUVA-UVA28",
+      "yes_sub_title": "Virginia wins by over 27.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.1400",
+      "yes_bid_dollars": "0.1000",
+      "yes_ask_dollars": "0.1200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1900",
+      "last_price_dollars": "0.1100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV08IONASJU-SJU50",
-      "yes_sub_title": "St. John's wins by over 49.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV08ARKUVA-UVA24",
+      "yes_sub_title": "Virginia wins by over 23.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.1500",
+      "yes_bid_dollars": "0.2400",
+      "yes_ask_dollars": "0.2600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1900",
+      "last_price_dollars": "0.2600",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 29,
+   "open_events": 28,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV08IONASJU",
-    "title": "Iona vs St. John's: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV08ARKUVA",
+    "title": "Arkansas vs Virginia: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV08IONASJU-128",
-      "yes_sub_title": "Over 127.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.8700",
-      "yes_ask_dollars": "0.9900",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0000",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV08IONASJU-129",
-      "yes_sub_title": "Over 128.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9500",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV08IONASJU-134",
+      "ticker": "KXNCAAMBTOTAL-26NOV08ARKUVA-134",
       "yes_sub_title": "Over 133.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8400",
-      "yes_ask_dollars": "0.8900",
+      "yes_bid_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9600",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV08ARKUVA-138",
+      "yes_sub_title": "Over 137.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9500",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV08ARKUVA-142",
+      "yes_sub_title": "Over 141.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9000",
       "volume": null
      }
     ]
@@ -440,12 +440,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7800",
-      "yes_ask_dollars": "0.7900",
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.8000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7900",
+      "last_price_dollars": "0.8000",
       "volume": null
      },
      {
@@ -454,12 +454,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2100",
-      "yes_ask_dollars": "0.2200",
+      "yes_bid_dollars": "0.2000",
+      "yes_ask_dollars": "0.2100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2200",
+      "last_price_dollars": "0.2100",
       "volume": null
      }
     ]
@@ -493,11 +493,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0600",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0300",
       "volume": null
      },
      {
@@ -506,12 +506,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0700",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0200",
       "volume": null
      }
     ]
@@ -530,12 +530,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
+      "yes_bid_dollars": "0.9200",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -544,7 +544,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
+      "yes_bid_dollars": "0.9100",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
@@ -558,8 +558,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8800",
-      "yes_ask_dollars": "0.9200",
+      "yes_bid_dollars": "0.9000",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -570,160 +570,64 @@
    }
   },
   "KXEPLGAME": {
-   "open_events": 14,
+   "open_events": 9,
    "sample": {
-    "event_ticker": "KXEPLGAME-26NOV08BRIBRE",
-    "title": "Brighton vs Brentford",
+    "event_ticker": "KXEPLGAME-26NOV21MCIFUL",
+    "title": "Manchester City vs Fulham",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLGAME-26NOV08BRIBRE-BRI",
-      "yes_sub_title": "Brighton",
+      "ticker": "KXEPLGAME-26NOV21MCIFUL-MCI",
+      "yes_sub_title": "Manchester City",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.6500",
+      "yes_ask_dollars": "0.6700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.6700",
       "volume": null
      },
      {
-      "ticker": "KXEPLGAME-26NOV08BRIBRE-BRE",
-      "yes_sub_title": "Brentford",
+      "ticker": "KXEPLGAME-26NOV21MCIFUL-FUL",
+      "yes_sub_title": "Fulham",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.1400",
+      "yes_ask_dollars": "0.1600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.1400",
       "volume": null
      },
      {
-      "ticker": "KXEPLGAME-26NOV08BRIBRE-TIE",
+      "ticker": "KXEPLGAME-26NOV21MCIFUL-TIE",
       "yes_sub_title": "Tie",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.1800",
+      "yes_ask_dollars": "0.1900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.1800",
       "volume": null
      }
     ]
    }
   },
   "KXEPLSPREAD": {
-   "open_events": 5,
-   "sample": {
-    "event_ticker": "KXEPLSPREAD-26NOV08BRIBRE",
-    "title": "Brighton vs Brentford: Spread",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXEPLSPREAD-26NOV08BRIBRE-BRI5",
-      "yes_sub_title": "Brighton wins by more than 4.5 goals",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0100",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLSPREAD-26NOV08BRIBRE-BRI4",
-      "yes_sub_title": "Brighton wins by more than 3.5 goals",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0100",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLSPREAD-26NOV08BRIBRE-BRI3",
-      "yes_sub_title": "Brighton wins by more than 2.5 goals",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0500",
-      "yes_ask_dollars": "0.0800",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.1100",
-      "volume": null
-     }
-    ]
-   }
+   "open_events": 0,
+   "sample": null
   },
   "KXEPLTOTAL": {
-   "open_events": 5,
-   "sample": {
-    "event_ticker": "KXEPLTOTAL-26NOV08BRIBRE",
-    "title": "Brighton vs Brentford: Total Goals",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXEPLTOTAL-26NOV08BRIBRE-1",
-      "yes_sub_title": "Over 0.5 goals scored",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLTOTAL-26NOV08BRIBRE-2",
-      "yes_sub_title": "Over 1.5 goals scored",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLTOTAL-26NOV08BRIBRE-3",
-      "yes_sub_title": "Over 2.5 goals scored",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1600",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.1100",
-      "volume": null
-     }
-    ]
-   }
+   "open_events": 0,
+   "sample": null
   }
  },
  "espn_errors": [
@@ -753,8 +657,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 3570,
-  "started": 5
+  "stale_or_wide": 4784,
+  "started": 20
  },
  "unmatched_teams": [
   "College Basketball: Jacksonville St.",
