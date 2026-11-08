@@ -1,143 +1,143 @@
 {
- "updated": "2026-11-08T19:03:52.238971+00:00",
+ "updated": "2026-11-08T21:54:02.061489+00:00",
  "kalshi": {
   "KXNFLGAME": {
-   "open_events": 27,
+   "open_events": 20,
    "sample": {
-    "event_ticker": "KXNFLGAME-26NOV08CLENO",
-    "title": "Cleveland vs New Orleans",
+    "event_ticker": "KXNFLGAME-26NOV08HOULAC",
+    "title": "Houston vs Los Angeles C",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLGAME-26NOV08CLENO-NO",
-      "yes_sub_title": "New Orleans",
+      "ticker": "KXNFLGAME-26NOV08HOULAC-LAC",
+      "yes_sub_title": "Los Angeles C",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5500",
-      "yes_ask_dollars": "0.5600",
+      "yes_bid_dollars": "0.3100",
+      "yes_ask_dollars": "0.3200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5600",
+      "last_price_dollars": "0.3200",
       "volume": null
      },
      {
-      "ticker": "KXNFLGAME-26NOV08CLENO-CLE",
-      "yes_sub_title": "Cleveland",
+      "ticker": "KXNFLGAME-26NOV08HOULAC-HOU",
+      "yes_sub_title": "Houston",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4200",
-      "yes_ask_dollars": "0.4300",
+      "yes_bid_dollars": "0.6800",
+      "yes_ask_dollars": "0.6900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4300",
+      "last_price_dollars": "0.6900",
       "volume": null
      }
     ]
    }
   },
   "KXNFLSPREAD": {
-   "open_events": 15,
+   "open_events": 8,
    "sample": {
-    "event_ticker": "KXNFLSPREAD-26NOV08CLENO",
-    "title": "Cleveland vs New Orleans: Spread",
+    "event_ticker": "KXNFLSPREAD-26NOV08HOULAC",
+    "title": "Houston vs Los Angeles C: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLSPREAD-26NOV08CLENO-NO21",
-      "yes_sub_title": "New Orleans wins by over 20.5 points",
+      "ticker": "KXNFLSPREAD-26NOV08HOULAC-HOU21",
+      "yes_sub_title": "Houston wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0400",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0900",
+      "yes_ask_dollars": "0.1000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0700",
+      "last_price_dollars": "0.0900",
       "volume": null
      },
      {
-      "ticker": "KXNFLSPREAD-26NOV08CLENO-NO18",
-      "yes_sub_title": "New Orleans wins by over 17.5 points",
+      "ticker": "KXNFLSPREAD-26NOV08HOULAC-HOU18",
+      "yes_sub_title": "Houston wins by over 17.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0600",
-      "yes_ask_dollars": "0.0700",
+      "yes_bid_dollars": "0.1300",
+      "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0700",
+      "last_price_dollars": "0.1800",
       "volume": null
      },
      {
-      "ticker": "KXNFLSPREAD-26NOV08CLENO-NO17",
-      "yes_sub_title": "New Orleans wins by over 16.5 points",
+      "ticker": "KXNFLSPREAD-26NOV08HOULAC-HOU17",
+      "yes_sub_title": "Houston wins by over 16.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0600",
-      "yes_ask_dollars": "0.0700",
+      "yes_bid_dollars": "0.1600",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0700",
+      "last_price_dollars": "0.1900",
       "volume": null
      }
     ]
    }
   },
   "KXNFLTOTAL": {
-   "open_events": 15,
+   "open_events": 8,
    "sample": {
-    "event_ticker": "KXNFLTOTAL-26NOV08CLENO",
-    "title": "Cleveland vs New Orleans: Total Points",
+    "event_ticker": "KXNFLTOTAL-26NOV08HOULAC",
+    "title": "Houston vs Los Angeles C: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLTOTAL-26NOV08CLENO-23",
-      "yes_sub_title": "Over 22.5 points",
+      "ticker": "KXNFLTOTAL-26NOV08HOULAC-22",
+      "yes_sub_title": "Over 21.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9000",
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9100",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
-      "ticker": "KXNFLTOTAL-26NOV08CLENO-26",
-      "yes_sub_title": "Over 25.5 points",
+      "ticker": "KXNFLTOTAL-26NOV08HOULAC-25",
+      "yes_sub_title": "Over 24.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8200",
-      "yes_ask_dollars": "0.8300",
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7800",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
-      "ticker": "KXNFLTOTAL-26NOV08CLENO-29",
-      "yes_sub_title": "Over 28.5 points",
+      "ticker": "KXNFLTOTAL-26NOV08HOULAC-28",
+      "yes_sub_title": "Over 27.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7600",
-      "yes_ask_dollars": "0.7700",
+      "yes_bid_dollars": "0.9500",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7800",
+      "last_price_dollars": "0.9300",
       "volume": null
      }
     ]
@@ -156,7 +156,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6300",
+      "yes_bid_dollars": "0.6400",
       "yes_ask_dollars": "0.6500",
       "no_bid": null,
       "no_ask": null,
@@ -170,19 +170,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3600",
-      "yes_ask_dollars": "0.3700",
+      "yes_bid_dollars": "0.3500",
+      "yes_ask_dollars": "0.3600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3700",
+      "last_price_dollars": "0.3600",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 56,
+   "open_events": 57,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV10KENTBGSU",
     "title": "Kent St. vs Bowling Green: Spread",
@@ -194,7 +194,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
+      "yes_bid_dollars": "0.0500",
       "yes_ask_dollars": "0.2500",
       "no_bid": null,
       "no_ask": null,
@@ -208,8 +208,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.2700",
+      "yes_bid_dollars": "0.0900",
+      "yes_ask_dollars": "0.2500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -222,8 +222,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1800",
-      "yes_ask_dollars": "0.2200",
+      "yes_bid_dollars": "0.2000",
+      "yes_ask_dollars": "0.2300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 55,
+   "open_events": 57,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV10KENTBGSU",
     "title": "Kent St. vs Bowling Green: Total Points",
@@ -246,7 +246,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6600",
+      "yes_bid_dollars": "0.7100",
       "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
@@ -260,7 +260,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6000",
+      "yes_bid_dollars": "0.6700",
       "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
@@ -274,7 +274,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6900",
+      "yes_bid_dollars": "0.6100",
       "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
@@ -286,142 +286,142 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 166,
+   "open_events": 153,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV08ARKUVA",
-    "title": "Arkansas vs Virginia",
+    "event_ticker": "KXNCAAMBGAME-26NOV08IDSTAFA",
+    "title": "Idaho St. vs Air Force",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV08ARKUVA-UVA",
-      "yes_sub_title": "Virginia",
+      "ticker": "KXNCAAMBGAME-26NOV08IDSTAFA-AFA",
+      "yes_sub_title": "Air Force",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9700",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.8400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.8600",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV08ARKUVA-ARK",
-      "yes_sub_title": "Arkansas",
+      "ticker": "KXNCAAMBGAME-26NOV08IDSTAFA-IDST",
+      "yes_sub_title": "Idaho St.",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0300",
+      "yes_bid_dollars": "0.1600",
+      "yes_ask_dollars": "0.1800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.1500",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 28,
+   "open_events": 15,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV08ARKUVA",
-    "title": "Arkansas vs Virginia: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV08IDSTAFA",
+    "title": "Idaho St. vs Air Force: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV08ARKUVA-UVA29",
-      "yes_sub_title": "Virginia wins by over 28.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV08IDSTAFA-AFA29",
+      "yes_sub_title": "Air Force wins by over 28.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.1000",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1500",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV08ARKUVA-UVA28",
-      "yes_sub_title": "Virginia wins by over 27.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV08IDSTAFA-AFA24",
+      "yes_sub_title": "Air Force wins by over 23.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.1200",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1100",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV08ARKUVA-UVA24",
-      "yes_sub_title": "Virginia wins by over 23.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV08IDSTAFA-AFA19",
+      "yes_sub_title": "Air Force wins by over 18.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2400",
-      "yes_ask_dollars": "0.2600",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2600",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 28,
+   "open_events": 15,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV08ARKUVA",
-    "title": "Arkansas vs Virginia: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV08IDSTAFA",
+    "title": "Idaho St. vs Air Force: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV08ARKUVA-134",
+      "ticker": "KXNCAAMBTOTAL-26NOV08IDSTAFA-129",
+      "yes_sub_title": "Over 128.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV08IDSTAFA-134",
       "yes_sub_title": "Over 133.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9700",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV08ARKUVA-138",
+      "ticker": "KXNCAAMBTOTAL-26NOV08IDSTAFA-138",
       "yes_sub_title": "Over 137.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV08ARKUVA-142",
-      "yes_sub_title": "Over 141.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
@@ -440,12 +440,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7900",
-      "yes_ask_dollars": "0.8000",
+      "yes_bid_dollars": "0.8800",
+      "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8000",
+      "last_price_dollars": "0.8900",
       "volume": null
      },
      {
@@ -454,19 +454,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2000",
-      "yes_ask_dollars": "0.2100",
+      "yes_bid_dollars": "0.1000",
+      "yes_ask_dollars": "0.1100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2100",
+      "last_price_dollars": "0.1100",
       "volume": null
      }
     ]
    }
   },
   "KXNBASPREAD": {
-   "open_events": 7,
+   "open_events": 9,
    "sample": {
     "event_ticker": "KXNBASPREAD-26NOV08PHICHI",
     "title": "Philadelphia vs Chicago: Spread",
@@ -479,11 +479,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0500",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -492,12 +492,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0300",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -506,8 +506,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -518,7 +518,7 @@
    }
   },
   "KXNBATOTAL": {
-   "open_events": 7,
+   "open_events": 9,
    "sample": {
     "event_ticker": "KXNBATOTAL-26NOV08PHICHI",
     "title": "Philadelphia vs Chicago: Total Points",
@@ -530,12 +530,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -558,12 +558,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
@@ -582,7 +582,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6500",
+      "yes_bid_dollars": "0.6600",
       "yes_ask_dollars": "0.6700",
       "no_bid": null,
       "no_ask": null,
@@ -601,7 +601,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1400",
+      "last_price_dollars": "0.1600",
       "volume": null
      },
      {
@@ -634,7 +634,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261103-20261108",
+    "dates": "20261105-20261108",
     "limit": "1000"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
@@ -642,7 +642,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261103-20261108"
+    "dates": "20261105-20261108"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
   }
@@ -657,8 +657,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 4784,
-  "started": 20
+  "stale_or_wide": 4536,
+  "started": 11
  },
  "unmatched_teams": [
   "College Basketball: Jacksonville St.",
