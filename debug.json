@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T01:30:22.001944+00:00",
+ "updated": "2026-11-09T04:19:23.422819+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 16,
@@ -14,12 +14,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7800",
-      "yes_ask_dollars": "0.7900",
+      "yes_bid_dollars": "0.9500",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7900",
+      "last_price_dollars": "0.9600",
       "volume": null
      },
      {
@@ -28,71 +28,71 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2100",
-      "yes_ask_dollars": "0.2200",
+      "yes_bid_dollars": "0.0400",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2200",
+      "last_price_dollars": "0.0400",
       "volume": null
      }
     ]
    }
   },
   "KXNFLSPREAD": {
-   "open_events": 14,
+   "open_events": 15,
    "sample": {
     "event_ticker": "KXNFLSPREAD-26NOV08TBCHI",
     "title": "Tampa Bay vs Chicago: Spread",
     "strike_date": null,
     "markets": [
      {
+      "ticker": "KXNFLSPREAD-26NOV08TBCHI-CHI34",
+      "yes_sub_title": "Chicago wins by over 33.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLSPREAD-26NOV08TBCHI-CHI31",
+      "yes_sub_title": "Chicago wins by over 30.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     },
+     {
       "ticker": "KXNFLSPREAD-26NOV08TBCHI-CHI28",
       "yes_sub_title": "Chicago wins by over 27.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.0900",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNFLSPREAD-26NOV08TBCHI-CHI24",
-      "yes_sub_title": "Chicago wins by over 23.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.1400",
-      "yes_ask_dollars": "0.1500",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.1500",
-      "volume": null
-     },
-     {
-      "ticker": "KXNFLSPREAD-26NOV08TBCHI-CHI21",
-      "yes_sub_title": "Chicago wins by over 20.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.1900",
-      "yes_ask_dollars": "0.2000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.2000",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNFLTOTAL": {
-   "open_events": 14,
+   "open_events": 15,
    "sample": {
     "event_ticker": "KXNFLTOTAL-26NOV08TBCHI",
     "title": "Tampa Bay vs Chicago: Total Points",
@@ -101,43 +101,43 @@
      {
       "ticker": "KXNFLTOTAL-26NOV08TBCHI-26",
       "yes_sub_title": "Over 25.5 points",
-      "status": "active",
+      "status": "finalized",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9700",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
       "ticker": "KXNFLTOTAL-26NOV08TBCHI-29",
       "yes_sub_title": "Over 28.5 points",
-      "status": "active",
+      "status": "finalized",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
       "ticker": "KXNFLTOTAL-26NOV08TBCHI-32",
       "yes_sub_title": "Over 31.5 points",
-      "status": "active",
+      "status": "finalized",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9100",
+      "last_price_dollars": "0.9700",
       "volume": null
      }
     ]
@@ -156,12 +156,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6400",
-      "yes_ask_dollars": "0.6500",
+      "yes_bid_dollars": "0.6500",
+      "yes_ask_dollars": "0.6600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6500",
+      "last_price_dollars": "0.6600",
       "volume": null
      },
      {
@@ -170,19 +170,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3500",
-      "yes_ask_dollars": "0.3600",
+      "yes_bid_dollars": "0.3400",
+      "yes_ask_dollars": "0.3500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3600",
+      "last_price_dollars": "0.3500",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 57,
+   "open_events": 67,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV10KENTBGSU",
     "title": "Kent St. vs Bowling Green: Spread",
@@ -195,7 +195,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.2300",
+      "yes_ask_dollars": "0.2100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -208,8 +208,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.2600",
+      "yes_bid_dollars": "0.1700",
+      "yes_ask_dollars": "0.2400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 57,
+   "open_events": 67,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV10KENTBGSU",
     "title": "Kent St. vs Bowling Green: Total Points",
@@ -286,209 +286,209 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 146,
+   "open_events": 162,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV08IWUTEP",
-    "title": "Incarnate Word vs UTEP",
+    "event_ticker": "KXNCAAMBGAME-26NOV08UTAHAW",
+    "title": "UT Arlington vs Hawai'i",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV08IWUTEP-UTEP",
-      "yes_sub_title": "UTEP",
+      "ticker": "KXNCAAMBGAME-26NOV08UTAHAW-HAW",
+      "yes_sub_title": "Hawai'i",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9700",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.7200",
+      "yes_ask_dollars": "0.7300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.7300",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV08IWUTEP-IW",
-      "yes_sub_title": "Incarnate Word",
+      "ticker": "KXNCAAMBGAME-26NOV08UTAHAW-UTA",
+      "yes_sub_title": "UT Arlington",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0300",
+      "yes_bid_dollars": "0.2700",
+      "yes_ask_dollars": "0.2800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0300",
+      "last_price_dollars": "0.2800",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 18,
+   "open_events": 37,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV08IWUTEP",
-    "title": "Incarnate Word vs UTEP: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV08UTAHAW",
+    "title": "UT Arlington vs Hawai'i: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV08IWUTEP-UTEP40",
-      "yes_sub_title": "UTEP wins by over 39.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV08UTAHAW-HAW33",
+      "yes_sub_title": "Hawai'i wins by over 32.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBSPREAD-26NOV08UTAHAW-HAW32",
+      "yes_sub_title": "Hawai'i wins by over 31.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
       "yes_ask_dollars": "0.1200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV08IWUTEP-UTEP35",
-      "yes_sub_title": "UTEP wins by over 34.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV08UTAHAW-HAW27",
+      "yes_sub_title": "Hawai'i wins by over 26.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.1100",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.1200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBSPREAD-26NOV08IWUTEP-UTEP33",
-      "yes_sub_title": "UTEP wins by over 32.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.1000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.2900",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 18,
+   "open_events": 38,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV08IWUTEP",
-    "title": "Incarnate Word vs UTEP: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV08UTAHAW",
+    "title": "UT Arlington vs Hawai'i: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV08IWUTEP-116",
+      "ticker": "KXNCAAMBTOTAL-26NOV08UTAHAW-106",
+      "yes_sub_title": "Over 105.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7300",
+      "yes_ask_dollars": "0.9800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.7300",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV08UTAHAW-111",
+      "yes_sub_title": "Over 110.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7200",
+      "yes_ask_dollars": "0.9900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV08UTAHAW-116",
       "yes_sub_title": "Over 115.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.7100",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV08IWUTEP-121",
-      "yes_sub_title": "Over 120.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV08IWUTEP-126",
-      "yes_sub_title": "Over 125.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNBAGAME": {
-   "open_events": 35,
+   "open_events": 34,
    "sample": {
-    "event_ticker": "KXNBAGAME-26NOV08LALDET",
-    "title": "Los Angeles L vs Detroit",
+    "event_ticker": "KXNBAGAME-26NOV08MIASAC",
+    "title": "Miami vs Sacramento",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBAGAME-26NOV08LALDET-LAL",
-      "yes_sub_title": "Los Angeles L",
+      "ticker": "KXNBAGAME-26NOV08MIASAC-MIA",
+      "yes_sub_title": "Miami",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.8400",
+      "yes_ask_dollars": "0.8500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.8500",
       "volume": null
      },
      {
-      "ticker": "KXNBAGAME-26NOV08LALDET-DET",
-      "yes_sub_title": "Detroit",
+      "ticker": "KXNBAGAME-26NOV08MIASAC-SAC",
+      "yes_sub_title": "Sacramento",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0500",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.1500",
+      "yes_ask_dollars": "0.1600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0500",
+      "last_price_dollars": "0.1600",
       "volume": null
      }
     ]
    }
   },
   "KXNBASPREAD": {
-   "open_events": 9,
+   "open_events": 11,
    "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV08LALDET",
-    "title": "Los Angeles L vs Detroit: Spread",
+    "event_ticker": "KXNBASPREAD-26NOV08MIASAC",
+    "title": "Miami vs Sacramento: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBASPREAD-26NOV08LALDET-DET28",
-      "yes_sub_title": "Detroit wins by over 27.5 points",
+      "ticker": "KXNBASPREAD-26NOV08MIASAC-SAC17",
+      "yes_sub_title": "Sacramento wins by over 16.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV08LALDET-DET26",
-      "yes_sub_title": "Detroit wins by over 25.5 points",
+      "ticker": "KXNBASPREAD-26NOV08MIASAC-SAC15",
+      "yes_sub_title": "Sacramento wins by over 14.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -497,12 +497,12 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0300",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV08LALDET-DET24",
-      "yes_sub_title": "Detroit wins by over 23.5 points",
+      "ticker": "KXNBASPREAD-26NOV08MIASAC-SAC13",
+      "yes_sub_title": "Sacramento wins by over 12.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -511,22 +511,22 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0200",
       "volume": null
      }
     ]
    }
   },
   "KXNBATOTAL": {
-   "open_events": 9,
+   "open_events": 11,
    "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV08LALDET",
-    "title": "Los Angeles L vs Detroit: Total Points",
+    "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+    "title": "Miami vs Sacramento: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV08LALDET-195",
-      "yes_sub_title": "Over 194.5 points",
+      "ticker": "KXNBATOTAL-26NOV08MIASAC-211",
+      "yes_sub_title": "Over 210.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -535,35 +535,35 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV08LALDET-197",
-      "yes_sub_title": "Over 196.5 points",
+      "ticker": "KXNBATOTAL-26NOV08MIASAC-213",
+      "yes_sub_title": "Over 212.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9300",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV08LALDET-199",
-      "yes_sub_title": "Over 198.5 points",
+      "ticker": "KXNBATOTAL-26NOV08MIASAC-215",
+      "yes_sub_title": "Over 214.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9600",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9700",
       "volume": null
      }
     ]
@@ -583,11 +583,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.6600",
-      "yes_ask_dollars": "0.6800",
+      "yes_ask_dollars": "0.6700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6800",
+      "last_price_dollars": "0.6600",
       "volume": null
      },
      {
@@ -596,12 +596,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1500",
+      "yes_bid_dollars": "0.1400",
+      "yes_ask_dollars": "0.1600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1600",
       "volume": null
      },
      {
@@ -657,8 +657,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 3905,
-  "started": 12
+  "stale_or_wide": 3813,
+  "started": 5
  },
  "unmatched_teams": [
   "College Basketball: Jacksonville St.",
