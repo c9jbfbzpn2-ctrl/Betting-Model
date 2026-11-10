@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T16:08:09.208899+00:00",
+ "updated": "2026-11-10T19:17:19.111869+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 27,
@@ -80,12 +80,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.1600",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1500",
+      "last_price_dollars": "0.1600",
       "volume": null
      }
     ]
@@ -109,7 +109,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9300",
       "volume": null
      },
      {
@@ -118,12 +118,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9200",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9000",
       "volume": null
      },
      {
@@ -199,7 +199,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.1500",
       "volume": null
      },
      {
@@ -213,7 +213,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.2000",
       "volume": null
      },
      {
@@ -222,8 +222,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2200",
-      "yes_ask_dollars": "0.2300",
+      "yes_bid_dollars": "0.2100",
+      "yes_ask_dollars": "0.2200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -251,7 +251,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
@@ -260,7 +260,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8700",
+      "yes_bid_dollars": "0.8500",
       "yes_ask_dollars": "0.8800",
       "no_bid": null,
       "no_ask": null,
@@ -286,7 +286,7 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 183,
+   "open_events": 185,
    "sample": {
     "event_ticker": "KXNCAAMBGAME-26NOV10FLAFSU",
     "title": "Florida vs Florida St.",
@@ -312,19 +312,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8100",
-      "yes_ask_dollars": "0.8200",
+      "yes_bid_dollars": "0.8000",
+      "yes_ask_dollars": "0.8100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8200",
+      "last_price_dollars": "0.8100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 56,
+   "open_events": 58,
    "sample": {
     "event_ticker": "KXNCAAMBSPREAD-26NOV10FLAFSU",
     "title": "Florida vs Florida St.: Spread",
@@ -337,7 +337,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.1100",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -351,7 +351,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.1100",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -376,7 +376,7 @@
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 56,
+   "open_events": 58,
    "sample": {
     "event_ticker": "KXNCAAMBTOTAL-26NOV10FLAFSU",
     "title": "Florida vs Florida St.: Point Total",
@@ -388,8 +388,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -402,8 +402,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -416,8 +416,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8600",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.8400",
+      "yes_ask_dollars": "0.8800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -511,7 +511,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0600",
+      "last_price_dollars": "0.0500",
       "volume": null
      }
     ]
@@ -531,11 +531,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9500",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9300",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -559,7 +559,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9300",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -587,7 +587,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6800",
+      "last_price_dollars": "0.6700",
       "volume": null
      },
      {
@@ -610,7 +610,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1700",
+      "yes_bid_dollars": "0.1800",
       "yes_ask_dollars": "0.1900",
       "no_bid": null,
       "no_ask": null,
@@ -657,7 +657,7 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 747,
+  "stale_or_wide": 787,
   "started": 0
  },
  "unmatched_teams": [
