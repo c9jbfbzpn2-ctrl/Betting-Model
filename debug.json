@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T07:36:59.607765+00:00",
+ "updated": "2026-11-11T10:18:06.864399+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 27,
@@ -85,7 +85,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1600",
+      "last_price_dollars": "0.1800",
       "volume": null
      }
     ]
@@ -170,19 +170,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5200",
-      "yes_ask_dollars": "0.5300",
+      "yes_bid_dollars": "0.5100",
+      "yes_ask_dollars": "0.5200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5300",
+      "last_price_dollars": "0.5200",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 79,
+   "open_events": 121,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV11BUFFBALL",
     "title": "Buffalo vs Ball St.: Spread",
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 79,
+   "open_events": 121,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV11BUFFBALL",
     "title": "Buffalo vs Ball St.: Total Points",
@@ -317,7 +317,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1500",
+      "last_price_dollars": "0.1700",
       "volume": null
      }
     ]
@@ -364,7 +364,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0400",
+      "yes_bid_dollars": "0.0500",
       "yes_ask_dollars": "0.2000",
       "no_bid": null,
       "no_ask": null,
@@ -383,12 +383,26 @@
     "strike_date": null,
     "markets": [
      {
+      "ticker": "KXNCAAMBTOTAL-26NOV11FDUETAM-117",
+      "yes_sub_title": "Over 116.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7500",
+      "yes_ask_dollars": "0.9500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
       "ticker": "KXNCAAMBTOTAL-26NOV11FDUETAM-119",
       "yes_sub_title": "Over 118.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7000",
+      "yes_bid_dollars": "0.7900",
       "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
@@ -402,26 +416,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7100",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.7800",
+      "yes_ask_dollars": "0.9200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
       "last_price_dollars": "0.0000",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV11FDUETAM-128",
-      "yes_sub_title": "Over 127.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.7500",
-      "yes_ask_dollars": "0.8000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.8000",
       "volume": null
      }
     ]
@@ -454,12 +454,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2700",
-      "yes_ask_dollars": "0.2800",
+      "yes_bid_dollars": "0.2800",
+      "yes_ask_dollars": "0.2900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2800",
+      "last_price_dollars": "0.2900",
       "volume": null
      }
     ]
@@ -657,7 +657,7 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 1852,
+  "stale_or_wide": 3234,
   "started": 0
  },
  "unmatched_teams": [
