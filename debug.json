@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T19:16:21.359103+00:00",
+ "updated": "2026-11-12T22:03:54.106182+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 27,
@@ -14,12 +14,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5500",
-      "yes_ask_dollars": "0.5600",
+      "yes_bid_dollars": "0.5300",
+      "yes_ask_dollars": "0.5400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5600",
+      "last_price_dollars": "0.5400",
       "volume": null
      },
      {
@@ -28,12 +28,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4400",
-      "yes_ask_dollars": "0.4500",
+      "yes_bid_dollars": "0.4600",
+      "yes_ask_dollars": "0.4700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4500",
+      "last_price_dollars": "0.4700",
       "volume": null
      }
     ]
@@ -67,7 +67,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1200",
-      "yes_ask_dollars": "0.1400",
+      "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -80,12 +80,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.1400",
+      "yes_ask_dollars": "0.1500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1600",
+      "last_price_dollars": "0.1500",
       "volume": null
      }
     ]
@@ -105,11 +105,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9300",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -123,7 +123,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.8900",
       "volume": null
      },
      {
@@ -161,7 +161,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3800",
+      "last_price_dollars": "0.3700",
       "volume": null
      },
      {
@@ -182,7 +182,7 @@
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 120,
+   "open_events": 123,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV12MEMUSF",
     "title": "Memphis vs South Florida: Spread",
@@ -199,7 +199,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0600",
+      "last_price_dollars": "0.0700",
       "volume": null
      },
      {
@@ -208,7 +208,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
+      "yes_bid_dollars": "0.0800",
       "yes_ask_dollars": "0.1100",
       "no_bid": null,
       "no_ask": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 120,
+   "open_events": 124,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV12MEMUSF",
     "title": "Memphis vs South Florida: Total Points",
@@ -246,12 +246,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
+      "yes_bid_dollars": "0.9200",
       "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9300",
       "volume": null
      },
      {
@@ -260,12 +260,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8700",
-      "yes_ask_dollars": "0.8900",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.8900",
       "volume": null
      },
      {
@@ -274,65 +274,65 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8100",
-      "yes_ask_dollars": "0.8300",
+      "yes_bid_dollars": "0.8400",
+      "yes_ask_dollars": "0.8500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8300",
+      "last_price_dollars": "0.8400",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 178,
+   "open_events": 177,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV12UMKCGMU",
-    "title": "Kansas City vs George Mason",
+    "event_ticker": "KXNCAAMBGAME-26NOV12COPPBRAD",
+    "title": "Coppin St. vs Bradley",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV12UMKCGMU-GMU",
-      "yes_sub_title": "George Mason",
+      "ticker": "KXNCAAMBGAME-26NOV12COPPBRAD-BRAD",
+      "yes_sub_title": "Bradley",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.8600",
+      "yes_ask_dollars": "0.8700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.8700",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV12UMKCGMU-UMKC",
-      "yes_sub_title": "Kansas City",
+      "ticker": "KXNCAAMBGAME-26NOV12COPPBRAD-COPP",
+      "yes_sub_title": "Coppin St.",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0700",
-      "yes_ask_dollars": "0.0800",
+      "yes_bid_dollars": "0.1300",
+      "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0800",
+      "last_price_dollars": "0.1400",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 24,
+   "open_events": 28,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU",
-    "title": "Kansas City vs George Mason: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV12COPPBRAD",
+    "title": "Coppin St. vs Bradley: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU42",
-      "yes_sub_title": "George Mason wins by over 41.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV12COPPBRAD-BRAD35",
+      "yes_sub_title": "Bradley wins by over 34.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -345,13 +345,13 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU37",
-      "yes_sub_title": "George Mason wins by over 36.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV12COPPBRAD-BRAD34",
+      "yes_sub_title": "Bradley wins by over 33.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -359,69 +359,69 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU32",
-      "yes_sub_title": "George Mason wins by over 31.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV12COPPBRAD-BRAD33",
+      "yes_sub_title": "Bradley wins by over 32.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0500",
-      "yes_ask_dollars": "0.0800",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0800",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 24,
+   "open_events": 30,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV12UMKCGMU",
-    "title": "Kansas City vs George Mason: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV12COPPBRAD",
+    "title": "Coppin St. vs Bradley: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV12UMKCGMU-120",
-      "yes_sub_title": "Over 119.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV12COPPBRAD-112",
+      "yes_sub_title": "Over 111.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV12UMKCGMU-125",
-      "yes_sub_title": "Over 124.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV12COPPBRAD-114",
+      "yes_sub_title": "Over 113.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8600",
-      "yes_ask_dollars": "0.8900",
+      "yes_bid_dollars": "0.8800",
+      "yes_ask_dollars": "0.9200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8900",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV12UMKCGMU-129",
-      "yes_sub_title": "Over 128.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV12COPPBRAD-115",
+      "yes_sub_title": "Over 114.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8000",
-      "yes_ask_dollars": "0.8200",
+      "yes_bid_dollars": "0.8800",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8200",
+      "last_price_dollars": "0.9200",
       "volume": null
      }
     ]
@@ -459,7 +459,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2100",
+      "last_price_dollars": "0.2000",
       "volume": null
      }
     ]
@@ -478,7 +478,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
+      "yes_bid_dollars": "0.0200",
       "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
@@ -492,12 +492,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0400",
       "volume": null
      },
      {
@@ -506,7 +506,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
+      "yes_bid_dollars": "0.0400",
       "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
@@ -530,12 +530,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.9500",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9300",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -558,12 +558,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
+      "yes_bid_dollars": "0.9200",
       "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9300",
       "volume": null
      }
     ]
@@ -645,6 +645,14 @@
     "dates": "20261107-20261112"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
+  },
+  {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard",
+   "params": {
+    "groups": "50",
+    "dates": "20261110"
+   },
+   "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
   }
  ],
  "espn_style": "day",
@@ -657,7 +665,7 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 2799,
+  "stale_or_wide": 3201,
   "started": 0
  },
  "unmatched_teams": [
