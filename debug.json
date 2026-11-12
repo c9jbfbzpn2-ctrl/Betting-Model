@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T16:21:41.918583+00:00",
+ "updated": "2026-11-12T19:16:21.359103+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 27,
@@ -71,7 +71,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1200",
       "volume": null
      },
      {
@@ -104,12 +104,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
@@ -119,11 +119,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9100",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9100",
+      "last_price_dollars": "0.9000",
       "volume": null
      },
      {
@@ -137,7 +137,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8300",
+      "last_price_dollars": "0.8400",
       "volume": null
      }
     ]
@@ -182,7 +182,7 @@
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 118,
+   "open_events": 120,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV12MEMUSF",
     "title": "Memphis vs South Florida: Spread",
@@ -194,8 +194,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0500",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -208,8 +208,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.0900",
+      "yes_bid_dollars": "0.0900",
+      "yes_ask_dollars": "0.1100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 118,
+   "open_events": 120,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV12MEMUSF",
     "title": "Memphis vs South Florida: Total Points",
@@ -246,8 +246,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -260,8 +260,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8800",
-      "yes_ask_dollars": "0.9000",
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -274,19 +274,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8300",
-      "yes_ask_dollars": "0.8500",
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.8300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8500",
+      "last_price_dollars": "0.8300",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 175,
+   "open_events": 178,
    "sample": {
     "event_ticker": "KXNCAAMBGAME-26NOV12UMKCGMU",
     "title": "Kansas City vs George Mason",
@@ -298,12 +298,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
@@ -312,12 +312,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0600",
-      "yes_ask_dollars": "0.0700",
+      "yes_bid_dollars": "0.0700",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0700",
+      "last_price_dollars": "0.0800",
       "volume": null
      }
     ]
@@ -337,7 +337,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0400",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -364,12 +364,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0600",
-      "yes_ask_dollars": "0.0900",
+      "yes_bid_dollars": "0.0500",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
+      "last_price_dollars": "0.0800",
       "volume": null
      }
     ]
@@ -389,11 +389,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9500",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
@@ -402,7 +402,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8500",
+      "yes_bid_dollars": "0.8600",
       "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
@@ -416,12 +416,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7800",
+      "yes_bid_dollars": "0.8000",
       "yes_ask_dollars": "0.8200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8300",
+      "last_price_dollars": "0.8200",
       "volume": null
      }
     ]
@@ -478,8 +478,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0300",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -544,7 +544,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
+      "yes_bid_dollars": "0.9200",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
@@ -563,7 +563,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9400",
       "volume": null
      }
     ]
@@ -601,7 +601,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1400",
       "volume": null
      },
      {
@@ -657,10 +657,11 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 2730,
+  "stale_or_wide": 2799,
   "started": 0
  },
  "unmatched_teams": [
+  "College Basketball: Ferrum",
   "College Basketball: Jacksonville St.",
   "College Basketball: Johnson & Wales (RI)",
   "College Basketball: NC St.",
