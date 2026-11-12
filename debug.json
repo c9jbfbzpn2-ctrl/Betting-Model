@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T04:15:07.234327+00:00",
+ "updated": "2026-11-12T07:40:08.288832+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 27,
@@ -52,12 +52,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.1200",
+      "yes_bid_dollars": "0.1100",
+      "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1100",
+      "last_price_dollars": "0.1000",
       "volume": null
      },
      {
@@ -80,12 +80,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.1600",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1600",
+      "last_price_dollars": "0.1700",
       "volume": null
      }
     ]
@@ -104,7 +104,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
+      "yes_bid_dollars": "0.9300",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
@@ -137,7 +137,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8500",
+      "last_price_dollars": "0.8600",
       "volume": null
      }
     ]
@@ -209,7 +209,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0700",
-      "yes_ask_dollars": "0.1000",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -247,7 +247,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -274,7 +274,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8200",
+      "yes_bid_dollars": "0.8300",
       "yes_ask_dollars": "0.8500",
       "no_bid": null,
       "no_ask": null,
@@ -286,58 +286,58 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 181,
+   "open_events": 175,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV11CPGC",
-    "title": "Cal Poly vs Grand Canyon",
+    "event_ticker": "KXNCAAMBGAME-26NOV12UMKCGMU",
+    "title": "Kansas City vs George Mason",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV11CPGC-GC",
-      "yes_sub_title": "Grand Canyon",
+      "ticker": "KXNCAAMBGAME-26NOV12UMKCGMU-GMU",
+      "yes_sub_title": "George Mason",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV11CPGC-CP",
-      "yes_sub_title": "Cal Poly",
+      "ticker": "KXNCAAMBGAME-26NOV12UMKCGMU-UMKC",
+      "yes_sub_title": "Kansas City",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0800",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0900",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 28,
+   "open_events": 24,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV11CPGC",
-    "title": "Cal Poly vs Grand Canyon: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU",
+    "title": "Kansas City vs George Mason: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV11CPGC-GC46",
-      "yes_sub_title": "Grand Canyon wins by over 45.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU42",
+      "yes_sub_title": "George Mason wins by over 41.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -345,225 +345,225 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV11CPGC-GC41",
-      "yes_sub_title": "Grand Canyon wins by over 40.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU37",
+      "yes_sub_title": "George Mason wins by over 36.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0300",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV11CPGC-GC36",
-      "yes_sub_title": "Grand Canyon wins by over 35.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV12UMKCGMU-GMU32",
+      "yes_sub_title": "George Mason wins by over 31.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0400",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 30,
+   "open_events": 24,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV11CPGC",
-    "title": "Cal Poly vs Grand Canyon: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV12UMKCGMU",
+    "title": "Kansas City vs George Mason: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV11CPGC-137",
-      "yes_sub_title": "Over 136.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV12UMKCGMU-120",
+      "yes_sub_title": "Over 119.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.8500",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV11CPGC-142",
-      "yes_sub_title": "Over 141.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV12UMKCGMU-125",
+      "yes_sub_title": "Over 124.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.8300",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV11CPGC-147",
-      "yes_sub_title": "Over 146.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV12UMKCGMU-129",
+      "yes_sub_title": "Over 128.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.8200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNBAGAME": {
-   "open_events": 33,
+   "open_events": 30,
    "sample": {
-    "event_ticker": "KXNBAGAME-26NOV11ORLUTA",
-    "title": "Orlando vs Utah",
+    "event_ticker": "KXNBAGAME-26NOV12DETWAS",
+    "title": "Detroit vs Washington",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBAGAME-26NOV11ORLUTA-ORL",
-      "yes_sub_title": "Orlando",
+      "ticker": "KXNBAGAME-26NOV12DETWAS-DET",
+      "yes_sub_title": "Detroit",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9000",
+      "yes_bid_dollars": "0.7800",
+      "yes_ask_dollars": "0.7900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.7900",
       "volume": null
      },
      {
-      "ticker": "KXNBAGAME-26NOV11ORLUTA-UTA",
-      "yes_sub_title": "Utah",
+      "ticker": "KXNBAGAME-26NOV12DETWAS-WAS",
+      "yes_sub_title": "Washington",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.1100",
+      "yes_bid_dollars": "0.2100",
+      "yes_ask_dollars": "0.2200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1100",
+      "last_price_dollars": "0.2200",
       "volume": null
      }
     ]
    }
   },
   "KXNBASPREAD": {
-   "open_events": 7,
+   "open_events": 4,
    "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV11ORLUTA",
-    "title": "Orlando vs Utah: Spread",
+    "event_ticker": "KXNBASPREAD-26NOV12DETWAS",
+    "title": "Detroit vs Washington: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBASPREAD-26NOV11ORLUTA-UTA24",
-      "yes_sub_title": "Utah wins by over 23.5 points",
+      "ticker": "KXNBASPREAD-26NOV12DETWAS-WAS17",
+      "yes_sub_title": "Washington wins by over 16.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV11ORLUTA-UTA22",
-      "yes_sub_title": "Utah wins by over 21.5 points",
+      "ticker": "KXNBASPREAD-26NOV12DETWAS-WAS15",
+      "yes_sub_title": "Washington wins by over 14.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV11ORLUTA-UTA20",
-      "yes_sub_title": "Utah wins by over 19.5 points",
+      "ticker": "KXNBASPREAD-26NOV12DETWAS-WAS13",
+      "yes_sub_title": "Washington wins by over 12.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNBATOTAL": {
-   "open_events": 7,
+   "open_events": 4,
    "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV11ORLUTA",
-    "title": "Orlando vs Utah: Total Points",
+    "event_ticker": "KXNBATOTAL-26NOV12DETWAS",
+    "title": "Detroit vs Washington: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV11ORLUTA-190",
-      "yes_sub_title": "Over 189.5 points",
+      "ticker": "KXNBATOTAL-26NOV12DETWAS-193",
+      "yes_sub_title": "Over 192.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV11ORLUTA-192",
-      "yes_sub_title": "Over 191.5 points",
+      "ticker": "KXNBATOTAL-26NOV12DETWAS-195",
+      "yes_sub_title": "Over 194.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9300",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9300",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV11ORLUTA-194",
-      "yes_sub_title": "Over 193.5 points",
+      "ticker": "KXNBATOTAL-26NOV12DETWAS-197",
+      "yes_sub_title": "Over 196.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
@@ -615,7 +615,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1900",
+      "last_price_dollars": "0.1800",
       "volume": null
      }
     ]
@@ -657,8 +657,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 3147,
-  "started": 9
+  "stale_or_wide": 2954,
+  "started": 0
  },
  "unmatched_teams": [
   "College Basketball: Jacksonville St.",
