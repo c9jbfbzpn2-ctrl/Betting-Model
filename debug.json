@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T01:28:48.817507+00:00",
+ "updated": "2026-11-13T04:15:08.780395+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 27,
@@ -14,12 +14,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5400",
-      "yes_ask_dollars": "0.5500",
+      "yes_bid_dollars": "0.3600",
+      "yes_ask_dollars": "0.3700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5400",
+      "last_price_dollars": "0.3700",
       "volume": null
      },
      {
@@ -28,19 +28,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4500",
-      "yes_ask_dollars": "0.4600",
+      "yes_bid_dollars": "0.6300",
+      "yes_ask_dollars": "0.6400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4600",
+      "last_price_dollars": "0.6300",
       "volume": null
      }
     ]
    }
   },
   "KXNFLSPREAD": {
-   "open_events": 14,
+   "open_events": 15,
    "sample": {
     "event_ticker": "KXNFLSPREAD-26NOV12WASNYG",
     "title": "Washington vs New York G: Spread",
@@ -52,12 +52,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
-      "yes_ask_dollars": "0.1000",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -66,12 +66,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.1100",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1200",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -80,71 +80,71 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1500",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1400",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNFLTOTAL": {
-   "open_events": 14,
+   "open_events": 15,
    "sample": {
     "event_ticker": "KXNFLTOTAL-26NOV12WASNYG",
     "title": "Washington vs New York G: Total Points",
     "strike_date": null,
     "markets": [
      {
+      "ticker": "KXNFLTOTAL-26NOV12WASNYG-18",
+      "yes_sub_title": "Over 17.5 points",
+      "status": "finalized",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "1.0000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLTOTAL-26NOV12WASNYG-21",
+      "yes_sub_title": "Over 20.5 points",
+      "status": "finalized",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "1.0000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
       "ticker": "KXNFLTOTAL-26NOV12WASNYG-24",
       "yes_sub_title": "Over 23.5 points",
-      "status": "active",
+      "status": "finalized",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8700",
-      "yes_ask_dollars": "0.8800",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNFLTOTAL-26NOV12WASNYG-27",
-      "yes_sub_title": "Over 26.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.8100",
-      "yes_ask_dollars": "0.8200",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.8400",
-      "volume": null
-     },
-     {
-      "ticker": "KXNFLTOTAL-26NOV12WASNYG-30",
-      "yes_sub_title": "Over 29.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.7300",
-      "yes_ask_dollars": "0.7400",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.7300",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFGAME": {
-   "open_events": 254,
+   "open_events": 255,
    "sample": {
     "event_ticker": "KXNCAAFGAME-26NOV12MEMUSF",
     "title": "Memphis vs South Florida",
@@ -156,12 +156,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.0900",
+      "yes_bid_dollars": "0.5500",
+      "yes_ask_dollars": "0.5600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
+      "last_price_dollars": "0.5500",
       "volume": null
      },
      {
@@ -170,12 +170,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9200",
+      "yes_bid_dollars": "0.4400",
+      "yes_ask_dollars": "0.4500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9100",
+      "last_price_dollars": "0.4500",
       "volume": null
      }
     ]
@@ -189,45 +189,45 @@
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFSPREAD-26NOV12MEMUSF-MEM28",
-      "yes_sub_title": "Memphis wins by over 27.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV12MEMUSF-USF15",
+      "yes_sub_title": "South Florida wins by over 14.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3000",
-      "yes_ask_dollars": "0.3400",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3200",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFSPREAD-26NOV12MEMUSF-MEM25",
-      "yes_sub_title": "Memphis wins by over 24.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV12MEMUSF-USF14",
+      "yes_sub_title": "South Florida wins by over 13.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3400",
-      "yes_ask_dollars": "0.3800",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3800",
+      "last_price_dollars": "0.0300",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFSPREAD-26NOV12MEMUSF-MEM24",
-      "yes_sub_title": "Memphis wins by over 23.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV12MEMUSF-USF12",
+      "yes_sub_title": "South Florida wins by over 11.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3300",
-      "yes_ask_dollars": "0.4000",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4100",
+      "last_price_dollars": "0.0400",
       "volume": null
      }
     ]
@@ -246,12 +246,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -260,12 +260,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -274,50 +274,50 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8800",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9700",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 176,
+   "open_events": 172,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV12MHUPSU",
-    "title": "Mercyhurst vs Penn St.",
+    "event_ticker": "KXNCAAMBGAME-26NOV12UCRVSJSU",
+    "title": "UC Riverside vs San Jose St.",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV12MHUPSU-PSU",
-      "yes_sub_title": "Penn St.",
-      "status": "determined",
+      "ticker": "KXNCAAMBGAME-26NOV12UCRVSJSU-SJSU",
+      "yes_sub_title": "San Jose St.",
+      "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.6900",
+      "yes_ask_dollars": "0.7000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.6900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV12MHUPSU-MHU",
-      "yes_sub_title": "Mercyhurst",
-      "status": "determined",
+      "ticker": "KXNCAAMBGAME-26NOV12UCRVSJSU-UCRV",
+      "yes_sub_title": "UC Riverside",
+      "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.3000",
+      "yes_ask_dollars": "0.3100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.3100",
       "volume": null
      }
     ]
@@ -326,155 +326,13 @@
   "KXNCAAMBSPREAD": {
    "open_events": 49,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV12MHUPSU",
-    "title": "Mercyhurst vs Penn St.: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV12UCRVSJSU",
+    "title": "UC Riverside vs San Jose St.: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV12MHUPSU-PSU43",
-      "yes_sub_title": "Penn St. wins by over 42.5 points",
-      "status": "determined",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0200",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBSPREAD-26NOV12MHUPSU-PSU38",
-      "yes_sub_title": "Penn St. wins by over 37.5 points",
-      "status": "determined",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0100",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBSPREAD-26NOV12MHUPSU-PSU33",
-      "yes_sub_title": "Penn St. wins by over 32.5 points",
-      "status": "determined",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0100",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNCAAMBTOTAL": {
-   "open_events": 49,
-   "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV12MHUPSU",
-    "title": "Mercyhurst vs Penn St.: Point Total",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV12MHUPSU-107",
-      "yes_sub_title": "Over 106.5 points",
-      "status": "determined",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV12MHUPSU-112",
-      "yes_sub_title": "Over 111.5 points",
-      "status": "determined",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9600",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV12MHUPSU-117",
-      "yes_sub_title": "Over 116.5 points",
-      "status": "determined",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNBAGAME": {
-   "open_events": 36,
-   "sample": {
-    "event_ticker": "KXNBAGAME-26NOV12DETWAS",
-    "title": "Detroit vs Washington",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNBAGAME-26NOV12DETWAS-DET",
-      "yes_sub_title": "Detroit",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.8600",
-      "yes_ask_dollars": "0.8700",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.8700",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBAGAME-26NOV12DETWAS-WAS",
-      "yes_sub_title": "Washington",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.1200",
-      "yes_ask_dollars": "0.1300",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.1300",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNBASPREAD": {
-   "open_events": 13,
-   "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV12DETWAS",
-    "title": "Detroit vs Washington: Spread",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNBASPREAD-26NOV12DETWAS-WAS17",
-      "yes_sub_title": "Washington wins by over 16.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV12UCRVSJSU-SJSU32",
+      "yes_sub_title": "San Jose St. wins by over 31.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -487,46 +345,188 @@
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV12DETWAS-WAS15",
-      "yes_sub_title": "Washington wins by over 14.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV12UCRVSJSU-SJSU31",
+      "yes_sub_title": "San Jose St. wins by over 30.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0200",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0400",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV12DETWAS-WAS13",
-      "yes_sub_title": "Washington wins by over 12.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV12UCRVSJSU-SJSU26",
+      "yes_sub_title": "San Jose St. wins by over 25.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0200",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0300",
+      "last_price_dollars": "0.0200",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAMBTOTAL": {
+   "open_events": 52,
+   "sample": {
+    "event_ticker": "KXNCAAMBTOTAL-26NOV12UCRVSJSU",
+    "title": "UC Riverside vs San Jose St.: Point Total",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV12UCRVSJSU-132",
+      "yes_sub_title": "Over 131.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9700",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV12UCRVSJSU-137",
+      "yes_sub_title": "Over 136.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9300",
+      "yes_ask_dollars": "0.9400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9300",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV12UCRVSJSU-141",
+      "yes_sub_title": "Over 140.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8500",
+      "yes_ask_dollars": "0.8600",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.8600",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNBAGAME": {
+   "open_events": 33,
+   "sample": {
+    "event_ticker": "KXNBAGAME-26NOV12CHAPHX",
+    "title": "Charlotte vs Phoenix",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNBAGAME-26NOV12CHAPHX-CHA",
+      "yes_sub_title": "Charlotte",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0800",
+      "yes_ask_dollars": "0.0900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBAGAME-26NOV12CHAPHX-PHX",
+      "yes_sub_title": "Phoenix",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9100",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNBASPREAD": {
+   "open_events": 10,
+   "sample": {
+    "event_ticker": "KXNBASPREAD-26NOV12CHAPHX",
+    "title": "Charlotte vs Phoenix: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNBASPREAD-26NOV12CHAPHX-PHX33",
+      "yes_sub_title": "Phoenix wins by over 32.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBASPREAD-26NOV12CHAPHX-PHX31",
+      "yes_sub_title": "Phoenix wins by over 30.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBASPREAD-26NOV12CHAPHX-PHX29",
+      "yes_sub_title": "Phoenix wins by over 28.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNBATOTAL": {
-   "open_events": 13,
+   "open_events": 10,
    "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV12DETWAS",
-    "title": "Detroit vs Washington: Total Points",
+    "event_ticker": "KXNBATOTAL-26NOV12CHAPHX",
+    "title": "Charlotte vs Phoenix: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV12DETWAS-193",
-      "yes_sub_title": "Over 192.5 points",
+      "ticker": "KXNBATOTAL-26NOV12CHAPHX-185",
+      "yes_sub_title": "Over 184.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -535,35 +535,35 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV12DETWAS-195",
-      "yes_sub_title": "Over 194.5 points",
+      "ticker": "KXNBATOTAL-26NOV12CHAPHX-187",
+      "yes_sub_title": "Over 186.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9500",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV12DETWAS-197",
-      "yes_sub_title": "Over 196.5 points",
+      "ticker": "KXNBATOTAL-26NOV12CHAPHX-189",
+      "yes_sub_title": "Over 188.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9400",
       "volume": null
      }
     ]
@@ -601,7 +601,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1400",
       "volume": null
      },
      {
@@ -656,9 +656,9 @@
   "Premier League": 0
  },
  "skipped": {
-  "games_no_teams": 1,
-  "stale_or_wide": 4535,
-  "started": 27
+  "games_no_teams": 0,
+  "stale_or_wide": 4044,
+  "started": 5
  },
  "unmatched_teams": [
   "College Basketball: Ferrum",
