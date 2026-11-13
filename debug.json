@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T19:16:11.633951+00:00",
+ "updated": "2026-11-13T22:01:57.598578+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 26,
@@ -19,7 +19,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5700",
+      "last_price_dollars": "0.5800",
       "volume": null
      },
      {
@@ -71,7 +71,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1000",
+      "last_price_dollars": "0.0900",
       "volume": null
      },
      {
@@ -144,7 +144,7 @@
    }
   },
   "KXNCAAFGAME": {
-   "open_events": 257,
+   "open_events": 260,
    "sample": {
     "event_ticker": "KXNCAAFGAME-26NOV13FSUPITT",
     "title": "Florida St. vs Pittsburgh",
@@ -170,12 +170,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3900",
-      "yes_ask_dollars": "0.4000",
+      "yes_bid_dollars": "0.4000",
+      "yes_ask_dollars": "0.4100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4000",
+      "last_price_dollars": "0.4100",
       "volume": null
      }
     ]
@@ -194,12 +194,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1400",
+      "yes_bid_dollars": "0.1200",
+      "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1200",
+      "last_price_dollars": "0.1300",
       "volume": null
      },
      {
@@ -213,7 +213,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.1600",
       "volume": null
      },
      {
@@ -251,7 +251,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.8900",
       "volume": null
      },
      {
@@ -260,12 +260,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8400",
+      "yes_bid_dollars": "0.8500",
       "yes_ask_dollars": "0.8600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8700",
+      "last_price_dollars": "0.8600",
       "volume": null
      },
      {
@@ -274,12 +274,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8000",
-      "yes_ask_dollars": "0.8200",
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.8100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8200",
+      "last_price_dollars": "0.8100",
       "volume": null
      }
     ]
@@ -288,147 +288,147 @@
   "KXNCAAMBGAME": {
    "open_events": 179,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV13CLEVUWFL",
-    "title": "Cleveland St. vs West Florida",
+    "event_ticker": "KXNCAAMBGAME-26NOV13AMCCFSU",
+    "title": "Texas A&M-Corpus Christi vs Florida St.",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV13CLEVUWFL-UWFL",
-      "yes_sub_title": "West Florida",
+      "ticker": "KXNCAAMBGAME-26NOV13AMCCFSU-FSU",
+      "yes_sub_title": "Florida St.",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4700",
-      "yes_ask_dollars": "0.4900",
+      "yes_bid_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4900",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV13CLEVUWFL-CLEV",
-      "yes_sub_title": "Cleveland St.",
+      "ticker": "KXNCAAMBGAME-26NOV13AMCCFSU-AMCC",
+      "yes_sub_title": "Texas A&M-Corpus Christi",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5100",
-      "yes_ask_dollars": "0.5200",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5200",
+      "last_price_dollars": "0.0300",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 57,
+   "open_events": 66,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV13CLEVUWFL",
-    "title": "Cleveland St. vs West Florida: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV13AMCCFSU",
+    "title": "Texas A&M-Corpus Christi vs Florida St.: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV13CLEVUWFL-UWFL18",
-      "yes_sub_title": "West Florida wins by over 17.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV13AMCCFSU-FSU47",
+      "yes_sub_title": "Florida St. wins by over 46.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0500",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0200",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBSPREAD-26NOV13CLEVUWFL-UWFL13",
-      "yes_sub_title": "West Florida wins by over 12.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.1100",
+      "yes_bid_dollars": "0.0000",
       "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV13CLEVUWFL-UWFL8",
-      "yes_sub_title": "West Florida wins by over 7.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV13AMCCFSU-FSU45",
+      "yes_sub_title": "Florida St. wins by over 44.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2300",
-      "yes_ask_dollars": "0.2500",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.1000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2300",
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBSPREAD-26NOV13AMCCFSU-FSU44",
+      "yes_sub_title": "Florida St. wins by over 43.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0400",
+      "yes_ask_dollars": "0.1200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 57,
+   "open_events": 71,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV13CLEVUWFL",
-    "title": "Cleveland St. vs West Florida: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV13AMCCFSU",
+    "title": "Texas A&M-Corpus Christi vs Florida St.: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV13CLEVUWFL-129",
+      "ticker": "KXNCAAMBTOTAL-26NOV13AMCCFSU-127",
+      "yes_sub_title": "Over 126.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8600",
+      "yes_ask_dollars": "0.9100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV13AMCCFSU-129",
       "yes_sub_title": "Over 128.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.8400",
+      "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.9300",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV13CLEVUWFL-134",
+      "ticker": "KXNCAAMBTOTAL-26NOV13AMCCFSU-134",
       "yes_sub_title": "Over 133.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8500",
-      "yes_ask_dollars": "0.8700",
+      "yes_bid_dollars": "0.8200",
+      "yes_ask_dollars": "0.8300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
       "last_price_dollars": "0.8700",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV13CLEVUWFL-138",
-      "yes_sub_title": "Over 137.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.7700",
-      "yes_ask_dollars": "0.7900",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.7900",
       "volume": null
      }
     ]
    }
   },
   "KXNBAGAME": {
-   "open_events": 33,
+   "open_events": 35,
    "sample": {
     "event_ticker": "KXNBAGAME-26NOV13MILORL",
     "title": "Milwaukee vs Orlando",
@@ -492,7 +492,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
+      "yes_bid_dollars": "0.0400",
       "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
@@ -535,7 +535,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -657,8 +657,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 3492,
-  "started": 0
+  "stale_or_wide": 3692,
+  "started": 2
  },
  "unmatched_teams": [
   "College Basketball: Ferrum",
