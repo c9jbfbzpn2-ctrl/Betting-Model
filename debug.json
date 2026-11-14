@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T10:03:17.854368+00:00",
+ "updated": "2026-11-14T13:13:55.067787+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 26,
@@ -19,7 +19,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5800",
+      "last_price_dollars": "0.5700",
       "volume": null
      },
      {
@@ -194,7 +194,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1200",
+      "yes_bid_dollars": "0.1100",
       "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
@@ -209,7 +209,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1400",
-      "yes_ask_dollars": "0.1600",
+      "yes_ask_dollars": "0.1500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -223,7 +223,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1600",
-      "yes_ask_dollars": "0.1700",
+      "yes_ask_dollars": "0.1800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -260,8 +260,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9200",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -298,12 +298,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7000",
-      "yes_ask_dollars": "0.7100",
+      "yes_bid_dollars": "0.7100",
+      "yes_ask_dollars": "0.7200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7100",
+      "last_price_dollars": "0.7200",
       "volume": null
      },
      {
@@ -337,7 +337,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.4000",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -351,11 +351,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.3400",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -364,8 +364,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.3200",
+      "yes_bid_dollars": "0.0400",
+      "yes_ask_dollars": "0.1100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -388,7 +388,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5500",
+      "yes_bid_dollars": "0.9500",
       "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
@@ -402,8 +402,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5800",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.9300",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -416,8 +416,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6000",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -441,11 +441,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.8300",
-      "yes_ask_dollars": "0.8400",
+      "yes_ask_dollars": "0.8500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8400",
+      "last_price_dollars": "0.8500",
       "volume": null
      },
      {
@@ -531,7 +531,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9500",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -545,11 +545,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -582,7 +582,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6900",
+      "yes_bid_dollars": "0.6800",
       "yes_ask_dollars": "0.7000",
       "no_bid": null,
       "no_ask": null,
@@ -622,12 +622,108 @@
    }
   },
   "KXEPLSPREAD": {
-   "open_events": 0,
-   "sample": null
+   "open_events": 1,
+   "sample": {
+    "event_ticker": "KXEPLSPREAD-26NOV21MCIFUL",
+    "title": "Manchester City vs Fulham: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXEPLSPREAD-26NOV21MCIFUL-MCI3",
+      "yes_sub_title": "Manchester City wins by more than 2.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.1200",
+      "yes_ask_dollars": "0.3700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLSPREAD-26NOV21MCIFUL-MCI2",
+      "yes_sub_title": "Manchester City wins by more than 1.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.4100",
+      "yes_ask_dollars": "0.5300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLSPREAD-26NOV21MCIFUL-FUL2",
+      "yes_sub_title": "Fulham wins by more than 1.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.9400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     }
+    ]
+   }
   },
   "KXEPLTOTAL": {
-   "open_events": 0,
-   "sample": null
+   "open_events": 1,
+   "sample": {
+    "event_ticker": "KXEPLTOTAL-26NOV21MCIFUL",
+    "title": "Manchester City vs Fulham: Total Goals",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXEPLTOTAL-26NOV21MCIFUL-1",
+      "yes_sub_title": "Over 0.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.9500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLTOTAL-26NOV21MCIFUL-2",
+      "yes_sub_title": "Over 1.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.8800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLTOTAL-26NOV21MCIFUL-3",
+      "yes_sub_title": "Over 2.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.6100",
+      "yes_ask_dollars": "0.6700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0000",
+      "volume": null
+     }
+    ]
+   }
   }
  },
  "espn_errors": [
@@ -657,7 +753,7 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 1948,
+  "stale_or_wide": 1822,
   "started": 0
  },
  "unmatched_teams": [
