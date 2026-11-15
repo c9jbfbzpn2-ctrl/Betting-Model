@@ -1,143 +1,143 @@
 {
- "updated": "2026-11-15T15:56:38.330604+00:00",
+ "updated": "2026-11-15T19:05:53.461731+00:00",
  "kalshi": {
   "KXNFLGAME": {
-   "open_events": 26,
+   "open_events": 25,
    "sample": {
-    "event_ticker": "KXNFLGAME-26NOV15NEDET",
-    "title": "New England vs Detroit",
+    "event_ticker": "KXNFLGAME-26NOV15BUFNYJ",
+    "title": "Buffalo vs New York J",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLGAME-26NOV15NEDET-DET",
-      "yes_sub_title": "Detroit",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-NYJ",
+      "yes_sub_title": "New York J",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.1200",
+      "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.1300",
       "volume": null
      },
      {
-      "ticker": "KXNFLGAME-26NOV15NEDET-NE",
-      "yes_sub_title": "New England",
+      "ticker": "KXNFLGAME-26NOV15BUFNYJ-BUF",
+      "yes_sub_title": "Buffalo",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0200",
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.8800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.8800",
       "volume": null
      }
     ]
    }
   },
   "KXNFLSPREAD": {
-   "open_events": 14,
+   "open_events": 13,
    "sample": {
-    "event_ticker": "KXNFLSPREAD-26NOV15NEDET",
-    "title": "New England vs Detroit: Spread",
+    "event_ticker": "KXNFLSPREAD-26NOV15BUFNYJ",
+    "title": "Buffalo vs New York J: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLSPREAD-26NOV15NEDET-DET34",
-      "yes_sub_title": "Detroit wins by over 33.5 points",
+      "ticker": "KXNFLSPREAD-26NOV15BUFNYJ-BUF28",
+      "yes_sub_title": "Buffalo wins by over 27.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1100",
-      "yes_ask_dollars": "0.1300",
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1200",
+      "last_price_dollars": "0.0800",
       "volume": null
      },
      {
-      "ticker": "KXNFLSPREAD-26NOV15NEDET-DET31",
-      "yes_sub_title": "Detroit wins by over 30.5 points",
+      "ticker": "KXNFLSPREAD-26NOV15BUFNYJ-BUF24",
+      "yes_sub_title": "Buffalo wins by over 23.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2000",
-      "yes_ask_dollars": "0.2300",
+      "yes_bid_dollars": "0.1300",
+      "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2300",
+      "last_price_dollars": "0.1800",
       "volume": null
      },
      {
-      "ticker": "KXNFLSPREAD-26NOV15NEDET-DET28",
-      "yes_sub_title": "Detroit wins by over 27.5 points",
+      "ticker": "KXNFLSPREAD-26NOV15BUFNYJ-BUF21",
+      "yes_sub_title": "Buffalo wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3100",
-      "yes_ask_dollars": "0.3300",
+      "yes_bid_dollars": "0.1900",
+      "yes_ask_dollars": "0.2100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3100",
+      "last_price_dollars": "0.2100",
       "volume": null
      }
     ]
    }
   },
   "KXNFLTOTAL": {
-   "open_events": 14,
+   "open_events": 13,
    "sample": {
-    "event_ticker": "KXNFLTOTAL-26NOV15NEDET",
-    "title": "New England vs Detroit: Total Points",
+    "event_ticker": "KXNFLTOTAL-26NOV15BUFNYJ",
+    "title": "Buffalo vs New York J: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLTOTAL-26NOV15NEDET-29",
+      "ticker": "KXNFLTOTAL-26NOV15BUFNYJ-29",
       "yes_sub_title": "Over 28.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNFLTOTAL-26NOV15NEDET-32",
-      "yes_sub_title": "Over 31.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
+      "yes_bid_dollars": "0.9400",
       "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
-      "ticker": "KXNFLTOTAL-26NOV15NEDET-35",
+      "ticker": "KXNFLTOTAL-26NOV15BUFNYJ-32",
+      "yes_sub_title": "Over 31.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9300",
+      "volume": null
+     },
+     {
+      "ticker": "KXNFLTOTAL-26NOV15BUFNYJ-35",
       "yes_sub_title": "Over 34.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8800",
-      "yes_ask_dollars": "0.9000",
+      "yes_bid_dollars": "0.8200",
+      "yes_ask_dollars": "0.8400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9100",
+      "last_price_dollars": "0.8600",
       "volume": null
      }
     ]
@@ -156,12 +156,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5200",
-      "yes_ask_dollars": "0.5300",
+      "yes_bid_dollars": "0.6800",
+      "yes_ask_dollars": "0.6900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5300",
+      "last_price_dollars": "0.6900",
       "volume": null
      },
      {
@@ -170,19 +170,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4600",
-      "yes_ask_dollars": "0.4700",
+      "yes_bid_dollars": "0.3100",
+      "yes_ask_dollars": "0.3200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4700",
+      "last_price_dollars": "0.3200",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 31,
+   "open_events": 58,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV14VALPSTET",
     "title": "Valparaiso vs Stetson: Spread",
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 31,
+   "open_events": 58,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV14VALPSTET",
     "title": "Valparaiso vs Stetson: Total Points",
@@ -286,7 +286,7 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 177,
+   "open_events": 175,
    "sample": {
     "event_ticker": "KXNCAAMBGAME-26NOV14UNCGCOR",
     "title": "UNC Greensboro vs Cornell",
@@ -298,12 +298,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6600",
-      "yes_ask_dollars": "0.6900",
+      "yes_bid_dollars": "0.6500",
+      "yes_ask_dollars": "0.7000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6600",
+      "last_price_dollars": "0.6500",
       "volume": null
      },
      {
@@ -312,19 +312,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3100",
-      "yes_ask_dollars": "0.3300",
+      "yes_bid_dollars": "0.2900",
+      "yes_ask_dollars": "0.3400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3100",
+      "last_price_dollars": "0.2900",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 38,
+   "open_events": 36,
    "sample": {
     "event_ticker": "KXNCAAMBSPREAD-26NOV14UNCGCOR",
     "title": "UNC Greensboro vs Cornell: Spread",
@@ -376,7 +376,7 @@
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 38,
+   "open_events": 36,
    "sample": {
     "event_ticker": "KXNCAAMBTOTAL-26NOV14UNCGCOR",
     "title": "UNC Greensboro vs Cornell: Point Total",
@@ -440,12 +440,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2700",
-      "yes_ask_dollars": "0.2800",
+      "yes_bid_dollars": "0.3000",
+      "yes_ask_dollars": "0.3100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2800",
+      "last_price_dollars": "0.3200",
       "volume": null
      },
      {
@@ -454,12 +454,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7200",
-      "yes_ask_dollars": "0.7300",
+      "yes_bid_dollars": "0.6800",
+      "yes_ask_dollars": "0.7000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7300",
+      "last_price_dollars": "0.6900",
       "volume": null
      }
     ]
@@ -478,12 +478,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0300",
       "volume": null
      },
      {
@@ -492,12 +492,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
@@ -506,12 +506,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0200",
       "volume": null
      }
     ]
@@ -530,12 +530,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9600",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -558,12 +558,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9700",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
@@ -587,7 +587,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7000",
+      "last_price_dollars": "0.6900",
       "volume": null
      },
      {
@@ -622,7 +622,7 @@
    }
   },
   "KXEPLSPREAD": {
-   "open_events": 8,
+   "open_events": 9,
    "sample": {
     "event_ticker": "KXEPLSPREAD-26NOV21MCIFUL",
     "title": "Manchester City vs Fulham: Spread",
@@ -649,7 +649,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.4500",
-      "yes_ask_dollars": "0.4700",
+      "yes_ask_dollars": "0.4600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -662,8 +662,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0700",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -674,7 +674,7 @@
    }
   },
   "KXEPLTOTAL": {
-   "open_events": 8,
+   "open_events": 9,
    "sample": {
     "event_ticker": "KXEPLTOTAL-26NOV21MCIFUL",
     "title": "Manchester City vs Fulham: Total Goals",
@@ -741,30 +741,6 @@
     "dates": "20261110-20261115"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
-  },
-  {
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
-   "params": {
-    "dates": "20261114"
-   },
-   "error": "SSLError: HTTPSConnectionPool(host='site.api.espn.com', port=443): Max retries exceeded with url: /apis/site/v2/sports/football/nf"
-  },
-  {
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
-   "params": {
-    "groups": "80",
-    "dates": "20261112-20261115",
-    "limit": "1000"
-   },
-   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
-  },
-  {
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard",
-   "params": {
-    "groups": "80",
-    "dates": "20261112-20261115"
-   },
-   "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
   }
  ],
  "espn_style": "day",
@@ -777,8 +753,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 2431,
-  "started": 7
+  "stale_or_wide": 4467,
+  "started": 25
  },
  "unmatched_teams": [
   "College Basketball: Ferrum",
