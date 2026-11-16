@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T19:19:03.441308+00:00",
+ "updated": "2026-11-16T22:05:51.863867+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 14,
@@ -14,12 +14,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6800",
-      "yes_ask_dollars": "0.6900",
+      "yes_bid_dollars": "0.6700",
+      "yes_ask_dollars": "0.6800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6900",
+      "last_price_dollars": "0.6800",
       "volume": null
      },
      {
@@ -52,8 +52,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1100",
-      "yes_ask_dollars": "0.1200",
+      "yes_bid_dollars": "0.1000",
+      "yes_ask_dollars": "0.1100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -66,12 +66,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1400",
+      "yes_bid_dollars": "0.1500",
       "yes_ask_dollars": "0.1600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1500",
+      "last_price_dollars": "0.1600",
       "volume": null
      },
      {
@@ -80,12 +80,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1800",
-      "yes_ask_dollars": "0.1900",
+      "yes_bid_dollars": "0.1700",
+      "yes_ask_dollars": "0.1800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1900",
+      "last_price_dollars": "0.1800",
       "volume": null
      }
     ]
@@ -104,12 +104,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9600",
+      "yes_bid_dollars": "0.9700",
       "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -144,7 +144,7 @@
    }
   },
   "KXNCAAFGAME": {
-   "open_events": 185,
+   "open_events": 186,
    "sample": {
     "event_ticker": "KXNCAAFGAME-26NOV17BALLOHIO",
     "title": "Ball St. vs Ohio",
@@ -209,7 +209,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1800",
-      "yes_ask_dollars": "0.2300",
+      "yes_ask_dollars": "0.2200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -223,7 +223,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.2300",
-      "yes_ask_dollars": "0.2700",
+      "yes_ask_dollars": "0.2600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -246,7 +246,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
+      "yes_bid_dollars": "0.9300",
       "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
@@ -260,7 +260,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
+      "yes_bid_dollars": "0.8800",
       "yes_ask_dollars": "0.9200",
       "no_bid": null,
       "no_ask": null,
@@ -274,7 +274,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8400",
+      "yes_bid_dollars": "0.8200",
       "yes_ask_dollars": "0.8700",
       "no_bid": null,
       "no_ask": null,
@@ -286,7 +286,7 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 165,
+   "open_events": 170,
    "sample": {
     "event_ticker": "KXNCAAMBGAME-26NOV14ULLUNCW",
     "title": "Louisiana vs UNC Wilmington",
@@ -298,7 +298,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7100",
+      "yes_bid_dollars": "0.7200",
       "yes_ask_dollars": "0.8000",
       "no_bid": null,
       "no_ask": null,
@@ -317,14 +317,14 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2000",
+      "last_price_dollars": "0.2800",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 24,
+   "open_events": 25,
    "sample": {
     "event_ticker": "KXNCAAMBSPREAD-26NOV15PEPPORE",
     "title": "Pepperdine vs Oregon: Spread",
@@ -365,7 +365,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.9400",
+      "yes_ask_dollars": "0.5400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -376,7 +376,7 @@
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 24,
+   "open_events": 25,
    "sample": {
     "event_ticker": "KXNCAAMBTOTAL-26NOV15PEPPORE",
     "title": "Pepperdine vs Oregon: Point Total",
@@ -459,7 +459,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7600",
+      "last_price_dollars": "0.7500",
       "volume": null
      }
     ]
@@ -478,12 +478,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
+      "yes_bid_dollars": "0.0100",
       "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0300",
       "volume": null
      },
      {
@@ -493,7 +493,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0400",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -530,12 +530,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
+      "yes_bid_dollars": "0.9400",
       "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
@@ -601,7 +601,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1200",
+      "last_price_dollars": "0.1300",
       "volume": null
      },
      {
@@ -622,7 +622,7 @@
    }
   },
   "KXEPLSPREAD": {
-   "open_events": 9,
+   "open_events": 10,
    "sample": {
     "event_ticker": "KXEPLSPREAD-26NOV21MCIFUL",
     "title": "Manchester City vs Fulham: Spread",
@@ -667,14 +667,14 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0500",
+      "last_price_dollars": "0.0400",
       "volume": null
      }
     ]
    }
   },
   "KXEPLTOTAL": {
-   "open_events": 9,
+   "open_events": 10,
    "sample": {
     "event_ticker": "KXEPLTOTAL-26NOV21MCIFUL",
     "title": "Manchester City vs Fulham: Total Goals",
@@ -753,14 +753,15 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 335,
-  "started": 3
+  "stale_or_wide": 463,
+  "started": 2
  },
  "unmatched_teams": [
   "College Basketball: Jacksonville St.",
   "College Basketball: NC St.",
   "College Basketball: New Orleans",
   "College Basketball: USC Upstate",
+  "College Basketball: University at Albany",
   "College Basketball: Wilson College",
   "College Football: Alabama A&M",
   "College Football: Brown",
