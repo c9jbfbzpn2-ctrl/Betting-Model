@@ -1,143 +1,143 @@
 {
- "updated": "2026-11-15T21:55:13.087199+00:00",
+ "updated": "2026-11-16T01:45:38.235337+00:00",
  "kalshi": {
   "KXNFLGAME": {
-   "open_events": 18,
+   "open_events": 15,
    "sample": {
-    "event_ticker": "KXNFLGAME-26NOV15LARARI",
-    "title": "Los Angeles R vs Arizona",
+    "event_ticker": "KXNFLGAME-26NOV15PITCIN",
+    "title": "Pittsburgh vs Cincinnati",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLGAME-26NOV15LARARI-ARI",
-      "yes_sub_title": "Arizona",
+      "ticker": "KXNFLGAME-26NOV15PITCIN-CIN",
+      "yes_sub_title": "Cincinnati",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2600",
-      "yes_ask_dollars": "0.2700",
+      "yes_bid_dollars": "0.7200",
+      "yes_ask_dollars": "0.7300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2700",
+      "last_price_dollars": "0.7300",
       "volume": null
      },
      {
-      "ticker": "KXNFLGAME-26NOV15LARARI-LAR",
-      "yes_sub_title": "Los Angeles R",
+      "ticker": "KXNFLGAME-26NOV15PITCIN-PIT",
+      "yes_sub_title": "Pittsburgh",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7300",
-      "yes_ask_dollars": "0.7400",
+      "yes_bid_dollars": "0.2700",
+      "yes_ask_dollars": "0.2800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7400",
+      "last_price_dollars": "0.2800",
       "volume": null
      }
     ]
    }
   },
   "KXNFLSPREAD": {
-   "open_events": 6,
+   "open_events": 13,
    "sample": {
-    "event_ticker": "KXNFLSPREAD-26NOV15LARARI",
-    "title": "Los Angeles R vs Arizona: Spread",
+    "event_ticker": "KXNFLSPREAD-26NOV15PITCIN",
+    "title": "Pittsburgh vs Cincinnati: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLSPREAD-26NOV15LARARI-LAR28",
-      "yes_sub_title": "Los Angeles R wins by over 27.5 points",
+      "ticker": "KXNFLSPREAD-26NOV15PITCIN-CIN21",
+      "yes_sub_title": "Cincinnati wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.1100",
+      "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0600",
+      "last_price_dollars": "0.1500",
       "volume": null
      },
      {
-      "ticker": "KXNFLSPREAD-26NOV15LARARI-LAR24",
-      "yes_sub_title": "Los Angeles R wins by over 23.5 points",
+      "ticker": "KXNFLSPREAD-26NOV15PITCIN-CIN18",
+      "yes_sub_title": "Cincinnati wins by over 17.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0400",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.1700",
+      "yes_ask_dollars": "0.2000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0800",
+      "last_price_dollars": "0.1900",
       "volume": null
      },
      {
-      "ticker": "KXNFLSPREAD-26NOV15LARARI-LAR21",
-      "yes_sub_title": "Los Angeles R wins by over 20.5 points",
+      "ticker": "KXNFLSPREAD-26NOV15PITCIN-CIN17",
+      "yes_sub_title": "Cincinnati wins by over 16.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.0900",
+      "yes_bid_dollars": "0.2000",
+      "yes_ask_dollars": "0.2200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1100",
+      "last_price_dollars": "0.2500",
       "volume": null
      }
     ]
    }
   },
   "KXNFLTOTAL": {
-   "open_events": 6,
+   "open_events": 13,
    "sample": {
-    "event_ticker": "KXNFLTOTAL-26NOV15LARARI",
-    "title": "Los Angeles R vs Arizona: Total Points",
+    "event_ticker": "KXNFLTOTAL-26NOV15PITCIN",
+    "title": "Pittsburgh vs Cincinnati: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNFLTOTAL-26NOV15LARARI-27",
-      "yes_sub_title": "Over 26.5 points",
+      "ticker": "KXNFLTOTAL-26NOV15PITCIN-28",
+      "yes_sub_title": "Over 27.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8400",
-      "yes_ask_dollars": "0.8500",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8500",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
-      "ticker": "KXNFLTOTAL-26NOV15LARARI-30",
-      "yes_sub_title": "Over 29.5 points",
+      "ticker": "KXNFLTOTAL-26NOV15PITCIN-31",
+      "yes_sub_title": "Over 30.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7400",
-      "yes_ask_dollars": "0.7500",
+      "yes_bid_dollars": "0.8800",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7900",
+      "last_price_dollars": "0.9300",
       "volume": null
      },
      {
-      "ticker": "KXNFLTOTAL-26NOV15LARARI-33",
-      "yes_sub_title": "Over 32.5 points",
+      "ticker": "KXNFLTOTAL-26NOV15PITCIN-34",
+      "yes_sub_title": "Over 33.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6500",
-      "yes_ask_dollars": "0.6600",
+      "yes_bid_dollars": "0.8200",
+      "yes_ask_dollars": "0.8400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6600",
+      "last_price_dollars": "0.8700",
       "volume": null
      }
     ]
@@ -156,12 +156,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7700",
-      "yes_ask_dollars": "0.7900",
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.8000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7600",
+      "last_price_dollars": "0.8000",
       "volume": null
      },
      {
@@ -171,18 +171,18 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.2100",
-      "yes_ask_dollars": "0.2300",
+      "yes_ask_dollars": "0.2200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2300",
+      "last_price_dollars": "0.2200",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 63,
+   "open_events": 65,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV14VALPSTET",
     "title": "Valparaiso vs Stetson: Spread",
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 63,
+   "open_events": 65,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV14VALPSTET",
     "title": "Valparaiso vs Stetson: Total Points",
@@ -286,7 +286,7 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 161,
+   "open_events": 149,
    "sample": {
     "event_ticker": "KXNCAAMBGAME-26NOV14UNCGCOR",
     "title": "UNC Greensboro vs Cornell",
@@ -312,19 +312,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2900",
+      "yes_bid_dollars": "0.3000",
       "yes_ask_dollars": "0.3500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3400",
+      "last_price_dollars": "0.3000",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 22,
+   "open_events": 27,
    "sample": {
     "event_ticker": "KXNCAAMBSPREAD-26NOV14UNCGCOR",
     "title": "UNC Greensboro vs Cornell: Spread",
@@ -376,7 +376,7 @@
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 22,
+   "open_events": 28,
    "sample": {
     "event_ticker": "KXNCAAMBTOTAL-26NOV14UNCGCOR",
     "title": "UNC Greensboro vs Cornell: Point Total",
@@ -430,65 +430,51 @@
   "KXNBAGAME": {
    "open_events": 33,
    "sample": {
-    "event_ticker": "KXNBAGAME-26NOV15LALPHX",
-    "title": "Los Angeles L vs Phoenix",
+    "event_ticker": "KXNBAGAME-26NOV15NYKTOR",
+    "title": "New York vs Toronto",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBAGAME-26NOV15LALPHX-LAL",
-      "yes_sub_title": "Los Angeles L",
+      "ticker": "KXNBAGAME-26NOV15NYKTOR-NYK",
+      "yes_sub_title": "New York",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8600",
-      "yes_ask_dollars": "0.8700",
+      "yes_bid_dollars": "0.7300",
+      "yes_ask_dollars": "0.7400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8700",
+      "last_price_dollars": "0.7400",
       "volume": null
      },
      {
-      "ticker": "KXNBAGAME-26NOV15LALPHX-PHX",
-      "yes_sub_title": "Phoenix",
+      "ticker": "KXNBAGAME-26NOV15NYKTOR-TOR",
+      "yes_sub_title": "Toronto",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1400",
+      "yes_bid_dollars": "0.2600",
+      "yes_ask_dollars": "0.2800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1400",
+      "last_price_dollars": "0.2800",
       "volume": null
      }
     ]
    }
   },
   "KXNBASPREAD": {
-   "open_events": 8,
+   "open_events": 6,
    "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV15LALPHX",
-    "title": "Los Angeles L vs Phoenix: Spread",
+    "event_ticker": "KXNBASPREAD-26NOV15NYKTOR",
+    "title": "New York vs Toronto: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBASPREAD-26NOV15LALPHX-PHX26",
-      "yes_sub_title": "Phoenix wins by over 25.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0200",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBASPREAD-26NOV15LALPHX-PHX24",
-      "yes_sub_title": "Phoenix wins by over 23.5 points",
+      "ticker": "KXNBASPREAD-26NOV15NYKTOR-TOR25",
+      "yes_sub_title": "Toronto wins by over 24.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -501,8 +487,22 @@
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV15LALPHX-PHX22",
-      "yes_sub_title": "Phoenix wins by over 21.5 points",
+      "ticker": "KXNBASPREAD-26NOV15NYKTOR-TOR23",
+      "yes_sub_title": "Toronto wins by over 22.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0200",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBASPREAD-26NOV15NYKTOR-TOR21",
+      "yes_sub_title": "Toronto wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -518,52 +518,52 @@
    }
   },
   "KXNBATOTAL": {
-   "open_events": 8,
+   "open_events": 6,
    "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV15LALPHX",
-    "title": "Los Angeles L vs Phoenix: Total Points",
+    "event_ticker": "KXNBATOTAL-26NOV15NYKTOR",
+    "title": "New York vs Toronto: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV15LALPHX-201",
-      "yes_sub_title": "Over 200.5 points",
+      "ticker": "KXNBATOTAL-26NOV15NYKTOR-179",
+      "yes_sub_title": "Over 178.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9700",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9700",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV15LALPHX-203",
-      "yes_sub_title": "Over 202.5 points",
+      "ticker": "KXNBATOTAL-26NOV15NYKTOR-181",
+      "yes_sub_title": "Over 180.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9600",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV15LALPHX-205",
-      "yes_sub_title": "Over 204.5 points",
+      "ticker": "KXNBATOTAL-26NOV15NYKTOR-183",
+      "yes_sub_title": "Over 182.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
@@ -587,7 +587,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6900",
+      "last_price_dollars": "0.7000",
       "volume": null
      },
      {
@@ -601,7 +601,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1200",
       "volume": null
      },
      {
@@ -635,7 +635,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.2400",
-      "yes_ask_dollars": "0.2600",
+      "yes_ask_dollars": "0.2700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -649,7 +649,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.4500",
-      "yes_ask_dollars": "0.4600",
+      "yes_ask_dollars": "0.4700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -714,8 +714,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6300",
-      "yes_ask_dollars": "0.6500",
+      "yes_bid_dollars": "0.6400",
+      "yes_ask_dollars": "0.6600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -730,7 +730,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261112-20261115",
+    "dates": "20261112-20261116",
     "limit": "1000"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
@@ -738,27 +738,28 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261112-20261115"
+    "dates": "20261112-20261116"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
   }
  ],
  "espn_style": "day",
  "kickoff_times": {
-  "NFL": 25,
-  "College Football": 71,
-  "College Basketball": 395,
-  "NBA": 58,
-  "Premier League": 9
+  "NFL": 14,
+  "College Football": 70,
+  "College Basketball": 391,
+  "NBA": 59,
+  "Premier League": 10
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 4534,
-  "started": 19
+  "stale_or_wide": 1268,
+  "started": 15
  },
  "unmatched_teams": [
   "College Basketball: Ferrum",
   "College Basketball: Jacksonville St.",
+  "College Basketball: NC St.",
   "College Basketball: New Orleans",
   "College Basketball: USC Upstate",
   "College Basketball: Wilson College",
