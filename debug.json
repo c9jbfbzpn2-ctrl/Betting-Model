@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T04:16:08.144149+00:00",
+ "updated": "2026-11-18T07:39:31.265687+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 29,
@@ -19,7 +19,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8400",
+      "last_price_dollars": "0.8500",
       "volume": null
      },
      {
@@ -28,12 +28,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.1400",
+      "yes_ask_dollars": "0.1500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1600",
+      "last_price_dollars": "0.1500",
       "volume": null
      }
     ]
@@ -81,11 +81,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1900",
-      "yes_ask_dollars": "0.2000",
+      "yes_ask_dollars": "0.2100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1900",
+      "last_price_dollars": "0.2000",
       "volume": null
      }
     ]
@@ -109,7 +109,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -123,7 +123,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9300",
       "volume": null
      },
      {
@@ -133,11 +133,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.8800",
-      "yes_ask_dollars": "0.9200",
+      "yes_ask_dollars": "0.9100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.8800",
       "volume": null
      }
     ]
@@ -156,12 +156,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6000",
-      "yes_ask_dollars": "0.6100",
+      "yes_bid_dollars": "0.5900",
+      "yes_ask_dollars": "0.6000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6100",
+      "last_price_dollars": "0.6000",
       "volume": null
      },
      {
@@ -182,7 +182,7 @@
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 106,
+   "open_events": 117,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV18AKRMASS",
     "title": "Akron vs UMass: Spread",
@@ -199,7 +199,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.1200",
       "volume": null
      },
      {
@@ -209,7 +209,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1400",
-      "yes_ask_dollars": "0.1500",
+      "yes_ask_dollars": "0.1600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 106,
+   "open_events": 117,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV18AKRMASS",
     "title": "Akron vs UMass: Total Points",
@@ -260,7 +260,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
+      "yes_bid_dollars": "0.9000",
       "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
@@ -275,7 +275,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.8300",
-      "yes_ask_dollars": "0.8700",
+      "yes_ask_dollars": "0.8600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -286,29 +286,15 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 192,
+   "open_events": 185,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV17ALSTUCD",
-    "title": "Alabama St. vs UC Davis",
+    "event_ticker": "KXNCAAMBGAME-26NOV18JKSTBAY",
+    "title": "Jackson St. vs Baylor",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV17ALSTUCD-UCD",
-      "yes_sub_title": "UC Davis",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0100",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBGAME-26NOV17ALSTUCD-ALST",
-      "yes_sub_title": "Alabama St.",
+      "ticker": "KXNCAAMBGAME-26NOV18JKSTBAY-BAY",
+      "yes_sub_title": "Baylor",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -319,25 +305,39 @@
       "last_price": null,
       "last_price_dollars": "0.9900",
       "volume": null
-     }
-    ]
-   }
-  },
-  "KXNCAAMBSPREAD": {
-   "open_events": 62,
-   "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV17ALSTUCD",
-    "title": "Alabama St. vs UC Davis: Spread",
-    "strike_date": null,
-    "markets": [
+     },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV17ALSTUCD-UCD35",
-      "yes_sub_title": "UC Davis wins by over 34.5 points",
+      "ticker": "KXNCAAMBGAME-26NOV18JKSTBAY-JKST",
+      "yes_sub_title": "Jackson St.",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
       "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAMBSPREAD": {
+   "open_events": 59,
+   "sample": {
+    "event_ticker": "KXNCAAMBSPREAD-26NOV18JKSTBAY",
+    "title": "Jackson St. vs Baylor: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAMBSPREAD-26NOV18JKSTBAY-BAY58",
+      "yes_sub_title": "Baylor wins by over 57.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -345,121 +345,121 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV17ALSTUCD-UCD34",
-      "yes_sub_title": "UC Davis wins by over 33.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV18JKSTBAY-BAY57",
+      "yes_sub_title": "Baylor wins by over 56.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV17ALSTUCD-UCD33",
-      "yes_sub_title": "UC Davis wins by over 32.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV18JKSTBAY-BAY52",
+      "yes_sub_title": "Baylor wins by over 51.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.1000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 66,
+   "open_events": 59,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV17ALSTUCD",
-    "title": "Alabama St. vs UC Davis: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV18JKSTBAY",
+    "title": "Jackson St. vs Baylor: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV17ALSTUCD-122",
-      "yes_sub_title": "Over 121.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV18JKSTBAY-129",
+      "yes_sub_title": "Over 128.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.8800",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.8500",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV17ALSTUCD-123",
-      "yes_sub_title": "Over 122.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV18JKSTBAY-134",
+      "yes_sub_title": "Over 133.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.8000",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV17ALSTUCD-124",
-      "yes_sub_title": "Over 123.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV18JKSTBAY-138",
+      "yes_sub_title": "Over 137.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.7700",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNBAGAME": {
-   "open_events": 35,
+   "open_events": 33,
    "sample": {
-    "event_ticker": "KXNBAGAME-26NOV17UTALAC",
-    "title": "Utah vs Los Angeles C",
+    "event_ticker": "KXNBAGAME-26NOV18HOUIND",
+    "title": "Houston vs Indiana",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBAGAME-26NOV17UTALAC-UTA",
-      "yes_sub_title": "Utah",
+      "ticker": "KXNBAGAME-26NOV18HOUIND-HOU",
+      "yes_sub_title": "Houston",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5100",
-      "yes_ask_dollars": "0.5200",
+      "yes_bid_dollars": "0.7300",
+      "yes_ask_dollars": "0.7400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5200",
+      "last_price_dollars": "0.7400",
       "volume": null
      },
      {
-      "ticker": "KXNBAGAME-26NOV17UTALAC-LAC",
-      "yes_sub_title": "Los Angeles C",
+      "ticker": "KXNBAGAME-26NOV18HOUIND-IND",
+      "yes_sub_title": "Indiana",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4800",
-      "yes_ask_dollars": "0.4900",
+      "yes_bid_dollars": "0.2700",
+      "yes_ask_dollars": "0.2800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4900",
+      "last_price_dollars": "0.2800",
       "volume": null
      }
     ]
@@ -468,50 +468,50 @@
   "KXNBASPREAD": {
    "open_events": 11,
    "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV17UTALAC",
-    "title": "Utah vs Los Angeles C: Spread",
+    "event_ticker": "KXNBASPREAD-26NOV18HOUIND",
+    "title": "Houston vs Indiana: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBASPREAD-26NOV17UTALAC-LAC32",
-      "yes_sub_title": "Los Angeles C wins by over 31.5 points",
+      "ticker": "KXNBASPREAD-26NOV18HOUIND-IND19",
+      "yes_sub_title": "Indiana wins by over 18.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV17UTALAC-LAC30",
-      "yes_sub_title": "Los Angeles C wins by over 29.5 points",
+      "ticker": "KXNBASPREAD-26NOV18HOUIND-IND17",
+      "yes_sub_title": "Indiana wins by over 16.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV17UTALAC-LAC28",
-      "yes_sub_title": "Los Angeles C wins by over 27.5 points",
+      "ticker": "KXNBASPREAD-26NOV18HOUIND-IND15",
+      "yes_sub_title": "Indiana wins by over 14.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
@@ -520,50 +520,50 @@
   "KXNBATOTAL": {
    "open_events": 11,
    "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV17UTALAC",
-    "title": "Utah vs Los Angeles C: Total Points",
+    "event_ticker": "KXNBATOTAL-26NOV18HOUIND",
+    "title": "Houston vs Indiana: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV17UTALAC-196",
-      "yes_sub_title": "Over 195.5 points",
+      "ticker": "KXNBATOTAL-26NOV18HOUIND-197",
+      "yes_sub_title": "Over 196.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV17UTALAC-198",
-      "yes_sub_title": "Over 197.5 points",
+      "ticker": "KXNBATOTAL-26NOV18HOUIND-199",
+      "yes_sub_title": "Over 198.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV17UTALAC-200",
-      "yes_sub_title": "Over 199.5 points",
+      "ticker": "KXNBATOTAL-26NOV18HOUIND-201",
+      "yes_sub_title": "Over 200.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
@@ -649,11 +649,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.4400",
-      "yes_ask_dollars": "0.4600",
+      "yes_ask_dollars": "0.4500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4600",
+      "last_price_dollars": "0.4500",
       "volume": null
      },
      {
@@ -700,7 +700,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8200",
+      "yes_bid_dollars": "0.8400",
       "yes_ask_dollars": "0.8600",
       "no_bid": null,
       "no_ask": null,
@@ -747,14 +747,14 @@
  "kickoff_times": {
   "NFL": 14,
   "College Football": 69,
-  "College Basketball": 435,
+  "College Basketball": 437,
   "NBA": 59,
   "Premier League": 10
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 4103,
-  "started": 9
+  "stale_or_wide": 3773,
+  "started": 0
  },
  "unmatched_teams": [
   "College Basketball: Jacksonville St.",
