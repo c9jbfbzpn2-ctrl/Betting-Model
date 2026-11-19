@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T01:36:11.367835+00:00",
+ "updated": "2026-11-19T04:19:50.190870+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 29,
@@ -40,7 +40,7 @@
    }
   },
   "KXNFLSPREAD": {
-   "open_events": 13,
+   "open_events": 14,
    "sample": {
     "event_ticker": "KXNFLSPREAD-26NOV19INDHOU",
     "title": "Indianapolis vs Houston: Spread",
@@ -57,7 +57,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0800",
+      "last_price_dollars": "0.0700",
       "volume": null
      },
      {
@@ -85,14 +85,14 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1900",
+      "last_price_dollars": "0.2100",
       "volume": null
      }
     ]
    }
   },
   "KXNFLTOTAL": {
-   "open_events": 13,
+   "open_events": 14,
    "sample": {
     "event_ticker": "KXNFLTOTAL-26NOV19INDHOU",
     "title": "Indianapolis vs Houston: Total Points",
@@ -144,58 +144,72 @@
    }
   },
   "KXNCAAFGAME": {
-   "open_events": 188,
+   "open_events": 186,
    "sample": {
-    "event_ticker": "KXNCAAFGAME-26NOV18AKRMASS",
-    "title": "Akron vs UMass",
+    "event_ticker": "KXNCAAFGAME-26NOV19NWSTSFA",
+    "title": "Northwestern St. vs Stephen F. Austin",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFGAME-26NOV18AKRMASS-MASS",
-      "yes_sub_title": "UMass",
+      "ticker": "KXNCAAFGAME-26NOV19NWSTSFA-SFA",
+      "yes_sub_title": "Stephen F. Austin",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7900",
-      "yes_ask_dollars": "0.8000",
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8000",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFGAME-26NOV18AKRMASS-AKR",
-      "yes_sub_title": "Akron",
+      "ticker": "KXNCAAFGAME-26NOV19NWSTSFA-NWST",
+      "yes_sub_title": "Northwestern St.",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2000",
-      "yes_ask_dollars": "0.2100",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2100",
+      "last_price_dollars": "0.0200",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 119,
+   "open_events": 118,
    "sample": {
-    "event_ticker": "KXNCAAFSPREAD-26NOV18AKRMASS",
-    "title": "Akron vs UMass: Spread",
+    "event_ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA",
+    "title": "Northwestern St. vs Stephen F. Austin: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFSPREAD-26NOV18AKRMASS-MASS30",
-      "yes_sub_title": "UMass wins by over 29.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA-SFA23",
+      "yes_sub_title": "Stephen F. Austin wins by over 22.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.5600",
+      "yes_ask_dollars": "0.7500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA-SFA19",
+      "yes_sub_title": "Stephen F. Austin wins by over 18.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.4700",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -203,98 +217,122 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAFSPREAD-26NOV18AKRMASS-MASS27",
-      "yes_sub_title": "UMass wins by over 26.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA-SFA15",
+      "yes_sub_title": "Stephen F. Austin wins by over 14.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0500",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.4700",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV18AKRMASS-MASS24",
-      "yes_sub_title": "UMass wins by over 23.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0700",
-      "yes_ask_dollars": "0.0800",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.1100",
+      "last_price_dollars": "0.9400",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 119,
+   "open_events": 118,
    "sample": {
-    "event_ticker": "KXNCAAFTOTAL-26NOV18AKRMASS",
-    "title": "Akron vs UMass: Total Points",
+    "event_ticker": "KXNCAAFTOTAL-26NOV19NWSTSFA",
+    "title": "Northwestern St. vs Stephen F. Austin: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFTOTAL-26NOV18AKRMASS-26",
-      "yes_sub_title": "Over 25.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV19NWSTSFA-28",
+      "yes_sub_title": "Over 27.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.2800",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFTOTAL-26NOV18AKRMASS-29",
-      "yes_sub_title": "Over 28.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV19NWSTSFA-33",
+      "yes_sub_title": "Over 32.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.0900",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFTOTAL-26NOV18AKRMASS-32",
-      "yes_sub_title": "Over 31.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV19NWSTSFA-38",
+      "yes_sub_title": "Over 37.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.0900",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9500",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 216,
+   "open_events": 169,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV18CHATWIN",
-    "title": "Chattanooga vs Winthrop",
+    "event_ticker": "KXNCAAMBGAME-26NOV18CONNARIZ",
+    "title": "UConn vs Arizona",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV18CHATWIN-WIN",
-      "yes_sub_title": "Winthrop",
+      "ticker": "KXNCAAMBGAME-26NOV18CONNARIZ-ARIZ",
+      "yes_sub_title": "Arizona",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "0.9900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBGAME-26NOV18CONNARIZ-CONN",
+      "yes_sub_title": "UConn",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0200",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXNCAAMBSPREAD": {
+   "open_events": 30,
+   "sample": {
+    "event_ticker": "KXNCAAMBSPREAD-26NOV18CONNARIZ",
+    "title": "UConn vs Arizona: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXNCAAMBSPREAD-26NOV18CONNARIZ-ARIZ29",
+      "yes_sub_title": "Arizona wins by over 28.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -307,32 +345,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV18CHATWIN-CHAT",
-      "yes_sub_title": "Chattanooga",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNCAAMBSPREAD": {
-   "open_events": 76,
-   "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV18CHATWIN",
-    "title": "Chattanooga vs Winthrop: Spread",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNCAAMBSPREAD-26NOV18CHATWIN-WIN21",
-      "yes_sub_title": "Winthrop wins by over 20.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV18CONNARIZ-ARIZ28",
+      "yes_sub_title": "Arizona wins by over 27.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -341,12 +355,12 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV18CHATWIN-WIN18",
-      "yes_sub_title": "Winthrop wins by over 17.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV18CONNARIZ-ARIZ24",
+      "yes_sub_title": "Arizona wins by over 23.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -355,36 +369,22 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBSPREAD-26NOV18CHATWIN-WIN13",
-      "yes_sub_title": "Winthrop wins by over 12.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0600",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 79,
+   "open_events": 32,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV18CHATWIN",
-    "title": "Chattanooga vs Winthrop: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV18CONNARIZ",
+    "title": "UConn vs Arizona: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV18CHATWIN-129",
-      "yes_sub_title": "Over 128.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV18CONNARIZ-123",
+      "yes_sub_title": "Over 122.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -397,8 +397,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV18CHATWIN-134",
-      "yes_sub_title": "Over 133.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV18CONNARIZ-127",
+      "yes_sub_title": "Over 126.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -411,8 +411,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV18CHATWIN-138",
-      "yes_sub_title": "Over 137.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV18CONNARIZ-131",
+      "yes_sub_title": "Over 130.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -428,53 +428,53 @@
    }
   },
   "KXNBAGAME": {
-   "open_events": 42,
+   "open_events": 36,
    "sample": {
-    "event_ticker": "KXNBAGAME-26NOV18HOUIND",
-    "title": "Houston vs Indiana",
+    "event_ticker": "KXNBAGAME-26NOV18BOSDEN",
+    "title": "Boston vs Denver",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBAGAME-26NOV18HOUIND-HOU",
-      "yes_sub_title": "Houston",
+      "ticker": "KXNBAGAME-26NOV18BOSDEN-BOS",
+      "yes_sub_title": "Boston",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.7500",
+      "yes_ask_dollars": "0.7600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.7500",
       "volume": null
      },
      {
-      "ticker": "KXNBAGAME-26NOV18HOUIND-IND",
-      "yes_sub_title": "Indiana",
+      "ticker": "KXNBAGAME-26NOV18BOSDEN-DEN",
+      "yes_sub_title": "Denver",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
-      "yes_ask_dollars": "0.1000",
+      "yes_bid_dollars": "0.2400",
+      "yes_ask_dollars": "0.2500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
+      "last_price_dollars": "0.2500",
       "volume": null
      }
     ]
    }
   },
   "KXNBASPREAD": {
-   "open_events": 12,
+   "open_events": 5,
    "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV18HOUIND",
-    "title": "Houston vs Indiana: Spread",
+    "event_ticker": "KXNBASPREAD-26NOV18BOSDEN",
+    "title": "Boston vs Denver: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBASPREAD-26NOV18HOUIND-IND19",
-      "yes_sub_title": "Indiana wins by over 18.5 points",
+      "ticker": "KXNBASPREAD-26NOV18BOSDEN-DEN26",
+      "yes_sub_title": "Denver wins by over 25.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -483,12 +483,12 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV18HOUIND-IND17",
-      "yes_sub_title": "Indiana wins by over 16.5 points",
+      "ticker": "KXNBASPREAD-26NOV18BOSDEN-DEN24",
+      "yes_sub_title": "Denver wins by over 23.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -497,12 +497,12 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV18HOUIND-IND15",
-      "yes_sub_title": "Indiana wins by over 14.5 points",
+      "ticker": "KXNBASPREAD-26NOV18BOSDEN-DEN22",
+      "yes_sub_title": "Denver wins by over 21.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -518,52 +518,52 @@
    }
   },
   "KXNBATOTAL": {
-   "open_events": 12,
+   "open_events": 5,
    "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV18HOUIND",
-    "title": "Houston vs Indiana: Total Points",
+    "event_ticker": "KXNBATOTAL-26NOV18BOSDEN",
+    "title": "Boston vs Denver: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV18HOUIND-197",
+      "ticker": "KXNBATOTAL-26NOV18BOSDEN-193",
+      "yes_sub_title": "Over 192.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9700",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBATOTAL-26NOV18BOSDEN-195",
+      "yes_sub_title": "Over 194.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9600",
+      "yes_ask_dollars": "0.9700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBATOTAL-26NOV18BOSDEN-197",
       "yes_sub_title": "Over 196.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9500",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBATOTAL-26NOV18HOUIND-199",
-      "yes_sub_title": "Over 198.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9800",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBATOTAL-26NOV18HOUIND-201",
-      "yes_sub_title": "Over 200.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.9600",
       "volume": null
      }
     ]
@@ -648,12 +648,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4400",
-      "yes_ask_dollars": "0.4500",
+      "yes_bid_dollars": "0.4500",
+      "yes_ask_dollars": "0.4600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4500",
+      "last_price_dollars": "0.4600",
       "volume": null
      },
      {
@@ -753,8 +753,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 3175,
-  "started": 70
+  "stale_or_wide": 3392,
+  "started": 11
  },
  "unmatched_teams": [
   "College Basketball: Jacksonville St.",
