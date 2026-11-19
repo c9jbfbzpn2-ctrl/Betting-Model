@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T04:19:50.190870+00:00",
+ "updated": "2026-11-19T07:41:16.285771+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 29,
@@ -19,7 +19,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8500",
+      "last_price_dollars": "0.8400",
       "volume": null
      },
      {
@@ -33,7 +33,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1600",
+      "last_price_dollars": "0.1500",
       "volume": null
      }
     ]
@@ -57,7 +57,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0700",
+      "last_price_dollars": "0.0800",
       "volume": null
      },
      {
@@ -71,7 +71,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1100",
+      "last_price_dollars": "0.1000",
       "volume": null
      },
      {
@@ -105,11 +105,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9700",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9700",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
@@ -157,7 +157,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "1.0000",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -170,7 +170,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
+      "yes_bid_dollars": "0.0000",
       "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
@@ -194,12 +194,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5600",
-      "yes_ask_dollars": "0.7500",
+      "yes_bid_dollars": "0.7800",
+      "yes_ask_dollars": "0.8600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.8700",
       "volume": null
      },
      {
@@ -208,8 +208,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4700",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.7500",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -222,7 +222,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4700",
+      "yes_bid_dollars": "0.7800",
       "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
@@ -246,8 +246,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2800",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.6300",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -260,8 +260,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.6500",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -274,8 +274,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.6900",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -286,284 +286,284 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 169,
+   "open_events": 166,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV18CONNARIZ",
-    "title": "UConn vs Arizona",
+    "event_ticker": "KXNCAAMBGAME-26NOV19FLAWVU",
+    "title": "Florida vs West Virginia",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV18CONNARIZ-ARIZ",
-      "yes_sub_title": "Arizona",
+      "ticker": "KXNCAAMBGAME-26NOV19FLAWVU-WVU",
+      "yes_sub_title": "West Virginia",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.1900",
+      "yes_ask_dollars": "0.2000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.2000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV18CONNARIZ-CONN",
-      "yes_sub_title": "UConn",
+      "ticker": "KXNCAAMBGAME-26NOV19FLAWVU-FLA",
+      "yes_sub_title": "Florida",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0200",
+      "yes_bid_dollars": "0.8000",
+      "yes_ask_dollars": "0.8100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.8100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 30,
+   "open_events": 27,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV18CONNARIZ",
-    "title": "UConn vs Arizona: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV19FLAWVU",
+    "title": "Florida vs West Virginia: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV18CONNARIZ-ARIZ29",
-      "yes_sub_title": "Arizona wins by over 28.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV19FLAWVU-WVU17",
+      "yes_sub_title": "West Virginia wins by over 16.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.1000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV18CONNARIZ-ARIZ28",
-      "yes_sub_title": "Arizona wins by over 27.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV19FLAWVU-WVU13",
+      "yes_sub_title": "West Virginia wins by over 12.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.1100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV18CONNARIZ-ARIZ24",
-      "yes_sub_title": "Arizona wins by over 23.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV19FLAWVU-WVU9",
+      "yes_sub_title": "West Virginia wins by over 8.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 32,
+   "open_events": 28,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV18CONNARIZ",
-    "title": "UConn vs Arizona: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV19FLAWVU",
+    "title": "Florida vs West Virginia: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV18CONNARIZ-123",
-      "yes_sub_title": "Over 122.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV19FLAWVU-125",
+      "yes_sub_title": "Over 124.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV18CONNARIZ-127",
-      "yes_sub_title": "Over 126.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV19FLAWVU-129",
+      "yes_sub_title": "Over 128.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV18CONNARIZ-131",
-      "yes_sub_title": "Over 130.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV19FLAWVU-133",
+      "yes_sub_title": "Over 132.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.7800",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNBAGAME": {
-   "open_events": 36,
+   "open_events": 33,
    "sample": {
-    "event_ticker": "KXNBAGAME-26NOV18BOSDEN",
-    "title": "Boston vs Denver",
+    "event_ticker": "KXNBAGAME-26NOV19GSWMEM",
+    "title": "Golden State vs Memphis",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBAGAME-26NOV18BOSDEN-BOS",
-      "yes_sub_title": "Boston",
+      "ticker": "KXNBAGAME-26NOV19GSWMEM-GSW",
+      "yes_sub_title": "Golden State",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7500",
-      "yes_ask_dollars": "0.7600",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.7500",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBAGAME-26NOV18BOSDEN-DEN",
-      "yes_sub_title": "Denver",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.2400",
-      "yes_ask_dollars": "0.2500",
+      "yes_bid_dollars": "0.2500",
+      "yes_ask_dollars": "0.2600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
       "last_price_dollars": "0.2500",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBAGAME-26NOV19GSWMEM-MEM",
+      "yes_sub_title": "Memphis",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7400",
+      "yes_ask_dollars": "0.7600",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.7600",
       "volume": null
      }
     ]
    }
   },
   "KXNBASPREAD": {
-   "open_events": 5,
+   "open_events": 4,
    "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV18BOSDEN",
-    "title": "Boston vs Denver: Spread",
+    "event_ticker": "KXNBASPREAD-26NOV19GSWMEM",
+    "title": "Golden State vs Memphis: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBASPREAD-26NOV18BOSDEN-DEN26",
-      "yes_sub_title": "Denver wins by over 25.5 points",
+      "ticker": "KXNBASPREAD-26NOV19GSWMEM-MEM35",
+      "yes_sub_title": "Memphis wins by over 34.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV18BOSDEN-DEN24",
-      "yes_sub_title": "Denver wins by over 23.5 points",
+      "ticker": "KXNBASPREAD-26NOV19GSWMEM-MEM33",
+      "yes_sub_title": "Memphis wins by over 32.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV18BOSDEN-DEN22",
-      "yes_sub_title": "Denver wins by over 21.5 points",
+      "ticker": "KXNBASPREAD-26NOV19GSWMEM-MEM31",
+      "yes_sub_title": "Memphis wins by over 30.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0300",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNBATOTAL": {
-   "open_events": 5,
+   "open_events": 4,
    "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV18BOSDEN",
-    "title": "Boston vs Denver: Total Points",
+    "event_ticker": "KXNBATOTAL-26NOV19GSWMEM",
+    "title": "Golden State vs Memphis: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV18BOSDEN-193",
-      "yes_sub_title": "Over 192.5 points",
+      "ticker": "KXNBATOTAL-26NOV19GSWMEM-198",
+      "yes_sub_title": "Over 197.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9700",
-      "yes_ask_dollars": "0.9800",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9700",
-      "volume": null
-     },
-     {
-      "ticker": "KXNBATOTAL-26NOV18BOSDEN-195",
-      "yes_sub_title": "Over 194.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9600",
+      "yes_bid_dollars": "0.9300",
       "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV18BOSDEN-197",
-      "yes_sub_title": "Over 196.5 points",
+      "ticker": "KXNBATOTAL-26NOV19GSWMEM-200",
+      "yes_sub_title": "Over 199.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBATOTAL-26NOV19GSWMEM-202",
+      "yes_sub_title": "Over 201.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9000",
       "volume": null
      }
     ]
@@ -601,7 +601,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1200",
       "volume": null
      },
      {
@@ -719,7 +719,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6600",
+      "last_price_dollars": "0.6500",
       "volume": null
      }
     ]
@@ -753,8 +753,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 3392,
-  "started": 11
+  "stale_or_wide": 3128,
+  "started": 0
  },
  "unmatched_teams": [
   "College Basketball: Jacksonville St.",
