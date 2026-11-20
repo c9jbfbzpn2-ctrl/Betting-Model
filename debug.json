@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:08:16.142171+00:00",
+ "updated": "2026-11-20T01:29:27.303955+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 29,
@@ -14,12 +14,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8400",
-      "yes_ask_dollars": "0.8500",
+      "yes_bid_dollars": "0.8200",
+      "yes_ask_dollars": "0.8300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8500",
+      "last_price_dollars": "0.8300",
       "volume": null
      },
      {
@@ -28,19 +28,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.1700",
+      "yes_ask_dollars": "0.1800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1600",
+      "last_price_dollars": "0.1800",
       "volume": null
      }
     ]
    }
   },
   "KXNFLSPREAD": {
-   "open_events": 15,
+   "open_events": 16,
    "sample": {
     "event_ticker": "KXNFLSPREAD-26NOV19INDHOU",
     "title": "Indianapolis vs Houston: Spread",
@@ -52,12 +52,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.0900",
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
+      "last_price_dollars": "0.0600",
       "volume": null
      },
      {
@@ -66,12 +66,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1100",
-      "yes_ask_dollars": "0.1200",
+      "yes_bid_dollars": "0.1000",
+      "yes_ask_dollars": "0.1100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1200",
+      "last_price_dollars": "0.1100",
       "volume": null
      },
      {
@@ -80,19 +80,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1900",
-      "yes_ask_dollars": "0.2000",
+      "yes_bid_dollars": "0.1500",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1900",
+      "last_price_dollars": "0.1400",
       "volume": null
      }
     ]
    }
   },
   "KXNFLTOTAL": {
-   "open_events": 15,
+   "open_events": 16,
    "sample": {
     "event_ticker": "KXNFLTOTAL-26NOV19INDHOU",
     "title": "Indianapolis vs Houston: Total Points",
@@ -105,11 +105,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9600",
-      "yes_ask_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9700",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -118,12 +118,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -132,12 +132,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8800",
-      "yes_ask_dollars": "0.9000",
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.9500",
       "volume": null
      }
     ]
@@ -156,8 +156,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -170,59 +170,59 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0200",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 124,
+   "open_events": 126,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA",
     "title": "Northwestern St. vs Stephen F. Austin: Spread",
     "strike_date": null,
     "markets": [
      {
+      "ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA-SFA31",
+      "yes_sub_title": "Stephen F. Austin wins by over 30.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.9900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA-SFA27",
+      "yes_sub_title": "Stephen F. Austin wins by over 26.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "1.0000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9900",
+      "volume": null
+     },
+     {
       "ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA-SFA23",
       "yes_sub_title": "Stephen F. Austin wins by over 22.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8800",
-      "yes_ask_dollars": "0.9000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.8800",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA-SFA19",
-      "yes_sub_title": "Stephen F. Austin wins by over 18.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9500",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9200",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV19NWSTSFA-SFA15",
-      "yes_sub_title": "Stephen F. Austin wins by over 14.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
+      "yes_bid_dollars": "0.9200",
       "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 124,
+   "open_events": 126,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV19NWSTSFA",
     "title": "Northwestern St. vs Stephen F. Austin: Total Points",
@@ -246,8 +246,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -260,12 +260,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8400",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -274,79 +274,41 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7900",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 179,
+   "open_events": 189,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV19NDAUB",
-    "title": "Notre Dame vs Auburn",
+    "event_ticker": "KXNCAAMBGAME-26NOV19BUFFSBON",
+    "title": "Buffalo vs St. Bonaventure",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV19NDAUB-AUB",
-      "yes_sub_title": "Auburn",
+      "ticker": "KXNCAAMBGAME-26NOV19BUFFSBON-SBON",
+      "yes_sub_title": "St. Bonaventure",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5800",
-      "yes_ask_dollars": "0.5900",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5800",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV19NDAUB-ND",
-      "yes_sub_title": "Notre Dame",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.4000",
-      "yes_ask_dollars": "0.4200",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.4200",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNCAAMBSPREAD": {
-   "open_events": 36,
-   "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV19NDAUB",
-    "title": "Notre Dame vs Auburn: Spread",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNCAAMBSPREAD-26NOV19NDAUB-AUB32",
-      "yes_sub_title": "Auburn wins by over 31.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0000",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBSPREAD-26NOV19NDAUB-AUB28",
-      "yes_sub_title": "Auburn wins by over 27.5 points",
+      "ticker": "KXNCAAMBGAME-26NOV19BUFFSBON-BUFF",
+      "yes_sub_title": "Buffalo",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -357,78 +319,116 @@
       "last_price": null,
       "last_price_dollars": "0.0100",
       "volume": null
-     },
+     }
+    ]
+   }
+  },
+  "KXNCAAMBSPREAD": {
+   "open_events": 68,
+   "sample": {
+    "event_ticker": "KXNCAAMBSPREAD-26NOV19BUFFSBON",
+    "title": "Buffalo vs St. Bonaventure: Spread",
+    "strike_date": null,
+    "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV19NDAUB-AUB24",
-      "yes_sub_title": "Auburn wins by over 23.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV19BUFFSBON-SBON35",
+      "yes_sub_title": "St. Bonaventure wins by over 34.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0400",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBSPREAD-26NOV19BUFFSBON-SBON34",
+      "yes_sub_title": "St. Bonaventure wins by over 33.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0400",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBSPREAD-26NOV19BUFFSBON-SBON32",
+      "yes_sub_title": "St. Bonaventure wins by over 31.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0200",
       "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0800",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 36,
+   "open_events": 74,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV19NDAUB",
-    "title": "Notre Dame vs Auburn: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV19BUFFSBON",
+    "title": "Buffalo vs St. Bonaventure: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV19NDAUB-125",
-      "yes_sub_title": "Over 124.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV19BUFFSBON-121",
+      "yes_sub_title": "Over 120.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV19NDAUB-129",
-      "yes_sub_title": "Over 128.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV19BUFFSBON-126",
+      "yes_sub_title": "Over 125.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV19NDAUB-133",
-      "yes_sub_title": "Over 132.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV19BUFFSBON-131",
+      "yes_sub_title": "Over 130.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8400",
-      "yes_ask_dollars": "0.8600",
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9700",
       "volume": null
      }
     ]
    }
   },
   "KXNBAGAME": {
-   "open_events": 34,
+   "open_events": 36,
    "sample": {
     "event_ticker": "KXNBAGAME-26NOV19GSWMEM",
     "title": "Golden State vs Memphis",
@@ -440,12 +440,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3300",
-      "yes_ask_dollars": "0.3400",
+      "yes_bid_dollars": "0.1900",
+      "yes_ask_dollars": "0.2000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3400",
+      "last_price_dollars": "0.2000",
       "volume": null
      },
      {
@@ -454,19 +454,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6500",
-      "yes_ask_dollars": "0.6600",
+      "yes_bid_dollars": "0.8000",
+      "yes_ask_dollars": "0.8100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6600",
+      "last_price_dollars": "0.8100",
       "volume": null
      }
     ]
    }
   },
   "KXNBASPREAD": {
-   "open_events": 4,
+   "open_events": 10,
    "sample": {
     "event_ticker": "KXNBASPREAD-26NOV19GSWMEM",
     "title": "Golden State vs Memphis: Spread",
@@ -478,12 +478,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
+      "yes_bid_dollars": "0.0300",
       "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0400",
       "volume": null
      },
      {
@@ -492,12 +492,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.0500",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0300",
+      "last_price_dollars": "0.0500",
       "volume": null
      },
      {
@@ -506,19 +506,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0300",
+      "last_price_dollars": "0.0500",
       "volume": null
      }
     ]
    }
   },
   "KXNBATOTAL": {
-   "open_events": 4,
+   "open_events": 10,
    "sample": {
     "event_ticker": "KXNBATOTAL-26NOV19GSWMEM",
     "title": "Golden State vs Memphis: Total Points",
@@ -530,12 +530,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9600",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -558,12 +558,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.9500",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.9700",
       "volume": null
      }
     ]
@@ -601,7 +601,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1200",
       "volume": null
      },
      {
@@ -635,11 +635,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.2500",
-      "yes_ask_dollars": "0.2600",
+      "yes_ask_dollars": "0.2700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2400",
+      "last_price_dollars": "0.2700",
       "volume": null
      },
      {
@@ -730,7 +730,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261114-20261119",
+    "dates": "20261114-20261120",
     "limit": "1000"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
@@ -738,7 +738,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261114-20261119"
+    "dates": "20261114-20261120"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
   }
@@ -746,20 +746,19 @@
  "espn_style": "day",
  "kickoff_times": {
   "NFL": 17,
-  "College Football": 68,
-  "College Basketball": 384,
-  "NBA": 48,
-  "Premier League": 10
+  "College Football": 80,
+  "College Basketball": 391,
+  "NBA": 54,
+  "Premier League": 11
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 3182,
-  "started": 1
+  "stale_or_wide": 4552,
+  "started": 34
  },
  "unmatched_teams": [
   "College Basketball: Indiana-South Bend",
   "College Basketball: Jacksonville St.",
-  "College Basketball: NC St.",
   "College Basketball: New Orleans",
   "College Basketball: USC Upstate",
   "College Basketball: University at Albany",
@@ -787,7 +786,6 @@
   "College Football: Princeton",
   "College Football: San Diego",
   "College Football: St. Thomas",
-  "College Football: Stephen F. Austin",
   "College Football: Stetson",
   "College Football: University at Albany",
   "College Football: Valparaiso",
