@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T16:02:00.939434+00:00",
+ "updated": "2026-11-21T19:09:41.407986+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 28,
@@ -19,7 +19,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9100",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
@@ -66,7 +66,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1200",
+      "yes_bid_dollars": "0.1100",
       "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
@@ -132,7 +132,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8700",
+      "yes_bid_dollars": "0.8800",
       "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
@@ -156,7 +156,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2800",
+      "yes_bid_dollars": "0.2700",
       "yes_ask_dollars": "0.2900",
       "no_bid": null,
       "no_ask": null,
@@ -170,7 +170,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7100",
+      "yes_bid_dollars": "0.7000",
       "yes_ask_dollars": "0.7200",
       "no_bid": null,
       "no_ask": null,
@@ -182,7 +182,7 @@
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 122,
+   "open_events": 124,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV21ALBYNCAT",
     "title": "University at Albany vs North Carolina A&T: Spread",
@@ -195,7 +195,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.1600",
+      "yes_ask_dollars": "0.1000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -209,7 +209,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.1900",
+      "yes_ask_dollars": "0.1100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -222,8 +222,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0400",
-      "yes_ask_dollars": "0.2300",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 122,
+   "open_events": 124,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV21ALBYNCAT",
     "title": "University at Albany vs North Carolina A&T: Total Points",
@@ -246,12 +246,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7900",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.5700",
+      "yes_ask_dollars": "0.8700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.5800",
       "volume": null
      },
      {
@@ -260,12 +260,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7300",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.4200",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.2500",
       "volume": null
      },
      {
@@ -274,154 +274,154 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6100",
-      "yes_ask_dollars": "0.8400",
+      "yes_bid_dollars": "0.2500",
+      "yes_ask_dollars": "0.8000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.6100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 198,
+   "open_events": 207,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV21SCUSUNCG",
-    "title": "USC Upstate vs UNC Greensboro",
+    "event_ticker": "KXNCAAMBGAME-26NOV21CLMBBU",
+    "title": "Columbia vs Boston University",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV21SCUSUNCG-UNCG",
-      "yes_sub_title": "UNC Greensboro",
+      "ticker": "KXNCAAMBGAME-26NOV21CLMBBU-BU",
+      "yes_sub_title": "Boston University",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7100",
-      "yes_ask_dollars": "0.7200",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7200",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV21SCUSUNCG-SCUS",
-      "yes_sub_title": "USC Upstate",
+      "ticker": "KXNCAAMBGAME-26NOV21CLMBBU-CLMB",
+      "yes_sub_title": "Columbia",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2700",
-      "yes_ask_dollars": "0.2800",
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2900",
+      "last_price_dollars": "0.9800",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 51,
+   "open_events": 57,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV21SCUSUNCG",
-    "title": "USC Upstate vs UNC Greensboro: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV21CLMBBU",
+    "title": "Columbia vs Boston University: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV21SCUSUNCG-UNCG38",
-      "yes_sub_title": "UNC Greensboro wins by over 37.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV21CLMBBU-BU21",
+      "yes_sub_title": "Boston University wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.1500",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV21SCUSUNCG-UNCG33",
-      "yes_sub_title": "UNC Greensboro wins by over 32.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV21CLMBBU-BU16",
+      "yes_sub_title": "Boston University wins by over 15.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.1500",
+      "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV21SCUSUNCG-UNCG28",
-      "yes_sub_title": "UNC Greensboro wins by over 27.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV21CLMBBU-BU11",
+      "yes_sub_title": "Boston University wins by over 10.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0800",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 51,
+   "open_events": 62,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV21SCUSUNCG",
-    "title": "USC Upstate vs UNC Greensboro: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV21CLMBBU",
+    "title": "Columbia vs Boston University: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV21SCUSUNCG-125",
-      "yes_sub_title": "Over 124.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV21CLMBBU-97",
+      "yes_sub_title": "Over 96.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8600",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV21SCUSUNCG-129",
-      "yes_sub_title": "Over 128.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV21CLMBBU-102",
+      "yes_sub_title": "Over 101.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8300",
-      "yes_ask_dollars": "0.8800",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8400",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV21SCUSUNCG-134",
-      "yes_sub_title": "Over 133.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV21CLMBBU-107",
+      "yes_sub_title": "Over 106.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7700",
-      "yes_ask_dollars": "0.7800",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7900",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
@@ -459,7 +459,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8100",
+      "last_price_dollars": "0.8200",
       "volume": null
      }
     ]
@@ -479,11 +479,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0300",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -492,12 +492,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0300",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0300",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -506,12 +506,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0400",
+      "last_price_dollars": "0.0200",
       "volume": null
      }
     ]
@@ -530,12 +530,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -558,41 +558,27 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
    }
   },
   "KXEPLGAME": {
-   "open_events": 35,
+   "open_events": 30,
    "sample": {
-    "event_ticker": "KXEPLGAME-26NOV21AVLSUN",
-    "title": "Aston Villa vs Sunderland",
+    "event_ticker": "KXEPLGAME-26NOV21NEWARS",
+    "title": "Newcastle vs Arsenal",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLGAME-26NOV21AVLSUN-AVL",
-      "yes_sub_title": "Aston Villa",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.5000",
-      "yes_ask_dollars": "0.5100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.5100",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLGAME-26NOV21AVLSUN-SUN",
-      "yes_sub_title": "Sunderland",
+      "ticker": "KXEPLGAME-26NOV21NEWARS-NEW",
+      "yes_sub_title": "Newcastle",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -601,125 +587,139 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1700",
+      "last_price_dollars": "0.1500",
       "volume": null
      },
      {
-      "ticker": "KXEPLGAME-26NOV21AVLSUN-TIE",
+      "ticker": "KXEPLGAME-26NOV21NEWARS-ARS",
+      "yes_sub_title": "Arsenal",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.2600",
+      "yes_ask_dollars": "0.2700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.2700",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLGAME-26NOV21NEWARS-TIE",
       "yes_sub_title": "Tie",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3300",
-      "yes_ask_dollars": "0.3400",
+      "yes_bid_dollars": "0.5700",
+      "yes_ask_dollars": "0.5800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3300",
+      "last_price_dollars": "0.5800",
       "volume": null
      }
     ]
    }
   },
   "KXEPLSPREAD": {
-   "open_events": 12,
+   "open_events": 8,
    "sample": {
-    "event_ticker": "KXEPLSPREAD-26NOV21AVLSUN",
-    "title": "Aston Villa vs Sunderland: Spread",
+    "event_ticker": "KXEPLSPREAD-26NOV21NEWARS",
+    "title": "Newcastle vs Arsenal: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLSPREAD-26NOV21AVLSUN-AVL3",
-      "yes_sub_title": "Aston Villa wins by more than 2.5 goals",
+      "ticker": "KXEPLSPREAD-26NOV21NEWARS-NEW3",
+      "yes_sub_title": "Newcastle wins by more than 2.5 goals",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0600",
-      "yes_ask_dollars": "0.0700",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0700",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXEPLSPREAD-26NOV21AVLSUN-AVL2",
-      "yes_sub_title": "Aston Villa wins by more than 1.5 goals",
+      "ticker": "KXEPLSPREAD-26NOV21NEWARS-NEW2",
+      "yes_sub_title": "Newcastle wins by more than 1.5 goals",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2000",
-      "yes_ask_dollars": "0.2100",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2100",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
-      "ticker": "KXEPLSPREAD-26NOV21AVLSUN-SUN2",
-      "yes_sub_title": "Sunderland wins by more than 1.5 goals",
+      "ticker": "KXEPLSPREAD-26NOV21NEWARS-ARS2",
+      "yes_sub_title": "Arsenal wins by more than 1.5 goals",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
+      "yes_bid_dollars": "0.0200",
       "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0500",
+      "last_price_dollars": "0.0400",
       "volume": null
      }
     ]
    }
   },
   "KXEPLTOTAL": {
-   "open_events": 12,
+   "open_events": 8,
    "sample": {
-    "event_ticker": "KXEPLTOTAL-26NOV21AVLSUN",
-    "title": "Aston Villa vs Sunderland: Total Goals",
+    "event_ticker": "KXEPLTOTAL-26NOV21NEWARS",
+    "title": "Newcastle vs Arsenal: Total Goals",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLTOTAL-26NOV21AVLSUN-1",
+      "ticker": "KXEPLTOTAL-26NOV21NEWARS-1",
       "yes_sub_title": "Over 0.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8100",
-      "yes_ask_dollars": "0.8200",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8200",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXEPLTOTAL-26NOV21AVLSUN-2",
+      "ticker": "KXEPLTOTAL-26NOV21NEWARS-2",
       "yes_sub_title": "Over 1.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4800",
-      "yes_ask_dollars": "0.4900",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4900",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXEPLTOTAL-26NOV21AVLSUN-3",
+      "ticker": "KXEPLTOTAL-26NOV21NEWARS-3",
       "yes_sub_title": "Over 2.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2100",
-      "yes_ask_dollars": "0.2200",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2200",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
@@ -753,14 +753,14 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 2893,
-  "started": 6
+  "stale_or_wide": 3497,
+  "started": 35
  },
  "unmatched_teams": [
+  "College Basketball: American International",
   "College Basketball: Indiana-South Bend",
   "College Basketball: New Orleans",
   "College Basketball: Penn State-Berks",
-  "College Basketball: USC Upstate",
   "College Basketball: University at Albany",
   "College Basketball: Vermont State-Randolph",
   "College Football: Alabama A&M",
