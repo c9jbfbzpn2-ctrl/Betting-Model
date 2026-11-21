@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T22:06:19.331079+00:00",
+ "updated": "2026-11-21T01:35:20.232920+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 28,
@@ -19,7 +19,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9100",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
@@ -52,7 +52,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0400",
+      "yes_bid_dollars": "0.0500",
       "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
@@ -104,7 +104,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
+      "yes_bid_dollars": "0.9500",
       "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
@@ -156,12 +156,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4700",
-      "yes_ask_dollars": "0.4800",
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4800",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
@@ -170,71 +170,71 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5200",
-      "yes_ask_dollars": "0.5300",
+      "yes_bid_dollars": "0.0500",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5300",
+      "last_price_dollars": "0.0500",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 126,
+   "open_events": 127,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV20ISUUCF",
     "title": "Iowa St. vs UCF: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFSPREAD-26NOV20ISUUCF-UCF17",
-      "yes_sub_title": "UCF wins by over 16.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV20ISUUCF-UCF29",
+      "yes_sub_title": "UCF wins by over 28.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1100",
-      "yes_ask_dollars": "0.1200",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAFSPREAD-26NOV20ISUUCF-UCF15",
-      "yes_sub_title": "UCF wins by over 14.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV20ISUUCF-UCF26",
+      "yes_sub_title": "UCF wins by over 25.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1400",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.1600",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV20ISUUCF-UCF14",
-      "yes_sub_title": "UCF wins by over 13.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.0400",
+      "yes_ask_dollars": "0.1000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
       "last_price_dollars": "0.1700",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV20ISUUCF-UCF23",
+      "yes_sub_title": "UCF wins by over 22.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.1700",
+      "yes_ask_dollars": "0.1800",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.2600",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 126,
+   "open_events": 127,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV20ISUUCF",
     "title": "Iowa St. vs UCF: Total Points",
@@ -246,12 +246,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8500",
-      "yes_ask_dollars": "0.8600",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8600",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -260,12 +260,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7900",
-      "yes_ask_dollars": "0.8100",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8100",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -274,65 +274,65 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7400",
-      "yes_ask_dollars": "0.7600",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7500",
+      "last_price_dollars": "0.9800",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 178,
+   "open_events": 221,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV20INSTSFA",
-    "title": "Indiana St. vs Stephen F. Austin",
+    "event_ticker": "KXNCAAMBGAME-26NOV20UNTAPP",
+    "title": "North Texas vs Appalachian St.",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV20INSTSFA-SFA",
-      "yes_sub_title": "Stephen F. Austin",
+      "ticker": "KXNCAAMBGAME-26NOV20UNTAPP-APP",
+      "yes_sub_title": "Appalachian St.",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9600",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9700",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV20INSTSFA-INST",
-      "yes_sub_title": "Indiana St.",
+      "ticker": "KXNCAAMBGAME-26NOV20UNTAPP-UNT",
+      "yes_sub_title": "North Texas",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0300",
+      "last_price_dollars": "0.0200",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 63,
+   "open_events": 76,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV20INSTSFA",
-    "title": "Indiana St. vs Stephen F. Austin: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV20UNTAPP",
+    "title": "North Texas vs Appalachian St.: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV20INSTSFA-SFA33",
-      "yes_sub_title": "Stephen F. Austin wins by over 32.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV20UNTAPP-APP26",
+      "yes_sub_title": "Appalachian St. wins by over 25.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -345,8 +345,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV20INSTSFA-SFA28",
-      "yes_sub_title": "Stephen F. Austin wins by over 27.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV20UNTAPP-APP21",
+      "yes_sub_title": "Appalachian St. wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -359,8 +359,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV20INSTSFA-SFA23",
-      "yes_sub_title": "Stephen F. Austin wins by over 22.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV20UNTAPP-APP16",
+      "yes_sub_title": "Appalachian St. wins by over 15.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -376,15 +376,15 @@
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 74,
+   "open_events": 86,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV20INSTSFA",
-    "title": "Indiana St. vs Stephen F. Austin: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV20UNTAPP",
+    "title": "North Texas vs Appalachian St.: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV20INSTSFA-123",
-      "yes_sub_title": "Over 122.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV20UNTAPP-107",
+      "yes_sub_title": "Over 106.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -397,8 +397,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV20INSTSFA-124",
-      "yes_sub_title": "Over 123.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV20UNTAPP-112",
+      "yes_sub_title": "Over 111.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -411,8 +411,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV20INSTSFA-129",
-      "yes_sub_title": "Over 128.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV20UNTAPP-116",
+      "yes_sub_title": "Over 115.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -428,7 +428,7 @@
    }
   },
   "KXNBAGAME": {
-   "open_events": 34,
+   "open_events": 38,
    "sample": {
     "event_ticker": "KXNBAGAME-26NOV20CHAATL",
     "title": "Charlotte vs Atlanta",
@@ -440,12 +440,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3000",
-      "yes_ask_dollars": "0.3100",
+      "yes_bid_dollars": "0.2000",
+      "yes_ask_dollars": "0.2100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3100",
+      "last_price_dollars": "0.2100",
       "volume": null
      },
      {
@@ -454,19 +454,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6900",
-      "yes_ask_dollars": "0.7000",
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.8000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7000",
+      "last_price_dollars": "0.8000",
       "volume": null
      }
     ]
    }
   },
   "KXNBASPREAD": {
-   "open_events": 9,
+   "open_events": 14,
    "sample": {
     "event_ticker": "KXNBASPREAD-26NOV20CHAATL",
     "title": "Charlotte vs Atlanta: Spread",
@@ -478,12 +478,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0600",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
@@ -492,12 +492,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0500",
-      "yes_ask_dollars": "0.0700",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -506,19 +506,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0700",
-      "yes_ask_dollars": "0.0900",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNBATOTAL": {
-   "open_events": 9,
+   "open_events": 14,
    "sample": {
     "event_ticker": "KXNBATOTAL-26NOV20CHAATL",
     "title": "Charlotte vs Atlanta: Total Points",
@@ -530,12 +530,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -558,19 +558,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
    }
   },
   "KXEPLGAME": {
-   "open_events": 29,
+   "open_events": 36,
    "sample": {
     "event_ticker": "KXEPLGAME-26NOV21MCIFUL",
     "title": "Manchester City vs Fulham",
@@ -634,12 +634,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2600",
-      "yes_ask_dollars": "0.2700",
+      "yes_bid_dollars": "0.2700",
+      "yes_ask_dollars": "0.2800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2700",
+      "last_price_dollars": "0.2800",
       "volume": null
      },
      {
@@ -653,7 +653,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4700",
+      "last_price_dollars": "0.4600",
       "volume": null
      },
      {
@@ -700,8 +700,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8600",
-      "yes_ask_dollars": "0.8700",
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.8800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -714,12 +714,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6700",
-      "yes_ask_dollars": "0.6800",
+      "yes_bid_dollars": "0.6800",
+      "yes_ask_dollars": "0.7000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6800",
+      "last_price_dollars": "0.7000",
       "volume": null
      }
     ]
@@ -730,7 +730,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261117-20261120",
+    "dates": "20261117-20261121",
     "limit": "1000"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
@@ -738,7 +738,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261117-20261120"
+    "dates": "20261117-20261121"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
   }
@@ -746,25 +746,23 @@
  "espn_style": "day",
  "kickoff_times": {
   "NFL": 17,
-  "College Football": 80,
-  "College Basketball": 393,
-  "NBA": 54,
-  "Premier League": 11
+  "College Football": 127,
+  "College Basketball": 412,
+  "NBA": 49,
+  "Premier League": 14
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 3853,
-  "started": 4
+  "stale_or_wide": 4611,
+  "started": 52
  },
  "unmatched_teams": [
   "College Basketball: Indiana-South Bend",
-  "College Basketball: Jacksonville St.",
-  "College Basketball: NC St.",
   "College Basketball: New Orleans",
+  "College Basketball: Penn State-Berks",
   "College Basketball: USC Upstate",
   "College Basketball: University at Albany",
   "College Basketball: Vermont State-Randolph",
-  "College Basketball: West Virginia Tech",
   "College Football: Alabama A&M",
   "College Football: Brown",
   "College Football: Butler",
