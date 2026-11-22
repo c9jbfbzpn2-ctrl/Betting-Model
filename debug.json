@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T13:18:36.818572+00:00",
+ "updated": "2026-11-22T16:01:16.689839+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 28,
@@ -66,12 +66,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1200",
-      "yes_ask_dollars": "0.1300",
+      "yes_bid_dollars": "0.1100",
+      "yes_ask_dollars": "0.1200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1200",
       "volume": null
      },
      {
@@ -81,11 +81,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1700",
-      "yes_ask_dollars": "0.1900",
+      "yes_ask_dollars": "0.1800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1900",
+      "last_price_dollars": "0.1800",
       "volume": null
      }
     ]
@@ -109,7 +109,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9700",
+      "last_price_dollars": "0.9600",
       "volume": null
      },
      {
@@ -119,11 +119,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9500",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -157,11 +157,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.7200",
-      "yes_ask_dollars": "0.7300",
+      "yes_ask_dollars": "0.7400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7000",
+      "last_price_dollars": "0.7400",
       "volume": null
      },
      {
@@ -171,11 +171,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.2600",
-      "yes_ask_dollars": "0.2800",
+      "yes_ask_dollars": "0.2700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2600",
+      "last_price_dollars": "0.2800",
       "volume": null
      }
     ]
@@ -246,8 +246,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7100",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.8200",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -312,12 +312,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1200",
-      "yes_ask_dollars": "0.1300",
+      "yes_bid_dollars": "0.1300",
+      "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1400",
       "volume": null
      }
     ]
@@ -336,8 +336,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -350,8 +350,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -365,7 +365,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0400",
-      "yes_ask_dollars": "0.0800",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -388,7 +388,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
+      "yes_bid_dollars": "0.9400",
       "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
@@ -402,7 +402,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
+      "yes_bid_dollars": "0.9400",
       "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
@@ -416,12 +416,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9400",
       "volume": null
      }
     ]
@@ -440,8 +440,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5400",
-      "yes_ask_dollars": "0.5500",
+      "yes_bid_dollars": "0.5300",
+      "yes_ask_dollars": "0.5400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -454,12 +454,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4500",
-      "yes_ask_dollars": "0.4600",
+      "yes_bid_dollars": "0.4600",
+      "yes_ask_dollars": "0.4700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4600",
+      "last_price_dollars": "0.4700",
       "volume": null
      }
     ]
@@ -492,8 +492,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -506,7 +506,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
+      "yes_bid_dollars": "0.0300",
       "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
@@ -530,7 +530,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
+      "yes_bid_dollars": "0.9300",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
@@ -544,8 +544,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -558,41 +558,159 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8800",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9100",
+      "last_price_dollars": "0.9000",
       "volume": null
      }
     ]
    }
   },
   "KXEPLGAME": {
-   "open_events": 32,
+   "open_events": 31,
    "sample": {
-    "event_ticker": "KXEPLGAME-26NOV22HULBRI",
-    "title": "Hull City vs Brighton",
+    "event_ticker": "KXEPLGAME-26NOV22LFCMUN",
+    "title": "Liverpool vs Manchester United",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLGAME-26NOV22HULBRI-HUL",
-      "yes_sub_title": "Hull City",
+      "ticker": "KXEPLGAME-26NOV22LFCMUN-LFC",
+      "yes_sub_title": "Liverpool",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1400",
+      "yes_bid_dollars": "0.5400",
+      "yes_ask_dollars": "0.5500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1400",
+      "last_price_dollars": "0.5500",
       "volume": null
      },
      {
-      "ticker": "KXEPLGAME-26NOV22HULBRI-BRI",
-      "yes_sub_title": "Brighton",
+      "ticker": "KXEPLGAME-26NOV22LFCMUN-MUN",
+      "yes_sub_title": "Manchester United",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.2200",
+      "yes_ask_dollars": "0.2300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.2300",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLGAME-26NOV22LFCMUN-TIE",
+      "yes_sub_title": "Tie",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.2300",
+      "yes_ask_dollars": "0.2400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.2400",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXEPLSPREAD": {
+   "open_events": 11,
+   "sample": {
+    "event_ticker": "KXEPLSPREAD-26NOV22LFCMUN",
+    "title": "Liverpool vs Manchester United: Spread",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXEPLSPREAD-26NOV22LFCMUN-LFC3",
+      "yes_sub_title": "Liverpool wins by more than 2.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.1500",
+      "yes_ask_dollars": "0.1600",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.1600",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLSPREAD-26NOV22LFCMUN-LFC2",
+      "yes_sub_title": "Liverpool wins by more than 1.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.3100",
+      "yes_ask_dollars": "0.3200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.3200",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLSPREAD-26NOV22LFCMUN-MUN2",
+      "yes_sub_title": "Manchester United wins by more than 1.5 goals",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0800",
+      "yes_ask_dollars": "0.0900",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0900",
+      "volume": null
+     }
+    ]
+   }
+  },
+  "KXEPLTOTAL": {
+   "open_events": 11,
+   "sample": {
+    "event_ticker": "KXEPLTOTAL-26NOV22LFCMUN",
+    "title": "Liverpool vs Manchester United: Total Goals",
+    "strike_date": null,
+    "markets": [
+     {
+      "ticker": "KXEPLTOTAL-26NOV22LFCMUN-1",
+      "yes_sub_title": "Over 0.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9600",
+      "yes_ask_dollars": "0.9700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9600",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLTOTAL-26NOV22LFCMUN-2",
+      "yes_sub_title": "Over 1.5 goals scored",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.8400",
+      "yes_ask_dollars": "0.8500",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.8400",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLTOTAL-26NOV22LFCMUN-3",
+      "yes_sub_title": "Over 2.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -602,124 +720,6 @@
       "no_ask": null,
       "last_price": null,
       "last_price_dollars": "0.6500",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLGAME-26NOV22HULBRI-TIE",
-      "yes_sub_title": "Tie",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.2100",
-      "yes_ask_dollars": "0.2200",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.2200",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXEPLSPREAD": {
-   "open_events": 8,
-   "sample": {
-    "event_ticker": "KXEPLSPREAD-26NOV22HULBRI",
-    "title": "Hull City vs Brighton: Spread",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXEPLSPREAD-26NOV22HULBRI-HUL3",
-      "yes_sub_title": "Hull City wins by more than 2.5 goals",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0200",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0100",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLSPREAD-26NOV22HULBRI-HUL2",
-      "yes_sub_title": "Hull City wins by more than 1.5 goals",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0400",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0400",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLSPREAD-26NOV22HULBRI-BRI2",
-      "yes_sub_title": "Brighton wins by more than 1.5 goals",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.3900",
-      "yes_ask_dollars": "0.4000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.4000",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXEPLTOTAL": {
-   "open_events": 8,
-   "sample": {
-    "event_ticker": "KXEPLTOTAL-26NOV22HULBRI",
-    "title": "Hull City vs Brighton: Total Goals",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXEPLTOTAL-26NOV22HULBRI-1",
-      "yes_sub_title": "Over 0.5 goals scored",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9500",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9500",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLTOTAL-26NOV22HULBRI-2",
-      "yes_sub_title": "Over 1.5 goals scored",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.8000",
-      "yes_ask_dollars": "0.8100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.8100",
-      "volume": null
-     },
-     {
-      "ticker": "KXEPLTOTAL-26NOV22HULBRI-3",
-      "yes_sub_title": "Over 2.5 goals scored",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.5700",
-      "yes_ask_dollars": "0.5800",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.5800",
       "volume": null
      }
     ]
@@ -753,7 +753,7 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 2974,
+  "stale_or_wide": 2886,
   "started": 0
  },
  "unmatched_teams": [
