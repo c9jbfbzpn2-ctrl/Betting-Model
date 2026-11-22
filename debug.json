@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:30:24.192621+00:00",
+ "updated": "2026-11-22T04:14:22.518638+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 28,
@@ -71,7 +71,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1300",
+      "last_price_dollars": "0.1200",
       "volume": null
      },
      {
@@ -144,7 +144,7 @@
    }
   },
   "KXNCAAFGAME": {
-   "open_events": 83,
+   "open_events": 70,
    "sample": {
     "event_ticker": "KXNCAAFGAME-26NOV21ARIZKSU",
     "title": "Arizona vs Kansas St.",
@@ -156,12 +156,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1400",
-      "yes_ask_dollars": "0.1500",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1400",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -170,27 +170,27 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8600",
-      "yes_ask_dollars": "0.8700",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8600",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 31,
+   "open_events": 18,
    "sample": {
-    "event_ticker": "KXNCAAFSPREAD-26NOV21USFFAU",
-    "title": "South Florida vs Florida Atlantic: Spread",
+    "event_ticker": "KXNCAAFSPREAD-26NOV21ARIZKSU",
+    "title": "Arizona vs Kansas St.: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFSPREAD-26NOV21USFFAU-FAU35",
-      "yes_sub_title": "Florida Atlantic wins by over 34.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV21ARIZKSU-ARIZ31",
+      "yes_sub_title": "Arizona wins by over 30.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -203,22 +203,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAFSPREAD-26NOV21USFFAU-FAU32",
-      "yes_sub_title": "Florida Atlantic wins by over 31.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0100",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV21USFFAU-FAU29",
-      "yes_sub_title": "Florida Atlantic wins by over 28.5 points",
+      "ticker": "KXNCAAFSPREAD-26NOV21ARIZKSU-ARIZ28",
+      "yes_sub_title": "Arizona wins by over 27.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -229,20 +215,34 @@
       "last_price": null,
       "last_price_dollars": "0.0900",
       "volume": null
+     },
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV21ARIZKSU-ARIZ25",
+      "yes_sub_title": "Arizona wins by over 24.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
+      "volume": null
      }
     ]
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 31,
+   "open_events": 18,
    "sample": {
-    "event_ticker": "KXNCAAFTOTAL-26NOV21USFFAU",
-    "title": "South Florida vs Florida Atlantic: Total Points",
+    "event_ticker": "KXNCAAFTOTAL-26NOV21ARIZKSU",
+    "title": "Arizona vs Kansas St.: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAFTOTAL-26NOV21USFFAU-37",
-      "yes_sub_title": "Over 36.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV21ARIZKSU-33",
+      "yes_sub_title": "Over 32.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -255,8 +255,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAFTOTAL-26NOV21USFFAU-40",
-      "yes_sub_title": "Over 39.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV21ARIZKSU-36",
+      "yes_sub_title": "Over 35.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -269,8 +269,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAFTOTAL-26NOV21USFFAU-43",
-      "yes_sub_title": "Over 42.5 points",
+      "ticker": "KXNCAAFTOTAL-26NOV21ARIZKSU-39",
+      "yes_sub_title": "Over 38.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -286,53 +286,53 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 214,
+   "open_events": 206,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV21BRWNUVM",
-    "title": "Brown vs Vermont",
+    "event_ticker": "KXNCAAMBGAME-26NOV21BRADPAC",
+    "title": "Bradley vs Pacific",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV21BRWNUVM-UVM",
-      "yes_sub_title": "Vermont",
+      "ticker": "KXNCAAMBGAME-26NOV21BRADPAC-PAC",
+      "yes_sub_title": "Pacific",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5100",
-      "yes_ask_dollars": "0.5300",
+      "yes_bid_dollars": "0.8100",
+      "yes_ask_dollars": "0.8300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5300",
+      "last_price_dollars": "0.8300",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV21BRWNUVM-BRWN",
-      "yes_sub_title": "Brown",
+      "ticker": "KXNCAAMBGAME-26NOV21BRADPAC-BRAD",
+      "yes_sub_title": "Bradley",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4600",
-      "yes_ask_dollars": "0.4800",
+      "yes_bid_dollars": "0.1700",
+      "yes_ask_dollars": "0.1800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4300",
+      "last_price_dollars": "0.2000",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 46,
+   "open_events": 40,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV21BRWNUVM",
-    "title": "Brown vs Vermont: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV21BRADPAC",
+    "title": "Bradley vs Pacific: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV21BRWNUVM-UVM29",
-      "yes_sub_title": "Vermont wins by over 28.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV21BRADPAC-PAC34",
+      "yes_sub_title": "Pacific wins by over 33.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -345,8 +345,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV21BRWNUVM-UVM24",
-      "yes_sub_title": "Vermont wins by over 23.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV21BRADPAC-PAC32",
+      "yes_sub_title": "Pacific wins by over 31.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -359,8 +359,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV21BRWNUVM-UVM19",
-      "yes_sub_title": "Vermont wins by over 18.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV21BRADPAC-PAC31",
+      "yes_sub_title": "Pacific wins by over 30.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -376,15 +376,15 @@
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 52,
+   "open_events": 40,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV21BRWNUVM",
-    "title": "Brown vs Vermont: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV21BRADPAC",
+    "title": "Bradley vs Pacific: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV21BRWNUVM-112",
-      "yes_sub_title": "Over 111.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV21BRADPAC-105",
+      "yes_sub_title": "Over 104.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -397,8 +397,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV21BRWNUVM-113",
-      "yes_sub_title": "Over 112.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV21BRADPAC-110",
+      "yes_sub_title": "Over 109.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -411,7 +411,7 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV21BRWNUVM-114",
+      "ticker": "KXNCAAMBTOTAL-26NOV21BRADPAC-114",
       "yes_sub_title": "Over 113.5 points",
       "status": "active",
       "yes_bid": null,
@@ -428,53 +428,29 @@
    }
   },
   "KXNBAGAME": {
-   "open_events": 38,
+   "open_events": 36,
    "sample": {
-    "event_ticker": "KXNBAGAME-26NOV21PORNYK",
-    "title": "Portland vs New York",
+    "event_ticker": "KXNBAGAME-26NOV21BOSSAC",
+    "title": "Boston vs Sacramento",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBAGAME-26NOV21PORNYK-POR",
-      "yes_sub_title": "Portland",
+      "ticker": "KXNBAGAME-26NOV21BOSSAC-BOS",
+      "yes_sub_title": "Boston",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
-      "yes_ask_dollars": "0.1000",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1000",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
-      "ticker": "KXNBAGAME-26NOV21PORNYK-NYK",
-      "yes_sub_title": "New York",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9100",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9100",
-      "volume": null
-     }
-    ]
-   }
-  },
-  "KXNBASPREAD": {
-   "open_events": 10,
-   "sample": {
-    "event_ticker": "KXNBASPREAD-26NOV21PORNYK",
-    "title": "Portland vs New York: Spread",
-    "strike_date": null,
-    "markets": [
-     {
-      "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK32",
-      "yes_sub_title": "New York wins by over 31.5 points",
+      "ticker": "KXNBAGAME-26NOV21BOSSAC-SAC",
+      "yes_sub_title": "Sacramento",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -483,87 +459,111 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0600",
+      "last_price_dollars": "0.0800",
       "volume": null
-     },
+     }
+    ]
+   }
+  },
+  "KXNBASPREAD": {
+   "open_events": 8,
+   "sample": {
+    "event_ticker": "KXNBASPREAD-26NOV21BOSSAC",
+    "title": "Boston vs Sacramento: Spread",
+    "strike_date": null,
+    "markets": [
      {
-      "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK30",
-      "yes_sub_title": "New York wins by over 29.5 points",
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC13",
+      "yes_sub_title": "Sacramento wins by over 12.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.1100",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0600",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
-      "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK28",
-      "yes_sub_title": "New York wins by over 27.5 points",
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC11",
+      "yes_sub_title": "Sacramento wins by over 10.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1200",
-      "yes_ask_dollars": "0.1300",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1000",
+      "last_price_dollars": "0.0100",
+      "volume": null
+     },
+     {
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC9",
+      "yes_sub_title": "Sacramento wins by over 8.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNBATOTAL": {
-   "open_events": 10,
+   "open_events": 8,
    "sample": {
-    "event_ticker": "KXNBATOTAL-26NOV21PORNYK",
-    "title": "Portland vs New York: Total Points",
+    "event_ticker": "KXNBATOTAL-26NOV21BOSSAC",
+    "title": "Boston vs Sacramento: Total Points",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV21PORNYK-191",
-      "yes_sub_title": "Over 190.5 points",
+      "ticker": "KXNBATOTAL-26NOV21BOSSAC-190",
+      "yes_sub_title": "Over 189.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.8300",
+      "yes_ask_dollars": "0.8400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.8400",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV21PORNYK-193",
-      "yes_sub_title": "Over 192.5 points",
+      "ticker": "KXNBATOTAL-26NOV21BOSSAC-192",
+      "yes_sub_title": "Over 191.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.7900",
+      "yes_ask_dollars": "0.8000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.8000",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV21PORNYK-195",
-      "yes_sub_title": "Over 194.5 points",
+      "ticker": "KXNBATOTAL-26NOV21BOSSAC-194",
+      "yes_sub_title": "Over 193.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.7300",
+      "yes_ask_dollars": "0.7400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.7400",
       "volume": null
      }
     ]
@@ -596,12 +596,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6300",
-      "yes_ask_dollars": "0.6400",
+      "yes_bid_dollars": "0.6400",
+      "yes_ask_dollars": "0.6500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6400",
+      "last_price_dollars": "0.6500",
       "volume": null
      },
      {
@@ -648,7 +648,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
+      "yes_bid_dollars": "0.0400",
       "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
@@ -667,7 +667,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3900",
+      "last_price_dollars": "0.4000",
       "volume": null
      }
     ]
@@ -747,19 +747,20 @@
  "kickoff_times": {
   "NFL": 27,
   "College Football": 69,
-  "College Basketball": 406,
+  "College Basketball": 408,
   "NBA": 54,
   "Premier League": 13
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 2494,
-  "started": 41
+  "stale_or_wide": 2425,
+  "started": 12
  },
  "unmatched_teams": [
   "College Basketball: American International",
   "College Basketball: Grace Christian",
   "College Basketball: Indiana-South Bend",
+  "College Basketball: Jacksonville St.",
   "College Basketball: Johnson & Wales (RI)",
   "College Basketball: NC St.",
   "College Basketball: New Orleans",
