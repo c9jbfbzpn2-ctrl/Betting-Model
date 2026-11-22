@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:01:16.689839+00:00",
+ "updated": "2026-11-22T19:11:22.238536+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 28,
@@ -14,12 +14,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9200",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -28,12 +28,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.0900",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
@@ -52,12 +52,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0500",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.1100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0500",
+      "last_price_dollars": "0.0800",
       "volume": null
      },
      {
@@ -66,12 +66,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1100",
-      "yes_ask_dollars": "0.1200",
+      "yes_bid_dollars": "0.2300",
+      "yes_ask_dollars": "0.2600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1200",
+      "last_price_dollars": "0.2300",
       "volume": null
      },
      {
@@ -80,12 +80,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1700",
-      "yes_ask_dollars": "0.1800",
+      "yes_bid_dollars": "0.3200",
+      "yes_ask_dollars": "0.3400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1800",
+      "last_price_dollars": "0.3300",
       "volume": null
      }
     ]
@@ -101,29 +101,29 @@
      {
       "ticker": "KXNFLTOTAL-26NOV22ARIKC-21",
       "yes_sub_title": "Over 20.5 points",
-      "status": "active",
+      "status": "finalized",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9600",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
       "ticker": "KXNFLTOTAL-26NOV22ARIKC-24",
       "yes_sub_title": "Over 23.5 points",
-      "status": "active",
+      "status": "finalized",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -132,12 +132,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9000",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
@@ -156,8 +156,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7200",
-      "yes_ask_dollars": "0.7400",
+      "yes_bid_dollars": "0.7100",
+      "yes_ask_dollars": "0.7200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -170,19 +170,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2600",
-      "yes_ask_dollars": "0.2700",
+      "yes_bid_dollars": "0.2700",
+      "yes_ask_dollars": "0.2900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2800",
+      "last_price_dollars": "0.2900",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 36,
+   "open_events": 63,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV24KENTEMU",
     "title": "Kent St. vs Eastern Michigan: Spread",
@@ -194,8 +194,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1100",
-      "yes_ask_dollars": "0.2200",
+      "yes_bid_dollars": "0.1300",
+      "yes_ask_dollars": "0.2000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -208,8 +208,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.2600",
+      "yes_bid_dollars": "0.1800",
+      "yes_ask_dollars": "0.2300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -223,7 +223,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.2100",
-      "yes_ask_dollars": "0.2300",
+      "yes_ask_dollars": "0.2600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 35,
+   "open_events": 63,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV24KENTEMU",
     "title": "Kent St. vs Eastern Michigan: Total Points",
@@ -246,8 +246,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8200",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -260,7 +260,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7800",
+      "yes_bid_dollars": "0.8600",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
@@ -274,8 +274,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7900",
-      "yes_ask_dollars": "0.9200",
+      "yes_bid_dollars": "0.8000",
+      "yes_ask_dollars": "0.8800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -286,7 +286,7 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 205,
+   "open_events": 209,
    "sample": {
     "event_ticker": "KXNCAAMBGAME-26NOV22BUTNEB",
     "title": "Butler vs Nebraska",
@@ -298,12 +298,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8700",
-      "yes_ask_dollars": "0.8800",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8800",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -312,19 +312,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
-      "yes_ask_dollars": "0.1400",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1400",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 38,
+   "open_events": 40,
    "sample": {
     "event_ticker": "KXNCAAMBSPREAD-26NOV22BUTNEB",
     "title": "Butler vs Nebraska: Spread",
@@ -336,12 +336,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
@@ -350,12 +350,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
-      "yes_ask_dollars": "0.0700",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -364,19 +364,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0400",
-      "yes_ask_dollars": "0.0600",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 38,
+   "open_events": 44,
    "sample": {
     "event_ticker": "KXNCAAMBTOTAL-26NOV22BUTNEB",
     "title": "Butler vs Nebraska: Point Total",
@@ -388,12 +388,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -402,12 +402,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -416,12 +416,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
@@ -478,8 +478,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -492,8 +492,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -506,7 +506,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
+      "yes_bid_dollars": "0.0200",
       "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
@@ -535,7 +535,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.9000",
+      "yes_ask_dollars": "0.9200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8900",
+      "last_price_dollars": "0.9100",
       "volume": null
      },
      {
@@ -558,8 +558,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8700",
-      "yes_ask_dollars": "0.9000",
+      "yes_bid_dollars": "0.8800",
+      "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -570,52 +570,52 @@
    }
   },
   "KXEPLGAME": {
-   "open_events": 31,
+   "open_events": 30,
    "sample": {
-    "event_ticker": "KXEPLGAME-26NOV22LFCMUN",
-    "title": "Liverpool vs Manchester United",
+    "event_ticker": "KXEPLGAME-26NOV23BREEVE",
+    "title": "Brentford vs Everton",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLGAME-26NOV22LFCMUN-LFC",
-      "yes_sub_title": "Liverpool",
+      "ticker": "KXEPLGAME-26NOV23BREEVE-BRE",
+      "yes_sub_title": "Brentford",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5400",
-      "yes_ask_dollars": "0.5500",
+      "yes_bid_dollars": "0.4100",
+      "yes_ask_dollars": "0.4200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5500",
+      "last_price_dollars": "0.4200",
       "volume": null
      },
      {
-      "ticker": "KXEPLGAME-26NOV22LFCMUN-MUN",
-      "yes_sub_title": "Manchester United",
+      "ticker": "KXEPLGAME-26NOV23BREEVE-EVE",
+      "yes_sub_title": "Everton",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2200",
-      "yes_ask_dollars": "0.2300",
+      "yes_bid_dollars": "0.3000",
+      "yes_ask_dollars": "0.3100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2300",
+      "last_price_dollars": "0.3100",
       "volume": null
      },
      {
-      "ticker": "KXEPLGAME-26NOV22LFCMUN-TIE",
+      "ticker": "KXEPLGAME-26NOV23BREEVE-TIE",
       "yes_sub_title": "Tie",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2300",
-      "yes_ask_dollars": "0.2400",
+      "yes_bid_dollars": "0.2700",
+      "yes_ask_dollars": "0.2800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2400",
+      "last_price_dollars": "0.2700",
       "volume": null
      }
     ]
@@ -624,50 +624,50 @@
   "KXEPLSPREAD": {
    "open_events": 11,
    "sample": {
-    "event_ticker": "KXEPLSPREAD-26NOV22LFCMUN",
-    "title": "Liverpool vs Manchester United: Spread",
+    "event_ticker": "KXEPLSPREAD-26NOV23BREEVE",
+    "title": "Brentford vs Everton: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLSPREAD-26NOV22LFCMUN-LFC3",
-      "yes_sub_title": "Liverpool wins by more than 2.5 goals",
+      "ticker": "KXEPLSPREAD-26NOV23BREEVE-BRE3",
+      "yes_sub_title": "Brentford wins by more than 2.5 goals",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.0700",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1600",
+      "last_price_dollars": "0.0700",
       "volume": null
      },
      {
-      "ticker": "KXEPLSPREAD-26NOV22LFCMUN-LFC2",
-      "yes_sub_title": "Liverpool wins by more than 1.5 goals",
+      "ticker": "KXEPLSPREAD-26NOV23BREEVE-BRE2",
+      "yes_sub_title": "Brentford wins by more than 1.5 goals",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3100",
-      "yes_ask_dollars": "0.3200",
+      "yes_bid_dollars": "0.2000",
+      "yes_ask_dollars": "0.2100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3200",
+      "last_price_dollars": "0.2100",
       "volume": null
      },
      {
-      "ticker": "KXEPLSPREAD-26NOV22LFCMUN-MUN2",
-      "yes_sub_title": "Manchester United wins by more than 1.5 goals",
+      "ticker": "KXEPLSPREAD-26NOV23BREEVE-EVE2",
+      "yes_sub_title": "Everton wins by more than 1.5 goals",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.0900",
+      "yes_bid_dollars": "0.1200",
+      "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
+      "last_price_dollars": "0.1400",
       "volume": null
      }
     ]
@@ -676,50 +676,50 @@
   "KXEPLTOTAL": {
    "open_events": 11,
    "sample": {
-    "event_ticker": "KXEPLTOTAL-26NOV22LFCMUN",
-    "title": "Liverpool vs Manchester United: Total Goals",
+    "event_ticker": "KXEPLTOTAL-26NOV23BREEVE",
+    "title": "Brentford vs Everton: Total Goals",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLTOTAL-26NOV22LFCMUN-1",
+      "ticker": "KXEPLTOTAL-26NOV23BREEVE-1",
       "yes_sub_title": "Over 0.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9600",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.9300",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9300",
       "volume": null
      },
      {
-      "ticker": "KXEPLTOTAL-26NOV22LFCMUN-2",
+      "ticker": "KXEPLTOTAL-26NOV23BREEVE-2",
       "yes_sub_title": "Over 1.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8400",
-      "yes_ask_dollars": "0.8500",
+      "yes_bid_dollars": "0.7600",
+      "yes_ask_dollars": "0.7800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8400",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXEPLTOTAL-26NOV22LFCMUN-3",
+      "ticker": "KXEPLTOTAL-26NOV23BREEVE-3",
       "yes_sub_title": "Over 2.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6400",
-      "yes_ask_dollars": "0.6500",
+      "yes_bid_dollars": "0.5200",
+      "yes_ask_dollars": "0.5300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6500",
+      "last_price_dollars": "0.5300",
       "volume": null
      }
     ]
@@ -753,8 +753,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 2886,
-  "started": 0
+  "stale_or_wide": 4642,
+  "started": 20
  },
  "unmatched_teams": [
   "College Basketball: American International",
