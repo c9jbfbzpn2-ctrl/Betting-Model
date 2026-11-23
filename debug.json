@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T19:23:01.631516+00:00",
+ "updated": "2026-11-23T22:10:27.098937+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 17,
@@ -19,7 +19,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2800",
+      "last_price_dollars": "0.2700",
       "volume": null
      },
      {
@@ -71,7 +71,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
+      "last_price_dollars": "0.1100",
       "volume": null
      },
      {
@@ -104,7 +104,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9600",
+      "yes_bid_dollars": "0.9500",
       "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
@@ -123,7 +123,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
@@ -132,19 +132,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.8900",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFGAME": {
-   "open_events": 72,
+   "open_events": 73,
    "sample": {
     "event_ticker": "KXNCAAFGAME-26NOV24MOHWMU",
     "title": "Miami (OH) vs Western Michigan",
@@ -171,18 +171,18 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.2900",
-      "yes_ask_dollars": "0.3000",
+      "yes_ask_dollars": "0.3100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3000",
+      "last_price_dollars": "0.3100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 69,
+   "open_events": 70,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV24KENTEMU",
     "title": "Kent St. vs Eastern Michigan: Spread",
@@ -195,7 +195,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.1800",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 69,
+   "open_events": 70,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV24KENTEMU",
     "title": "Kent St. vs Eastern Michigan: Total Points",
@@ -247,7 +247,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9600",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -260,7 +260,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
+      "yes_bid_dollars": "0.9000",
       "yes_ask_dollars": "0.9100",
       "no_bid": null,
       "no_ask": null,
@@ -286,53 +286,53 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 192,
+   "open_events": 198,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV23INSTECU",
-    "title": "Indiana St. vs East Carolina",
+    "event_ticker": "KXNCAAMBGAME-26NOV23MTUSIU",
+    "title": "Middle Tennessee vs Southern Illinois",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV23INSTECU-ECU",
-      "yes_sub_title": "East Carolina",
+      "ticker": "KXNCAAMBGAME-26NOV23MTUSIU-SIU",
+      "yes_sub_title": "Southern Illinois",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6200",
-      "yes_ask_dollars": "0.6400",
+      "yes_bid_dollars": "0.1200",
+      "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6100",
+      "last_price_dollars": "0.1200",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV23INSTECU-INST",
-      "yes_sub_title": "Indiana St.",
+      "ticker": "KXNCAAMBGAME-26NOV23MTUSIU-MTU",
+      "yes_sub_title": "Middle Tennessee",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3600",
-      "yes_ask_dollars": "0.3700",
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.8800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3700",
+      "last_price_dollars": "0.8800",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 42,
+   "open_events": 48,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV23INSTECU",
-    "title": "Indiana St. vs East Carolina: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV23MTUSIU",
+    "title": "Middle Tennessee vs Southern Illinois: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV23INSTECU-ECU25",
-      "yes_sub_title": "East Carolina wins by over 24.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV23MTUSIU-SIU27",
+      "yes_sub_title": "Southern Illinois wins by over 26.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -345,8 +345,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV23INSTECU-ECU20",
-      "yes_sub_title": "East Carolina wins by over 19.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV23MTUSIU-SIU26",
+      "yes_sub_title": "Southern Illinois wins by over 25.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -359,32 +359,32 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV23INSTECU-ECU15",
-      "yes_sub_title": "East Carolina wins by over 14.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV23MTUSIU-SIU25",
+      "yes_sub_title": "Southern Illinois wins by over 24.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0200",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0200",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 44,
+   "open_events": 49,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV23INSTECU",
-    "title": "Indiana St. vs East Carolina: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV23MTUSIU",
+    "title": "Middle Tennessee vs Southern Illinois: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV23INSTECU-110",
-      "yes_sub_title": "Over 109.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV23MTUSIU-123",
+      "yes_sub_title": "Over 122.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -397,38 +397,38 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV23INSTECU-115",
-      "yes_sub_title": "Over 114.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV23MTUSIU-128",
+      "yes_sub_title": "Over 127.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9700",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV23INSTECU-120",
-      "yes_sub_title": "Over 119.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV23MTUSIU-129",
+      "yes_sub_title": "Over 128.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.9900",
       "volume": null
      }
     ]
    }
   },
   "KXNBAGAME": {
-   "open_events": 31,
+   "open_events": 32,
    "sample": {
     "event_ticker": "KXNBAGAME-26NOV23MEMCHA",
     "title": "Memphis vs Charlotte",
@@ -506,7 +506,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
+      "yes_bid_dollars": "0.0300",
       "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
@@ -530,12 +530,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.8900",
       "volume": null
      },
      {
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8800",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9000",
       "volume": null
      },
      {
@@ -563,163 +563,163 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8900",
+      "last_price_dollars": "0.8700",
       "volume": null
      }
     ]
    }
   },
   "KXEPLGAME": {
-   "open_events": 30,
+   "open_events": 29,
    "sample": {
-    "event_ticker": "KXEPLGAME-26NOV23BREEVE",
-    "title": "Brentford vs Everton",
+    "event_ticker": "KXEPLGAME-26NOV27NFOCFC",
+    "title": "Nottingham Forest vs Chelsea",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLGAME-26NOV23BREEVE-BRE",
-      "yes_sub_title": "Brentford",
+      "ticker": "KXEPLGAME-26NOV27NFOCFC-NFO",
+      "yes_sub_title": "Nottingham Forest",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4300",
-      "yes_ask_dollars": "0.4400",
+      "yes_bid_dollars": "0.3600",
+      "yes_ask_dollars": "0.3700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4400",
+      "last_price_dollars": "0.3700",
       "volume": null
      },
      {
-      "ticker": "KXEPLGAME-26NOV23BREEVE-EVE",
-      "yes_sub_title": "Everton",
+      "ticker": "KXEPLGAME-26NOV27NFOCFC-CFC",
+      "yes_sub_title": "Chelsea",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2800",
+      "yes_bid_dollars": "0.3500",
+      "yes_ask_dollars": "0.3600",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.3600",
+      "volume": null
+     },
+     {
+      "ticker": "KXEPLGAME-26NOV27NFOCFC-TIE",
+      "yes_sub_title": "Tie",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.2700",
       "yes_ask_dollars": "0.2900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
       "last_price_dollars": "0.2900",
       "volume": null
-     },
-     {
-      "ticker": "KXEPLGAME-26NOV23BREEVE-TIE",
-      "yes_sub_title": "Tie",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.2700",
-      "yes_ask_dollars": "0.2800",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.2800",
-      "volume": null
      }
     ]
    }
   },
   "KXEPLSPREAD": {
-   "open_events": 11,
+   "open_events": 10,
    "sample": {
-    "event_ticker": "KXEPLSPREAD-26NOV23BREEVE",
-    "title": "Brentford vs Everton: Spread",
+    "event_ticker": "KXEPLSPREAD-26NOV27NFOCFC",
+    "title": "Nottingham Forest vs Chelsea: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLSPREAD-26NOV23BREEVE-BRE3",
-      "yes_sub_title": "Brentford wins by more than 2.5 goals",
+      "ticker": "KXEPLSPREAD-26NOV27NFOCFC-NFO3",
+      "yes_sub_title": "Nottingham Forest wins by more than 2.5 goals",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0700",
-      "yes_ask_dollars": "0.0800",
+      "yes_bid_dollars": "0.0500",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0700",
+      "last_price_dollars": "0.0500",
       "volume": null
      },
      {
-      "ticker": "KXEPLSPREAD-26NOV23BREEVE-BRE2",
-      "yes_sub_title": "Brentford wins by more than 1.5 goals",
+      "ticker": "KXEPLSPREAD-26NOV27NFOCFC-NFO2",
+      "yes_sub_title": "Nottingham Forest wins by more than 1.5 goals",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2000",
-      "yes_ask_dollars": "0.2100",
+      "yes_bid_dollars": "0.1600",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2000",
+      "last_price_dollars": "0.1600",
       "volume": null
      },
      {
-      "ticker": "KXEPLSPREAD-26NOV23BREEVE-EVE2",
-      "yes_sub_title": "Everton wins by more than 1.5 goals",
+      "ticker": "KXEPLSPREAD-26NOV27NFOCFC-CFC2",
+      "yes_sub_title": "Chelsea wins by more than 1.5 goals",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1100",
-      "yes_ask_dollars": "0.1200",
+      "yes_bid_dollars": "0.1500",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1200",
+      "last_price_dollars": "0.1800",
       "volume": null
      }
     ]
    }
   },
   "KXEPLTOTAL": {
-   "open_events": 11,
+   "open_events": 10,
    "sample": {
-    "event_ticker": "KXEPLTOTAL-26NOV23BREEVE",
-    "title": "Brentford vs Everton: Total Goals",
+    "event_ticker": "KXEPLTOTAL-26NOV27NFOCFC",
+    "title": "Nottingham Forest vs Chelsea: Total Goals",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXEPLTOTAL-26NOV23BREEVE-1",
+      "ticker": "KXEPLTOTAL-26NOV27NFOCFC-1",
       "yes_sub_title": "Over 0.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXEPLTOTAL-26NOV23BREEVE-2",
+      "ticker": "KXEPLTOTAL-26NOV27NFOCFC-2",
       "yes_sub_title": "Over 1.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7600",
-      "yes_ask_dollars": "0.7700",
+      "yes_bid_dollars": "0.7700",
+      "yes_ask_dollars": "0.7900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7700",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXEPLTOTAL-26NOV23BREEVE-3",
+      "ticker": "KXEPLTOTAL-26NOV27NFOCFC-3",
       "yes_sub_title": "Over 2.5 goals scored",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5100",
-      "yes_ask_dollars": "0.5200",
+      "yes_bid_dollars": "0.5300",
+      "yes_ask_dollars": "0.5400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5200",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
@@ -753,13 +753,12 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 781,
-  "started": 5
+  "stale_or_wide": 1127,
+  "started": 7
  },
  "unmatched_teams": [
   "College Basketball: American International",
   "College Basketball: Grace Christian",
-  "College Basketball: Indiana-South Bend",
   "College Basketball: Jacksonville St.",
   "College Basketball: Johnson & Wales (RI)",
   "College Basketball: NC St.",
