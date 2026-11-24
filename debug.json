@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:29:22.053764+00:00",
+ "updated": "2026-11-24T19:21:56.754702+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 30,
@@ -14,8 +14,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5400",
-      "yes_ask_dollars": "0.5500",
+      "yes_bid_dollars": "0.5500",
+      "yes_ask_dollars": "0.5600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -28,12 +28,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4500",
-      "yes_ask_dollars": "0.4600",
+      "yes_bid_dollars": "0.4400",
+      "yes_ask_dollars": "0.4500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4600",
+      "last_price_dollars": "0.4500",
       "volume": null
      }
     ]
@@ -52,12 +52,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0800",
+      "yes_bid_dollars": "0.0700",
       "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0800",
+      "last_price_dollars": "0.0700",
       "volume": null
      },
      {
@@ -66,8 +66,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
-      "yes_ask_dollars": "0.1200",
+      "yes_bid_dollars": "0.0800",
+      "yes_ask_dollars": "0.1300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -104,12 +104,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
+      "yes_bid_dollars": "0.9500",
       "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9600",
       "volume": null
      },
      {
@@ -137,7 +137,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8800",
+      "last_price_dollars": "0.8700",
       "volume": null
      }
     ]
@@ -156,12 +156,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6800",
-      "yes_ask_dollars": "0.6900",
+      "yes_bid_dollars": "0.6700",
+      "yes_ask_dollars": "0.6800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6900",
+      "last_price_dollars": "0.6800",
       "volume": null
      },
      {
@@ -170,12 +170,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3100",
-      "yes_ask_dollars": "0.3200",
+      "yes_bid_dollars": "0.3200",
+      "yes_ask_dollars": "0.3300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3200",
+      "last_price_dollars": "0.3300",
       "volume": null
      }
     ]
@@ -199,7 +199,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1700",
+      "last_price_dollars": "0.1600",
       "volume": null
      },
      {
@@ -251,7 +251,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9600",
       "volume": null
      },
      {
@@ -275,64 +275,64 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.8400",
-      "yes_ask_dollars": "0.8600",
+      "yes_ask_dollars": "0.8500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7700",
+      "last_price_dollars": "0.8600",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 192,
+   "open_events": 214,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV24WRSTSBON",
-    "title": "Wright St. vs St. Bonaventure",
+    "event_ticker": "KXNCAAMBGAME-26NOV24BELAKR",
+    "title": "Belmont vs Akron",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV24WRSTSBON-SBON",
-      "yes_sub_title": "St. Bonaventure",
+      "ticker": "KXNCAAMBGAME-26NOV24BELAKR-AKR",
+      "yes_sub_title": "Akron",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6600",
-      "yes_ask_dollars": "0.6700",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6600",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV24WRSTSBON-WRST",
-      "yes_sub_title": "Wright St.",
+      "ticker": "KXNCAAMBGAME-26NOV24BELAKR-BEL",
+      "yes_sub_title": "Belmont",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3300",
-      "yes_ask_dollars": "0.3400",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3400",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 79,
+   "open_events": 81,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV24WRSTSBON",
-    "title": "Wright St. vs St. Bonaventure: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV24BELAKR",
+    "title": "Belmont vs Akron: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV24WRSTSBON-SBON24",
-      "yes_sub_title": "St. Bonaventure wins by over 23.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV24BELAKR-AKR29",
+      "yes_sub_title": "Akron wins by over 28.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -345,46 +345,60 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV24WRSTSBON-SBON21",
-      "yes_sub_title": "St. Bonaventure wins by over 20.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV24BELAKR-AKR24",
+      "yes_sub_title": "Akron wins by over 23.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0700",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0800",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV24WRSTSBON-SBON18",
-      "yes_sub_title": "St. Bonaventure wins by over 17.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV24BELAKR-AKR19",
+      "yes_sub_title": "Akron wins by over 18.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.2800",
+      "yes_ask_dollars": "0.2900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.3000",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 81,
+   "open_events": 90,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV24WRSTSBON",
-    "title": "Wright St. vs St. Bonaventure: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV24BELAKR",
+    "title": "Belmont vs Akron: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV24WRSTSBON-101",
-      "yes_sub_title": "Over 100.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV24BELAKR-119",
+      "yes_sub_title": "Over 118.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.9800",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV24BELAKR-120",
+      "yes_sub_title": "Over 119.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -397,27 +411,13 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV24WRSTSBON-106",
-      "yes_sub_title": "Over 105.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV24BELAKR-125",
+      "yes_sub_title": "Over 124.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9900",
       "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV24WRSTSBON-111",
-      "yes_sub_title": "Over 110.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -440,12 +440,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5500",
-      "yes_ask_dollars": "0.5600",
+      "yes_bid_dollars": "0.5400",
+      "yes_ask_dollars": "0.5500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5600",
+      "last_price_dollars": "0.5500",
       "volume": null
      },
      {
@@ -454,12 +454,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4400",
-      "yes_ask_dollars": "0.4500",
+      "yes_bid_dollars": "0.4500",
+      "yes_ask_dollars": "0.4600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4500",
+      "last_price_dollars": "0.4600",
       "volume": null
      }
     ]
@@ -535,7 +535,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
@@ -545,7 +545,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9200",
-      "yes_ask_dollars": "0.9300",
+      "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -559,7 +559,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9200",
+      "yes_ask_dollars": "0.9100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -601,7 +601,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3400",
+      "last_price_dollars": "0.3500",
       "volume": null
      },
      {
@@ -615,7 +615,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2800",
+      "last_price_dollars": "0.2900",
       "volume": null
      }
     ]
@@ -753,8 +753,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 748,
-  "started": 2
+  "stale_or_wide": 989,
+  "started": 6
  },
  "unmatched_teams": [
   "College Basketball: American International",
