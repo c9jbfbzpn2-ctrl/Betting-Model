@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:15:41.835103+00:00",
+ "updated": "2026-11-25T01:42:16.438813+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 30,
@@ -52,12 +52,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0700",
+      "yes_bid_dollars": "0.0800",
       "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0700",
+      "last_price_dollars": "0.1000",
       "volume": null
      },
      {
@@ -66,8 +66,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
-      "yes_ask_dollars": "0.1300",
+      "yes_bid_dollars": "0.1000",
+      "yes_ask_dollars": "0.1200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -80,12 +80,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1400",
-      "yes_ask_dollars": "0.1500",
+      "yes_bid_dollars": "0.1200",
+      "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1500",
+      "last_price_dollars": "0.1100",
       "volume": null
      }
     ]
@@ -118,8 +118,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -156,12 +156,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6700",
-      "yes_ask_dollars": "0.6800",
+      "yes_bid_dollars": "0.2800",
+      "yes_ask_dollars": "0.2900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6800",
+      "last_price_dollars": "0.2900",
       "volume": null
      },
      {
@@ -170,12 +170,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3300",
-      "yes_ask_dollars": "0.3400",
+      "yes_bid_dollars": "0.7100",
+      "yes_ask_dollars": "0.7200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3400",
+      "last_price_dollars": "0.7200",
       "volume": null
      }
     ]
@@ -189,45 +189,45 @@
     "strike_date": null,
     "markets": [
      {
+      "ticker": "KXNCAAFSPREAD-26NOV24KENTEMU-EMU27",
+      "yes_sub_title": "Eastern Michigan wins by over 26.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0200",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0200",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAFSPREAD-26NOV24KENTEMU-EMU24",
+      "yes_sub_title": "Eastern Michigan wins by over 23.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0400",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.0400",
+      "volume": null
+     },
+     {
       "ticker": "KXNCAAFSPREAD-26NOV24KENTEMU-EMU21",
       "yes_sub_title": "Eastern Michigan wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1700",
-      "yes_ask_dollars": "0.1800",
+      "yes_bid_dollars": "0.0600",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1800",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV24KENTEMU-EMU18",
-      "yes_sub_title": "Eastern Michigan wins by over 17.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.2100",
-      "yes_ask_dollars": "0.2200",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.0000",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAFSPREAD-26NOV24KENTEMU-EMU17",
-      "yes_sub_title": "Eastern Michigan wins by over 16.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.2400",
-      "yes_ask_dollars": "0.2500",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.2400",
+      "last_price_dollars": "0.0700",
       "volume": null
      }
     ]
@@ -246,12 +246,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.9900",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -260,12 +260,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "1.0000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9100",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -274,65 +274,65 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8400",
-      "yes_ask_dollars": "0.8500",
+      "yes_bid_dollars": "0.9600",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8600",
+      "last_price_dollars": "0.9700",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 229,
+   "open_events": 225,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV24TCUMIA",
-    "title": "TCU vs Miami (FL)",
+    "event_ticker": "KXNCAAMBGAME-26NOV24BINGLEH",
+    "title": "Binghamton vs Lehigh",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV24TCUMIA-MIA",
-      "yes_sub_title": "Miami (FL)",
+      "ticker": "KXNCAAMBGAME-26NOV24BINGLEH-LEH",
+      "yes_sub_title": "Lehigh",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2200",
-      "yes_ask_dollars": "0.2300",
+      "yes_bid_dollars": "0.1100",
+      "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2300",
+      "last_price_dollars": "0.1100",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV24TCUMIA-TCU",
-      "yes_sub_title": "TCU",
+      "ticker": "KXNCAAMBGAME-26NOV24BINGLEH-BING",
+      "yes_sub_title": "Binghamton",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7700",
-      "yes_ask_dollars": "0.7800",
+      "yes_bid_dollars": "0.8600",
+      "yes_ask_dollars": "0.9000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7800",
+      "last_price_dollars": "0.8900",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 88,
+   "open_events": 90,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV24TCUMIA",
-    "title": "TCU vs Miami (FL): Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV24LAMRMU",
+    "title": "Lamar vs Robert Morris: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV24TCUMIA-MIA33",
-      "yes_sub_title": "Miami (FL) wins by over 32.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV24LAMRMU-RMU21",
+      "yes_sub_title": "Robert Morris wins by over 20.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -345,8 +345,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV24TCUMIA-MIA29",
-      "yes_sub_title": "Miami (FL) wins by over 28.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV24LAMRMU-RMU18",
+      "yes_sub_title": "Robert Morris wins by over 17.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -359,8 +359,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV24TCUMIA-MIA25",
-      "yes_sub_title": "Miami (FL) wins by over 24.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV24LAMRMU-RMU13",
+      "yes_sub_title": "Robert Morris wins by over 12.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -378,12 +378,12 @@
   "KXNCAAMBTOTAL": {
    "open_events": 100,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV24TCUMIA",
-    "title": "TCU vs Miami (FL): Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV24LAMRMU",
+    "title": "Lamar vs Robert Morris: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV24TCUMIA-129",
+      "ticker": "KXNCAAMBTOTAL-26NOV24LAMRMU-129",
       "yes_sub_title": "Over 128.5 points",
       "status": "active",
       "yes_bid": null,
@@ -397,8 +397,8 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV24TCUMIA-130",
-      "yes_sub_title": "Over 129.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV24LAMRMU-134",
+      "yes_sub_title": "Over 133.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -407,12 +407,12 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.9800",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV24TCUMIA-131",
-      "yes_sub_title": "Over 130.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV24LAMRMU-138",
+      "yes_sub_title": "Over 137.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
@@ -440,12 +440,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5400",
-      "yes_ask_dollars": "0.5500",
+      "yes_bid_dollars": "0.8200",
+      "yes_ask_dollars": "0.8300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5500",
+      "last_price_dollars": "0.8300",
       "volume": null
      },
      {
@@ -454,12 +454,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4600",
-      "yes_ask_dollars": "0.4700",
+      "yes_bid_dollars": "0.1600",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4600",
+      "last_price_dollars": "0.1700",
       "volume": null
      }
     ]
@@ -483,7 +483,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
@@ -492,8 +492,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0300",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -506,12 +506,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0000",
+      "yes_ask_dollars": "0.0100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0100",
       "volume": null
      }
     ]
@@ -525,13 +525,13 @@
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNBATOTAL-26NOV24DETORL-187",
-      "yes_sub_title": "Over 186.5 points",
+      "ticker": "KXNBATOTAL-26NOV24DETORL-173",
+      "yes_sub_title": "Over 172.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9500",
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -539,31 +539,31 @@
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV24DETORL-189",
-      "yes_sub_title": "Over 188.5 points",
+      "ticker": "KXNBATOTAL-26NOV24DETORL-175",
+      "yes_sub_title": "Over 174.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.9100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9100",
       "volume": null
      },
      {
-      "ticker": "KXNBATOTAL-26NOV24DETORL-191",
-      "yes_sub_title": "Over 190.5 points",
+      "ticker": "KXNBATOTAL-26NOV24DETORL-177",
+      "yes_sub_title": "Over 176.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9200",
+      "yes_bid_dollars": "0.8400",
+      "yes_ask_dollars": "0.8800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.8600",
       "volume": null
      }
     ]
@@ -653,7 +653,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1600",
+      "last_price_dollars": "0.1800",
       "volume": null
      },
      {
@@ -667,7 +667,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1800",
+      "last_price_dollars": "0.1500",
       "volume": null
      }
     ]
@@ -701,11 +701,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.7800",
-      "yes_ask_dollars": "0.7900",
+      "yes_ask_dollars": "0.8000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.8000",
       "volume": null
      },
      {
@@ -719,7 +719,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5600",
+      "last_price_dollars": "0.5500",
       "volume": null
      }
     ]
@@ -730,7 +730,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261121-20261124",
+    "dates": "20261121-20261125",
     "limit": "1000"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
@@ -738,7 +738,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261121-20261124"
+    "dates": "20261121-20261125"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
   }
@@ -746,15 +746,15 @@
  "espn_style": "day",
  "kickoff_times": {
   "NFL": 16,
-  "College Football": 69,
-  "College Basketball": 413,
-  "NBA": 53,
-  "Premier League": 11
+  "College Football": 67,
+  "College Basketball": 402,
+  "NBA": 59,
+  "Premier League": 19
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 1581,
-  "started": 8
+  "stale_or_wide": 1270,
+  "started": 53
  },
  "unmatched_teams": [
   "College Basketball: American International",
@@ -763,7 +763,6 @@
   "College Basketball: Johnson & Wales (RI)",
   "College Basketball: NC St.",
   "College Basketball: New Orleans",
-  "College Basketball: Penn State-Berks",
   "College Basketball: USC Upstate",
   "College Basketball: University at Albany",
   "College Basketball: Warner",
