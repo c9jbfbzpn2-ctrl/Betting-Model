@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:46:06.555983+00:00",
+ "updated": "2026-11-25T10:26:13.389584+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 30,
@@ -53,11 +53,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0700",
-      "yes_ask_dollars": "0.0900",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0900",
+      "last_price_dollars": "0.0800",
       "volume": null
      },
      {
@@ -105,7 +105,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9600",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -123,7 +123,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9000",
+      "last_price_dollars": "0.9200",
       "volume": null
      },
      {
@@ -286,38 +286,38 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 186,
+   "open_events": 190,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV25COLOSTAN",
-    "title": "Colorado vs Stanford",
+    "event_ticker": "KXNCAAMBGAME-26NOV25SBONBEL",
+    "title": "St. Bonaventure vs Belmont",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV25COLOSTAN-STAN",
-      "yes_sub_title": "Stanford",
+      "ticker": "KXNCAAMBGAME-26NOV25SBONBEL-BEL",
+      "yes_sub_title": "Belmont",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7200",
-      "yes_ask_dollars": "0.7300",
+      "yes_bid_dollars": "0.3500",
+      "yes_ask_dollars": "0.3600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.7300",
+      "last_price_dollars": "0.3600",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV25COLOSTAN-COLO",
-      "yes_sub_title": "Colorado",
+      "ticker": "KXNCAAMBGAME-26NOV25SBONBEL-SBON",
+      "yes_sub_title": "St. Bonaventure",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2700",
-      "yes_ask_dollars": "0.2800",
+      "yes_bid_dollars": "0.6400",
+      "yes_ask_dollars": "0.6500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2800",
+      "last_price_dollars": "0.6500",
       "volume": null
      }
     ]
@@ -326,50 +326,50 @@
   "KXNCAAMBSPREAD": {
    "open_events": 55,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV25COLOSTAN",
-    "title": "Colorado vs Stanford: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV25SBONBEL",
+    "title": "St. Bonaventure vs Belmont: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV25COLOSTAN-STAN30",
-      "yes_sub_title": "Stanford wins by over 29.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV25SBONBEL-BEL18",
+      "yes_sub_title": "Belmont wins by over 17.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0400",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV25COLOSTAN-STAN28",
-      "yes_sub_title": "Stanford wins by over 27.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV25SBONBEL-BEL13",
+      "yes_sub_title": "Belmont wins by over 12.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV25COLOSTAN-STAN24",
-      "yes_sub_title": "Stanford wins by over 23.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV25SBONBEL-BEL8",
+      "yes_sub_title": "Belmont wins by over 7.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.1300",
+      "yes_ask_dollars": "0.1800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
@@ -378,50 +378,50 @@
   "KXNCAAMBTOTAL": {
    "open_events": 57,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV25COLOSTAN",
-    "title": "Colorado vs Stanford: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV25SBONBEL",
+    "title": "St. Bonaventure vs Belmont: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV25COLOSTAN-116",
-      "yes_sub_title": "Over 115.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV25SBONBEL-117",
+      "yes_sub_title": "Over 116.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9000",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9700",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV25COLOSTAN-118",
-      "yes_sub_title": "Over 117.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV25SBONBEL-122",
+      "yes_sub_title": "Over 121.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.8400",
+      "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9700",
+      "last_price_dollars": "0.9000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV25COLOSTAN-119",
-      "yes_sub_title": "Over 118.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV25SBONBEL-126",
+      "yes_sub_title": "Over 125.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.7700",
+      "yes_ask_dollars": "0.8000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
@@ -445,7 +445,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4900",
+      "last_price_dollars": "0.5000",
       "volume": null
      },
      {
@@ -459,7 +459,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5200",
+      "last_price_dollars": "0.5100",
       "volume": null
      }
     ]
@@ -511,7 +511,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0400",
       "volume": null
      }
     ]
@@ -530,8 +530,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -545,7 +545,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9400",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -559,7 +559,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9200",
+      "yes_ask_dollars": "0.9100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -701,7 +701,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.7800",
-      "yes_ask_dollars": "0.8000",
+      "yes_ask_dollars": "0.7900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -714,8 +714,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5400",
-      "yes_ask_dollars": "0.5500",
+      "yes_bid_dollars": "0.5500",
+      "yes_ask_dollars": "0.5600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -753,7 +753,7 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 895,
+  "stale_or_wide": 755,
   "started": 0
  },
  "unmatched_teams": [
