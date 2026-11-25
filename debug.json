@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:28:41.621330+00:00",
+ "updated": "2026-11-25T19:16:51.857354+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 30,
@@ -57,7 +57,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0700",
+      "last_price_dollars": "0.0800",
       "volume": null
      },
      {
@@ -67,11 +67,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.1100",
+      "yes_ask_dollars": "0.1200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1000",
+      "last_price_dollars": "0.1200",
       "volume": null
      },
      {
@@ -109,7 +109,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -123,7 +123,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9200",
+      "last_price_dollars": "0.9100",
       "volume": null
      },
      {
@@ -132,19 +132,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8500",
-      "yes_ask_dollars": "0.8600",
+      "yes_bid_dollars": "0.8400",
+      "yes_ask_dollars": "0.8500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8700",
+      "last_price_dollars": "0.8500",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAFGAME": {
-   "open_events": 71,
+   "open_events": 75,
    "sample": {
     "event_ticker": "KXNCAAFGAME-26NOV26TCUTTU",
     "title": "TCU vs Texas Tech",
@@ -161,7 +161,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8700",
+      "last_price_dollars": "0.8600",
       "volume": null
      },
      {
@@ -182,7 +182,7 @@
    }
   },
   "KXNCAAFSPREAD": {
-   "open_events": 68,
+   "open_events": 72,
    "sample": {
     "event_ticker": "KXNCAAFSPREAD-26NOV26TCUTTU",
     "title": "TCU vs Texas Tech: Spread",
@@ -194,8 +194,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1400",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.1500",
+      "yes_ask_dollars": "0.1800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -208,8 +208,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1900",
-      "yes_ask_dollars": "0.2200",
+      "yes_bid_dollars": "0.2000",
+      "yes_ask_dollars": "0.2300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -222,8 +222,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2400",
-      "yes_ask_dollars": "0.2700",
+      "yes_bid_dollars": "0.2600",
+      "yes_ask_dollars": "0.2800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -234,7 +234,7 @@
    }
   },
   "KXNCAAFTOTAL": {
-   "open_events": 68,
+   "open_events": 72,
    "sample": {
     "event_ticker": "KXNCAAFTOTAL-26NOV26TCUTTU",
     "title": "TCU vs Texas Tech: Total Points",
@@ -260,7 +260,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8700",
+      "yes_bid_dollars": "0.8600",
       "yes_ask_dollars": "0.9100",
       "no_bid": null,
       "no_ask": null,
@@ -286,58 +286,58 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 190,
+   "open_events": 204,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV25SBONBEL",
-    "title": "St. Bonaventure vs Belmont",
+    "event_ticker": "KXNCAAMBGAME-26NOV25UVAMARQ",
+    "title": "Virginia vs Marquette",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV25SBONBEL-BEL",
-      "yes_sub_title": "Belmont",
+      "ticker": "KXNCAAMBGAME-26NOV25UVAMARQ-MARQ",
+      "yes_sub_title": "Marquette",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5400",
-      "yes_ask_dollars": "0.5500",
+      "yes_bid_dollars": "0.2400",
+      "yes_ask_dollars": "0.2600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5500",
+      "last_price_dollars": "0.2600",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV25SBONBEL-SBON",
-      "yes_sub_title": "St. Bonaventure",
+      "ticker": "KXNCAAMBGAME-26NOV25UVAMARQ-UVA",
+      "yes_sub_title": "Virginia",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4500",
-      "yes_ask_dollars": "0.4600",
+      "yes_bid_dollars": "0.7400",
+      "yes_ask_dollars": "0.7600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4600",
+      "last_price_dollars": "0.7400",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 59,
+   "open_events": 67,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV25SBONBEL",
-    "title": "St. Bonaventure vs Belmont: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV25UVAMARQ",
+    "title": "Virginia vs Marquette: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV25SBONBEL-BEL28",
-      "yes_sub_title": "Belmont wins by over 27.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV25UVAMARQ-MARQ20",
+      "yes_sub_title": "Marquette wins by over 19.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -345,13 +345,13 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV25SBONBEL-BEL23",
-      "yes_sub_title": "Belmont wins by over 22.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV25UVAMARQ-MARQ16",
+      "yes_sub_title": "Marquette wins by over 15.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -359,69 +359,69 @@
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV25SBONBEL-BEL18",
-      "yes_sub_title": "Belmont wins by over 17.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV25UVAMARQ-MARQ14",
+      "yes_sub_title": "Marquette wins by over 13.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0200",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 60,
+   "open_events": 66,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV25SBONBEL",
-    "title": "St. Bonaventure vs Belmont: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV25UVAMARQ",
+    "title": "Virginia vs Marquette: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV25SBONBEL-116",
-      "yes_sub_title": "Over 115.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV25UVAMARQ-105",
+      "yes_sub_title": "Over 104.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV25SBONBEL-117",
-      "yes_sub_title": "Over 116.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
-      "no_bid": null,
-      "no_ask": null,
-      "last_price": null,
-      "last_price_dollars": "0.9900",
-      "volume": null
-     },
-     {
-      "ticker": "KXNCAAMBTOTAL-26NOV25SBONBEL-122",
-      "yes_sub_title": "Over 121.5 points",
-      "status": "active",
-      "yes_bid": null,
-      "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
+      "yes_bid_dollars": "0.6000",
       "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9700",
+      "last_price_dollars": "0.0000",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV25UVAMARQ-109",
+      "yes_sub_title": "Over 108.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.6200",
+      "yes_ask_dollars": "0.9700",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.6200",
+      "volume": null
+     },
+     {
+      "ticker": "KXNCAAMBTOTAL-26NOV25UVAMARQ-113",
+      "yes_sub_title": "Over 112.5 points",
+      "status": "active",
+      "yes_bid": null,
+      "yes_ask": null,
+      "yes_bid_dollars": "0.6500",
+      "yes_ask_dollars": "0.9300",
+      "no_bid": null,
+      "no_ask": null,
+      "last_price": null,
+      "last_price_dollars": "0.6500",
       "volume": null
      }
     ]
@@ -445,7 +445,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4700",
+      "last_price_dollars": "0.4800",
       "volume": null
      },
      {
@@ -478,12 +478,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0300",
+      "yes_bid_dollars": "0.0100",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0400",
+      "last_price_dollars": "0.0100",
       "volume": null
      },
      {
@@ -492,8 +492,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0400",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -507,7 +507,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0500",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -530,7 +530,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
+      "yes_bid_dollars": "0.9500",
       "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
@@ -544,12 +544,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9300",
+      "last_price_dollars": "0.9500",
       "volume": null
      },
      {
@@ -558,12 +558,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8900",
-      "yes_ask_dollars": "0.9200",
+      "yes_bid_dollars": "0.9100",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8900",
+      "last_price_dollars": "0.9300",
       "volume": null
      }
     ]
@@ -587,7 +587,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3900",
+      "last_price_dollars": "0.3800",
       "volume": null
      },
      {
@@ -753,8 +753,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 592,
-  "started": 4
+  "stale_or_wide": 1171,
+  "started": 13
  },
  "unmatched_teams": [
   "College Basketball: American International",
@@ -767,7 +767,11 @@
   "College Basketball: University at Albany",
   "College Basketball: Warner",
   "College Football: Alabama A&M",
+  "College Football: Dayton",
+  "College Football: Harvard",
   "College Football: Jacksonville St.",
-  "College Football: NC St."
+  "College Football: Lehigh",
+  "College Football: NC St.",
+  "College Football: University at Albany"
  ]
 }
