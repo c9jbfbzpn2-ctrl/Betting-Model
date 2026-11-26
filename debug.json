@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:41:48.597306+00:00",
+ "updated": "2026-11-26T16:24:30.857698+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 29,
@@ -67,7 +67,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0800",
-      "yes_ask_dollars": "0.1000",
+      "yes_ask_dollars": "0.0900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -80,12 +80,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1000",
-      "yes_ask_dollars": "0.1100",
+      "yes_bid_dollars": "0.0900",
+      "yes_ask_dollars": "0.1000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1100",
+      "last_price_dollars": "0.1000",
       "volume": null
      }
     ]
@@ -118,8 +118,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9100",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -132,12 +132,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8600",
-      "yes_ask_dollars": "0.8700",
+      "yes_bid_dollars": "0.8700",
+      "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8700",
+      "last_price_dollars": "0.8900",
       "volume": null
      }
     ]
@@ -194,12 +194,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1700",
-      "yes_ask_dollars": "0.1900",
+      "yes_bid_dollars": "0.1600",
+      "yes_ask_dollars": "0.1700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1900",
+      "last_price_dollars": "0.1700",
       "volume": null
      },
      {
@@ -209,11 +209,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.2200",
-      "yes_ask_dollars": "0.2400",
+      "yes_ask_dollars": "0.2300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.2400",
       "volume": null
      },
      {
@@ -222,12 +222,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2600",
+      "yes_bid_dollars": "0.2700",
       "yes_ask_dollars": "0.2800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2900",
+      "last_price_dollars": "0.2800",
       "volume": null
      }
     ]
@@ -246,7 +246,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
+      "yes_bid_dollars": "0.9300",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
@@ -260,8 +260,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8700",
-      "yes_ask_dollars": "0.9000",
+      "yes_bid_dollars": "0.8800",
+      "yes_ask_dollars": "0.8900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -274,8 +274,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8200",
-      "yes_ask_dollars": "0.8400",
+      "yes_bid_dollars": "0.8300",
+      "yes_ask_dollars": "0.8500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -298,12 +298,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5500",
-      "yes_ask_dollars": "0.5600",
+      "yes_bid_dollars": "0.7500",
+      "yes_ask_dollars": "0.7600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5600",
+      "last_price_dollars": "0.7600",
       "volume": null
      },
      {
@@ -312,19 +312,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4400",
-      "yes_ask_dollars": "0.4500",
+      "yes_bid_dollars": "0.2400",
+      "yes_ask_dollars": "0.2500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4500",
+      "last_price_dollars": "0.2500",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 21,
+   "open_events": 22,
    "sample": {
     "event_ticker": "KXNCAAMBSPREAD-26NOV26UGACIN",
     "title": "Georgia vs Cincinnati: Spread",
@@ -336,12 +336,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0200",
+      "yes_ask_dollars": "0.0300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
@@ -350,12 +350,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0300",
+      "yes_ask_dollars": "0.0400",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0200",
       "volume": null
      },
      {
@@ -364,19 +364,19 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0200",
-      "yes_ask_dollars": "0.0500",
+      "yes_bid_dollars": "0.0700",
+      "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.0700",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 21,
+   "open_events": 22,
    "sample": {
     "event_ticker": "KXNCAAMBTOTAL-26NOV26UGACIN",
     "title": "Georgia vs Cincinnati: Point Total",
@@ -388,12 +388,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9700",
-      "yes_ask_dollars": "0.9800",
+      "yes_bid_dollars": "0.9800",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -402,12 +402,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9400",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.9600",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9900",
       "volume": null
      },
      {
@@ -416,12 +416,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9400",
+      "last_price_dollars": "0.9700",
       "volume": null
      }
     ]
@@ -440,7 +440,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3800",
+      "yes_bid_dollars": "0.3900",
       "yes_ask_dollars": "0.4000",
       "no_bid": null,
       "no_ask": null,
@@ -454,12 +454,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.6000",
-      "yes_ask_dollars": "0.6100",
+      "yes_bid_dollars": "0.6100",
+      "yes_ask_dollars": "0.6200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.6000",
+      "last_price_dollars": "0.6200",
       "volume": null
      }
     ]
@@ -530,7 +530,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9300",
+      "yes_bid_dollars": "0.9500",
       "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
@@ -549,7 +549,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.9400",
       "volume": null
      },
      {
@@ -558,8 +558,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9400",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -582,12 +582,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3800",
-      "yes_ask_dollars": "0.3900",
+      "yes_bid_dollars": "0.3700",
+      "yes_ask_dollars": "0.3800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.3900",
+      "last_price_dollars": "0.3800",
       "volume": null
      },
      {
@@ -615,7 +615,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2900",
+      "last_price_dollars": "0.2800",
       "volume": null
      }
     ]
@@ -662,8 +662,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1400",
-      "yes_ask_dollars": "0.1500",
+      "yes_bid_dollars": "0.1500",
+      "yes_ask_dollars": "0.1600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -753,8 +753,8 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 684,
-  "started": 0
+  "stale_or_wide": 702,
+  "started": 1
  },
  "unmatched_teams": [
   "College Basketball: Jacksonville St.",
