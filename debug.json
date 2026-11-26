@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T07:44:18.346812+00:00",
+ "updated": "2026-11-26T10:27:28.127601+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 29,
@@ -14,12 +14,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4700",
-      "yes_ask_dollars": "0.4800",
+      "yes_bid_dollars": "0.4800",
+      "yes_ask_dollars": "0.4900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4800",
+      "last_price_dollars": "0.4900",
       "volume": null
      },
      {
@@ -28,8 +28,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5200",
-      "yes_ask_dollars": "0.5300",
+      "yes_bid_dollars": "0.5100",
+      "yes_ask_dollars": "0.5200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -109,7 +109,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9500",
+      "last_price_dollars": "0.9600",
       "volume": null
      },
      {
@@ -137,7 +137,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8800",
+      "last_price_dollars": "0.8600",
       "volume": null
      }
     ]
@@ -194,7 +194,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1800",
+      "yes_bid_dollars": "0.1700",
       "yes_ask_dollars": "0.1900",
       "no_bid": null,
       "no_ask": null,
@@ -222,12 +222,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.2700",
+      "yes_bid_dollars": "0.2600",
       "yes_ask_dollars": "0.2900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0000",
+      "last_price_dollars": "0.2600",
       "volume": null
      }
     ]
@@ -246,7 +246,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9000",
+      "yes_bid_dollars": "0.8900",
       "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
@@ -286,142 +286,142 @@
    }
   },
   "KXNCAAMBGAME": {
-   "open_events": 173,
+   "open_events": 170,
    "sample": {
-    "event_ticker": "KXNCAAMBGAME-26NOV26IWHAW",
-    "title": "Incarnate Word vs Hawai'i",
+    "event_ticker": "KXNCAAMBGAME-26NOV26UGACIN",
+    "title": "Georgia vs Cincinnati",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBGAME-26NOV26IWHAW-HAW",
-      "yes_sub_title": "Hawai'i",
+      "ticker": "KXNCAAMBGAME-26NOV26UGACIN-CIN",
+      "yes_sub_title": "Cincinnati",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9800",
-      "yes_ask_dollars": "0.9900",
+      "yes_bid_dollars": "0.5400",
+      "yes_ask_dollars": "0.5500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9800",
+      "last_price_dollars": "0.5500",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBGAME-26NOV26IWHAW-IW",
-      "yes_sub_title": "Incarnate Word",
+      "ticker": "KXNCAAMBGAME-26NOV26UGACIN-UGA",
+      "yes_sub_title": "Georgia",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
-      "yes_ask_dollars": "0.0200",
+      "yes_bid_dollars": "0.4500",
+      "yes_ask_dollars": "0.4600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.4600",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBSPREAD": {
-   "open_events": 24,
+   "open_events": 21,
    "sample": {
-    "event_ticker": "KXNCAAMBSPREAD-26NOV26IWHAW",
-    "title": "Incarnate Word vs Hawai'i: Spread",
+    "event_ticker": "KXNCAAMBSPREAD-26NOV26UGACIN",
+    "title": "Georgia vs Cincinnati: Spread",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV26IWHAW-HAW39",
-      "yes_sub_title": "Hawai'i wins by over 38.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV26UGACIN-CIN28",
+      "yes_sub_title": "Cincinnati wins by over 27.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0200",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV26IWHAW-HAW34",
-      "yes_sub_title": "Hawai'i wins by over 33.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV26UGACIN-CIN27",
+      "yes_sub_title": "Cincinnati wins by over 26.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.1400",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBSPREAD-26NOV26IWHAW-HAW29",
-      "yes_sub_title": "Hawai'i wins by over 28.5 points",
+      "ticker": "KXNCAAMBSPREAD-26NOV26UGACIN-CIN23",
+      "yes_sub_title": "Cincinnati wins by over 22.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0100",
+      "yes_ask_dollars": "0.0600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.0100",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
    }
   },
   "KXNCAAMBTOTAL": {
-   "open_events": 24,
+   "open_events": 21,
    "sample": {
-    "event_ticker": "KXNCAAMBTOTAL-26NOV26IWHAW",
-    "title": "Incarnate Word vs Hawai'i: Point Total",
+    "event_ticker": "KXNCAAMBTOTAL-26NOV26UGACIN",
+    "title": "Georgia vs Cincinnati: Point Total",
     "strike_date": null,
     "markets": [
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV26IWHAW-113",
-      "yes_sub_title": "Over 112.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV26UGACIN-125",
+      "yes_sub_title": "Over 124.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV26IWHAW-118",
-      "yes_sub_title": "Over 117.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV26UGACIN-129",
+      "yes_sub_title": "Over 128.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.9200",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      },
      {
-      "ticker": "KXNCAAMBTOTAL-26NOV26IWHAW-121",
-      "yes_sub_title": "Over 120.5 points",
+      "ticker": "KXNCAAMBTOTAL-26NOV26UGACIN-133",
+      "yes_sub_title": "Over 132.5 points",
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9900",
-      "yes_ask_dollars": "1.0000",
+      "yes_bid_dollars": "0.8900",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9900",
+      "last_price_dollars": "0.0000",
       "volume": null
      }
     ]
@@ -440,12 +440,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.4000",
-      "yes_ask_dollars": "0.4100",
+      "yes_bid_dollars": "0.3800",
+      "yes_ask_dollars": "0.4000",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4100",
+      "last_price_dollars": "0.4000",
       "volume": null
      },
      {
@@ -454,7 +454,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5900",
+      "yes_bid_dollars": "0.6000",
       "yes_ask_dollars": "0.6100",
       "no_bid": null,
       "no_ask": null,
@@ -492,7 +492,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0100",
+      "yes_bid_dollars": "0.0200",
       "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
@@ -506,7 +506,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
+      "yes_bid_dollars": "0.0200",
       "yes_ask_dollars": "0.0800",
       "no_bid": null,
       "no_ask": null,
@@ -531,7 +531,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9300",
-      "yes_ask_dollars": "0.9800",
+      "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -544,7 +544,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9200",
+      "yes_bid_dollars": "0.9100",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
@@ -559,7 +559,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9000",
-      "yes_ask_dollars": "0.9400",
+      "yes_ask_dollars": "0.9300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -582,8 +582,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.3700",
-      "yes_ask_dollars": "0.3800",
+      "yes_bid_dollars": "0.3800",
+      "yes_ask_dollars": "0.3900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -649,7 +649,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.1700",
-      "yes_ask_dollars": "0.1800",
+      "yes_ask_dollars": "0.1900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -662,8 +662,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1500",
-      "yes_ask_dollars": "0.1600",
+      "yes_bid_dollars": "0.1400",
+      "yes_ask_dollars": "0.1500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -701,7 +701,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.7700",
-      "yes_ask_dollars": "0.7900",
+      "yes_ask_dollars": "0.7800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -714,8 +714,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5300",
-      "yes_ask_dollars": "0.5400",
+      "yes_bid_dollars": "0.5200",
+      "yes_ask_dollars": "0.5300",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -730,7 +730,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261121-20261126",
+    "dates": "20261123-20261126",
     "limit": "1000"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
@@ -738,7 +738,7 @@
   {
    "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
    "params": {
-    "dates": "20261121-20261126"
+    "dates": "20261123-20261126"
    },
    "error": "HTTP 400: '{\"code\":400,\"message\":\"Failed to get events endpoint.\"}'"
   }
@@ -753,7 +753,7 @@
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 1002,
+  "stale_or_wide": 810,
   "started": 0
  },
  "unmatched_teams": [
