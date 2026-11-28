@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T10:10:03.892699+00:00",
+ "updated": "2026-11-28T13:24:11.226753+00:00",
  "kalshi": {
   "KXNFLGAME": {
    "open_events": 25,
@@ -67,7 +67,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0900",
-      "yes_ask_dollars": "0.1300",
+      "yes_ask_dollars": "0.1200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -118,7 +118,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
+      "yes_bid_dollars": "0.9000",
       "yes_ask_dollars": "0.9400",
       "no_bid": null,
       "no_ask": null,
@@ -208,7 +208,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0900",
+      "yes_bid_dollars": "0.0800",
       "yes_ask_dollars": "0.1400",
       "no_bid": null,
       "no_ask": null,
@@ -222,7 +222,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.1300",
+      "yes_bid_dollars": "0.1400",
       "yes_ask_dollars": "0.2000",
       "no_bid": null,
       "no_ask": null,
@@ -246,7 +246,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7800",
+      "yes_bid_dollars": "0.6800",
       "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
@@ -261,11 +261,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.7000",
-      "yes_ask_dollars": "0.9800",
+      "yes_ask_dollars": "0.9600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.8600",
+      "last_price_dollars": "0.7000",
       "volume": null
      },
      {
@@ -274,7 +274,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7000",
+      "yes_bid_dollars": "0.6800",
       "yes_ask_dollars": "0.9700",
       "no_bid": null,
       "no_ask": null,
@@ -303,7 +303,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.9600",
+      "last_price_dollars": "0.9700",
       "volume": null
      },
      {
@@ -337,7 +337,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.0000",
-      "yes_ask_dollars": "0.0800",
+      "yes_ask_dollars": "0.0700",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -388,8 +388,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9100",
-      "yes_ask_dollars": "0.9300",
+      "yes_bid_dollars": "0.9000",
+      "yes_ask_dollars": "0.9200",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -402,8 +402,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8400",
-      "yes_ask_dollars": "0.8600",
+      "yes_bid_dollars": "0.8300",
+      "yes_ask_dollars": "0.8500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -416,8 +416,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.7700",
-      "yes_ask_dollars": "0.7900",
+      "yes_bid_dollars": "0.7500",
+      "yes_ask_dollars": "0.7800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -531,7 +531,7 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9700",
+      "yes_ask_dollars": "0.9800",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -622,7 +622,7 @@
    }
   },
   "KXEPLSPREAD": {
-   "open_events": 19,
+   "open_events": 20,
    "sample": {
     "event_ticker": "KXEPLSPREAD-26NOV28LEECOV",
     "title": "Leeds United vs Coventry: Spread",
@@ -639,7 +639,7 @@
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.2000",
+      "last_price_dollars": "0.2100",
       "volume": null
      },
      {
@@ -649,11 +649,11 @@
       "yes_bid": null,
       "yes_ask": null,
       "yes_bid_dollars": "0.4000",
-      "yes_ask_dollars": "0.4200",
+      "yes_ask_dollars": "0.4100",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.4200",
+      "last_price_dollars": "0.4000",
       "volume": null
      },
      {
@@ -662,7 +662,7 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.0300",
+      "yes_bid_dollars": "0.0400",
       "yes_ask_dollars": "0.0500",
       "no_bid": null,
       "no_ask": null,
@@ -674,7 +674,7 @@
    }
   },
   "KXEPLTOTAL": {
-   "open_events": 19,
+   "open_events": 20,
    "sample": {
     "event_ticker": "KXEPLTOTAL-26NOV28LEECOV",
     "title": "Leeds United vs Coventry: Total Goals",
@@ -686,8 +686,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.9500",
-      "yes_ask_dollars": "0.9600",
+      "yes_bid_dollars": "0.9400",
+      "yes_ask_dollars": "0.9500",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -700,8 +700,8 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.8000",
-      "yes_ask_dollars": "0.8100",
+      "yes_bid_dollars": "0.7800",
+      "yes_ask_dollars": "0.7900",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
@@ -714,12 +714,12 @@
       "status": "active",
       "yes_bid": null,
       "yes_ask": null,
-      "yes_bid_dollars": "0.5700",
-      "yes_ask_dollars": "0.5800",
+      "yes_bid_dollars": "0.5500",
+      "yes_ask_dollars": "0.5600",
       "no_bid": null,
       "no_ask": null,
       "last_price": null,
-      "last_price_dollars": "0.5800",
+      "last_price_dollars": "0.5600",
       "volume": null
      }
     ]
@@ -746,14 +746,14 @@
  "espn_style": "day",
  "kickoff_times": {
   "NFL": 12,
-  "College Football": 61,
+  "College Football": 63,
   "College Basketball": 447,
   "NBA": 48,
   "Premier League": 26
  },
  "skipped": {
   "games_no_teams": 0,
-  "stale_or_wide": 1036,
+  "stale_or_wide": 727,
   "started": 0
  },
  "unmatched_teams": [
